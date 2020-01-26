@@ -14,11 +14,12 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
-        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:date xml:lang="en">1-25-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
@@ -43,6 +44,223 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000001">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">coronavirus infectious disease process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000002">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS coronavirus disease process</obo:IAO_0000118>
+        <obo:IAO_0000118>Severe Acute Respiratory Syndrome</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
+        <rdfs:comment>SARS was a relatively rare disease; at the end of the epidemic in June 2003, the incidence was 8422 cases with a case-fatality rate of 11%. The case-fatality ratio ranges from 0% to 50% depending on the age group of the patient. Patients under 24 were least likely to die; those 65 and older were most likely to die.
+Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">2019 novel coronavirus disease process</obo:IAO_0000118>
+        <obo:IAO_0000118>Wuhan coronavirus DP</obo:IAO_0000118>
+        <obo:IAO_0000118>Wuhan pneumonia DP</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
+        <rdfs:label>2019-nCoV DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000004">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000118>Middle East respiratory syndrome DP</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome-related_coronavirus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">MERS-CoV DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000005">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_229E</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Human coronavirus 229E DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000006">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_OC43</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Human coronavirus OC43 DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000007">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_NL63</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Human coronavirus NL63 DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000008">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_HKU1</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Human coronavirus HKU1 DP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_696098"/>
+        <obo:IAO_0000118>Wuhan coronavirus</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Wuhan seafood market pneumonia virus</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049</obo:IAO_0000119>
+        <rdfs:label>2019-nCoV</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

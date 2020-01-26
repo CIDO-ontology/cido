@@ -5,7 +5,9 @@ http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl
 ICDO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/ICDO_0000001 # disease process
+http://purl.obolibrary.org/obo/ICDO_0000082 #pathological anatomical entity
+http://purl.obolibrary.org/obo/ICDO_0000001 #disease process
+http://purl.obolibrary.org/obo/ICDO_0000053 #caused by
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
@@ -17,4 +19,3 @@ includeAllIntermediates
 includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
-
