@@ -7,4 +7,5 @@ The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open
 https://raw.githubusercontent.com/biomedontology/cido/master/src/ontology/cido.owl 
 
 ### Web repository
+Ontobee: http://www.ontobee.org/ontology/CIDO  
 BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
