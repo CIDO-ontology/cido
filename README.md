@@ -16,6 +16,6 @@ Ontobee: http://www.ontobee.org/ontology/CIDO
 BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
 
 ### News: 
-1/26/20: CIDO was submitted to Ontobee and BioPortal.  
-1/25/2020: The CIDO GitHub website was generated, and CIDO source was submitted to the GitHub website. 
-1/24/2020: The first version of CIDO was initiated by Oliver He and Hong Yu. 
+- 1/26/20: CIDO was submitted to Ontobee and BioPortal.  
+- 1/25/2020: The CIDO GitHub website was generated, and CIDO source was submitted to the GitHub website. 
+- 1/24/2020: The first version of CIDO was initiated by Oliver He and Hong Yu. 
