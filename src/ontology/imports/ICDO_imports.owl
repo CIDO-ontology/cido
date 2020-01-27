@@ -5,13 +5,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
+    
 
 
     <!-- 
@@ -482,6 +482,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/icdo.owl">
+        <owl:versionInfo>1.0.7</owl:versionInfo>
+        <oboInOwl:created_by>Oliver He</oboInOwl:created_by>
+        <dc:contributor>Edison Ong</dc:contributor>
+        <oboInOwl:creation_date>8-12-2019</oboInOwl:creation_date>
+        <obo:IAO_0000115>ICDO: International Classification of Diseases Ontology</obo:IAO_0000115>
+        <oboInOwl:created_by>Ling Wan (Eric)</oboInOwl:created_by>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/bfo.owl">
         <dc:contributor>Albert Goldfain</dc:contributor>
         <dc:contributor>Werner Ceusters</dc:contributor>
