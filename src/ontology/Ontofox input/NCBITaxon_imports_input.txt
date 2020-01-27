@@ -5,10 +5,23 @@ http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl
 NCBITaxon
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/NCBITaxon_9673 # Viverridae (civets)
+http://purl.obolibrary.org/obo/NCBITaxon_9675 # Paguma larvata ; masked civet  
+http://purl.obolibrary.org/obo/NCBITaxon_49442 # Rhinolophus (horseshoe bats)
+http://purl.obolibrary.org/obo/NCBITaxon_9397 #  Chiroptera (common name: bats
+http://purl.obolibrary.org/obo/NCBITaxon_34880 #  Nyctereutes procyonoides (raccoon dog) PMID: 12958366.  
+http://purl.obolibrary.org/obo/NCBITaxon_37029 # Prionailurus bengalensis (leopard cat)
+http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese ferret-badger)
+
+http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
+
 http://purl.obolibrary.org/obo/NCBITaxon_11118 # Coronaviridae
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
 http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses 
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
