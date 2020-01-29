@@ -45,6 +45,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000009">
+        <rdfs:label xml:lang="en">Chinese label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
@@ -265,6 +273,140 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049</obo:IAO_0000119>
         <rdfs:label>2019-nCoV</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
+        <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
+        <obo:CIDO_0000009>高血压</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001254">
+        <obo:CIDO_0000009>嗜睡</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001259">
+        <obo:CIDO_0000009>昏迷</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001278">
+        <obo:CIDO_0000009>体位性低血压病</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001300">
+        <obo:CIDO_0000009>帕金森氏病</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
+        <obo:CIDO_0000009>肝硬化</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001677">
+        <obo:CIDO_0000009>冠心病</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001681">
+        <obo:CIDO_0000009>心绞痛</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001695">
+        <obo:CIDO_0000009>心脏骤停</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
+        <obo:CIDO_0000009>发热</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001962">
+        <obo:CIDO_0000009>心悸</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
+        <obo:CIDO_0000009>呕吐</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
+        <obo:CIDO_0000009>腹泻</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
+        <obo:CIDO_0000009>呼吸困难</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
+        <obo:CIDO_0000009>脑梗塞</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002149">
+        <obo:CIDO_0000009>高尿酸血症</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002239">
+        <obo:CIDO_0000009>消化道出血</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
+        <obo:CIDO_0000009>头痛</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002758">
+        <obo:CIDO_0000009>骨关节炎</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002878">
+        <obo:CIDO_0000009>呼吸衰竭</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003003">
+        <obo:CIDO_0000009>结肠癌</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003075">
+        <obo:CIDO_0000009>低蛋白血症</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003077">
+        <obo:CIDO_0000009>高脂血症</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
+        <obo:CIDO_0000009>肌肉酸痛</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004308">
+        <obo:CIDO_0000009>室性心律失常</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004469">
+        <obo:CIDO_0000009>慢性支气管炎</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005743">
+        <obo:CIDO_0000009>股骨头缺血性坏死</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005978">
+        <obo:CIDO_0000009>2型糖尿病</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006510">
+        <obo:CIDO_0000009>慢阻肺</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007185">
+        <obo:CIDO_0000009>神志不清</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011974">
+        <obo:CIDO_0000009>骨髓纤维化</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
+        <obo:CIDO_0000009>乏力</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
+        <obo:CIDO_0000009>慢性肾疾病</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
+        <obo:CIDO_0000009>HP_0012735</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0031273">
+        <obo:CIDO_0000009>休克</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0032262">
+        <obo:CIDO_0000009>肺结核</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0032325">
+        <obo:CIDO_0000009>腔隙性脑梗死</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0040197">
+        <obo:CIDO_0000009>脑软化</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100753">
+        <obo:CIDO_0000009>精神分裂症</obo:CIDO_0000009>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_429">
+        <obo:CIDO_0000009>粘液瘤</obo:CIDO_0000009>
+    </rdf:Description>
 </rdf:RDF>
 
 
