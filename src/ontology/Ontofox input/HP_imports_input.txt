@@ -1,0 +1,72 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/HP_import.owl
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0001394    # Liver cirrhosis, ???
+http://purl.obolibrary.org/obo/MPATH_429    # myxomatous tumor, ???
+http://purl.obolibrary.org/obo/HP_0000822    # Hypertension, ???
+http://purl.obolibrary.org/obo/HP_0002140    # Ischemic stroke, ???
+http://purl.obolibrary.org/obo/HP_0040197    # encephalomalacia, ???
+http://purl.obolibrary.org/obo/HP_0005978    # Type II diabetes mellitus, 2????
+http://purl.obolibrary.org/obo/HP_0001677    # coronary artery atherosclerosis, ???
+http://purl.obolibrary.org/obo/HP_0004308    # Ventricular arrhythmia, ??????
+http://purl.obolibrary.org/obo/HP_0006510    # Chronic obstructive pulmonary disease, ???
+http://purl.obolibrary.org/obo/HP_0012622    # Chronic kidney disease, ?????
+http://purl.obolibrary.org/obo/HP_0001300    # Parkinsonism, ?????
+http://purl.obolibrary.org/obo/HP_0003003    # colon cancer, ??????
+http://purl.obolibrary.org/obo/HP_0004469     # Chronic bronchitis, ??????
+http://purl.obolibrary.org/obo/HP_0001681    # angina pectoris, ???
+http://purl.obolibrary.org/obo/HP_0002239    # Gastrointestinal hemorrhage, ?????
+http://purl.obolibrary.org/obo/HP_0003077    # hyperlipidemia, ????
+http://purl.obolibrary.org/obo/HP_0002149    # hyperuricemia, ?????
+http://purl.obolibrary.org/obo/HP_0032325    # Lacunar stroke, ??????
+http://purl.obolibrary.org/obo/HP_0100753    # Schizophrenia, ?????
+http://purl.obolibrary.org/obo/HP_0032262    # Pulmonary tuberculosis, ???
+http://purl.obolibrary.org/obo/HP_0011974    # myelofibrosis, ?????
+http://purl.obolibrary.org/obo/HP_0001278    # Orthostatic hypotension, ???????
+http://purl.obolibrary.org/obo/HP_0000821    # hypothyroidism, ???????
+http://purl.obolibrary.org/obo/HP_0002758    # osteoarthritis, ????
+http://purl.obolibrary.org/obo/HP_0005743    # Osteonecrosis of the femoral head, ????????
+http://purl.obolibrary.org/obo/HP_0003075    # Hypoproteinemia, ?????
+http://purl.obolibrary.org/obo/HP_0002878    # Respiratory failure, ????
+http://purl.obolibrary.org/obo/HP_0001695    # Cardiac arrest, ????
+http://purl.obolibrary.org/obo/HP_0012735    # Cough, ??
+http://purl.obolibrary.org/obo/HP_0001945    # fever, ??
+http://purl.obolibrary.org/obo/HP_0002094    # dyspnea, ????
+http://purl.obolibrary.org/obo/HP_0012378    # Fatigue, ??
+http://purl.obolibrary.org/obo/HP_0002013    # vomiting, ??
+http://purl.obolibrary.org/obo/HP_0002014    # Diarrhoea, ??
+http://purl.obolibrary.org/obo/HP_0001254    # Lethargy, ??
+http://purl.obolibrary.org/obo/HP_0007185    # Loss of consciousness, ????
+http://purl.obolibrary.org/obo/HP_0002315     # Headache, ??
+http://purl.obolibrary.org/obo/HP_0003326    # Myalgia, ????
+http://purl.obolibrary.org/obo/HP_0001962    # Palpitation, ??
+http://purl.obolibrary.org/obo/HP_0031273    # shock, ??
+http://purl.obolibrary.org/obo/HP_0001259     # coma, ??
+http://purl.obolibrary.org/obo/MPATH_603     # pathological anatomical entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quallity
+
+http://purl.obolibrary.org/obo/MPATH_603     # pathological anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   # material entity
+
+[Source term retrieval setting]
+#includeAllIntermediates
+
+includeComputedIntermediates
+
+[Source annotation URIs]
+#includeAllAxiomsRecursively
+
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+
+[Source annotation URIs to be excluded]
+
