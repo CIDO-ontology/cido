@@ -17,14 +17,19 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
+        <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
+        <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
+        <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
+        <dc:creator xml:lang="en">Yang Wang</dc:creator>
+        <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">1-28-2020</dc:date>
+        <dc:date xml:lang="en">02-02-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.25</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.85</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -65,6 +70,14 @@
         <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
         <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000009">
+        <rdfs:label xml:lang="en">Chinese label</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -2139,6 +2152,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000818"/>
+        <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deficiency of thyroid hormone.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypothyroidism</rdfs:label>
@@ -2150,6 +2164,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030972"/>
+        <obo:CIDO_0000009>高血压</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of chronic increased pressure in the systemic arterial system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypertension</rdfs:label>
@@ -2172,6 +2187,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+        <obo:CIDO_0000009>嗜睡</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A state of disinterestedness, listlessness, and indifference, resulting in difficulty performing simple tasks or concentrating.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lethargy</rdfs:label>
@@ -2183,6 +2199,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+        <obo:CIDO_0000009>昏迷</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete absence of wakefulness and content of conscience, which manifests itself as a lack of response to any kind of external stimuli.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coma</rdfs:label>
@@ -2195,6 +2212,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030972"/>
+        <obo:CIDO_0000009>体位性低血压病</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A form of hypotension characterized by a sudden fall in blood pressure that occurs when a person assumes a standing position.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthostatic hypotension</rdfs:label>
@@ -2206,6 +2224,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <obo:CIDO_0000009>帕金森氏病</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristic neurologic anomaly resulting form degeneration of dopamine-generating cells in the substantia nigra, a region of the midbrain, characterized clinically by shaking, rigidity, slowness of movement and difficulty with walking and gait.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parkinsonism</rdfs:label>
@@ -2217,6 +2236,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <obo:CIDO_0000009>肝硬化</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chronic disorder of the liver in which liver tissue becomes scarred and is partially replaced by regenerative nodules and fibrotic tissue resulting in loss of liver function.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cirrhosis</rdfs:label>
@@ -2240,6 +2260,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001677">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100545"/>
+        <obo:CIDO_0000009>冠心病</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries, which increases the risk of myocardial ischemia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronary artery atherosclerosis</rdfs:label>
@@ -2251,6 +2272,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001681">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <obo:CIDO_0000009>心绞痛</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paroxysmal chest pain that occurs with exertion or stress and is related to myocardial ischemia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angina pectoris</rdfs:label>
@@ -2262,6 +2284,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011675"/>
+        <obo:CIDO_0000009>心脏骤停</obo:CIDO_0000009>
         <obo:IAO_0000115>An abrupt loss of heart function.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiac arrest</rdfs:label>
@@ -2294,6 +2317,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <obo:CIDO_0000009>发热</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
@@ -2305,6 +2329,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001962">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011675"/>
+        <obo:CIDO_0000009>心悸</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sensation that the heart is pounding or racing, which is a non-specific sign but may be a manifestation of arrhythmia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Palpitations</rdfs:label>
@@ -2316,6 +2341,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:CIDO_0000009>呕吐</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forceful ejection of the contents of the stomach through the mouth by means of a series of involuntary spasmic contractions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
@@ -2327,6 +2353,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:CIDO_0000009>腹泻</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormally increased frequency of loose or watery bowel movements.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhea</rdfs:label>
@@ -2349,6 +2376,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:CIDO_0000009>呼吸困难</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficult or labored breathing.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dyspnea</rdfs:label>
@@ -2361,6 +2389,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002637"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100659"/>
+        <obo:CIDO_0000009>脑梗塞</obo:CIDO_0000009>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ischemic stroke</rdfs:label>
     </owl:Class>
@@ -2372,6 +2401,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
+        <obo:CIDO_0000009>高尿酸血症</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally high level of uric acid in the blood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperuricemia</rdfs:label>
@@ -2384,6 +2414,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011029"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012719"/>
+        <obo:CIDO_0000009>消化道出血</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemorrhage affecting the gastrointestinal tract.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal hemorrhage</rdfs:label>
@@ -2395,6 +2426,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <obo:CIDO_0000009>头痛</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalgia, or pain sensed in various parts of the head, not confined to the area of distribution of any nerve.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
@@ -2428,6 +2460,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002758">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <obo:CIDO_0000009>骨关节炎</obo:CIDO_0000009>
         <obo:IAO_0000115>Degeneration (wear and tear) of articular cartilage, i.e., of the joint surface. Joint degeneration may be accompanied by osteophytes (bone overgrowth), narrowing of the joint space, regions of sclerosis at the joint surface, or joint deformity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osteoarthritis</rdfs:label>
@@ -2483,6 +2516,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002878">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:CIDO_0000009>呼吸衰竭</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A severe form of respiratory insufficiency characterized by inadequate gas exchange such that the levels of oxygen or carbon dioxide cannot be maintained within normal limits.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory failure</rdfs:label>
@@ -2494,6 +2528,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100834"/>
+        <obo:CIDO_0000009>结肠癌</obo:CIDO_0000009>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colon cancer</rdfs:label>
     </owl:Class>
@@ -2504,6 +2539,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
+        <obo:CIDO_0000009>低蛋白血症</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A decreased concentration of protein in the blood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypoproteinemia</rdfs:label>
@@ -2515,6 +2551,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
+        <obo:CIDO_0000009>高脂血症</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An elevated lipid concentration in the blood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperlipidemia</rdfs:label>
@@ -2526,6 +2563,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025142"/>
+        <obo:CIDO_0000009>肌肉酸痛</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain in muscle.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myalgia</rdfs:label>
@@ -2537,6 +2575,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011675"/>
+        <obo:CIDO_0000009>室性心律失常</obo:CIDO_0000009>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventricular arrhythmia</rdfs:label>
     </owl:Class>
@@ -2557,6 +2596,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+        <obo:CIDO_0000009>慢性支气管炎</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic inflammation of the bronchi.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic bronchitis</rdfs:label>
@@ -2569,6 +2609,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000924"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010574"/>
+        <obo:CIDO_0000009>股骨头缺血性坏死</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avascular necrosis of the proximal epiphysis of the femur occurring in growing children and caused by an interruption of the blood supply to the head of the femur close to the hip joint. The necrosis is characteristically associated with flattening of the femoral head, for which reason the term coxa plana has been used to refer to this feature in the medical literature.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avascular necrosis of the capital femoral epiphysis</rdfs:label>
@@ -2580,6 +2621,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005978">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000819"/>
+        <obo:CIDO_0000009>2型糖尿病</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of diabetes mellitus initially characterized by insulin resistance and hyperinsulinemia and subsequently by glucose interolerance and hyperglycemia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II diabetes mellitus</rdfs:label>
@@ -2627,6 +2669,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006510">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:CIDO_0000009>慢阻肺</obo:CIDO_0000009>
         <obo:IAO_0000115>An anomaly that is characterized progressive airflow obstruction that is only partly reversible, inflammation in the airways, and systemic effects or comorbities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic obstructive pulmonary disease</rdfs:label>
@@ -2638,6 +2681,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+        <obo:CIDO_0000009>神志不清</obo:CIDO_0000009>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of consciousness</rdfs:label>
     </owl:Class>
@@ -2772,6 +2816,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011974">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <obo:CIDO_0000009>骨髓纤维化</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replacement of bone marrow by fibrous tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelofibrosis</rdfs:label>
@@ -2794,6 +2839,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025142"/>
+        <obo:CIDO_0000009>乏力</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subjective feeling of tiredness characterized by a lack of energy and motivation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
@@ -2816,6 +2862,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:CIDO_0000009>慢性肾疾病</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional anomaly of the kidney persisting for at least three months.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic kidney disease</rdfs:label>
@@ -2862,6 +2909,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:CIDO_0000009>HP_0012735</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cough</rdfs:label>
@@ -2927,6 +2975,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <obo:CIDO_0000009>休克</obo:CIDO_0000009>
         <obo:IAO_0000115>The state in which profound and widespread reduction of effective tissue perfusion leads first to reversible, and then if prolonged, to irreversible cellular injury.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Shock</rdfs:label>
@@ -2949,6 +2998,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:CIDO_0000009>肺结核</obo:CIDO_0000009>
         <obo:IAO_0000115>A lung infection by Mycobacterium tuberculosis a slightly curved non-motile, aerobic, non-capsulated and non-spore forming strains of mycobacteria.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Pulmonary tuberculosis</rdfs:label>
@@ -2960,6 +3010,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002140"/>
+        <obo:CIDO_0000009>腔隙性脑梗死</obo:CIDO_0000009>
         <obo:IAO_0000115>A stroke related to a small infarct (2-20 mm in diameter) in the deep cerebral white matter, basal ganglia, or pons, that is presumed to result from the occlusion of a single small perforating artery supplying the subcortical areas of the brain.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Lacunar stroke</rdfs:label>
@@ -3003,6 +3054,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012443"/>
+        <obo:CIDO_0000009>脑软化</obo:CIDO_0000009>
         <obo:IAO_0000115>Encephalomalacia is the softening or loss of brain tissue after cerebral infarction, cerebral ischemia, infection, craniocerebral trauma, or other injury.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Encephalomalacia</rdfs:label>
@@ -3036,6 +3088,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100753">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <obo:CIDO_0000009>精神分裂症</obo:CIDO_0000009>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mental disorder characterized by a disintegration of thought processes and of emotional responsiveness. It most commonly manifests as auditory hallucinations, paranoid or bizarre delusions, or disorganized speech and thinking, and it is accompanied by significant social or occupational dysfunction. The onset of symptoms typically occurs in young adulthood, with a global lifetime prevalence of about 0.3-0.7%.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia</rdfs:label>
@@ -3745,6 +3798,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_429">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
+        <obo:CIDO_0000009>粘液瘤</obo:CIDO_0000009>
         <obo:IAO_0000115>Neoplasms resembling primitive mesenchymal tissue with a soft mucous matrix.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>myxomatous tumor</rdfs:label>
@@ -26658,24 +26712,24 @@ This interpretation is *not* the same as an at-all-times relation
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/bfo.owl">
-        <dc:contributor>Leonard Jacuzzo</dc:contributor>
         <dc:contributor>Janna Hastings</dc:contributor>
+        <dc:contributor>Leonard Jacuzzo</dc:contributor>
         <foaf:mbox rdf:resource="mailto:bfo-owl-devel@googlegroups.com"/>
         <dc:contributor>Barry Smith</dc:contributor>
-        <rdfs:comment xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</rdfs:comment>
         <rdfs:comment xml:lang="en">Please see the project site https://github.com/BFO-ontology/BFO, the bfo2 owl discussion group http://groups.google.com/group/bfo-owl-devel , the bfo2 discussion group http://groups.google.com/group/bfo-devel, the tracking google doc http://goo.gl/IlrEE, and the current version of the bfo2 reference http://purl.obolibrary.org/obo/bfo/dev/bfo2-reference.docx . This ontology is generated from a specification at https://github.com/BFO-ontology/BFO/tree/master/src/ontology/owl-group/specification/ and with the code that generates the OWL version in https://github.com/BFO-ontology/BFO/tree/master/src/tools/. A very early version of BFO version 2 in CLIF is at http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</rdfs:comment>
+        <rdfs:comment xml:lang="en">The BSD license on the BFO project site refers to code used to build BFO.</rdfs:comment>
         <dc:contributor>Pierre Grenon</dc:contributor>
         <dc:contributor>David Osumi-Sutherland</dc:contributor>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
-        <dc:contributor>Selja Seppälä</dc:contributor>
         <dc:contributor>Werner Ceusters</dc:contributor>
+        <dc:contributor>Selja Seppälä</dc:contributor>
         <dc:contributor>Jie Zheng</dc:contributor>
         <dc:contributor>Thomas Bittner</dc:contributor>
         <dc:contributor>Mathias Brochhausen</dc:contributor>
         <rdfs:comment>This BFO 2.0 version represents a major update to BFO and is not strictly backwards compatible with BFO 1.1. The previous OWL version of BFO, version 1.1.1 will remain available at http://ifomis.org/bfo/1.1 and will no longer be updated. The BFO 2.0 OWL is a classes-only specification. The incorporation of core relations has been held over for a later version.</rdfs:comment>
         <dc:contributor>Mauricio Almeida</dc:contributor>
-        <foaf:homepage rdf:resource="https://github.com/BFO-ontology/BFO"/>
         <dc:contributor>Bjoern Peters</dc:contributor>
+        <foaf:homepage rdf:resource="https://github.com/BFO-ontology/BFO"/>
         <dc:contributor>Melanie Courtot</dc:contributor>
         <dc:contributor>Yongqun &quot;Oliver&quot; He</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
@@ -26686,9 +26740,9 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:contributor>Holger Stenzhorn</dc:contributor>
         <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
         <dc:contributor>Fabian Neuhaus</dc:contributor>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
         <dc:contributor>Randall Dipert</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
-        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
         <dc:contributor>Stefan Schulz</dc:contributor>
         <dc:contributor>Larry Hunter</dc:contributor>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
@@ -26699,9 +26753,9 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:contributor>Mark Ressler</dc:contributor>
         <obo:IAO_0000116>BFO 2 Reference: BFO’s treatment of continuants and occurrents - as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality - earlier called the ‘SNAP’ and ‘SPAN’ perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science</obo:IAO_0000116>
         <dc:contributor>Albert Goldfain</dc:contributor>
-        <dc:contributor>Ludger Jansen</dc:contributor>
         <dc:contributor>Alan Ruttenberg</dc:contributor>
         <dc:contributor>Bill Duncan</dc:contributor>
+        <dc:contributor>Ludger Jansen</dc:contributor>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/icdo.owl">
@@ -26720,8 +26774,8 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Bjoern Peters</dc:creator>
         <rdfs:comment xml:lang="en">The core Infectious Disease Ontology is an ontology of entities generally relevant to both the biomedical and clinical aspects of infectious diseases, including terms such as &apos;pathogen&apos;, &apos;host&apos;, &apos;vector&apos;, and &apos;vaccine&apos;.  The structure of IDO adheres to the Basic Formal Ontology.  Terms in IDO that are within the scope of other OBO Foundry ontologies, such as the Gene Ontology, are derived from those ontologies.  Other terms are defined as cross-products of terms from Foundry ontologies to the extent possible. For more information, see http://www.infectiousdiseaseontology.org/Home.html. </rdfs:comment>
         <dc:creator>Alan Ruttenberg</dc:creator>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator>Barry Smith</dc:creator>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-11-03</owl:versionInfo>
         <dc:creator>Lindsay Cowell</dc:creator>
