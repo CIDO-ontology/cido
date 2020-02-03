@@ -6,8 +6,9 @@ The emerging [Wuhan coronavirus outbreak](https://www.who.int/emergencies/diseas
 The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.
 
 ### CIDO Developers:
-- [Y. Oliver He laboratory](http://www.hegroup.org) , University of Michigan Medical School, Ann Arbor, MI, USA 
-- Dr. Hong Yu, Guizhou Province People’s Hospital, Guizhou University Medical College, Guiyang, Guizhou, China 
+CIDO was initiated and co-led by Dr. Hong Yu, director of Department of Respiratory and critical Care Medicine，Guizhou Province People’s Hospital,  Guizhou University Medical College, Guiyang, Guizhou, China, and Dr. Yongqun Oliver He, Associate Professor, University of Michigan Medical School, Ann Arbor, MI, USA. 
+
+Many graduate students, clinical doctors, and researchers in the [He laboratory](http://www.hegroup.org) and Guizhou Province People’s Hospital have also participated in the CIDO development.  
 
 ### CIDO Source Link (free for downloading):
 OWL format: https://raw.githubusercontent.com/biomedontology/cido/master/src/ontology/cido.owl 
