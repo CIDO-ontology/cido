@@ -14,14 +14,36 @@ http://purl.obolibrary.org/obo/NCBITaxon_34880 #  Nyctereutes procyonoides (racc
 http://purl.obolibrary.org/obo/NCBITaxon_37029 # Prionailurus bengalensis (leopard cat)
 http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese ferret-badger)
 
-http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
+#hosts
+http://purl.obolibrary.org/obo/NCBITaxon_9397
+http://purl.obolibrary.org/obo/NCBITaxon_9627
+http://purl.obolibrary.org/obo/NCBITaxon_9666
+http://purl.obolibrary.org/obo/NCBITaxon_9673
+http://purl.obolibrary.org/obo/NCBITaxon_9675
+http://purl.obolibrary.org/obo/NCBITaxon_9685
+http://purl.obolibrary.org/obo/NCBITaxon_9837
+http://purl.obolibrary.org/obo/NCBITaxon_9838
+http://purl.obolibrary.org/obo/NCBITaxon_9913
+http://purl.obolibrary.org/obo/NCBITaxon_9974
+http://purl.obolibrary.org/obo/NCBITaxon_10095
+http://purl.obolibrary.org/obo/NCBITaxon_34880
+http://purl.obolibrary.org/obo/NCBITaxon_37029
+http://purl.obolibrary.org/obo/NCBITaxon_39099
+http://purl.obolibrary.org/obo/NCBITaxon_59479
+http://purl.obolibrary.org/obo/NCBITaxon_69075
+http://purl.obolibrary.org/obo/NCBITaxon_89399
+http://purl.obolibrary.org/obo/NCBITaxon_204267
+
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+
+# http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
 
 http://purl.obolibrary.org/obo/NCBITaxon_11118 # Coronaviridae
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
 http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses 
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 
