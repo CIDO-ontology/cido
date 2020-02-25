@@ -1,0 +1,66 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl
+
+[Source ontology]
+NDF-RT
+
+[Low level source term URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000006010
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020127
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000021905
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000022977
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145891
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146092
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146110
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146182
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146203
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146213
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146214
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146409
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146583
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146786
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147331
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147354
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147496
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147536
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147612
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147638
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147767
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147834
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147893
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147900
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147969
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148032
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148406
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148419
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148436
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148546
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148672
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148698
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148699
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148784
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148832
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000166394
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000166641
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000166936
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167131
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167149
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167211
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167259
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167366
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000168432
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000170352
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000176043
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000178379
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000179079
+
+[Top level source term URIs and target direct superclass URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000002
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
