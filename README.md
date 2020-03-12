@@ -13,7 +13,13 @@ Many graduate students, clinical doctors, and researchers in the [He laboratory]
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
 
 ### CIDO Source Link (free for downloading):
-OWL format: https://raw.githubusercontent.com/biomedontology/cido/master/src/ontology/cido.owl 
+OWL format: https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl  
+
+### Tracker link:  
+https://github.com/CIDO-ontology/cido/issues 
+
+### Mailing-list:
+cido-discuss@googlegroups.com
 
 ### Web Deposition: 
 - Ontobee: http://www.ontobee.org/ontology/CIDO  
