@@ -10,6 +10,8 @@ CIDO was initiated and co-led by Dr. Hong Yu, director of Department of Respirat
 
 Many graduate students, clinical doctors, and researchers in the [He laboratory](http://www.hegroup.org) and Guizhou Province People’s Hospital have also participated in the CIDO development.  
 
+Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
+
 ### CIDO Source Link (free for downloading):
 OWL format: https://raw.githubusercontent.com/biomedontology/cido/master/src/ontology/cido.owl 
 
