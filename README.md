@@ -20,6 +20,7 @@ OWL format: https://raw.githubusercontent.com/biomedontology/cido/master/src/ont
 - BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
 
 ### News: 
-- 1/26/20: CIDO was submitted to Ontobee and BioPortal.  
+- 2/3/2020: Oliver submitted a request for the CIDO namespace in OBO-discuss email. See the email and discussions in OBO community here: https://groups.google.com/forum/#!topic/obo-discuss/AAZnGWe5eEE  
+- 1/26/2020: CIDO was submitted to Ontobee and BioPortal.  
 - 1/25/2020: The CIDO GitHub website was generated, and CIDO source was submitted to the GitHub website. 
 - 1/24/2020: The first version of CIDO was initiated by Oliver He and Hong Yu. 
