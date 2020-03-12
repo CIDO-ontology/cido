@@ -1,7 +1,7 @@
 # cido
 CIDO: Coronavirus Infectious Disease Ontology
 
-The emerging [Wuhan coronavirus outbreak](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) has reminded everyone the early versions of the [SARS coronavirus outbreak](https://www.who.int/csr/sars/en/) and the [Middle East coronavirus outbreak](https://www.who.int/emergencies/mers-cov/en/). These [coronavirus](https://www.who.int/health-topics/coronavirus) outbreaks have made us realize the critical importance of systematically studying these coronavirus infectious diseases using the cutting edge technologies. Ontology provides a unique angle to study the coronavirus infectious diseases.  
+The emerging [COVID-19 outbreak](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) has reminded everyone the early versions of the [SARS coronavirus outbreak](https://www.who.int/csr/sars/en/) and the [Middle East coronavirus outbreak](https://www.who.int/emergencies/mers-cov/en/). These [coronavirus](https://www.who.int/health-topics/coronavirus) outbreaks have made us realize the critical importance of systematically studying these coronavirus infectious diseases using the cutting edge technologies. Ontology provides a unique angle to study the coronavirus infectious diseases.  
 
 The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, epidemiology, pathogenesis, diagnosis, prevention, and treatment. Its development follows the OBO Foundry Principles.
 
