@@ -10,8 +10,10 @@ http://purl.obolibrary.org/obo/MONDO_0005719 # coronavinae infectious disease
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/MONDO_0005108 # viral infectious disease
-subClassOf http://purl.obolibrary.org/obo/IDO_0000436 #infectious disease 
+http://purl.obolibrary.org/obo/BFO_0000001
+
+# http://purl.obolibrary.org/obo/MONDO_0005108 # viral infectious disease
+# subClassOf http://purl.obolibrary.org/obo/IDO_0000436 #infectious disease 
 
 [Source term retrieval setting]
 includeAllIntermediates

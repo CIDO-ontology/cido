@@ -22,6 +22,8 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/MONDO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl"/>
         <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
@@ -34,7 +36,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.85</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.86</owl:versionInfo>
     </owl:Ontology>
     
 
