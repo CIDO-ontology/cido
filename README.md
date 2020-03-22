@@ -32,6 +32,7 @@ cido-discuss@googlegroups.com
 - BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
 
 ### News: 
+- 3/12/2020: CIDO was approved and added to the OBO Foundry ontology library: http://obofoundry.org/ontology/cido.html. 
 - 3/12/2020: Oliver transferred the CIDO github organization location from github.com/biomedontology to the newly generated https://github.com/CIDO-ontology organization. Such a transfer is to better support its organization with more options (such as generating new repositories). 
 - 3/12/2020: Oliver generated the new CIDO-ontology github organization. 
 - 2/3/2020: Oliver submitted a request for the CIDO namespace in OBO-discuss email. See the email and discussions in OBO community here: https://groups.google.com/forum/#!topic/obo-discuss/AAZnGWe5eEE  
