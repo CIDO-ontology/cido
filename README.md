@@ -16,6 +16,8 @@ Many researchers in the University of Michigan, including [Dr. Brian Athey](http
 
 [Dr. Junguk Hur](https://med.und.edu/labs/hur/) from University of North Dakoda Medical School is also a CIDO developer. Dr. Hur is also interested in applying CIDO for more efficient literature mining. 
 
+[Dr. Barry Smith](http://www.buffalo.edu/cas/philosophy/faculty/faculty_directory/smith-b.html), a well-known ontologist from the University at Buffalo, is also a member of our CIDO development team. Dr. Smith developed the [Basic Formal Ontology (BFO)](https://basic-formal-ontology.org/), a top level ontology used by over 300 ontologies around the world. BFO has now been approved to become [ISO/IEC standard 21838](https://www.iso.org/standard/71954.html). CIDO is aligned with BFO, and by doing so, CIDO is aligned with the other hundreds of ontologies. 
+
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
 
 ### CIDO Source Link (free for downloading):
@@ -26,6 +28,9 @@ https://github.com/CIDO-ontology/cido/issues
 
 ### Mailing-list:
 cido-discuss@googlegroups.com
+
+### CIDO in OBO Foundry: 
+http://obofoundry.org/ontology/cido.html.
 
 ### Web Deposition: 
 - Ontobee: http://www.ontobee.org/ontology/CIDO  
