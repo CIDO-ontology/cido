@@ -18,6 +18,8 @@ Many researchers in the University of Michigan, including [Dr. Brian Athey](http
 
 [Dr. Barry Smith](http://www.buffalo.edu/cas/philosophy/faculty/faculty_directory/smith-b.html), a well-known ontologist from the University at Buffalo, is also a member of our CIDO development team. Dr. Smith developed the [Basic Formal Ontology (BFO)](https://basic-formal-ontology.org/), a top level ontology used by over 300 ontologies around the world. BFO has now been approved to become [ISO/IEC standard 21838](https://www.iso.org/standard/71954.html). CIDO is aligned with BFO, and by doing so, CIDO is aligned with the other hundreds of ontologies. 
 
+Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Institute of Basic Medical Sciences and School of Basic Medicine, Peking Union Medical College and Chinese Academy of Medical Sciences, Beijing, China, has also participated in our collaborative CIDO development and applications. 
+
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
 
 ### CIDO Source Link (free for downloading):
