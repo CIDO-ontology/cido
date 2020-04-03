@@ -27,6 +27,9 @@ Everyone who would like to contribute to the CIDO development is welcome to join
 ### Collaborators:
 - [CORD-19-on-FHIR](https://github.com/fhircat/CORD-19-on-FHIR) -- Semantics for COVID-19 Discovery 
 
+### Collaborative events
+- COVID-19 Biohackathon April 5-11 2020: https://github.com/virtual-biohackathons/covid-19-bh20 
+
 ### CIDO Source Link (free for downloading):
 OWL format: https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl  
 
