@@ -1,0 +1,57 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00000908
+http://purl.obolibrary.org/obo/DRON_00001135 
+http://purl.obolibrary.org/obo/DRON_00012220 
+http://purl.obolibrary.org/obo/DRON_00013637 
+http://purl.obolibrary.org/obo/DRON_00013779
+http://purl.obolibrary.org/obo/DRON_00013976 
+http://purl.obolibrary.org/obo/DRON_00014099 
+http://purl.obolibrary.org/obo/DRON_00015413 
+http://purl.obolibrary.org/obo/DRON_00015446 
+http://purl.obolibrary.org/obo/DRON_00016171 
+http://purl.obolibrary.org/obo/DRON_00016421
+http://purl.obolibrary.org/obo/DRON_00016762
+http://purl.obolibrary.org/obo/DRON_00016769 
+http://purl.obolibrary.org/obo/DRON_00016915
+http://purl.obolibrary.org/obo/DRON_00017043 
+http://purl.obolibrary.org/obo/DRON_00017078
+http://purl.obolibrary.org/obo/DRON_00018224 
+http://purl.obolibrary.org/obo/DRON_00018693 
+http://purl.obolibrary.org/obo/DRON_00018901
+http://purl.obolibrary.org/obo/DRON_00018901 
+http://purl.obolibrary.org/obo/DRON_00021685 
+http://purl.obolibrary.org/obo/DRON_00022294 
+http://purl.obolibrary.org/obo/DRON_00022383 
+http://purl.obolibrary.org/obo/DRON_00023295 
+http://purl.obolibrary.org/obo/DRON_00023321
+http://purl.obolibrary.org/obo/DRON_00025187
+http://purl.obolibrary.org/obo/DRON_00025278 
+http://purl.obolibrary.org/obo/DRON_00026862 
+http://purl.obolibrary.org/obo/DRON_00027247
+http://purl.obolibrary.org/obo/DRON_00050843 
+http://purl.obolibrary.org/obo/DRON_00058882 
+http://purl.obolibrary.org/obo/DRON_00059506
+http://purl.obolibrary.org/obo/DRON_00059818 
+http://purl.obolibrary.org/obo/DRON_00061833
+http://purl.obolibrary.org/obo/DRON_00061920 
+http://purl.obolibrary.org/obo/DRON_00061963
+http://purl.obolibrary.org/obo/DRON_00075906
+http://purl.obolibrary.org/obo/DRON_00723537
+http://purl.obolibrary.org/obo/DRON_00750784
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

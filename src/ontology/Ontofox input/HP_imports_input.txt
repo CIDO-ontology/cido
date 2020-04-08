@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/cido/HP_import.owl
+http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl
 
 [Source ontology]
 HP
