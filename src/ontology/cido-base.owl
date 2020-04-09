@@ -27,6 +27,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:contributor>Brian Athey</dc:contributor>
         <dc:contributor>Gil Omenn</dc:contributor>
@@ -43,7 +44,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.89</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.90</owl:versionInfo>
     </owl:Ontology>
     
 

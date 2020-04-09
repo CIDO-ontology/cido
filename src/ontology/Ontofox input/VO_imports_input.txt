@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0004897 # coronavirus vaccine
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000001 # vaccine 
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+
