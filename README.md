@@ -24,7 +24,8 @@ More collaborators are provided below.
 
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
 
-### Collaborators:
+### Collaborators and collaboration groups:
+- OBO Foundry ontologies, including Infectious Disease Ontology (IDO), Protein Ontology (PRO), Vaccine Ontology (VO), Disease Ontology (DOID), etc.   
 - [CORD-19-on-FHIR](https://github.com/fhircat/CORD-19-on-FHIR) -- Semantics for COVID-19 Discovery 
 
 ### Collaborative events
