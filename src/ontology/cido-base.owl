@@ -95,6 +95,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000012 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000012">
+        <obo:IAO_0000115>An object property that represents a relation between a drug and a disease process where a drug is effective in treating a host against the disease process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">treatment for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000053 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000053">
@@ -337,6 +347,22 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_HKU1</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Human coronavirus HKU1 disease process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A drug that is used to treat for COVID-19</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">COVID-19 drug</rdfs:label>
     </owl:Class>
     
 
