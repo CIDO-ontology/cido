@@ -46,7 +46,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.92</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.94</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -133,7 +133,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A disease process that is induced by coronavirus infection</obo:IAO_0000115>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <rdfs:label xml:lang="en">coronavirus infectious disease process</rdfs:label>
     </owl:Class>
@@ -152,18 +152,24 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2945"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118>SARS coronavirus disease process</obo:IAO_0000118>
         <obo:IAO_0000118>Severe Acute Respiratory Syndrome</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
         <rdfs:comment>SARS was a relatively rare disease; at the end of the epidemic in June 2003, the incidence was 8422 cases with a case-fatality rate of 11%. The case-fatality ratio ranges from 0% to 50% depending on the age group of the patient. Patients under 24 were least likely to die; those 65 and older were most likely to die.
 Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV DP</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV disease process</rdfs:label>
     </owl:Class>
     
 
@@ -203,7 +209,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a coronavirus disease process that is induced by SARS-CoV-2</obo:IAO_0000115>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">2019 novel coronavirus disease process</obo:IAO_0000118>
         <obo:IAO_0000118>2019-nCoV disease process</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
@@ -225,14 +231,20 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118>Middle East respiratory syndrome DP</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome-related_coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">MERS-CoV DP</rdfs:label>
+        <rdfs:label xml:lang="en">MERS-CoV disease process</rdfs:label>
     </owl:Class>
     
 
@@ -253,9 +265,9 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_229E</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus 229E DP</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus 229E disease process</rdfs:label>
     </owl:Class>
     
 
@@ -276,9 +288,9 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_OC43</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus OC43 DP</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus OC43 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -299,9 +311,9 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_NL63</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus NL63 DP</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus NL63 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -322,9 +334,9 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_HKU1</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus HKU1 DP</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus HKU1 disease process</rdfs:label>
     </owl:Class>
     
 
