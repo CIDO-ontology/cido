@@ -6,33 +6,31 @@ NCBITaxon
 
 [Low level source term URIs]
 
-http://purl.obolibrary.org/obo/NCBITaxon_9673 # Viverridae (civets)
-http://purl.obolibrary.org/obo/NCBITaxon_9675 # Paguma larvata ; masked civet  
 http://purl.obolibrary.org/obo/NCBITaxon_49442 # Rhinolophus (horseshoe bats)
-http://purl.obolibrary.org/obo/NCBITaxon_9397 #  Chiroptera (common name: bats
-http://purl.obolibrary.org/obo/NCBITaxon_34880 #  Nyctereutes procyonoides (raccoon dog) PMID: 12958366.  
-http://purl.obolibrary.org/obo/NCBITaxon_37029 # Prionailurus bengalensis (leopard cat)
-http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese ferret-badger)
+http://purl.obolibrary.org/obo/NCBITaxon_9606 # homo sapiens
 
 #hosts
-http://purl.obolibrary.org/obo/NCBITaxon_9397
-http://purl.obolibrary.org/obo/NCBITaxon_9627
-http://purl.obolibrary.org/obo/NCBITaxon_9666
-http://purl.obolibrary.org/obo/NCBITaxon_9673
-http://purl.obolibrary.org/obo/NCBITaxon_9675
-http://purl.obolibrary.org/obo/NCBITaxon_9685
-http://purl.obolibrary.org/obo/NCBITaxon_9837
-http://purl.obolibrary.org/obo/NCBITaxon_9838
-http://purl.obolibrary.org/obo/NCBITaxon_9913
-http://purl.obolibrary.org/obo/NCBITaxon_9974
-http://purl.obolibrary.org/obo/NCBITaxon_10095
-http://purl.obolibrary.org/obo/NCBITaxon_34880
-http://purl.obolibrary.org/obo/NCBITaxon_37029
-http://purl.obolibrary.org/obo/NCBITaxon_39099
-http://purl.obolibrary.org/obo/NCBITaxon_59479
-http://purl.obolibrary.org/obo/NCBITaxon_69075
-http://purl.obolibrary.org/obo/NCBITaxon_89399
-http://purl.obolibrary.org/obo/NCBITaxon_204267
+http://purl.obolibrary.org/obo/NCBITaxon_9397  #  Chiroptera (common name: bats 
+http://purl.obolibrary.org/obo/NCBITaxon_9627 # Vulpes vulpes, red fox; silver fox
+http://purl.obolibrary.org/obo/NCBITaxon_9666 # Mustela lutreola, European mink; mink
+http://purl.obolibrary.org/obo/NCBITaxon_9673 # Viverridae (civets)
+http://purl.obolibrary.org/obo/NCBITaxon_9675 # Paguma larvata ; masked civet  
+http://purl.obolibrary.org/obo/NCBITaxon_9685 # Felis catus; domestic cat; cat; cats
+http://purl.obolibrary.org/obo/NCBITaxon_9837 # Camelus bactrianus; Bactrian camel; domestic Bactrian camel; two-humped camel; camel
+http://purl.obolibrary.org/obo/NCBITaxon_9838 # Camelus dromedarius; Arabian camel; camel; dromedary camel; dromedary; dromedaries; one-humped camel 
+http://purl.obolibrary.org/obo/NCBITaxon_9913 # Bos taurus; domestic cow; domestic cattle; bovine; cattle; cow; dairy cow 
+http://purl.obolibrary.org/obo/NCBITaxon_9974 # Manis javanica; Malayan pangolin
+http://purl.obolibrary.org/obo/NCBITaxon_10095 # Mus sp., mice
+http://purl.obolibrary.org/obo/NCBITaxon_34880 #  Nyctereutes procyonoides (raccoon dog) PMID: 12958366
+http://purl.obolibrary.org/obo/NCBITaxon_37029 # Prionailurus bengalensis (leopard cat)
+http://purl.obolibrary.org/obo/NCBITaxon_39099 # Pantherophis obsoletus; Western rat snake; rat snake
+http://purl.obolibrary.org/obo/NCBITaxon_59479 # Rhinolophus ferrumequinum; greater horseshoe bat
+http://purl.obolibrary.org/obo/NCBITaxon_69075 # Rattus losea; lesser rice-field rat
+http://purl.obolibrary.org/obo/NCBITaxon_89399 # Rhinolophus sinicus; Chinese rufous horseshoe bat
+http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese ferret-badger)
+
+http://purl.obolibrary.org/obo/NCBITaxon_33208 # Metazoa, metazoans, animals
+http://purl.obolibrary.org/obo/NCBITaxon_40674 # mammals
 
 http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
 

@@ -95,6 +95,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000053">
+        <obo:IAO_0000115>An object property that represents the relation between a disease process and a pathogen where the disease process is caused by the infection with the pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">caused by infection with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -111,14 +121,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000001">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -135,14 +145,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000002">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -163,7 +173,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -176,7 +186,19 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -196,14 +218,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000004">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -220,14 +242,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000005">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -243,14 +265,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000006">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -266,14 +288,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000007">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -289,14 +311,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000008">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
