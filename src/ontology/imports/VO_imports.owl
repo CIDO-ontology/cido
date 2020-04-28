@@ -83,6 +83,16 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributor</rdfs:label>
         <rdfs:label>Contributor</rdfs:label>
@@ -98,16 +108,6 @@
          Contributor should be used to indicate the entity.</dc:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>term editor</rdfs:label>
@@ -1036,6 +1036,43 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000520 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000520">
+        <rdfs:label>has vaccine component</rdfs:label>
+        <obo:IAO_0000115>an object property that defines a relation between a vaccine and its component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000524 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000524">
+        <rdfs:label>has vaccine antigen</rdfs:label>
+        <rdfs:comment>This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation &#39;DNA vaccine expresses protein antigen&#39; under the relation &#39;expresses&#39;. </rdfs:comment>
+        <obo:IAO_0000115>an object property that specifies a vaccine antigen</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000529 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000529">
+        <rdfs:label>has vaccine adjuvant</rdfs:label>
+        <obo:IAO_0000115>a type of &#39;has vaccine component&#39; relation that is specifically for vaccine adjuvant component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243">
@@ -1439,6 +1476,95 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</obo:IAO_0000111>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000116 xml:lang="en">We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grouped_by_chemistry</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0006955</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term was improved by GO_REF:0000022. It was redefined and moved.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune response</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/molecular_function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050896">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus. The process begins with detection of the stimulus and ends with a change in state or activity or the cell or organism.</obo:IAO_0000115>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to stimulus</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
@@ -1674,6 +1800,20 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronaviridae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76804"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11128">
@@ -1723,6 +1863,26 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East respiratory syndrome-related coronavirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS-CoV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East Respiratory Syndrome Coronavirus (MERS-CoV)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East respiratory syndrome coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -1844,6 +2004,35 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2501931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2501931">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthocoronavirinae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2559587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riboviria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA viruses</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA viruses and viroids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
@@ -1856,6 +2045,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryotae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23020233</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30257078</oboInOwl:hasDbXref>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</oboInOwl:hasRelatedSynonym>
@@ -2003,19 +2193,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_35278 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35278">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA positive-strand viruses, no DNA stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_439488"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_379584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_379584">
@@ -2049,38 +2226,11 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_439488 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_439488">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA viruses</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_693995 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_693995">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirinae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76804"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_693997 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_693997">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alphacoronavirus 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2501931"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alphacoronavirus-1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -2095,7 +2245,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betacoronavirus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2501931"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus group 2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
@@ -2109,11 +2259,36 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_694009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome-related coronavirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-SARS</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus (strain SARS)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:227859</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:311178</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-like coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-related coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARSr-CoV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_76804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76804">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nidovirales</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35278"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
@@ -2127,6 +2302,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;Metazoa&gt;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata &lt;vertebrates&gt;</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33213"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrata</oboInOwl:hasExactSynonym>
@@ -2316,14 +2492,14 @@ objectives is a planned process.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -2337,6 +2513,31 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">material transformation</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000237">
+        <rdfs:label xml:lang="en">antigen role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9Mar09 waiting for discussion with immunology terms</obo:IAO_0000232>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antigen is a substance that prompts the generation of antibodies and can cause an immune response.  Wikipedia  http://en.wikipedia.org/wiki/Antigen. In the strict sense, immunogens are those substances that elicit a response from the immune system, whereas antigens are defined as substances that bind to specific antibodies. Not all antigens produce an immunogenic response, but all immunogens are antigens</obo:IAO_0000116>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI</obo:IAO_0000119>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen role</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Antigen is a role played by material which when introduced into an immune-competent organism causes an immune response</obo:IAO_0000115>
+        <obo:IAO_0000115>a role that inheres in a vaccine component and plays an antigen role, i.e., it is introducd into an immune-competent organism to cause an immune response</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Role Branch</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
@@ -2434,13 +2635,13 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000444"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000319"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000319"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000444"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BP</obo:IAO_0000117>
@@ -2555,13 +2756,13 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2776,6 +2977,19 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PRO_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRO_000000001">
+        <rdfs:label xml:lang="en">protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 xml:lang="en">A biological macromolecule that is composed of amino acids linked in a linear sequence (a polypeptide chain) and is genetically encoded. Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">protein</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PRO"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
@@ -2872,6 +3086,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -2885,15 +3105,53 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>a process of administering substance in vivo that involves in adding a vaccine into a host (e.g., human) in vivo with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
         <obo:IAO_0000118>vaccine administration</obo:IAO_0000118>
         <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000093">
+        <rdfs:label>mineral salt vaccine adjuvant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <obo:IAO_0000115>a vaccine adjuvant that is formed as a mineral salt.</obo:IAO_0000115>
+        <obo:IAO_0000117>SGS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>CVX: 119</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000118">
+        <rdfs:label>microbial derivative vaccine adjuvant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <rdfs:seeAlso>CVX: 52</rdfs:seeAlso>
+        <obo:IAO_0000117>a vaccine adjuvant that contains microbial derived material.</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, SGS</obo:IAO_0000117>
+        <rdfs:seeAlso>CVX: 83</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000147">
+        <rdfs:label>vaccine adjuvant role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
+        <rdfs:comment>The Latin &quot;adjuvans&quot; means to help, particularly to reach a goal.
+
+Adjuvant therapy for cancer is surgery followed by chemotherapy or radiation to help decrease the risk of the cancer recurring (coming back).
+
+An adjuvant is a substance that helps and enhances the pharmacological effect of a drug or increases the ability of an antigen to stimulate the immune system.</rdfs:comment>
+        <obo:IAO_0000115>an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -2906,6 +3164,30 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002146"/>
         <obo:IAO_0000115>a virulence of vaccine organism that shows an attenuated pheontype of the organism as the major component of a vaccine.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000179">
+        <rdfs:label>vaccine component</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a processed material that is output of the vaccine preparation and part of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000118>vaccine ingredient</obo:IAO_0000118>
+        <obo:IAO_0000118>cardinal part of vaccine</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -2956,17 +3238,24 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000415">
+        <rdfs:label>vaccine additive role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
+        <obo:IAO_0000119>a role inheres in a material entity, that has been added into a vaccine&#39;s formulation by the manufacture for a specific purpose. For example: adjuvant to enhance the effect of immunogen, perservatives, stablizers and those materials added for affecting PH and isotonicity.</obo:IAO_0000119>
+        <obo:IAO_0000119>Page 73, Chapter 6, Vaccine, 5th Edition. EXPERT CONSULT by Plotkin SA., et. al. 2008</obo:IAO_0000119>
+        <obo:IAO_0000117>YL,YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000452 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000452">
         <rdfs:label>preventive vaccine function</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000278"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000495"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
@@ -2979,9 +3268,27 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000495"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>preventive vaccine function is a vaccine function realized by the process of vaccination and leading to induction of an adaptive immune response to the antigens in a vaccine, which protects against a specific disorder.</obo:IAO_0000115>
         <obo:IAO_0000118>prophylactic vaccine function</obo:IAO_0000118>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000457">
+        <rdfs:label>protective antigen role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000237"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Protective antigen is an antigen that stimulates protective immunity when used in vivo.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -3029,12 +3336,6 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000585"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3047,6 +3348,12 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000585"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>artificial active immunization is an active immunization that occurs when a person or animal is vaccinated with a specific vaccine.</obo:IAO_0000115>
@@ -3114,6 +3421,12 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000497"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3131,14 +3444,30 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000497"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>The therapeutic vaccine function is a function realized by the process of vaccination and leading to induction of an adaptive immune response to the antigens in a vaccine, which ameliorates a specific disorder.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000580">
+        <rdfs:label>vaccine adjuvant</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000179"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>a vaccine component that is chemical substance added to vaccine and enhance and direct immune response to protective antigen. Many of vaccine adjuvants cause a range of serious side-effects.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -3164,12 +3493,6 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -3177,6 +3500,12 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001479"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccine production</obo:IAO_0000118>
@@ -3225,6 +3554,29 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000617">
+        <rdfs:label xml:lang="en">vaccine component role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>a role that inheres in a material entity that becomes an ingredient of a vaccine. </obo:IAO_0000117>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000630">
@@ -3244,6 +3596,19 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000115>a licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000884">
+        <rdfs:label>aluminum vaccine adjuvant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000093"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a mineral salt vaccine adjuvant that is composed of aluminum salt.</obo:IAO_0000115>
+        <obo:IAO_0000117>Aluminum vaccine adjuvant is a vaccine adjuvant that is composed of some aluminum compound.</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -3302,6 +3667,19 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001237">
+        <rdfs:label>CpG DNA vaccine adjuvant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000118"/>
+        <obo:IAO_0000119>PMID: 12899580</obo:IAO_0000119>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>A microbial derivative vaccine adjuvant compsed of CpG DNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001274">
@@ -3309,14 +3687,14 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a role of host that contains vaccine. It is a role that inheres in an organism that is the target of a vaccine administration (vaccination process).</obo:IAO_0000115>
@@ -3369,24 +3747,6 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -3408,6 +3768,24 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>YL</obo:IAO_0000117>
         <rdfs:seeAlso>USDA: 14P5.20</rdfs:seeAlso>
         <rdfs:seeAlso>violinID:1562</rdfs:seeAlso>
@@ -3424,6 +3802,18 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000932"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
                 <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0000204"/>
             </owl:Restriction>
@@ -3436,20 +3826,8 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>violinID:1563</rdfs:seeAlso>
@@ -3468,8 +3846,8 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000932"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0001119"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3480,26 +3858,92 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11153"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0001119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
         <rdfs:seeAlso>violinID:1561</rdfs:seeAlso>
         <obo:IAO_0000117>YL</obo:IAO_0000117>
         <rdfs:seeAlso>USDA: 14P1.20</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002993">
+        <rdfs:label>SARS-CoV E gene mutant vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
+        <rdfs:comment>An E mutant is attenuated in hamsters and induces significant protection from challenge with wild type SARS</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004678">
+        <rdfs:label>RBD-rAAV-SARS-CoV</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>RS, NF, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>violinID: 4160</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004679">
+        <rdfs:label>RBD-rAAV-SARS-CoV-02</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>violinID: 4161</rdfs:seeAlso>
+        <obo:IAO_0000117>RS, NF, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004711">
+        <rdfs:label>rMV- SARS-CoV -S/Ssol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>violinID: 4196</rdfs:seeAlso>
+        <obo:IAO_0000117>RS, NF, YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -3512,12 +3956,187 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine against coronavirus infection</obo:IAO_0000115>
         <obo:IAO_0000117>Hong Yu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004900">
+        <rdfs:label xml:lang="en">MERS vaccine</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004897"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>MERS-CoV vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004905">
+        <rdfs:label xml:lang="en">MERS-CoV S protein with alum and CpG adjuvants</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004907"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000529"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000884"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0001237"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5884803/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004906">
+        <rdfs:label xml:lang="en">MERS-CoV protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010754"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004907">
+        <rdfs:label xml:lang="en">MERS-CoV S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004906"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
+        <rdfs:label xml:lang="en">COVID-19 vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004897"/>
+        <obo:IAO_0000118>SARS-CoV-2 vaccine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010754">
+        <rdfs:label>virus protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRO_000000001"/>
+        <obo:IAO_0000115>a protein from a virus</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010850">
+        <rdfs:label>SARS-CoV protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010754"/>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011320">
+        <rdfs:label>S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010850"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The receptor-binding domain (RBD) of SARS-CoV spike (S) protein is an important target in developing safe and effective SARS vaccines. A previous study has demonstrated that vaccination with adeno-associated virus encoding RBD (RBD-rAAV) induces high titer of neutralizing antibodies. The immune responses and protective effect of the immunization with RBD-rAAV prime/RBD-specific T cell peptide boost were assessed. Compared with the RBD-rAAV prime/boost vaccination, RBD-rAAV prime/RBD-peptide (RBD-Pep) boost induced similar levels of Th1 and neutralizing antibody responses that protected the vaccinated mice from subsequent SARS-CoV challenge, but stronger Th2 and CTL responses. No significant immune responses and protective effects were detected in mice vaccinated with RBD-Pep or blank AAV alone [PubMed: 18289745].</rdfs:comment>
+        <rdfs:seeAlso>Protegen ID: 789; NCBI Gene GI: 1489668; NCBI Protein GI: 29836496; NCBI Protein Accession: NP_828851; NCBITaxon: 694009</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011486">
+        <rdfs:label>SARS Subunit Spike Protein Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>VIOLIN Vaccine ID: 842</rdfs:seeAlso>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012183">
+        <rdfs:label>SARS vaccine</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004897"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine that protects against SARS-CoV.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS-CoV vaccine</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -3872,6 +4491,15 @@ This interpretation is *not* the same as an at-all-times relation
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </rdf:Description>
     
 
 
@@ -3885,6 +4513,7 @@ This interpretation is *not* the same as an at-all-times relation
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/vo.owl">
         <dc:creator>Edison Ong</dc:creator>
+        <owl:versionInfo xml:lang="en">1.1.89</owl:versionInfo>
         <dc:creator>Lindsay Cowell</dc:creator>
         <dc:creator>Alexander D. Diehl</dc:creator>
         <dc:creator>Jason Hu</dc:creator>
@@ -3892,6 +4521,7 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:contributor>Erica Marcos</dc:contributor>
         <dc:creator>Alan Ruttenburg</dc:creator>
         <dc:contributor>Chris mungall</dc:contributor>
+        <dc:date xml:lang="en">April 27, 2020</dc:date>
         <dc:creator>Khadeejah Khan</dc:creator>
         <dc:creator>Rebecca Racz</dc:creator>
         <dc:creator>Richard H. Scheuermann</dc:creator>
@@ -3899,7 +4529,6 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Thomas Todd</dc:creator>
         <dc:creator>Samantha G. Sayers (SGS)</dc:creator>
         <dc:creator>Melanie Courtot</dc:creator>
-        <owl:versionInfo xml:lang="en">1.1.85</owl:versionInfo>
         <dc:creator>Randi Vita</dc:creator>
         <dc:creator>Omar Tibi</dc:creator>
         <dc:creator>Barry Smith</dc:creator>
@@ -3907,7 +4536,6 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
         <dc:contributor>Paul Fabry</dc:contributor>
         <dc:contributor>Ningxian Fan</dc:contributor>
-        <dc:date xml:lang="en">March 3, 2020</dc:date>
         <dc:creator xml:lang="en">Ningxian Fan</dc:creator>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:contributor xml:lang="en">Randi Vita</dc:contributor>

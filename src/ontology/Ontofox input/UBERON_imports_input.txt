@@ -1,0 +1,41 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0002048 # lung
+includeAllChildren
+
+http://purl.obolibrary.org/obo/UBERON_0000004 # nose
+http://purl.obolibrary.org/obo/UBERON_0000341 # throat
+http://purl.obolibrary.org/obo/UBERON_0000062 # organ
+http://purl.obolibrary.org/obo/UBERON_0000479 # tissue
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0000165 # mouth
+http://purl.obolibrary.org/obo/UBERON_0006562 # pharynx 
+http://purl.obolibrary.org/obo/UBERON_0000160 # intestine
+http://purl.obolibrary.org/obo/UBERON_0000945 # stomach
+http://purl.obolibrary.org/obo/UBERON_0001988 # feces
+http://purl.obolibrary.org/obo/UBERON_0002185 # bronchus
+http://purl.obolibrary.org/obo/UBERON_0000948 # heart
+http://purl.obolibrary.org/obo/UBERON_0002113 # kidney
+http://purl.obolibrary.org/obo/UBERON_0000014 # skin
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040   # material entity
+
+[Source term retrieval setting]
+#includeAllIntermediates
+
+includeComputedIntermediates
+
+[Source annotation URIs]
+#includeAllAxiomsRecursively
+
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+

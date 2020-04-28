@@ -28,6 +28,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl"/>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:contributor>Brian Athey</dc:contributor>
@@ -45,7 +46,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.91</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.92</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -121,6 +122,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A disease process that is induced by coronavirus infection</obo:IAO_0000115>
         <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <rdfs:label xml:lang="en">coronavirus infectious disease process</rdfs:label>
@@ -168,17 +170,23 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000053"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>a coronavirus disease process that is induced by SARS-CoV-2</obo:IAO_0000115>
         <obo:IAO_0000117>YOH, HY</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">2019 novel coronavirus disease process</obo:IAO_0000118>
-        <obo:IAO_0000118>Wuhan coronavirus DP</obo:IAO_0000118>
-        <obo:IAO_0000118>Wuhan pneumonia DP</obo:IAO_0000118>
+        <obo:IAO_0000118>2019-nCoV disease process</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
-        <rdfs:label>2019-nCoV DP</rdfs:label>
+        <rdfs:label>COVID-19 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -302,11 +310,11 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_696098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2509511"/>
         <obo:IAO_0000118>Wuhan coronavirus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Wuhan seafood market pneumonia virus</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049</obo:IAO_0000119>
-        <rdfs:label>2019-nCoV</rdfs:label>
+        <rdfs:label>SARS-CoV-2</rdfs:label>
     </owl:Class>
     
 
