@@ -41,12 +41,12 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">04-27-2020</dc:date>
+        <dc:date xml:lang="en">04-28-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.94</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.95</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -111,6 +111,14 @@
         <obo:IAO_0000115>An object property that represents the relation between a disease process and a pathogen where the disease process is caused by the infection with the pathogen.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">caused by infection with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
+        <rdfs:label xml:lang="en">immunizes against disease process</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -386,6 +394,19 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000010"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0004909"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
