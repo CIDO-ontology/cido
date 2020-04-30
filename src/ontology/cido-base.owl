@@ -34,6 +34,7 @@
         <dc:contributor>Brian Athey</dc:contributor>
         <dc:contributor>Gil Omenn</dc:contributor>
         <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
+        <dc:creator>Asiyah Yu Lin</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
         <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
@@ -41,12 +42,12 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">04-28-2020</dc:date>
+        <dc:date xml:lang="en">04-30-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.95</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.96</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -371,6 +372,29 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000115>A drug that is used to treat for COVID-19</obo:IAO_0000115>
         <rdfs:label xml:lang="en">COVID-19 drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
+        <obo:IAO_0000115>A COVID-19 drug that is experinentallly proven to be effective against SARS-CoV-2 infection, where the experiment can be done either in vivo or in vitro. The in vitro study is typically conducted using cell line cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.preprints.org/manuscript/202003.0413/v1</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 experimental drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000013"/>
+        <obo:IAO_0000115>A COVID-19 experimental drug that is under clinical trial testing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 experimental drug in clinical trial</rdfs:label>
     </owl:Class>
     
 
