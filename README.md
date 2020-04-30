@@ -20,7 +20,7 @@ Many researchers in the University of Michigan, including [Dr. Brian Athey](http
 
 [John Beverley](https://www.philosophy.northwestern.edu/people/graduate-students/john-beverley.html), an expert in the area where ontology and logic meet, has been working on developing the modeling of viral infectious diseases as an extension of the core of Infectious Disease Ontology (IDO). John has joined our CIDO development. 
 
-[Asiyah Yu Lin](https://www.linkedin.com/in/dryulin), an Health Scientist at FDA and an ontology expert.  
+[Asiyah Yu Lin](https://www.linkedin.com/in/dryulin), M.D., Ph.D., an Health Scientist at FDA and an ontology expert. Asiyah is an affiliated ontologist in the National Center for Ontology Research.     
 
 Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Institute of Basic Medical Sciences, [School of Basic Medicine](http://sbm.pumc.edu.cn/), [Peking Union Medical College and Chinese Academy of Medical Sciences](http://www.pumc.edu.cn), Beijing, China, has also participated in our collaborative CIDO development and applications. 
 
