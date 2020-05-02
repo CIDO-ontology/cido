@@ -41,6 +41,9 @@ http://purl.obolibrary.org/obo/OBI_0000406 #PCR product
 http://purl.obolibrary.org/obo/CHEBI_4705 #double-stranded DNA
 http://purl.obolibrary.org/obo/BFO_0000019 #quality
 
+http://purl.obolibrary.org/obo/OBI_0000415 # PCR, polymerase chain reaction
+http://purl.obolibrary.org/obo/OBI_0000552 # RT-PCR, reverse transcribed polymerase chain reaction
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
 

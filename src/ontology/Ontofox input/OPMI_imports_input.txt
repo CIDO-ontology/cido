@@ -1,18 +1,17 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/cido/imports/OGMS_import.owl
+http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl
 
 [Source ontology]
-OGMS
+OPMI
 
 [Low level source term URIs]
-# http://purl.obolibrary.org/obo/PCO_0000001 #population of organisms
+http://purl.obolibrary.org/obo/OPMI_0000417 # human patient
 http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
 http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
-http://purl.obolibrary.org/obo/OGMS_0000084 #organism population
-http://purl.obolibrary.org/obo/OGMS_0000056 # laboratory test
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 #entity
+http://purl.obolibrary.org/obo/BFO_0000001 # entity 
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -21,3 +20,4 @@ includeAllIntermediates
 includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
+
