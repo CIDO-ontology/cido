@@ -26,6 +26,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl"/>
@@ -400,6 +401,57 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">diagnostic objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000015"/>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by CT scanning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process based on antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
+        <rdfs:label xml:lang="en">COVID-19 RT-PCR test</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -463,6 +515,12 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000424">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000423"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A diagnostic process for detecting coronavirus from a patient</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process</rdfs:label>
@@ -561,9 +619,29 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/CIDO_0000439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000439">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000016"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process using RT-PCR</rdfs:label>
     </owl:Class>
