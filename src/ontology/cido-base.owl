@@ -49,7 +49,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.97</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.99</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -104,6 +104,18 @@
         <obo:IAO_0000115>An object property that represents a relation between a drug and a disease process where a drug is effective in treating a host against the disease process.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">treatment for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000024">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000117>Oliver He, Asiyah Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>An object property that represents a relation between an assay and an organization and the assay is performed at the organization such as a company or hospital</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">assay performed at</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -446,8 +458,55 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/CIDO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
-        <rdfs:label xml:lang="en">COVID-19 RT-PCR test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7170415/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 RT-PCR assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000119>https://www.fda.gov/media/136602/download</obo:IAO_0000119>
+        <rdfs:comment>Under this Emergency Use Authorization (EUA), this test is authorized for use in the single laboratory that developed the authorized test and that is certified under Clinical Laboratory Improvement Amendments of 1988 (CLIA), 42 U.S.C. §263a to perform high complexity tests. URL: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</rdfs:comment>
+        <rdfs:label xml:lang="en">Yale New Haven Hospital SARS-CoV-2 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000118>SARS-CoV-2 test by Altru Diagnostics, Inc</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.fda.gov/media/137546/download</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Altru Dx SARS-CoV-2 RT-PCR assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000119>https://www.fda.gov/media/137451/download</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Biocerna SARS-CoV-2 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>An organization that has members to perform COVID-19 test for patients who drive through to a specifc location</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Lin</obo:IAO_0000117>
+        <obo:IAO_0000118>drive-thru COVID-19 testing site</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">drive-thru COVID-19 testing entity</rdfs:label>
     </owl:Class>
     
 
@@ -703,6 +762,27 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CIDO_0000023">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q12073283</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Yale New Haven Hospital</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
