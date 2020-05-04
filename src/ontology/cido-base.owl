@@ -49,7 +49,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.100</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.101</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -138,6 +138,18 @@
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>performed at</obo:IAO_0000118>
         <rdfs:label xml:lang="en">assay performed at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000040 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000040">
+        <obo:IAO_0000112>We can use the following axiom to represent the relation between a camel and MERS-CoV: 
+MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property that represents a relation between a microbe and an organism that serves as the host role and can host the survival of the microbe.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has susceptible host</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -885,6 +897,19 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process using RT-PCR</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
