@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/FDA_EUA_assays.owl#"
+     xml:base="http://purl.obolibrary.org/obo/FDA_EUA_assays.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000041 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000041"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Biocerna</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137450/download</obo:IAO_0000119>
+        <rdfs:label>Biocerna SARS-CoV-2 Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Nationwide Children’s Hospital</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137423/download</obo:IAO_0000119>
+        <rdfs:label>Nationwide Children’s Hospital SARS-CoV-2 Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>AIT Laboratories</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137374/download</obo:IAO_0000119>
+        <rdfs:label>AIT Laboratories SARS-CoV-2 Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Ultimate Dx Laboratory</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137372/download</obo:IAO_0000119>
+        <rdfs:label>UDX SARS-CoV-2 Molecular Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Southwest Regional PCR Laboratory LLC. dba MicroGen DX</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137370/download</obo:IAO_0000119>
+        <rdfs:label>MicroGen DX COVID-19 Key</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Diatherix Eurofins Laboratory</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137255/download</obo:IAO_0000119>
+        <rdfs:label>Diatherix Eurofins SARS-CoV-2 PCR Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Mayo Clinic Laboratories, Rochester, MN</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137163/download</obo:IAO_0000119>
+        <rdfs:label>Mayo Clinic SARS-CoV-2 Molecular Detection Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>CirrusDx Laboratories</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137034/download</obo:IAO_0000119>
+        <rdfs:label>CirrusDx SARS-CoV-2 Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Hackensack University Medical Center (HUMC) Molecular Pathology Laboratory</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137036/download</obo:IAO_0000119>
+        <rdfs:label>CDI Enhanced COVID-19 Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Exact Sciences Laboratories</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/137095/download</obo:IAO_0000119>
+        <rdfs:label>Exact Sciences Laboratory SARS-CoV-2 Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Pathology/Laboratory Medicine Lab of Baptist Hospital Miami</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136944/download</obo:IAO_0000119>
+        <rdfs:label>Baptist Health Care COVID-19 RT-PCR Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Integrity Laboratories</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136942/download</obo:IAO_0000119>
+        <rdfs:label>Integrity Laboratories SARS-CoV-2 Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Specialty Diagnostic (SDI) Laboratories</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136877/download</obo:IAO_0000119>
+        <rdfs:label>SDI SARS-CoV-2 AssayLetter Granting Inclusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Rutgers Clinical Genomics Laboratory-Rutgers University</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136875/download</obo:IAO_0000119>
+        <rdfs:label>ThermoFisher - Applied Biosystems TaqPath COVID-19 Combo Kit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Orig3n, Inc.</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136873/download</obo:IAO_0000119>
+        <rdfs:label>Orig3n 2019 Novel Coronavirus (COVID-19) Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>University of North Carolina Medical Center</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136880/download</obo:IAO_0000119>
+        <rdfs:label>UNC Health SARS-CoV-2 real-time RT-PCR test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Stanford Health Care Clinical Virology Laboratory</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136818/download</obo:IAO_0000119>
+        <rdfs:label>Stanford SARS-CoV-2 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Viracor Eurofins Clinical Diagnostics</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136740/download</obo:IAO_0000119>
+        <rdfs:label>Viracor SARS-CoV-2 assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Massachusetts General Hospital</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136699/download</obo:IAO_0000119>
+        <rdfs:label>MGH COVID-19 qPCR assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Infectious Disease Diagnostics Laboratory - Children&apos;s Hospital of Philadelphia</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136656/download</obo:IAO_0000119>
+        <rdfs:label>CHOP SARS-CoV-2 RT-PCR test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Diagnostic Molecular Laboratory - Northwestern Medicine</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136669/download</obo:IAO_0000119>
+        <rdfs:label>Northwestern Medicine SARS-Cov-2 Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Infectious Diseases Diagnostics Laboratory (IDDL), Boston Children&apos;s Hospital</obo:CIDO_0000041>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/media/136971/download</obo:IAO_0000119>
+        <rdfs:label>Childrens-Altona-SARS-CoV-2 Assay</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -22,6 +22,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
@@ -44,12 +45,12 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">05-03-2020</dc:date>
+        <dc:date xml:lang="en">05-04-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.101</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.102</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -69,6 +70,17 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000009">
         <rdfs:label xml:lang="en">Chinese label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000041 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000041">
+        <obo:IAO_0000115>An annotation property that represents a laboratory authorized by FDA emergency use authorization (EUA) to perform an assay such as a SARS-CoV-2 RT-PCR assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">FDA EUA laboratory</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -523,6 +535,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:CIDO_0000041>Yale New Haven Hospital, Clinical Virology Laboratory</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/media/136602/download</obo:IAO_0000119>
         <rdfs:comment>Under this Emergency Use Authorization (EUA), this test is authorized for use in the single laboratory that developed the authorized test and that is certified under Clinical Laboratory Improvement Amendments of 1988 (CLIA), 42 U.S.C. §263a to perform high complexity tests. URL: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</rdfs:comment>
@@ -535,21 +548,11 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:CIDO_0000041>Altru Diagnostics, Inc.</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 test by Altru Diagnostics, Inc</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.fda.gov/media/137546/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Altru Dx SARS-CoV-2 RT-PCR assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.fda.gov/media/137451/download</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Biocerna SARS-CoV-2 assay</rdfs:label>
     </owl:Class>
     
 
