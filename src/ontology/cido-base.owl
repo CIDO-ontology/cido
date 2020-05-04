@@ -44,12 +44,12 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">05-02-2020</dc:date>
+        <dc:date xml:lang="en">05-03-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.99</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.100</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -111,10 +111,32 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000024 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000024">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000032"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000117>Oliver He, Asiyah Lin</obo:IAO_0000117>
-        <obo:IAO_0000119>An object property that represents a relation between an assay and an organization and the assay is performed at the organization such as a company or hospital</obo:IAO_0000119>
+        <obo:IAO_0000119>An object property that represents a relation between an assay and an organization and the assay is authorized to use at the organization such as a company or hospital</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">EUA-authorized use at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000029 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000029">
+        <obo:IAO_0000115>A short-cut relation that represents a direct relationship between a PCR test and the target gene (or gene region) that the test is designed to amplify and detect the targeted gene or gene region.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">PCR detects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000032 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000032">
+        <obo:IAO_0000115>An object property that represents a relation between an assay and an organization and the assay is performed at the organization such as a company or hospital</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>performed at</obo:IAO_0000118>
         <rdfs:label xml:lang="en">assay performed at</rdfs:label>
     </owl:ObjectProperty>
     
@@ -434,9 +456,9 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/CIDO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
-        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000033"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a computed tomography (CT).</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process by CT scanning</rdfs:label>
     </owl:Class>
@@ -447,10 +469,16 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
-        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a serological assay that tests the serum from the blood specimen</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">COVID-19 diagnostic process based on antibody</rdfs:label>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by serological assay</rdfs:label>
     </owl:Class>
     
 
@@ -471,6 +499,19 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/media/136602/download</obo:IAO_0000119>
         <rdfs:comment>Under this Emergency Use Authorization (EUA), this test is authorized for use in the single laboratory that developed the authorized test and that is certified under Clinical Laboratory Improvement Amendments of 1988 (CLIA), 42 U.S.C. §263a to perform high complexity tests. URL: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</rdfs:comment>
         <rdfs:label xml:lang="en">Yale New Haven Hospital SARS-CoV-2 assay</rdfs:label>
@@ -482,6 +523,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 test by Altru Diagnostics, Inc</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.fda.gov/media/137546/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Altru Dx SARS-CoV-2 RT-PCR assay</rdfs:label>
@@ -493,6 +535,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/media/137451/download</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Biocerna SARS-CoV-2 assay</rdfs:label>
     </owl:Class>
@@ -507,6 +550,144 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000117>Oliver He, Asiyah Lin</obo:IAO_0000117>
         <obo:IAO_0000118>drive-thru COVID-19 testing site</obo:IAO_0000118>
         <rdfs:label xml:lang="en">drive-thru COVID-19 testing entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process by viral culturing in cells and identification of the isolated viruses</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin, Hong Yu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by viral culture and isolation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process by viral genome sequencing and identification of the SARS-CoV-2 based on the genome sequence.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin, Hong Yu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by viral genome sequencing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that identifies typical phenotypes (symptoms) of a patient and makes a diagnostic conclusion.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:comment>Symptoms may appear 2-14 days after exposure to the virus. People with these symptoms or combinations of symptoms may have COVID-19:
+Cough, and Shortness of breath or difficulty breathing. CDC also defines at least two of these symptoms: Fever, Chills, Repeated shaking with chills, Muscle pain, Headache, Sore throat, New loss of taste or smell. 
+Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html</rdfs:comment>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process based on symptoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>An organization that is authorized by US FDA according to a FDA Emergency Use Authorization (EUA).</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">FDA EUA-authorized organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that is performed by chest imaging. Thoracic imaging with chest radiography (CXR) and computed tomography (CT) are key tools for pulmonary disease diagnosis and management.</obo:IAO_0000115>
+        <obo:IAO_0000115>COVID-19 diagnostic process by thoracic imaging</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by chest imaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000033"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that is performed by chest radiography (CXR)</obo:IAO_0000115>
+        <obo:IAO_0000115>COVID-19 diagnostic process by thoracic imaging</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by chest radiography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000018"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses an serological assay that tests the serum from the blood specimen by an Enzyme Linked Immunosorbent Assay (ELISA) screening test</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by ELISA serological assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000018"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses an serological assay that tests the serum from the blood specimen by an Immunofluorescence assay (IFA)</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by immunofluorescence serological assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000439"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a real time RT-PCR test</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process using real time RT-PCR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that detects SARS-CoV-2 by amplification and identification of nucleic acids of SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process using nucleic acid detection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000038"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that detects SARS-CoV-2 by loop mediated isothermal amplification ((LAMP) assay</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182526/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process using LAMP assay</rdfs:label>
     </owl:Class>
     
 
@@ -692,14 +873,14 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a RT-PCR test</obo:IAO_0000115>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses a reverse transcription polymerase chain reaction (rRT -PCR) test</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process using RT-PCR</rdfs:label>
@@ -779,7 +960,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/CIDO_0000023 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CIDO_0000023">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000031"/>
         <obo:IAO_0000119>https://www.wikidata.org/wiki/Q12073283</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Yale New Haven Hospital</rdfs:label>
     </owl:NamedIndividual>

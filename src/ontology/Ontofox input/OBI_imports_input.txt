@@ -32,6 +32,8 @@ http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
 http://purl.obolibrary.org/obo/OBI_0000316 #has_role
 http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_input_of
 http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0100017 #blood serum specimen
+
 http://purl.obolibrary.org/obo/OBI_0000047 #processed material
 http://purl.obolibrary.org/obo/OBI_0000112 #specimen role
 http://purl.obolibrary.org/obo/BFO_0000023 #roles
