@@ -35,7 +35,7 @@ Everyone who would like to contribute to the CIDO development is welcome to join
 ### Collaborative events
 - COVID-19 Biohackathon April 5-11 2020: https://github.com/virtual-biohackathons/covid-19-bh20 
 
-### CIDO Source Link (licence: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)):
+### CIDO Source Link (Open licence: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)):
 OWL format: https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl  
 
 ### Tracker link:  
