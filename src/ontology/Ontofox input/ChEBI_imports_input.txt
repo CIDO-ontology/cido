@@ -5,13 +5,19 @@ http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl
 CHEBI
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_101381
 http://purl.obolibrary.org/obo/CHEBI_132893
+http://purl.obolibrary.org/obo/CHEBI_134722
+http://purl.obolibrary.org/obo/CHEBI_134730
 http://purl.obolibrary.org/obo/CHEBI_135288
 http://purl.obolibrary.org/obo/CHEBI_135466
 http://purl.obolibrary.org/obo/CHEBI_135632
 http://purl.obolibrary.org/obo/CHEBI_135714
 http://purl.obolibrary.org/obo/CHEBI_135947
 http://purl.obolibrary.org/obo/CHEBI_145372
+http://purl.obolibrary.org/obo/CHEBI_145994
+http://purl.obolibrary.org/obo/CHEBI_146000
+http://purl.obolibrary.org/obo/CHEBI_147346
 http://purl.obolibrary.org/obo/CHEBI_168396
 http://purl.obolibrary.org/obo/CHEBI_2500
 http://purl.obolibrary.org/obo/CHEBI_25675
@@ -24,7 +30,9 @@ http://purl.obolibrary.org/obo/CHEBI_28487
 http://purl.obolibrary.org/obo/CHEBI_28544
 http://purl.obolibrary.org/obo/CHEBI_28545
 http://purl.obolibrary.org/obo/CHEBI_2896
+http://purl.obolibrary.org/obo/CHEBI_2955
 http://purl.obolibrary.org/obo/CHEBI_29807
+http://purl.obolibrary.org/obo/CHEBI_2981
 http://purl.obolibrary.org/obo/CHEBI_3049
 http://purl.obolibrary.org/obo/CHEBI_3063
 http://purl.obolibrary.org/obo/CHEBI_31397
@@ -32,6 +40,7 @@ http://purl.obolibrary.org/obo/CHEBI_31647
 http://purl.obolibrary.org/obo/CHEBI_31649
 http://purl.obolibrary.org/obo/CHEBI_31690
 http://purl.obolibrary.org/obo/CHEBI_31781
+http://purl.obolibrary.org/obo/CHEBI_31890
 http://purl.obolibrary.org/obo/CHEBI_32065
 http://purl.obolibrary.org/obo/CHEBI_32216
 http://purl.obolibrary.org/obo/CHEBI_32915
@@ -50,14 +59,19 @@ http://purl.obolibrary.org/obo/CHEBI_472805
 http://purl.obolibrary.org/obo/CHEBI_4781
 http://purl.obolibrary.org/obo/CHEBI_49
 http://purl.obolibrary.org/obo/CHEBI_49375
+http://purl.obolibrary.org/obo/CHEBI_49886
 http://purl.obolibrary.org/obo/CHEBI_50667
+http://purl.obolibrary.org/obo/CHEBI_50858
 http://purl.obolibrary.org/obo/CHEBI_5126
 http://purl.obolibrary.org/obo/CHEBI_517248
+http://purl.obolibrary.org/obo/CHEBI_52172
 http://purl.obolibrary.org/obo/CHEBI_55346
 http://purl.obolibrary.org/obo/CHEBI_5693
+http://purl.obolibrary.org/obo/CHEBI_5801
 http://purl.obolibrary.org/obo/CHEBI_5812
 http://purl.obolibrary.org/obo/CHEBI_5937
 http://purl.obolibrary.org/obo/CHEBI_5938
+http://purl.obolibrary.org/obo/CHEBI_6078
 http://purl.obolibrary.org/obo/CHEBI_63580
 http://purl.obolibrary.org/obo/CHEBI_63609
 http://purl.obolibrary.org/obo/CHEBI_6532
@@ -67,10 +81,15 @@ http://purl.obolibrary.org/obo/CHEBI_66901
 http://purl.obolibrary.org/obo/CHEBI_68478
 http://purl.obolibrary.org/obo/CHEBI_6888
 http://purl.obolibrary.org/obo/CHEBI_71019
+http://purl.obolibrary.org/obo/CHEBI_71229
 http://purl.obolibrary.org/obo/CHEBI_71416
+http://purl.obolibrary.org/obo/CHEBI_7497
 http://purl.obolibrary.org/obo/CHEBI_7553
 http://purl.obolibrary.org/obo/CHEBI_75991
+http://purl.obolibrary.org/obo/CHEBI_7956
 http://purl.obolibrary.org/obo/CHEBI_80025
+http://purl.obolibrary.org/obo/CHEBI_82699
+http://purl.obolibrary.org/obo/CHEBI_82721
 http://purl.obolibrary.org/obo/CHEBI_8462
 http://purl.obolibrary.org/obo/CHEBI_85010
 http://purl.obolibrary.org/obo/CHEBI_8688
@@ -82,7 +101,6 @@ http://purl.obolibrary.org/obo/CHEBI_9397
 http://purl.obolibrary.org/obo/CHEBI_9451
 http://purl.obolibrary.org/obo/CHEBI_94807
 http://purl.obolibrary.org/obo/CHEBI_9555
-http://purl.obolibrary.org/obo/CHEBI_9555 
 http://purl.obolibrary.org/obo/CHEBI_9571
 http://purl.obolibrary.org/obo/CHEBI_9636
 http://purl.obolibrary.org/obo/CHEBI_9712
