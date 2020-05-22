@@ -48,6 +48,26 @@ http://purl.obolibrary.org/obo/HP_0031273    # shock, ??
 http://purl.obolibrary.org/obo/HP_0001259     # coma, ??
 http://purl.obolibrary.org/obo/MPATH_603     # pathological anatomical entity
 
+# Yang Wang's collection
+http://purl.obolibrary.org/obo/HP_0000458
+http://purl.obolibrary.org/obo/HP_0001742
+http://purl.obolibrary.org/obo/HP_0001871
+http://purl.obolibrary.org/obo/HP_0001945
+http://purl.obolibrary.org/obo/HP_0002013
+http://purl.obolibrary.org/obo/HP_0002014
+http://purl.obolibrary.org/obo/HP_0002018
+http://purl.obolibrary.org/obo/HP_0002027
+http://purl.obolibrary.org/obo/HP_0002094
+http://purl.obolibrary.org/obo/HP_0002315
+http://purl.obolibrary.org/obo/HP_0003326
+http://purl.obolibrary.org/obo/HP_0012378
+http://purl.obolibrary.org/obo/HP_0012735
+http://purl.obolibrary.org/obo/HP_0025143
+http://purl.obolibrary.org/obo/HP_0031249
+http://purl.obolibrary.org/obo/HP_0031417
+http://purl.obolibrary.org/obo/HP_0100776
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quallity
@@ -63,10 +83,12 @@ includeComputedIntermediates
 [Source annotation URIs]
 #includeAllAxiomsRecursively
 
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
-http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+includeAllAnnotationProperties
+
+#http://www.w3.org/2000/01/rdf-schema#label
+#http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+#http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+#http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
 
 [Source annotation URIs to be excluded]
 
