@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl
+
+[Source ontology]
+OAE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OAE_0000660 # arrhythmia AE
+http://purl.obolibrary.org/obo/OAE_0000001 # AE
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+
