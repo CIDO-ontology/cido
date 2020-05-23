@@ -1,0 +1,88 @@
+--
+# Goal: To find all drug chemicals in CIDO that have different roles
+# Note: the following code appears to have some bug. 
+
+PREFIX chemical_entity: <http://purl.obolibrary.org/obo/CHEBI_24431>
+PREFIX has_role: <http://purl.obolibrary.org/obo/RO_0000087>
+PREFIX antiviral_agent: <http://purl.obolibrary.org/obo/CHEBI_22587>
+PREFIX antimalarial: <http://purl.obolibrary.org/obo/CHEBI_38068>
+PREFIX anti_inflammatory_agent: <http://purl.obolibrary.org/obo/CHEBI_67079>
+SELECT count(DISTINCT ?chemical)
+#SELECT DISTINCT ?chemical ?label
+from <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE
+{
+?chemical rdfs:subClassOf chemical_entity: option (transitive) . 
+?chemical rdfs:label ?label .
+
+?chemical rdfs:subClassOf ?restriction1 . 
+   ?restriction1 owl:onProperty has_role:; owl:someValuesFrom ?antiviral_agent . 
+
+?chemical rdfs:subClassOf ?restriction2 . 
+   ?restriction2 owl:onProperty has_role:; owl:someValuesFrom ?antimalarial . 
+
+?chemical rdfs:subClassOf ?restriction3 . 
+   ?restriction3 owl:onProperty has_role:; owl:someValuesFrom ?anti_inflammatory_agent . 
+}
+
+--
+# Goal: This SPARQL query is to query NDF-RT. 
+
+PREFIX may_treat: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#may_treat>
+PREFIX InfectDisTop: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000007>
+PREFIX EnzymeInhibitorMoA: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133>
+PREFIX has_MoA: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#has_MoA>
+SELECT distinct  ?drug ?drug_label
+from <http://purl.obolibrary.org/obo/merged/CIDO>
+# from <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl>
+
+WHERE
+{  
+   ?drug rdfs:label ?drug_label .
+   ?drug rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000001> option (transitive) .
+     
+   ?id rdfs:label ?id_label .
+   ?id rdfs:subClassOf InfectDisTop: option (transitive) .
+
+   ?MoA rdfs:label ?MoA_label .
+   ?MoA rdfs:subClassOf EnzymeInhibitorMoA: option (transitive) .
+
+   ?drug rdfs:subClassOf ?drug_restriction1 .
+   ?drug_restriction1 owl:onProperty may_treat:; owl:someValuesFrom ?id .
+
+   ?drug rdfs:subClassOf ?drug_restriction2 .
+   ?drug_restriction2 owl:onProperty has_MoA:; owl:someValuesFrom ?MoA .
+
+}
+
+
+
+--
+# Note: This SPARQL query is to query the whole NDF-RT ontology stored in Ontobee. Oliver - May 23, 2020. 
+# N0000000001 and N0000000007 are the IDs of the top level drug and infectious disease terms, respectively, in NDF-RT. 
+# Goal: Identify drugs that have specific MoAs as enzyme inhibitors. 
+
+PREFIX may_treat: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#may_treat>
+PREFIX InfectDisTop: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000007>
+PREFIX EnzymeInhibitorMoA: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000133>
+PREFIX has_MoA: <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#has_MoA>
+SELECT distinct  ?drug ?drug_label
+from <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl>
+WHERE
+{  
+   ?drug rdfs:label ?drug_label .
+   ?drug rdfs:subClassOf <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000001> option (transitive) .
+     
+   ?id rdfs:label ?id_label .
+   ?id rdfs:subClassOf InfectDisTop: option (transitive) .
+
+   ?MoA rdfs:label ?MoA_label .
+   ?MoA rdfs:subClassOf EnzymeInhibitorMoA: option (transitive) .
+
+   ?drug rdfs:subClassOf ?drug_restriction1 .
+   ?drug_restriction1 owl:onProperty may_treat:; owl:someValuesFrom ?id .
+
+   ?drug rdfs:subClassOf ?drug_restriction2 .
+   ?drug_restriction2 owl:onProperty has_MoA:; owl:someValuesFrom ?MoA .
+
+}
