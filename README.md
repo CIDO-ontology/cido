@@ -35,9 +35,6 @@ Everyone who would like to contribute to the CIDO development is welcome to join
 ### Collaborative events
 - COVID-19 Biohackathon April 5-11 2020: https://github.com/virtual-biohackathons/covid-19-bh20 
 
-### Citing CIDO:
-He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis. Scientific Data. In press.
-
 ### CIDO Source Link (Open licence: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)):
 OWL format: https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl  
 
@@ -54,8 +51,10 @@ http://obofoundry.org/ontology/cido.html.
 - Ontobee: http://www.ontobee.org/ontology/CIDO  
 - BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
 
-### Related Publications:
-- He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis. Scientific Data. In press.
+### Citing CIDO:
+He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis. Scientific Data. In press.
+
+### Other Related Publications:
 - Liu Y, Chan W, Wang Z, Hur J, Xie J, Yu H, He Y. Ontological and bioinformatic analysis of anti-coronavirus drugs and their Implication for drug repurposing against COVID-19. Preprints. 2020, 2020030413 (doi: https://doi.org/10.20944/preprints202003.0413.v1). URL: https://www.preprints.org/manuscript/202003.0413/v1 
 - Ong E, Wong M, Huffman A, He Y. COVID-19 coronavirus vaccine design using reverse vaccinology and machine learning. bioRxiv. Posted on March 23, 2020. doi: https://doi.org/10.1101/2020.03.20.000141. URL: https://www.biorxiv.org/content/10.1101/2020.03.20.000141v2 
 
