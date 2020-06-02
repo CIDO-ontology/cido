@@ -160,11 +160,11 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000030 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000030">
-        <obo:IAO_0000115>An object property that represents a relation between a material entity (such as a drug or chemical or vaccine) and an adverse event (AE) where the administration of the material entity is susceptible for the presence of the adverse event.</obo:IAO_0000115>
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (such as a drug or chemical or vaccine) and an adverse event (AE) where the administration of the material entity is susceptible to the presence of the adverse event.</obo:IAO_0000115>
         <obo:IAO_0000116>Note: This term needs to be moved to the OAE ontology.</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:comment>This term needs to be transferred to OAE</rdfs:comment>
-        <rdfs:label xml:lang="en">susceptible for adverse event</rdfs:label>
+        <rdfs:label xml:lang="en">susceptible to adverse event</rdfs:label>
     </owl:ObjectProperty>
     
 
