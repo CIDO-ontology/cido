@@ -54,7 +54,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.106</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.107</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -726,6 +726,12 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A COVID-19 diagnostic process that detects SARS-CoV-2 by amplification and identification of nucleic acids of SARS-CoV-2.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
