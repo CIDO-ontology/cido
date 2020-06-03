@@ -56,9 +56,13 @@ He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X,
 
 ### Other Related Publications:
 - Tao X, Yuan G, Rao S, Li D, Liu Y, Zhang X, Yu H, He Y, Ye X. Distinct RT-PCR diagnosis profiles of father and son patients of COVID-19 using nasopharyngeal and alveolar lavage fluid samples. Inflammation and Cell Signaling. In press.
-- Yu H, Li L, Huang H, Wang Y, Liu Y, Ong E, Huffman A, Zeng T, Zhang J, Li P, Liu Z, Zhang X, Ye X, Handelman SK, Higgins G, Omenn GS, Athey B, Hur J, Chen L, He Y. [Ontology-based systematic classification and analysis of coronaviruses, hosts, and host-coronavirus interactions towards deep understanding of COVID-19](https://arxiv.org/ftp/arxiv/papers/2006/2006.00639.pdf). arXiv e-prints. 2020. [arXiv:2006.00639](https://arxiv.org/abs/2006.00639 ).
+- Yu H, Li L, Huang H, Wang Y, Liu Y, Ong E, Huffman A, Zeng T, Zhang J, Li P, Liu Z, Zhang X, Ye X, Handelman SK, Higgins G, Omenn GS, Athey B, Hur J, Chen L, He Y. [Ontology-based systematic classification and analysis of coronaviruses, hosts, and host-coronavirus interactions towards deep understanding of COVID-19](https://arxiv.org/ftp/arxiv/papers/2006/2006.00639.pdf). arXiv e-prints. 2020. [arXiv:2006.00639](https://arxiv.org/abs/2006.00639).
 - Liu Y, Chan W, Wang Z, Hur J, Xie J, Yu H, He Y. Ontological and bioinformatic analysis of anti-coronavirus drugs and their Implication for drug repurposing against COVID-19. Preprints. 2020, 2020030413 (doi: https://doi.org/10.20944/preprints202003.0413.v1). URL: https://www.preprints.org/manuscript/202003.0413/v1 
 - Ong E, Wong M, Huffman A, He Y. COVID-19 coronavirus vaccine design using reverse vaccinology and machine learning. bioRxiv. Posted on March 23, 2020. doi: https://doi.org/10.1101/2020.03.20.000141. URL: https://www.biorxiv.org/content/10.1101/2020.03.20.000141v2 
+
+### Peer-reviewed proceeding papers:
+- Hong Yu, Asiyah Yu Lin, Yongqun He. CIDO Diagnosis: COVID-19 diagnosis modeling, representation and analysis using the Coronavirus Infectious Disease Ontology. 4 pages. [Bio-Ontologies Community of Special Interest (COSI) meeting](https://www.bio-ontologies.org.uk/), the 2020 virtual annual International Conference on Intelligent Systems for Molecular Biology ([ISMB-2020](https://www.iscb.org/ismb2020)), July 13-16, 2020.
+- Yang Wang, Fengwei Zhang, Hong Yu, Xianwei Ye and Yongqun He. Ontology-based collection and analysis of natural and lab animal hosts of human coronaviruses. 4 pages. Bio-Ontologies Community of Special Interest (COSI) meeting, the 2020 virtual annual International Conference on Intelligent Systems for Molecular Biology (ISMB-2020), July 13-16, 2020.
 
 ### News: 
 - 5/19/2020: A commentary paper that introduces CIDO was accepted by the journal [Scientific Data - Nature](https://www.nature.com/sdata/). The full citation information about this paper can be found above. 
