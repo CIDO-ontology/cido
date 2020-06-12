@@ -52,7 +52,7 @@ http://obofoundry.org/ontology/cido.html.
 - BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
 
 ### Citing CIDO:
-He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis. Scientific Data. In press.
+He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. [CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis](https://www.nature.com/articles/s41597-020-0523-6). Scientific Data. (2020) 7:181 | https://doi.org/10.1038/s41597-020-0523-6. 
 
 ### Other Related Journal or Preprint Publications:
 - Tao X, Yuan G, Rao S, Li D, Liu Y, Zhang X, Yu H, He Y, Ye X. Distinct RT-PCR diagnosis profiles of father and son patients of COVID-19 using nasopharyngeal and alveolar lavage fluid samples. Inflammation and Cell Signaling. In press.
@@ -65,7 +65,7 @@ He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X,
 - Yang Wang, Fengwei Zhang, Hong Yu, Xianwei Ye and Yongqun He. Ontology-based collection and analysis of natural and lab animal hosts of human coronaviruses. Bio-Ontologies Community of Special Interest (COSI) meeting, the 2020 virtual annual International Conference on Intelligent Systems for Molecular Biology (ISMB-2020), July 13-16, 2020. 4-page short article, Accepted.
 
 ### News: 
-- 5/19/2020: A commentary paper that introduces CIDO was accepted by the journal [Scientific Data - Nature](https://www.nature.com/sdata/). The full citation information about this paper can be found above. 
+- 6/12/2020: A commentary paper that introduces CIDO was published by the journal [Scientific Data - Nature](https://www.nature.com/sdata/). The full citation information about this paper can be found above. The web link is here: https://www.nature.com/articles/s41597-020-0523-6. 
 - 3/12/2020: CIDO was approved and added to the OBO Foundry ontology library: http://obofoundry.org/ontology/cido.html. 
 - 3/12/2020: Oliver transferred the CIDO github organization location from github.com/biomedontology to the newly generated https://github.com/CIDO-ontology organization. Such a transfer is to better support its organization with more options (such as generating new repositories). 
 - 3/12/2020: Oliver generated the new CIDO-ontology github organization. 
