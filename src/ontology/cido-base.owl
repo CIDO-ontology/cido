@@ -752,6 +752,28 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000094"/>
+        <obo:IAO_0000115>A test sensitivity for the COVID-19 disease</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 test sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000095"/>
+        <obo:IAO_0000115>A test specificity for the COVID-19 disease</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 test specificity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
