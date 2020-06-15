@@ -55,7 +55,7 @@ http://obofoundry.org/ontology/cido.html.
 He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. [CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis](https://www.nature.com/articles/s41597-020-0523-6). Scientific Data. (2020) 7:181 | https://doi.org/10.1038/s41597-020-0523-6. 
 
 ### Other Related Journal Publications:
-- Ong E, Wong M, Huffman A, He Y. COVID-19 coronavirus vaccine design using reverse vaccinology and machine learning. Frontiers in Immunology. Accepted (Note: this paper is an extension of [the bioRxiv paper](https://www.biorxiv.org/content/10.1101/2020.03.20.000141v2) with the same title as detailed below). 
+- Ong E, Wong M, Huffman A, He Y. [COVID-19 coronavirus vaccine design using reverse vaccinology and machine learning](https://www.frontiersin.org/articles/10.3389/fimmu.2020.01581/abstract). Frontiers in Immunology. In press. doi: 10.3389/fimmu.2020.01581. (Note: this paper is an extension of [the bioRxiv paper](https://www.biorxiv.org/content/10.1101/2020.03.20.000141v2) with the same title as detailed below). 
 - Tao X, Yuan G, Rao S, Li D, Liu Y, Zhang X, Yu H, He Y, Ye X. Distinct RT-PCR diagnosis profiles of father and son patients of COVID-19 using nasopharyngeal and alveolar lavage fluid samples. Inflammation and Cell Signaling. In press.
 
 ### Other Related Preprint Publications:
