@@ -48,13 +48,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">06-14-2020</dc:date>
+        <dc:date xml:lang="en">06-18-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.108</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.109</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -523,7 +523,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000115>A COVID-19 diagnostic process that uses a computed tomography (CT).</obo:IAO_0000115>
         <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">COVID-19 diagnostic process by CT scanning</rdfs:label>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic process by CT chest scanning</rdfs:label>
     </owl:Class>
     
 
