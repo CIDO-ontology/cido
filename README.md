@@ -73,6 +73,7 @@ He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X,
 - Yang Wang, Fengwei Zhang, Hong Yu, Xianwei Ye and Yongqun He. Ontology-based collection and analysis of natural and lab animal hosts of human coronaviruses. Bio-Ontologies Community of Special Interest (COSI) meeting, the 2020 virtual annual International Conference on Intelligent Systems for Molecular Biology (ISMB-2020), July 13-16, 2020. 4-page short article, Accepted.
 
 ### News: 
+- 6/22/2020: The full length CIDO proceeding paper was accepted by the [The 11th International Conference on Biomedical Ontology (ICBO-2020)](https://icbo2020.inf.unibz.it/), 16-19 September 2020, Bozen-Bolzano, Italy. See the full citation above.   
 - 6/12/2020: A commentary paper that introduces CIDO was published by the journal [Scientific Data - Nature](https://www.nature.com/sdata/). The full citation information about this paper can be found above. The web link is here: https://www.nature.com/articles/s41597-020-0523-6. 
 - 3/12/2020: CIDO was approved and added to the OBO Foundry ontology library: http://obofoundry.org/ontology/cido.html. 
 - 3/12/2020: Oliver transferred the CIDO github organization location from github.com/biomedontology to the newly generated https://github.com/CIDO-ontology organization. Such a transfer is to better support its organization with more options (such as generating new repositories). 
