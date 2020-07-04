@@ -24,6 +24,8 @@ Many researchers in the University of Michigan, including [Dr. Brian Athey](http
 
 Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Institute of Basic Medical Sciences, [School of Basic Medicine](http://sbm.pumc.edu.cn/), [Peking Union Medical College and Chinese Academy of Medical Sciences](http://www.pumc.edu.cn), Beijing, China, has also participated in our collaborative CIDO development and applications. 
 
+Sivaram Arabandi, MD, MS., a clinical informatician and founder of [ONTOPRO LLC](http://ontopro.com/) with over 15 years of multidisciplinary clinical and information technology experience.
+
 More collaborators are provided below. 
 
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
