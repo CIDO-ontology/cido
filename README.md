@@ -20,11 +20,13 @@ Many researchers in the University of Michigan, including [Dr. Brian Athey](http
 
 [John Beverley](https://www.philosophy.northwestern.edu/people/graduate-students/john-beverley.html), an expert in the area where ontology and logic meet, has been working on developing the modeling of viral infectious diseases as an extension of the core of Infectious Disease Ontology (IDO). John has joined our CIDO development. 
 
-[Asiyah Yu Lin](https://www.linkedin.com/in/dryulin), M.D., Ph.D., an Health Scientist at FDA and an ontology expert. Asiyah is an affiliated ontologist in the National Center for Ontology Research.     
+[Dr. Asiyah Yu Lin](https://www.linkedin.com/in/dryulin), M.D., Ph.D., an Health Scientist at FDA and an ontology expert. Asiyah is an affiliated ontologist in the National Center for Ontology Research.     
 
-Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Institute of Basic Medical Sciences, [School of Basic Medicine](http://sbm.pumc.edu.cn/), [Peking Union Medical College and Chinese Academy of Medical Sciences](http://www.pumc.edu.cn), Beijing, China, has also participated in our collaborative CIDO development and applications. 
+Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Institute of Basic Medical Sciences, [School of Basic Medicine](http://sbm.pumc.edu.cn/), [Peking Union Medical College and Chinese Academy of Medical Sciences](http://www.pumc.edu.cn), Beijing, China, has also participated in our collaborative CIDO development and applications.
 
-Sivaram Arabandi, MD, MS., a clinical informatician and founder of [ONTOPRO LLC](http://ontopro.com/) with over 15 years of multidisciplinary clinical and information technology experience.
+[Dr. Bill Duncan](https://www.linkedin.com/in/biduncan/), Software Developer at Lawrence Berkeley National Laboratory, Buffalo, New York. 
+
+[Dr. Sivaram Arabandi](https://www.linkedin.com/in/sivaramarabandi/), MD, MS., a clinical informatician and founder of [ONTOPRO LLC](http://ontopro.com/) with over 15 years of multidisciplinary clinical and information technology experience.
 
 More collaborators are provided below. 
 
