@@ -49,7 +49,7 @@ http://purl.obolibrary.org/obo/HP_0001259     # coma, ??
 http://purl.obolibrary.org/obo/MPATH_603     # pathological anatomical entity
 
 # Yang Wang's collection
-http://purl.obolibrary.org/obo/HP_0000458
+http://purl.obolibrary.org/obo/HP_0000458 # loss of smell
 http://purl.obolibrary.org/obo/HP_0001742
 http://purl.obolibrary.org/obo/HP_0001871
 http://purl.obolibrary.org/obo/HP_0001945
@@ -64,9 +64,24 @@ http://purl.obolibrary.org/obo/HP_0012378
 http://purl.obolibrary.org/obo/HP_0012735
 http://purl.obolibrary.org/obo/HP_0025143
 http://purl.obolibrary.org/obo/HP_0031249
-http://purl.obolibrary.org/obo/HP_0031417
+http://purl.obolibrary.org/obo/HP_0031417 # Rhinorrhea, Runny Nose; Nasal Discharge 
 http://purl.obolibrary.org/obo/HP_0100776
 
+#Liwei's requests
+http://purl.obolibrary.org/obo/HP_0031246 # Nonproductive cough, dry cough
+http://purl.obolibrary.org/obo/HP_0002039 # Anorexia, loss of appetite
+http://purl.obolibrary.org/obo/HP_0001888 # Lymphopenia
+http://purl.obolibrary.org/obo/HP_0025439 # Pharyngitis, add synonym: sour throat.
+http://purl.obolibrary.org/obo/HP_0041051 # Ageusia, Impaired taste sensation; Lost taste; Absent sense of taste
+http://purl.obolibrary.org/obo/HP_0031249 # Parageusia
+http://purl.obolibrary.org/obo/HP_0100749 # Chest pain
+http://purl.obolibrary.org/obo/HP_0031258 # Delirium
+
+http://purl.obolibrary.org/obo/HP_0000961 # Cyanosis
+includeAllChildren
+
+http://purl.obolibrary.org/obo/HP_0100786 # Hypersomnia
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality

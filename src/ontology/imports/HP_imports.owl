@@ -262,6 +262,39 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000708">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of mental functioning including various affective, behavioural, cognitive and perceptual abnormalities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral changes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral problems</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral symptoms</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral/psychiatric abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioural abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioural/Psychiatric abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000708</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000715</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002368</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002456</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D000066553</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D001526</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychiatric disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:25786006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:277843001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0004941</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0233514</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000818 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000818">
@@ -357,6 +390,40 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal anomalies</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4021790</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000961">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyanosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000961</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D003490</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:119419001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:3415004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0010520</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Blue discoloration of the skin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Bluish discoloration of the skin and mucosa due to poor circulation or inadequate oxygenation of arterial or capillary blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acrocyanosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000961"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001063</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:25003006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0221347</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Persistent blue color of hands, feet, or parts of face</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -604,6 +671,47 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0001881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001881">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal leukocyte morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal leukocyte function</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of leukocytes.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001881</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukocytes are nucleated cells of the myeloid or lymphoid lineages, found in blood or other tissue.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:134199001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:24827003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0152009</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Abnormality of leukocytes</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphopenia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011893"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040088"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reduced number of lymphocytes in the blood.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001888</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphocytopenia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D008231</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:48813009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024312</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Decreased blood lymphocyte number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Low lymphocyte number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Absolute lymphocyte count decrease</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0001939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001939">
@@ -767,6 +875,24 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0002039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anorexia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lack or loss of appetite for food (as a medical condition).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anorexia</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002039</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D000855</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that this term does not refer to the condition anorexia nervosa (A disorder characterized by an obsessive desire to lose weight by refusing to eat).</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:79890006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0003123</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0002086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002086">
@@ -788,6 +914,7 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dyspnea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficult or labored breathing.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dyspnoea</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002094</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D004417</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:230145002</oboInOwl:hasDbXref>
@@ -810,6 +937,7 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002637"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100659"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002140</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ischaemic stroke</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:422504002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0948008</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
@@ -933,6 +1061,26 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasExactSynonym>Cerebrovascular ischemia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Brain ischemia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Disruption of blood oxygen supply to brain</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002715">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the immune system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the immune system</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of the immune system.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002715</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003257</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003346</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010986</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunological abnormality</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The immune system is composed of organs and interdependent cell types that collectively protect the body from infections and from the growth of tumor cells. The organs of the immune system comprise the bone marrow, the spleen, the thymus,the lymph nodes, and the cell types comprise B cells, T cells, natural killer cells, granulocytes,dendritic cells, and macrophages.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4021753</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1349,16 +1497,17 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     <!-- http://purl.obolibrary.org/obo/HP_0006510 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006510">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic obstructive pulmonary disease</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic pulmonary obstruction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006510</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D029424</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:13645005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024117</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>An anomaly that is characterized progressive airflow obstruction that is only partly reversible, inflammation in the airways, and systemic effects or comorbities.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>COPD</oboInOwl:hasExactSynonym>
         <rdfs:comment>COPD is usually conceptualized as a disease entity. It is heterogeneous histologically and pathogenically, and conventionally includes emphysema and chronic bronchitis, It is included as a phenotype term as COPD is often annotated as a feature of other diseases.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>Chronic obstructive pulmonary disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId>HP:0006541</oboInOwl:hasAlternativeId>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1377,6 +1526,20 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0041657</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>Passing out</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episodic hypersomnia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100786"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0007200</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4024925</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1621,6 +1784,24 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4023163</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011893">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal leukocyte count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001881"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-02T05:32:39Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011893</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of leukocytes per volume of blood beyond normal limits.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:165509000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0580531</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>Abnormal white blood cell count</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1917,6 +2098,19 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0025439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025439">
+        <rdfs:label xml:lang="en">Pharyngitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000600"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-24T00:03:24Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:created_by>
+        <obo:IAO_0000115>Inflammation (due to infection or irritation) of the pharynx.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0030972 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030972">
@@ -1926,6 +2120,21 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">robinp</oboInOwl:created_by>
         <obo:IAO_0000115>A chronic deviation from normal pressure in the systemic arterial system.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Abnormal systemic BP</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031246">
+        <rdfs:label>Nonproductive cough</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-12T13:19:10Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000115>A cough that does not produce phlegm or mucus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dry cough</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dry coughing</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1942,6 +2151,19 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasExactSynonym>Dysgeusia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Metallic taste in mouth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Metallic taste</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031258">
+        <rdfs:label>Delirium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-12T16:00:36Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000115>A state of sudden and severe confusion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -1979,7 +2201,7 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032101">
         <rdfs:label>Unusual infection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-04T22:23:03Z</dc:date>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
         <obo:IAO_0000115>A type of infection that is regarded as a sign of a pathological susceptibility to infection. There are five general subtypes. (i) Opportunistic infection, meaning infection by a pathogen that is not normally able to cause infection in a healthy host (e.g., pneumonia by Pneumocystis jirovecii or CMV); (ii) Unusual location (focus) of an infection (e.g., an aspergillus brain abscess); (iii) a protracted course or lack of adequate response to treatment (e.g., chronic rhinosinusitis); (iv) Unusual severity or intensity of an infection; and (v) unusual recurrence of infections.</obo:IAO_0000115>
@@ -2024,6 +2246,19 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-02-14T11:57:13Z</dc:date>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
         <obo:IAO_0000115>A stroke related to a small infarct (2-20 mm in diameter) in the deep cerebral white matter, basal ganglia, or pons, that is presumed to result from the occlusion of a single small perforating artery supplying the subcortical areas of the brain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032556">
+        <rdfs:label>Circumoral cyanosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000961"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-14T10:53:39Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000115>Persistent blue color of the skin that surrounds the mouth.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -2079,6 +2314,26 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0040088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal lymphocyte count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001881"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011893"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal lymphocyte count</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:skoehler</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:165534000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0580550</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Abnormal number of lymphocytes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal lymphocyte counts</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormality of lymphocyte number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Abnormal numbers of lymphocytes</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Any abnormality in the total number of lymphocytes in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0040197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040197">
@@ -2090,6 +2345,21 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:created_by>PhenoTips:CHum</oboInOwl:created_by>
         <obo:IAO_0000115>Encephalomalacia is the softening or loss of brain tissue after cerebral infarction, cerebral ischemia, infection, craniocerebral trauma, or other injury.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Cerebral softening</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0041051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0041051">
+        <rdfs:label>Ageusia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000223"/>
+        <obo:IAO_0000115>A rare condition that is characterized by a complete loss of taste function of the tongue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Lost taste</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Impaired taste sensation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Absent sense of taste</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -2130,11 +2400,32 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0100749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012531"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-06T06:36:48Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100749</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D002637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:29857009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0008031</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doelkens</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Thoracic pain</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0100753 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100753">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-07T09:53:08Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mental disorder characterized by a disintegration of thought processes and of emotional responsiveness. It most commonly manifests as auditory hallucinations, paranoid or bizarre delusions, or disorganized speech and thinking, and it is accompanied by significant social or occupational dysfunction. The onset of symptoms typically occurs in young adulthood, with a global lifetime prevalence of about 0.3-0.7%.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100753</oboInOwl:id>
@@ -2154,8 +2445,8 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100776">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent pharyngitis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000600"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002788"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025439"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-07T05:28:27Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased susceptibility to pharyngitis as manifested by a history of recurrent pharyngitis.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100776</oboInOwl:id>
@@ -2164,6 +2455,24 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doelkens</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>Recurrent sore throat</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100786">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypersomnia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-06-07T06:15:07Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100786</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH:D006970</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:77692006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0917799</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doelkens</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym>Excessive sleepiness</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -2185,6 +2494,22 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref>NCIT:C3262</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Large intestine tumor</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0200048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200048">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyanotic episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000961"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-02T02:03:18Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0200048</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:301795004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0578475</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sebastiankohler</oboInOwl:created_by>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
