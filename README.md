@@ -28,7 +28,7 @@ Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Instit
 
 [Dr. Sivaram Arabandi](https://www.linkedin.com/in/sivaramarabandi/), MD, MS., a clinical informatician and founder of [ONTOPRO LLC](http://ontopro.com/) with over 15 years of multidisciplinary clinical and information technology experience.
 
-Dr. Liwei Wang and [Dr. Hongfang Liu](https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092), medical informatics experts from Mayo Clinic who are using CIDO to support OHNLP clinical COVID-19 NLP research. 
+[Dr. Liwei Wang](https://scholar.google.com/citations?user=QVp3dZIAAAAJ&hl=en) and [Dr. Hongfang Liu](https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092), medical informatics experts from Mayo Clinic who are using CIDO to support OHNLP clinical COVID-19 NLP research. 
 
 More collaborators are provided below. 
 
