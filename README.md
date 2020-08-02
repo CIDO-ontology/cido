@@ -28,6 +28,8 @@ Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Instit
 
 [Dr. Sivaram Arabandi](https://www.linkedin.com/in/sivaramarabandi/), MD, MS., a clinical informatician and founder of [ONTOPRO LLC](http://ontopro.com/) with over 15 years of multidisciplinary clinical and information technology experience.
 
+Dr. Liwei Wang and [Dr. Hongfang Liu](https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092), medical informatics experts from Mayo Clinic who are using CIDO to support OHNLP clinical COVID-19 NLP research. 
+
 More collaborators are provided below. 
 
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
@@ -35,6 +37,7 @@ Everyone who would like to contribute to the CIDO development is welcome to join
 ### Collaborators and collaboration groups:
 - OBO Foundry ontologies, including Infectious Disease Ontology (IDO), Disease Ontology (DOID), Protein Ontology (PRO), Vaccine Ontology (VO), etc.   
 - [CORD-19-on-FHIR](https://github.com/fhircat/CORD-19-on-FHIR) -- Semantics for COVID-19 Discovery 
+- [OHNLP](http://www.ohnlp.org/) COVID-19: https://github.com/OHNLP/COVID19-Documentation/wiki 
 
 ### Collaborative events
 - COVID-19 Biohackathon April 5-11 2020: https://github.com/virtual-biohackathons/covid-19-bh20 
