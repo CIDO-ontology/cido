@@ -38,7 +38,7 @@ Everyone who would like to contribute to the CIDO development is welcome to join
 - OBO Foundry ontologies, including Infectious Disease Ontology (IDO), Disease Ontology (DOID), Protein Ontology (PRO), Vaccine Ontology (VO), etc.   
 - [CORD-19-on-FHIR](https://github.com/fhircat/CORD-19-on-FHIR) -- Semantics for COVID-19 Discovery 
 - [OHNLP](http://www.ohnlp.org/) COVID-19: https://github.com/OHNLP/COVID19-Documentation/wiki 
-- N3C NLP work group
+- N3C NLP work group, for which OHNLP plays a major role. 
 - N3C AKI work group
 
 ### Collaborative events
