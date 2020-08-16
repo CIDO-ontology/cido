@@ -50,13 +50,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">08-02-2020</dc:date>
+        <dc:date xml:lang="en">08-16-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.114</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.120</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -220,6 +220,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_145994 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_145994">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -776,6 +789,670 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective against viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against viral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000066"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against viral entry to the host or host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against viral entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000066"/>
+        <obo:IAO_0000112>Highly Active Antiretroviral Therapy (HAART) is a HIV treatment method that typically includes multiple drugs targetting for different aspects of HIV viral replication inside hose cell. 
+Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against viral replication inside host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against viral replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response to viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response to viral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against coronaviral replication inside host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against coronaviral replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against SARS-CoV-2 replication inside host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against SARS-CoV-2 replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against MERS-CoV replication inside host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against MERS-CoV replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against SARS-CoV replication inside host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against SARS-CoV replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000067"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against coronaviral entry to the host or host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against coronaviral entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against SARS-CoV-2 entry to the host or host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against SARS-CoV-2 entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against SARS-CoV entry to the host or host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against SARS-CoV entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>a role of chemical effective against MERS-CoV entry to the host or host cell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against MERS-CoV entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000071"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response to coronaviral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response to coronaviral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response to SARS-CoV-2 infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response to SARS-CoV-2 infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response to SARS-CoV infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response to SARS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A role of a chemical effective in modulating host response to MERS-CoV infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role modulating host immune response to MERS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process that involves the interaction between the coronavirus and its host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host-coronavirus interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the virus enters the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus entry to cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the virus replicates inside the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus replication inside cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host response to coronavirus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000085"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the SARS-CoV-2 virus enters the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 entry to cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000086"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the SARS-CoV-2 virus replicates inside the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 replication inside cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000087"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to SARS-CoV-2 viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host response to SARS-CoV-2 infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000085"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the SARS-CoV virus enters the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV entry to cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000085"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the MERS-CoV virus enters the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MERS-CoV entry to cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000086"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the SARS-CoV virus replicates inside the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV replication inside cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000086"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the MERS-CoV virus replicates inside the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MERS-CoV replication inside cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000087"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to SARS-CoV viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host response to SARS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000087"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to MERS-CoV viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">host response to MERS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process that interrupts a viral infection in host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to viral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000097"/>
+        <obo:IAO_0000115>A process that interrupts a viral infection in host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to coronaviral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000098"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV-2 viral infection in host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV-2 infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000098"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV viral infection in host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000098"/>
+        <obo:IAO_0000115>A process that interrupts MERS-CoV viral infection in host</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to MERS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000098"/>
+        <obo:IAO_0000115>A process that interrupts coronavirus entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to coronavirus cell invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000098"/>
+        <obo:IAO_0000115>A process that interrupts coronavirus entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to coronavirus replication in host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000102"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV-2 viral entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV-2 cell invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000102"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV viral entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV cell invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000102"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV viral entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to MERS-CoV cell invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000103"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV-2 virus entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV-2 replication in host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000103"/>
+        <obo:IAO_0000115>A process that interrupts SARS-CoV virus entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to SARS-CoV replication in host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000103"/>
+        <obo:IAO_0000115>A process that interrupts MERS-CoV virus entry to host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">interruption to MERS-CoV replication in host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process that modulates host response to viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modulation of host response to viral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000110"/>
+        <obo:IAO_0000115>A process that modulates host response to coronaviral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modulation of host response to coronaviral infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000111"/>
+        <obo:IAO_0000115>A process that modulates host response to SARS-CoV-2 viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modulation of host response to SARS-CoV-2 infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000111"/>
+        <obo:IAO_0000115>A process that modulates host response to SARS-CoV viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modulation of host response to SARS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000111"/>
+        <obo:IAO_0000115>A process that modulates host response to SARS-CoV viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modulation of host response to MERS-CoV infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the coronavirus enters the endosome inside a host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus entry into endosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus-host interaction by which the virus enters the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus assembly inside cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical role against coronavirus assembly</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -1099,6 +1776,9 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
+        <obo:IAO_0000118>role</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
         <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
     </rdf:Description>
