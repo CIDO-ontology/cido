@@ -24,6 +24,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
@@ -50,13 +51,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">08-16-2020</dc:date>
+        <dc:date xml:lang="en">08-17-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.120</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.122</owl:versionInfo>
     </owl:Ontology>
     
 

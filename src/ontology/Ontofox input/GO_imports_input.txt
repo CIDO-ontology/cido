@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0015267 
+http://purl.obolibrary.org/obo/GO_0005254
+http://purl.obolibrary.org/obo/GO_0004930
+http://purl.obolibrary.org/obo/GO_0004364
+http://purl.obolibrary.org/obo/GO_0005216
+http://purl.obolibrary.org/obo/GO_0015276
+http://purl.obolibrary.org/obo/GO_0005267
+http://purl.obolibrary.org/obo/GO_0005245
+http://purl.obolibrary.org/obo/GO_0005244
+http://purl.obolibrary.org/obo/GO_0005249
+http://purl.obolibrary.org/obo/GO_0005248
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0003674 # molecular function
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties 
+
+[Source annotation URIs to be excluded]
