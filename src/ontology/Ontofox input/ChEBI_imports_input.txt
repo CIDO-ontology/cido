@@ -5,6 +5,11 @@ http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl
 CHEBI
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_9635
+http://purl.obolibrary.org/obo/CHEBI_44032
+http://purl.obolibrary.org/obo/CHEBI_29807
+http://purl.obolibrary.org/obo/CHEBI_168397
+
 http://purl.obolibrary.org/obo/CHEBI_101381
 http://purl.obolibrary.org/obo/CHEBI_132893
 http://purl.obolibrary.org/obo/CHEBI_134722
