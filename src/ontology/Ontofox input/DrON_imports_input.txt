@@ -5,6 +5,21 @@ http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl
 DRON
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00011652
+http://purl.obolibrary.org/obo/DRON_00016014
+http://purl.obolibrary.org/obo/DRON_00018264
+http://purl.obolibrary.org/obo/DRON_00021963
+http://purl.obolibrary.org/obo/DRON_00022418
+http://purl.obolibrary.org/obo/DRON_00022632
+http://purl.obolibrary.org/obo/DRON_00023181
+http://purl.obolibrary.org/obo/DRON_00023633
+http://purl.obolibrary.org/obo/DRON_00024510
+http://purl.obolibrary.org/obo/DRON_00025278
+http://purl.obolibrary.org/obo/DRON_00025622
+http://purl.obolibrary.org/obo/DRON_00064769
+http://purl.obolibrary.org/obo/DRON_00877833
+http://purl.obolibrary.org/obo/DRON_00882939
+
 http://purl.obolibrary.org/obo/DRON_00000908
 http://purl.obolibrary.org/obo/DRON_00001135
 http://purl.obolibrary.org/obo/DRON_00010111 

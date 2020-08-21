@@ -57,7 +57,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.125</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.127</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -76,6 +76,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000009 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000009">
+        <rdfs:label>Chinese label</rdfs:label>
         <rdfs:label xml:lang="en">Chinese label</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -87,6 +88,7 @@
         <obo:IAO_0000115>An annotation property that represents a laboratory authorized by FDA emergency use authorization (EUA) to perform an assay such as a SARS-CoV-2 RT-PCR assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</obo:IAO_0000119>
+        <rdfs:label>FDA EUA laboratory</rdfs:label>
         <rdfs:label xml:lang="en">FDA EUA laboratory</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -154,7 +156,9 @@
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -3740,6 +3744,778 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DRON_00000908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01189"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O00555"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00836</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00001135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01375"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09429"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09488"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q8MU52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00608</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00010111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00010111">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01611</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00011652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00011652">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00372</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00012220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00012220">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01623</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00012403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00012403">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00613</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00012840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00012840">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00390</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00013349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00013349">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06478"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04293"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00299</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00013621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00013621">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03366"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00224</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00013779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00013779">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q03393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00688</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00013976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00013976">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00251</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00014863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00014863">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O14521"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06149"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00756</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00015413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00015413">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P94692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00507</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00015446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00015446">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P13637"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50993"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01092</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00016014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41595"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00508</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00016250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00016250">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01396</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00016762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00016762">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35498"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01438</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00016769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00016769">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01024</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00017006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00017006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00478</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00017043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00017043">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O95259"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00637</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018224">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01590</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018264">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P39023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB04865</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04629"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09619"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P16234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q08345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00619</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018854">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_A2QLK4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00362</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06241"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07948"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12931"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42684"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42685"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54756"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54760"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q16539"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9NYL2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09619"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P29317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07947"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P51692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000132"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01254</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00018985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018985">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB04868</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00019082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00019082">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01410</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00019163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00019163">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P40238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB06210</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00020190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020190">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P13569"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB08820</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00020600 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020600">
@@ -3764,6 +4540,837 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <obo:IAO_0000119>https://www.fda.gov/media/136537/download</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.fda.gov/safety/medical-product-safety-information/hydroxychloroquine-or-chloroquine-covid-19-drug-safety-communication-fda-cautions-against-use</obo:IAO_0000119>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00020654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020654">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28472"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00602</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00021389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41595"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P23975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P31645"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01242</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00021685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08908"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35348"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35368"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21917"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P34969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50406"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H3N8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P17405"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21918"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00477</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00021963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00623</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00022383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022383">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P29274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00358</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00022418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022418">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00492"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01033</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00022632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022632">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O09807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00220</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08912"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P25021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01069</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023295">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15392"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54219"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q05940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00206</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023321 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023321">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000133"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P45983"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62508"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q15125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00675</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023633">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00539</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30405"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P49069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q96LZ3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00091</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00024510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00024510">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62942"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00877</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00024808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00024808">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UM07"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00207</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00025187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P49902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P26676"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P16502"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00811</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00025278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00025278">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00959</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00025622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00025622">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04818"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P23921"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00441</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00027247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00027247">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P17181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P48551"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00068</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00064769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00064769">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06401"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB06789</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00723537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00723537">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01375"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28845"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42574"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06858"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB13751</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00750784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00750784">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB08911</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00750789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00750789">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB06401</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00837869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00837869">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30530"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36888"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UM73"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB12141</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00877833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00877833">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB11689</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00882939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0C6X7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q05318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB14761</obo:IAO_0000119>
+    </owl:Class>
     
 
 
@@ -4216,6 +5823,12 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/PR_P12931 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P12931"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P13569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P13569"/>
     
 
 
