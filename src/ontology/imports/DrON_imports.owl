@@ -6699,7 +6699,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2284718</obo:DRON_00010000>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">remdesivir</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remdesivir drug</rdfs:label>
     </owl:Class>
     
 
@@ -7255,8 +7255,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/dron.owl">
-        <rdfs:comment>An ontology of drugs.</rdfs:comment>
         <rdfs:comment>This version of DrOn is current through the June, 2020 version of RxNorm.</rdfs:comment>
+        <rdfs:comment>An ontology of drugs.</rdfs:comment>
         <dc:creator>Josh Hanna</dc:creator>
         <dc:creator>William Hogan</dc:creator>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/3.0/</terms:license>
