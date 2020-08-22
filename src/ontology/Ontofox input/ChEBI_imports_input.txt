@@ -5,6 +5,10 @@ http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl
 CHEBI
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/CHEBI_50906 #ChEBI role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023  # BFO role
+
 http://purl.obolibrary.org/obo/CHEBI_9635
 http://purl.obolibrary.org/obo/CHEBI_44032
 http://purl.obolibrary.org/obo/CHEBI_29807

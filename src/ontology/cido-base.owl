@@ -46,6 +46,7 @@
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
         <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
+        <dc:creator>John Beverley</dc:creator>
         <dc:creator>Liwei Wang</dc:creator>
         <dc:creator>Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
@@ -57,7 +58,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.129</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.130</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -249,6 +250,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000022">
         <obo:IAO_0000115>An object property that represents a relation between a drug and a chemical entity that is the active ingredient of the drug</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Active_ingredient</obo:IAO_0000119>
         <rdfs:label xml:lang="en">has active ingredient</rdfs:label>
     </owl:ObjectProperty>
     
@@ -509,6 +511,143 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000117>Yingtong Liu, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_activator</obo:IAO_0000119>
         <rdfs:label xml:lang="en">drug has protein target as activator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000139 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000139">
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Yingtong Liu, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000140 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000140">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000142"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000150"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual replication in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vivo replication of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000141 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000141">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual infection in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective in vitro against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000142 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000142">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual infection in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective in vivo against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000143 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000143">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000142"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000149"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual invasion in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vivo invasion of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000144 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000144">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000150"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual replication in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vitro replication of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000145 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000145">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000149"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual invasion in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vitro invasion of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000146 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000146">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role in modulating host response against virual infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical modulates response against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000147 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000147">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000142"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000146"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role in modulating host response against virual infection in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical modulates response in vivo against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000148 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000148">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000146"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role in modulating host response against virual infection in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical modulates response in vitro against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000149 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000149">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual invasion</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits invasion of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000150 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000150">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual replication</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits replication of virus</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3548,6 +3687,85 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <obo:IAO_0000115>A host-coronovirus interaction that involves in the coronavirus binding to a host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus binding to host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000134"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 binding to host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000134"/>
+        <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV binding to host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000134"/>
+        <obo:IAO_0000117>A host-coronovirus interaction that involves in the MERS-CoV virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MERS-CoV binding to host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 binding to human cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -5355,6 +5573,12 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000022"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_145994"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
