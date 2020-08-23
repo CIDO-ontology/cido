@@ -5,7 +5,24 @@ http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl
 IDO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/IDO_0000436 #infectious disease
+http://purl.obolibrary.org/obo/IDO_0000436 # infectious disease
+http://purl.obolibrary.org/obo/IDO_0000502 # infectious disease epidemic
+http://purl.obolibrary.org/obo/IDO_0000503 # infectious disease pandemic
+http://purl.obolibrary.org/obo/IDO_0000555 # disinfectant
+http://purl.obolibrary.org/obo/IDO_0000547 # virulence factor
+
+http://purl.obolibrary.org/obo/IDO_0000497 # immunization against infectious agent
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/TRANS_0000000 # transmission process
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/IDO_0000658 # host exposure to infectious agent 
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/IDO_0000495 #infectious disease course
+includeAllChildren 
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity

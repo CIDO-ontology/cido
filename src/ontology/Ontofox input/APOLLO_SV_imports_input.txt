@@ -1,0 +1,35 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl
+
+[Source ontology]
+APOLLO_SV
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_00000086 # infectious disease control strategy
+http://purl.obolibrary.org/obo/APOLLO_SV_00000322 # voluntary household quarantine control strategy
+http://purl.obolibrary.org/obo/APOLLO_SV_00000327 # quarantine control strategy 
+http://purl.obolibrary.org/obo/APOLLO_SV_00000486 # travel-related infectious disease control strategy
+http://purl.obolibrary.org/obo/APOLLO_SV_00000541 #  disease surveillance objective specification
+http://purl.obolibrary.org/obo/APOLLO_SV_00000075 # infectious disease control objective specification
+http://purl.obolibrary.org/obo/APOLLO_SV_00000581 # infectious disease forecast objective specification 
+
+http://purl.obolibrary.org/obo/APOLLO_SV_00000229 # place closure control strategy 
+includeAllChildren
+
+http://purl.obolibrary.org/obo/APOLLO_SV_00000230 # case isolation control strategy
+includeAllChildren
+
+http://purl.obolibrary.org/obo/IAO_0000064 # algorithm 
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030  # information content entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]
+

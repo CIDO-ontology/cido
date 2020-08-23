@@ -6,9 +6,11 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.referent-tracking.com/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -18,11 +20,14 @@
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl"/>
@@ -58,7 +63,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.130</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.131</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3762,6 +3767,212 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 binding to human cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000503"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>an infectious disease pandemic that is caused by a coronavirus.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronaviral disease pandemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000151"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>an infectious disease pandemic that is caused by SARS-CoV-2.</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/COVID-19_pandemic</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 pandemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000502"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>an infectious disease epidemic that is caused by a coronavirus.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronaviral disease epidemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000153"/>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>an infectious disease epidemic that is caused by SARS-CoV-2.</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32052514/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 epidemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>a transmission process during which coroavirus is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">coronavirus transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000155"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>a transmission process during which SARS-CoV-2 is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host.</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000155"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>a transmission process during which SARS-CoV is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000156"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>a SARS-CoV-2 transmission that is through the dissemination of droplet nuclei (aerosols) that remain infectious when suspended in air over long distances and time.</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151430/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">airborne transmission of SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000156"/>
+        <obo:IAO_0000117>A SARS-CoV-2 transmission that is through fomites (contaminated surfaces). Respiratory secretions or droplets expelled by infected individuals can contaminate surfaces and objects, which then creates fomites.</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">fomite transmission of SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000155"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>a transmission process during which MERS-CoV is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host.</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">MERS-CoV transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000156"/>
+        <obo:IAO_0000117>A SARS-CoV-2 transmission that occurs through direct, indirect, or close contact with infected people through infected secretions such as saliva and respiratory secretions or their respiratory droplets, which are expelled when an infected person coughs, sneezes, talks or sings.</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7151430/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <obo:IAO_0000232>Note: not sure if the generation of the term with &apos;contact and droplet&apos; here is a good choice. May separate &apos;contact&apos; and &apos;droplet&apos;. See ref: https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">contact and droplet transmission of SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000161"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000165"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>A SARS-CoV-2 transmission that occurs through infected respiratory droplets, which are &gt;5-10 μm in diameter. Respiratory droplet transmission can occur when a person is in close contact (within 1 metre) with an infected person who has respiratory symptoms (e.g. coughing or sneezing) or who is talking or singing; in these circumstances, respiratory droplets that include virus can reach the mouth, nose or eyes of a susceptible person and can result in infection.</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">respirtoary droplet transmission of SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000161"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>A SARS-CoV-2 transmission that occurs through infected droplet nuclei or aerosols, which are droplets &lt;=5 μm in diameter. Droplet nuclei are the residue of dried respiratory aerosols (≤ 5 μm in diameter) that
+results from evaporation of droplets coughed or sneezed into the atmosphere or by aerosolization of infective material.</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">droplet nuclei transmission of SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010505"/>
+        <obo:IAO_0000115>Respiratory aerosols that contain infectious particles. Aerosol size is determined by the force and pressure involved in the generation of the particles. The final size depends on the nature of the fluid containing the organisms, the force and pressure at emission, the initial size of the aerosol, environmental conditions (e.g. temperature, relative humidity and airflow), the time spent airborne, and the size of the organisms within a droplet.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>infectious aerosol</obo:IAO_0000118>
+        <obo:IAO_0000119>https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">infectious respiratory aerosol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000164"/>
+        <obo:IAO_0000115>Respiratory repiratory aerosols that is &gt; 5 um in diameter</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">infectious droplet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000164"/>
+        <obo:IAO_0000115>Respiratory repiratory aerosols that is the residue of dried respiratory aerosols (≤ 5 um in diameter) that results from evaporation of droplets coughed or sneezed into the atmosphere or by aerosolization of infective material.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://apps.who.int/iris/bitstream/handle/10665/112656/9789241507134_eng.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">infectious droplet nuclei</rdfs:label>
     </owl:Class>
     
 
