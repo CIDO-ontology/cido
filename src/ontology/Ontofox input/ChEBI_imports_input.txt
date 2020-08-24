@@ -6,8 +6,16 @@ CHEBI
 
 [Low level source term URIs]
 
-http://purl.obolibrary.org/obo/CHEBI_50906 #ChEBI role
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023  # BFO role
+#http://purl.obolibrary.org/obo/CHEBI_50906 #ChEBI role
+#subClassOf http://purl.obolibrary.org/obo/BFO_0000023  # BFO role
+
+http://purl.obolibrary.org/obo/CHEBI_145999
+http://purl.obolibrary.org/obo/CHEBI_27965
+http://purl.obolibrary.org/obo/CHEBI_29687
+http://purl.obolibrary.org/obo/CHEBI_31649
+http://purl.obolibrary.org/obo/CHEBI_66484
+http://purl.obolibrary.org/obo/CHEBI_71416
+http://purl.obolibrary.org/obo/CHEBI_90705
 
 http://purl.obolibrary.org/obo/CHEBI_9635
 http://purl.obolibrary.org/obo/CHEBI_44032
