@@ -4216,6 +4216,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000167"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
@@ -4257,7 +4263,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000167"/>
         <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">William Hogan</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
@@ -7255,16 +7261,16 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/dron.owl">
-        <rdfs:comment>This version of DrOn is current through the June, 2020 version of RxNorm.</rdfs:comment>
-        <rdfs:comment>An ontology of drugs.</rdfs:comment>
         <dc:creator>Josh Hanna</dc:creator>
+        <rdfs:comment>An ontology of drugs.</rdfs:comment>
+        <rdfs:comment>This version of DrOn is current through the June, 2020 version of RxNorm.</rdfs:comment>
         <dc:creator>William Hogan</dc:creator>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/3.0/</terms:license>
         <rdfs:comment>DrOn contains content developed by the National Library of Medicine in RxNorm.  In creating DrOn, we have used RxNorm content only with SAB = RXNORM.</rdfs:comment>
         <dc:creator>Eric Joseph</dc:creator>
         <owl:versionInfo>2020-06-01</owl:versionInfo>
-        <rdfs:comment xml:lang="en">When citing DrOn, use the permanent URL of the ontology: http://purl.obolibrary.org/obo/dron.owl.  When referencing a specific component of the DrOn, such as a class, object property, annotation property, or individual, use the Uniform Resource Identifier (URI) of that component.</rdfs:comment>
         <dc:creator>Mathias Brochhausen</dc:creator>
+        <rdfs:comment xml:lang="en">When citing DrOn, use the permanent URL of the ontology: http://purl.obolibrary.org/obo/dron.owl.  When referencing a specific component of the DrOn, such as a class, object property, annotation property, or individual, use the Uniform Resource Identifier (URI) of that component.</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
