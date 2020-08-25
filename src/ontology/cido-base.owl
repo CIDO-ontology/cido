@@ -61,13 +61,13 @@
 	<dc:creator xml:lang="en">Yang Wang</dc:creator>
 	<dc:creator xml:lang="en">Yingtong Liu</dc:creator>
 	<dc:creator xml:lang="en">Yongqun "Oliver" He (YOH)</dc:creator>
-	<dc:date xml:lang="en">08-24-2020</dc:date>
+	<dc:date xml:lang="en">08-25-2020</dc:date>
 	<dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
 	<dc:format xml:lang="en">OWL-DL</dc:format>
 	<dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
 	<dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
 	<terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-	<owl:versionInfo xml:lang="en">1.0.134</owl:versionInfo>
+	<owl:versionInfo xml:lang="en">1.0.135</owl:versionInfo>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -275,6 +275,8 @@
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000030">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+	<rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OAE_0000001"/>
 	<obo:IAO_0000115>An object property that represents a relation between a material entity (such as a drug or chemical or vaccine) and an adverse event (AE) where the administration of the material entity is susceptible to the presence of the adverse event.</obo:IAO_0000115>
 	<obo:IAO_0000116>Note: This term needs to be moved to the OAE ontology.</obo:IAO_0000116>
 	<obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
@@ -610,6 +612,16 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
 	<obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual replication</obo:IAO_0000115>
 	<obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
 	<rdfs:label xml:lang="en">chemical inhibits replication of virus</rdfs:label>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/CIDO_0000173 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000173">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000001"/>
+	<obo:IAO_0000115>An object property that represents a relation between a disease process and its susceptibility of inducing a phenotype outcome</obo:IAO_0000115>
+	<obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+	<rdfs:label xml:lang="en">disease susceptibly has phenotype</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
@@ -5213,6 +5225,156 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid378"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid378">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000458"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid379"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid379">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001742"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid380"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid380">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid381"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid381">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002013"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid382"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid382">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002014"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid383"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid383">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002018"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid384"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid384">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002027"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid385"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid385">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid386"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid386">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002315"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid387"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid387">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003326"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid388"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid388">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012378"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid389"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid389">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid390"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid390">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0025143"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid391"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid391">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0031249"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
+	<rdfs:subClassOf rdf:nodeID="genid392"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid392">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000173"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0100776"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000003">
 	<obo:IAO_0000115>a coronavirus disease process that is induced by SARS-CoV-2</obo:IAO_0000115>
 	<obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
 	<obo:IAO_0000118 xml:lang="en">2019 novel coronavirus disease process</obo:IAO_0000118>
@@ -5226,10 +5388,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000004">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid378"/>
+	<owl:equivalentClass rdf:nodeID="genid393"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid378">
+<rdf:Description rdf:nodeID="genid393">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -5237,20 +5399,20 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000004">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
-	<rdfs:subClassOf rdf:nodeID="genid379"/>
+	<rdfs:subClassOf rdf:nodeID="genid394"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid379">
+<rdf:Description rdf:nodeID="genid394">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080642"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000004">
-	<rdfs:subClassOf rdf:nodeID="genid380"/>
+	<rdfs:subClassOf rdf:nodeID="genid395"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid380">
+<rdf:Description rdf:nodeID="genid395">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -5267,10 +5429,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000005">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid381"/>
+	<owl:equivalentClass rdf:nodeID="genid396"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid381">
+<rdf:Description rdf:nodeID="genid396">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
@@ -5278,10 +5440,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000005">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
-	<rdfs:subClassOf rdf:nodeID="genid382"/>
+	<rdfs:subClassOf rdf:nodeID="genid397"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid382">
+<rdf:Description rdf:nodeID="genid397">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
@@ -5297,10 +5459,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000006">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid383"/>
+	<owl:equivalentClass rdf:nodeID="genid398"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid383">
+<rdf:Description rdf:nodeID="genid398">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
@@ -5308,10 +5470,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000006">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
-	<rdfs:subClassOf rdf:nodeID="genid384"/>
+	<rdfs:subClassOf rdf:nodeID="genid399"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid384">
+<rdf:Description rdf:nodeID="genid399">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
@@ -5327,10 +5489,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000007">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid385"/>
+	<owl:equivalentClass rdf:nodeID="genid400"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid385">
+<rdf:Description rdf:nodeID="genid400">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
@@ -5338,10 +5500,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000007">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
-	<rdfs:subClassOf rdf:nodeID="genid386"/>
+	<rdfs:subClassOf rdf:nodeID="genid401"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid386">
+<rdf:Description rdf:nodeID="genid401">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
@@ -5357,10 +5519,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000008">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid387"/>
+	<owl:equivalentClass rdf:nodeID="genid402"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid387">
+<rdf:Description rdf:nodeID="genid402">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
@@ -5368,10 +5530,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000008">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000001"/>
-	<rdfs:subClassOf rdf:nodeID="genid388"/>
+	<rdfs:subClassOf rdf:nodeID="genid403"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid388">
+<rdf:Description rdf:nodeID="genid403">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000053"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
@@ -5388,10 +5550,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000011">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-	<rdfs:subClassOf rdf:nodeID="genid389"/>
+	<rdfs:subClassOf rdf:nodeID="genid404"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid389">
+<rdf:Description rdf:nodeID="genid404">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
@@ -5456,10 +5618,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000018">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
-	<rdfs:subClassOf rdf:nodeID="genid390"/>
+	<rdfs:subClassOf rdf:nodeID="genid405"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid390">
+<rdf:Description rdf:nodeID="genid405">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100017"/>
@@ -5488,20 +5650,20 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-	<rdfs:subClassOf rdf:nodeID="genid391"/>
+	<rdfs:subClassOf rdf:nodeID="genid406"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid391">
+<rdf:Description rdf:nodeID="genid406">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
 	<owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000031"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
-	<rdfs:subClassOf rdf:nodeID="genid392"/>
+	<rdfs:subClassOf rdf:nodeID="genid407"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid392">
+<rdf:Description rdf:nodeID="genid407">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
 	<owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000023"/>
@@ -5648,10 +5810,10 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000038">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000424"/>
-	<rdfs:subClassOf rdf:nodeID="genid393"/>
+	<rdfs:subClassOf rdf:nodeID="genid408"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid393">
+<rdf:Description rdf:nodeID="genid408">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
@@ -5700,10 +5862,10 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000066">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
-	<rdfs:subClassOf rdf:nodeID="genid394"/>
+	<rdfs:subClassOf rdf:nodeID="genid409"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid394">
+<rdf:Description rdf:nodeID="genid409">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000097"/>
@@ -5752,10 +5914,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000071">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000069"/>
-	<rdfs:subClassOf rdf:nodeID="genid395"/>
+	<rdfs:subClassOf rdf:nodeID="genid410"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid395">
+<rdf:Description rdf:nodeID="genid410">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000110"/>
@@ -5772,10 +5934,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000072">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000068"/>
-	<rdfs:subClassOf rdf:nodeID="genid396"/>
+	<rdfs:subClassOf rdf:nodeID="genid411"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid396">
+<rdf:Description rdf:nodeID="genid411">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000103"/>
@@ -5792,10 +5954,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000073">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
-	<rdfs:subClassOf rdf:nodeID="genid397"/>
+	<rdfs:subClassOf rdf:nodeID="genid412"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid397">
+<rdf:Description rdf:nodeID="genid412">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000107"/>
@@ -5812,10 +5974,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000074">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
-	<rdfs:subClassOf rdf:nodeID="genid398"/>
+	<rdfs:subClassOf rdf:nodeID="genid413"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid398">
+<rdf:Description rdf:nodeID="genid413">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000109"/>
@@ -5832,10 +5994,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000075">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000072"/>
-	<rdfs:subClassOf rdf:nodeID="genid399"/>
+	<rdfs:subClassOf rdf:nodeID="genid414"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid399">
+<rdf:Description rdf:nodeID="genid414">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000108"/>
@@ -5852,10 +6014,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000076">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000067"/>
-	<rdfs:subClassOf rdf:nodeID="genid400"/>
+	<rdfs:subClassOf rdf:nodeID="genid415"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid400">
+<rdf:Description rdf:nodeID="genid415">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000102"/>
@@ -5872,10 +6034,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000077">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
-	<rdfs:subClassOf rdf:nodeID="genid401"/>
+	<rdfs:subClassOf rdf:nodeID="genid416"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid401">
+<rdf:Description rdf:nodeID="genid416">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000104"/>
@@ -5892,10 +6054,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000078">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
-	<rdfs:subClassOf rdf:nodeID="genid402"/>
+	<rdfs:subClassOf rdf:nodeID="genid417"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid402">
+<rdf:Description rdf:nodeID="genid417">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000105"/>
@@ -5912,10 +6074,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000079">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000076"/>
-	<rdfs:subClassOf rdf:nodeID="genid403"/>
+	<rdfs:subClassOf rdf:nodeID="genid418"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid403">
+<rdf:Description rdf:nodeID="genid418">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000106"/>
@@ -5932,10 +6094,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000080">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000071"/>
-	<rdfs:subClassOf rdf:nodeID="genid404"/>
+	<rdfs:subClassOf rdf:nodeID="genid419"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid404">
+<rdf:Description rdf:nodeID="genid419">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000111"/>
@@ -5952,10 +6114,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000081">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
-	<rdfs:subClassOf rdf:nodeID="genid405"/>
+	<rdfs:subClassOf rdf:nodeID="genid420"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid405">
+<rdf:Description rdf:nodeID="genid420">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000112"/>
@@ -5972,10 +6134,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000082">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
-	<rdfs:subClassOf rdf:nodeID="genid406"/>
+	<rdfs:subClassOf rdf:nodeID="genid421"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid406">
+<rdf:Description rdf:nodeID="genid421">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000113"/>
@@ -5992,10 +6154,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000083">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000080"/>
-	<rdfs:subClassOf rdf:nodeID="genid407"/>
+	<rdfs:subClassOf rdf:nodeID="genid422"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid407">
+<rdf:Description rdf:nodeID="genid422">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000114"/>
@@ -6022,10 +6184,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000085">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
-	<rdfs:subClassOf rdf:nodeID="genid408"/>
+	<rdfs:subClassOf rdf:nodeID="genid423"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid408">
+<rdf:Description rdf:nodeID="genid423">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
@@ -6042,10 +6204,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000086">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
-	<rdfs:subClassOf rdf:nodeID="genid409"/>
+	<rdfs:subClassOf rdf:nodeID="genid424"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid409">
+<rdf:Description rdf:nodeID="genid424">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000116"/>
@@ -6352,10 +6514,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000116">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
-	<rdfs:subClassOf rdf:nodeID="genid410"/>
+	<rdfs:subClassOf rdf:nodeID="genid425"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid410">
+<rdf:Description rdf:nodeID="genid425">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
@@ -6391,10 +6553,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000135">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000134"/>
-	<rdfs:subClassOf rdf:nodeID="genid411"/>
+	<rdfs:subClassOf rdf:nodeID="genid426"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid411">
+<rdf:Description rdf:nodeID="genid426">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
@@ -6431,30 +6593,30 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000138">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
-	<rdfs:subClassOf rdf:nodeID="genid412"/>
+	<rdfs:subClassOf rdf:nodeID="genid427"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid412">
+<rdf:Description rdf:nodeID="genid427">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000138">
-	<rdfs:subClassOf rdf:nodeID="genid413"/>
+	<rdfs:subClassOf rdf:nodeID="genid428"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid413">
+<rdf:Description rdf:nodeID="genid428">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000138">
-	<rdfs:subClassOf rdf:nodeID="genid414"/>
+	<rdfs:subClassOf rdf:nodeID="genid429"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid414">
+<rdf:Description rdf:nodeID="genid429">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
@@ -6591,10 +6753,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000162">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000161"/>
-	<rdfs:subClassOf rdf:nodeID="genid415"/>
+	<rdfs:subClassOf rdf:nodeID="genid430"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid415">
+<rdf:Description rdf:nodeID="genid430">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000165"/>
@@ -6612,10 +6774,10 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000163">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000161"/>
-	<rdfs:subClassOf rdf:nodeID="genid416"/>
+	<rdfs:subClassOf rdf:nodeID="genid431"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid416">
+<rdf:Description rdf:nodeID="genid431">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000166"/>
@@ -6691,10 +6853,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000169">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid417"/>
+	<owl:equivalentClass rdf:nodeID="genid432"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid417">
+<rdf:Description rdf:nodeID="genid432">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
@@ -6702,10 +6864,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000169">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000167"/>
-	<rdfs:subClassOf rdf:nodeID="genid418"/>
+	<rdfs:subClassOf rdf:nodeID="genid433"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid418">
+<rdf:Description rdf:nodeID="genid433">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
@@ -6721,10 +6883,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000170">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid419"/>
+	<owl:equivalentClass rdf:nodeID="genid434"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid419">
+<rdf:Description rdf:nodeID="genid434">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000013"/>
@@ -6732,10 +6894,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000170">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
-	<rdfs:subClassOf rdf:nodeID="genid420"/>
+	<rdfs:subClassOf rdf:nodeID="genid435"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid420">
+<rdf:Description rdf:nodeID="genid435">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000013"/>
@@ -6749,10 +6911,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000171">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid421"/>
+	<owl:equivalentClass rdf:nodeID="genid436"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid421">
+<rdf:Description rdf:nodeID="genid436">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000014"/>
@@ -6760,10 +6922,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000171">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000170"/>
-	<rdfs:subClassOf rdf:nodeID="genid422"/>
+	<rdfs:subClassOf rdf:nodeID="genid437"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid422">
+<rdf:Description rdf:nodeID="genid437">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000014"/>
@@ -6840,10 +7002,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000424">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000423"/>
-	<rdfs:subClassOf rdf:nodeID="genid423"/>
+	<rdfs:subClassOf rdf:nodeID="genid438"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid423">
+<rdf:Description rdf:nodeID="genid438">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000016"/>
@@ -6939,53 +7101,53 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000439">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:equivalentClass rdf:nodeID="genid424"/>
+	<owl:equivalentClass rdf:nodeID="genid439"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid424">
-	<owl:intersectionOf rdf:nodeID="genid427"/>
+<rdf:Description rdf:nodeID="genid439">
+	<owl:intersectionOf rdf:nodeID="genid442"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid427">
+<rdf:Description rdf:nodeID="genid442">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:nodeID="genid428"/>
+	<rdf:first rdf:nodeID="genid443"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid428">
+<rdf:Description rdf:nodeID="genid443">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid427">
-	<rdf:rest rdf:nodeID="genid425"/>
+<rdf:Description rdf:nodeID="genid442">
+	<rdf:rest rdf:nodeID="genid440"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid425">
+<rdf:Description rdf:nodeID="genid440">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-	<rdf:first rdf:nodeID="genid426"/>
+	<rdf:first rdf:nodeID="genid441"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid426">
+<rdf:Description rdf:nodeID="genid441">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000016"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid425">
+<rdf:Description rdf:nodeID="genid440">
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid424">
+<rdf:Description rdf:nodeID="genid439">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000439">
 	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000038"/>
-	<rdfs:subClassOf rdf:nodeID="genid429"/>
+	<rdfs:subClassOf rdf:nodeID="genid444"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid429">
+<rdf:Description rdf:nodeID="genid444">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000552"/>
@@ -7002,60 +7164,60 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid430"/>
+	<rdfs:subClassOf rdf:nodeID="genid445"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid430">
+<rdf:Description rdf:nodeID="genid445">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01189"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
-	<rdfs:subClassOf rdf:nodeID="genid431"/>
+	<rdfs:subClassOf rdf:nodeID="genid446"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid431">
+<rdf:Description rdf:nodeID="genid446">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
-	<rdfs:subClassOf rdf:nodeID="genid432"/>
+	<rdfs:subClassOf rdf:nodeID="genid447"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid432">
+<rdf:Description rdf:nodeID="genid447">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41143"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
-	<rdfs:subClassOf rdf:nodeID="genid433"/>
+	<rdfs:subClassOf rdf:nodeID="genid448"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid433">
+<rdf:Description rdf:nodeID="genid448">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41145"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
-	<rdfs:subClassOf rdf:nodeID="genid434"/>
+	<rdfs:subClassOf rdf:nodeID="genid449"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid434">
+<rdf:Description rdf:nodeID="genid449">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O00555"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
-	<rdfs:subClassOf rdf:nodeID="genid435"/>
+	<rdfs:subClassOf rdf:nodeID="genid450"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid435">
+<rdf:Description rdf:nodeID="genid450">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
@@ -7069,60 +7231,60 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid436"/>
+	<rdfs:subClassOf rdf:nodeID="genid451"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid436">
+<rdf:Description rdf:nodeID="genid451">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
-	<rdfs:subClassOf rdf:nodeID="genid437"/>
+	<rdfs:subClassOf rdf:nodeID="genid452"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid437">
+<rdf:Description rdf:nodeID="genid452">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01375"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
-	<rdfs:subClassOf rdf:nodeID="genid438"/>
+	<rdfs:subClassOf rdf:nodeID="genid453"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid438">
+<rdf:Description rdf:nodeID="genid453">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09210"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
-	<rdfs:subClassOf rdf:nodeID="genid439"/>
+	<rdfs:subClassOf rdf:nodeID="genid454"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid439">
+<rdf:Description rdf:nodeID="genid454">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09429"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
-	<rdfs:subClassOf rdf:nodeID="genid440"/>
+	<rdfs:subClassOf rdf:nodeID="genid455"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid440">
+<rdf:Description rdf:nodeID="genid455">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09488"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00001135">
-	<rdfs:subClassOf rdf:nodeID="genid441"/>
+	<rdfs:subClassOf rdf:nodeID="genid456"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid441">
+<rdf:Description rdf:nodeID="genid456">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q8MU52"/>
@@ -7136,10 +7298,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00010111">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid442"/>
+	<rdfs:subClassOf rdf:nodeID="genid457"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid442">
+<rdf:Description rdf:nodeID="genid457">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
@@ -7153,10 +7315,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00011652">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid443"/>
+	<rdfs:subClassOf rdf:nodeID="genid458"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid443">
+<rdf:Description rdf:nodeID="genid458">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
@@ -7170,30 +7332,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00012220">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid444"/>
+	<rdfs:subClassOf rdf:nodeID="genid459"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid444">
+<rdf:Description rdf:nodeID="genid459">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00012220">
-	<rdfs:subClassOf rdf:nodeID="genid445"/>
+	<rdfs:subClassOf rdf:nodeID="genid460"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid445">
+<rdf:Description rdf:nodeID="genid460">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00012220">
-	<rdfs:subClassOf rdf:nodeID="genid446"/>
+	<rdfs:subClassOf rdf:nodeID="genid461"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid446">
+<rdf:Description rdf:nodeID="genid461">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
@@ -7207,10 +7369,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00012403">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid447"/>
+	<rdfs:subClassOf rdf:nodeID="genid462"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid447">
+<rdf:Description rdf:nodeID="genid462">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50135"/>
@@ -7224,10 +7386,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00012840">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid448"/>
+	<rdfs:subClassOf rdf:nodeID="genid463"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid448">
+<rdf:Description rdf:nodeID="genid463">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
@@ -7241,20 +7403,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013349">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid449"/>
+	<rdfs:subClassOf rdf:nodeID="genid464"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid449">
+<rdf:Description rdf:nodeID="genid464">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06478"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013349">
-	<rdfs:subClassOf rdf:nodeID="genid450"/>
+	<rdfs:subClassOf rdf:nodeID="genid465"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid450">
+<rdf:Description rdf:nodeID="genid465">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04293"/>
@@ -7268,10 +7430,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013621">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid451"/>
+	<rdfs:subClassOf rdf:nodeID="genid466"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid451">
+<rdf:Description rdf:nodeID="genid466">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03366"/>
@@ -7285,40 +7447,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013779">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid452"/>
+	<rdfs:subClassOf rdf:nodeID="genid467"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid452">
+<rdf:Description rdf:nodeID="genid467">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013779">
-	<rdfs:subClassOf rdf:nodeID="genid453"/>
+	<rdfs:subClassOf rdf:nodeID="genid468"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid453">
+<rdf:Description rdf:nodeID="genid468">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013779">
-	<rdfs:subClassOf rdf:nodeID="genid454"/>
+	<rdfs:subClassOf rdf:nodeID="genid469"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid454">
+<rdf:Description rdf:nodeID="genid469">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013779">
-	<rdfs:subClassOf rdf:nodeID="genid455"/>
+	<rdfs:subClassOf rdf:nodeID="genid470"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid455">
+<rdf:Description rdf:nodeID="genid470">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q03393"/>
@@ -7332,10 +7494,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00013976">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid456"/>
+	<rdfs:subClassOf rdf:nodeID="genid471"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid456">
+<rdf:Description rdf:nodeID="genid471">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10613"/>
@@ -7349,40 +7511,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00014863">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid457"/>
+	<rdfs:subClassOf rdf:nodeID="genid472"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid457">
+<rdf:Description rdf:nodeID="genid472">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00014863">
-	<rdfs:subClassOf rdf:nodeID="genid458"/>
+	<rdfs:subClassOf rdf:nodeID="genid473"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid458">
+<rdf:Description rdf:nodeID="genid473">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O14521"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00014863">
-	<rdfs:subClassOf rdf:nodeID="genid459"/>
+	<rdfs:subClassOf rdf:nodeID="genid474"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid459">
+<rdf:Description rdf:nodeID="genid474">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00367"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00014863">
-	<rdfs:subClassOf rdf:nodeID="genid460"/>
+	<rdfs:subClassOf rdf:nodeID="genid475"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid460">
+<rdf:Description rdf:nodeID="genid475">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06149"/>
@@ -7396,10 +7558,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00015413">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid461"/>
+	<rdfs:subClassOf rdf:nodeID="genid476"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid461">
+<rdf:Description rdf:nodeID="genid476">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P94692"/>
@@ -7413,30 +7575,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00015446">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid462"/>
+	<rdfs:subClassOf rdf:nodeID="genid477"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid462">
+<rdf:Description rdf:nodeID="genid477">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00015446">
-	<rdfs:subClassOf rdf:nodeID="genid463"/>
+	<rdfs:subClassOf rdf:nodeID="genid478"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid463">
+<rdf:Description rdf:nodeID="genid478">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P13637"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00015446">
-	<rdfs:subClassOf rdf:nodeID="genid464"/>
+	<rdfs:subClassOf rdf:nodeID="genid479"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid464">
+<rdf:Description rdf:nodeID="genid479">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50993"/>
@@ -7450,50 +7612,50 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid465"/>
+	<rdfs:subClassOf rdf:nodeID="genid480"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid465">
+<rdf:Description rdf:nodeID="genid480">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08172"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
-	<rdfs:subClassOf rdf:nodeID="genid466"/>
+	<rdfs:subClassOf rdf:nodeID="genid481"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid466">
+<rdf:Description rdf:nodeID="genid481">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
-	<rdfs:subClassOf rdf:nodeID="genid467"/>
+	<rdfs:subClassOf rdf:nodeID="genid482"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid467">
+<rdf:Description rdf:nodeID="genid482">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
-	<rdfs:subClassOf rdf:nodeID="genid468"/>
+	<rdfs:subClassOf rdf:nodeID="genid483"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid468">
+<rdf:Description rdf:nodeID="genid483">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016014">
-	<rdfs:subClassOf rdf:nodeID="genid469"/>
+	<rdfs:subClassOf rdf:nodeID="genid484"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid469">
+<rdf:Description rdf:nodeID="genid484">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41595"/>
@@ -7507,10 +7669,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016250">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid470"/>
+	<rdfs:subClassOf rdf:nodeID="genid485"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid470">
+<rdf:Description rdf:nodeID="genid485">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05023"/>
@@ -7524,10 +7686,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016762">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid471"/>
+	<rdfs:subClassOf rdf:nodeID="genid486"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid471">
+<rdf:Description rdf:nodeID="genid486">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35498"/>
@@ -7541,20 +7703,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016769">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid472"/>
+	<rdfs:subClassOf rdf:nodeID="genid487"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid472">
+<rdf:Description rdf:nodeID="genid487">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00016769">
-	<rdfs:subClassOf rdf:nodeID="genid473"/>
+	<rdfs:subClassOf rdf:nodeID="genid488"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid473">
+<rdf:Description rdf:nodeID="genid488">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
@@ -7568,10 +7730,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00017006">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid474"/>
+	<rdfs:subClassOf rdf:nodeID="genid489"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid474">
+<rdf:Description rdf:nodeID="genid489">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21430"/>
@@ -7585,40 +7747,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00017043">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid475"/>
+	<rdfs:subClassOf rdf:nodeID="genid490"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid475">
+<rdf:Description rdf:nodeID="genid490">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O95259"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00017043">
-	<rdfs:subClassOf rdf:nodeID="genid476"/>
+	<rdfs:subClassOf rdf:nodeID="genid491"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid476">
+<rdf:Description rdf:nodeID="genid491">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10636"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00017043">
-	<rdfs:subClassOf rdf:nodeID="genid477"/>
+	<rdfs:subClassOf rdf:nodeID="genid492"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid477">
+<rdf:Description rdf:nodeID="genid492">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00017043">
-	<rdfs:subClassOf rdf:nodeID="genid478"/>
+	<rdfs:subClassOf rdf:nodeID="genid493"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid478">
+<rdf:Description rdf:nodeID="genid493">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
@@ -7632,10 +7794,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018224">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid479"/>
+	<rdfs:subClassOf rdf:nodeID="genid494"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid479">
+<rdf:Description rdf:nodeID="genid494">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42345"/>
@@ -7649,20 +7811,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018264">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid480"/>
+	<rdfs:subClassOf rdf:nodeID="genid495"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid480">
+<rdf:Description rdf:nodeID="genid495">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20276"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018264">
-	<rdfs:subClassOf rdf:nodeID="genid481"/>
+	<rdfs:subClassOf rdf:nodeID="genid496"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid481">
+<rdf:Description rdf:nodeID="genid496">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P39023"/>
@@ -7676,80 +7838,80 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid482"/>
+	<rdfs:subClassOf rdf:nodeID="genid497"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid482">
+<rdf:Description rdf:nodeID="genid497">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04629"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid483"/>
+	<rdfs:subClassOf rdf:nodeID="genid498"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid483">
+<rdf:Description rdf:nodeID="genid498">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07333"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid484"/>
+	<rdfs:subClassOf rdf:nodeID="genid499"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid484">
+<rdf:Description rdf:nodeID="genid499">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09619"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid485"/>
+	<rdfs:subClassOf rdf:nodeID="genid500"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid485">
+<rdf:Description rdf:nodeID="genid500">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid486"/>
+	<rdfs:subClassOf rdf:nodeID="genid501"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid486">
+<rdf:Description rdf:nodeID="genid501">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P16234"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid487"/>
+	<rdfs:subClassOf rdf:nodeID="genid502"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid487">
+<rdf:Description rdf:nodeID="genid502">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q08345"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid488"/>
+	<rdfs:subClassOf rdf:nodeID="genid503"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid488">
+<rdf:Description rdf:nodeID="genid503">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018693">
-	<rdfs:subClassOf rdf:nodeID="genid489"/>
+	<rdfs:subClassOf rdf:nodeID="genid504"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid489">
+<rdf:Description rdf:nodeID="genid504">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11274"/>
@@ -7763,10 +7925,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018854">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid490"/>
+	<rdfs:subClassOf rdf:nodeID="genid505"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid490">
+<rdf:Description rdf:nodeID="genid505">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_A2QLK4"/>
@@ -7780,163 +7942,13 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid491"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid491">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06239"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid492"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid492">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06241"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid493"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid493">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07948"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid494"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid494">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09769"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid495"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid495">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11142"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid496"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid496">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11274"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid497"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid497">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12931"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid498"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid498">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41240"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid499"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid499">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42684"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid500"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid500">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42685"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid501"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid501">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54756"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid502"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid502">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54760"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid503"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid503">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06187"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid504"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid504">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
-	<rdfs:subClassOf rdf:nodeID="genid505"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid505">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q16539"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
 	<rdfs:subClassOf rdf:nodeID="genid506"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid506">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92570"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06239"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7946,7 +7958,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <rdf:Description rdf:nodeID="genid507">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9NYL2"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06241"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7955,8 +7967,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid508">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09619"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07948"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7965,8 +7977,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid509">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09769"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7975,8 +7987,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid510">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P29317"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11142"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7985,8 +7997,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid511">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07947"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11274"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -7995,8 +8007,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid512">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P51692"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12931"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
@@ -8004,6 +8016,156 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid513">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41240"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid514"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid514">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42684"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid515"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid515">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42685"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid516"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid516">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54756"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid517"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid517">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54760"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid518"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid518">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06187"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid519"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid519">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid520"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid520">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q16539"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid521"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid521">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92570"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid522"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid522">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9NYL2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid523"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid523">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09619"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid524"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid524">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid525"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid525">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P29317"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid526"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid526">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07947"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid527"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid527">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P51692"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018901">
+	<rdfs:subClassOf rdf:nodeID="genid528"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid528">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000132"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
@@ -8017,20 +8179,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018985">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid514"/>
+	<rdfs:subClassOf rdf:nodeID="genid529"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid514">
+<rdf:Description rdf:nodeID="genid529">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00018985">
-	<rdfs:subClassOf rdf:nodeID="genid515"/>
+	<rdfs:subClassOf rdf:nodeID="genid530"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid515">
+<rdf:Description rdf:nodeID="genid530">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00519"/>
@@ -8044,20 +8206,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00019082">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid516"/>
+	<rdfs:subClassOf rdf:nodeID="genid531"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid516">
+<rdf:Description rdf:nodeID="genid531">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04150"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00019082">
-	<rdfs:subClassOf rdf:nodeID="genid517"/>
+	<rdfs:subClassOf rdf:nodeID="genid532"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid517">
+<rdf:Description rdf:nodeID="genid532">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08185"/>
@@ -8071,10 +8233,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00019163">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid518"/>
+	<rdfs:subClassOf rdf:nodeID="genid533"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid518">
+<rdf:Description rdf:nodeID="genid533">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P40238"/>
@@ -8088,10 +8250,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020190">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid519"/>
+	<rdfs:subClassOf rdf:nodeID="genid534"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid519">
+<rdf:Description rdf:nodeID="genid534">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P13569"/>
@@ -8104,20 +8266,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/DRON_00020600 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020600">
-	<rdfs:subClassOf rdf:nodeID="genid520"/>
+	<rdfs:subClassOf rdf:nodeID="genid535"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid520">
+<rdf:Description rdf:nodeID="genid535">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000022"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5801"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020600">
-	<rdfs:subClassOf rdf:nodeID="genid521"/>
+	<rdfs:subClassOf rdf:nodeID="genid536"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid521">
+<rdf:Description rdf:nodeID="genid536">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000030"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OAE_0000660"/>
@@ -8132,20 +8294,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020654">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid522"/>
+	<rdfs:subClassOf rdf:nodeID="genid537"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid522">
+<rdf:Description rdf:nodeID="genid537">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75311"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020654">
-	<rdfs:subClassOf rdf:nodeID="genid523"/>
+	<rdfs:subClassOf rdf:nodeID="genid538"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid523">
+<rdf:Description rdf:nodeID="genid538">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28472"/>
@@ -8159,60 +8321,60 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid524"/>
+	<rdfs:subClassOf rdf:nodeID="genid539"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid524">
+<rdf:Description rdf:nodeID="genid539">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
-	<rdfs:subClassOf rdf:nodeID="genid525"/>
+	<rdfs:subClassOf rdf:nodeID="genid540"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid525">
+<rdf:Description rdf:nodeID="genid540">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
-	<rdfs:subClassOf rdf:nodeID="genid526"/>
+	<rdfs:subClassOf rdf:nodeID="genid541"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid526">
+<rdf:Description rdf:nodeID="genid541">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P41595"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
-	<rdfs:subClassOf rdf:nodeID="genid527"/>
+	<rdfs:subClassOf rdf:nodeID="genid542"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid527">
+<rdf:Description rdf:nodeID="genid542">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09211"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
-	<rdfs:subClassOf rdf:nodeID="genid528"/>
+	<rdfs:subClassOf rdf:nodeID="genid543"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid528">
+<rdf:Description rdf:nodeID="genid543">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P23975"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021389">
-	<rdfs:subClassOf rdf:nodeID="genid529"/>
+	<rdfs:subClassOf rdf:nodeID="genid544"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid529">
+<rdf:Description rdf:nodeID="genid544">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P31645"/>
@@ -8226,163 +8388,13 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid530"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid530">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08908"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid531"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid531">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid532"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid532">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid533"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid533">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20309"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid534"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid534">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid535"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid535">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid536"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid536">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35348"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid537"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid537">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid538"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid538">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35368"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid539"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid539">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21917"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid540"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid540">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid541"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid541">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P34969"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid542"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid542">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50406"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid543"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid543">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H3N8"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
-	<rdfs:subClassOf rdf:nodeID="genid544"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid544">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
 	<rdfs:subClassOf rdf:nodeID="genid545"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid545">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P17405"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08908"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
@@ -8391,8 +8403,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid546">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21918"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
@@ -8401,8 +8413,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid547">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35462"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
@@ -8410,6 +8422,156 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid548">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20309"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid549"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid549">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid550"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid550">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid551"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid551">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35348"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid552"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid552">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid553"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid553">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35368"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid554"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid554">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21917"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid555"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid555">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid556"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid556">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P34969"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid557"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid557">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P50406"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid558"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid558">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H3N8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid559"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid559">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid560"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid560">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P17405"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid561"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid561">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21918"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid562"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid562">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35462"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021685">
+	<rdfs:subClassOf rdf:nodeID="genid563"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid563">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
@@ -8423,60 +8585,60 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid549"/>
+	<rdfs:subClassOf rdf:nodeID="genid564"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid549">
+<rdf:Description rdf:nodeID="genid564">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10275"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
-	<rdfs:subClassOf rdf:nodeID="genid550"/>
+	<rdfs:subClassOf rdf:nodeID="genid565"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid550">
+<rdf:Description rdf:nodeID="genid565">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28223"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
-	<rdfs:subClassOf rdf:nodeID="genid551"/>
+	<rdfs:subClassOf rdf:nodeID="genid566"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid551">
+<rdf:Description rdf:nodeID="genid566">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28335"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
-	<rdfs:subClassOf rdf:nodeID="genid552"/>
+	<rdfs:subClassOf rdf:nodeID="genid567"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid552">
+<rdf:Description rdf:nodeID="genid567">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
-	<rdfs:subClassOf rdf:nodeID="genid553"/>
+	<rdfs:subClassOf rdf:nodeID="genid568"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid553">
+<rdf:Description rdf:nodeID="genid568">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P21728"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00021963">
-	<rdfs:subClassOf rdf:nodeID="genid554"/>
+	<rdfs:subClassOf rdf:nodeID="genid569"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid554">
+<rdf:Description rdf:nodeID="genid569">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
@@ -8490,10 +8652,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00022383">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid555"/>
+	<rdfs:subClassOf rdf:nodeID="genid570"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid555">
+<rdf:Description rdf:nodeID="genid570">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P29274"/>
@@ -8507,20 +8669,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00022418">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid556"/>
+	<rdfs:subClassOf rdf:nodeID="genid571"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid556">
+<rdf:Description rdf:nodeID="genid571">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00492"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00022418">
-	<rdfs:subClassOf rdf:nodeID="genid557"/>
+	<rdfs:subClassOf rdf:nodeID="genid572"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid557">
+<rdf:Description rdf:nodeID="genid572">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
@@ -8534,10 +8696,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00022632">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid558"/>
+	<rdfs:subClassOf rdf:nodeID="genid573"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid558">
+<rdf:Description rdf:nodeID="genid573">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O09807"/>
@@ -8551,90 +8713,90 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid559"/>
+	<rdfs:subClassOf rdf:nodeID="genid574"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid559">
+<rdf:Description rdf:nodeID="genid574">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08172"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid560"/>
+	<rdfs:subClassOf rdf:nodeID="genid575"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid560">
+<rdf:Description rdf:nodeID="genid575">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08173"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid561"/>
+	<rdfs:subClassOf rdf:nodeID="genid576"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid561">
+<rdf:Description rdf:nodeID="genid576">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P08912"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid562"/>
+	<rdfs:subClassOf rdf:nodeID="genid577"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid562">
+<rdf:Description rdf:nodeID="genid577">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P11229"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid563"/>
+	<rdfs:subClassOf rdf:nodeID="genid578"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid563">
+<rdf:Description rdf:nodeID="genid578">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P14416"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid564"/>
+	<rdfs:subClassOf rdf:nodeID="genid579"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid564">
+<rdf:Description rdf:nodeID="genid579">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20309"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid565"/>
+	<rdfs:subClassOf rdf:nodeID="genid580"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid565">
+<rdf:Description rdf:nodeID="genid580">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P25021"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid566"/>
+	<rdfs:subClassOf rdf:nodeID="genid581"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid566">
+<rdf:Description rdf:nodeID="genid581">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35367"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023181">
-	<rdfs:subClassOf rdf:nodeID="genid567"/>
+	<rdfs:subClassOf rdf:nodeID="genid582"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid567">
+<rdf:Description rdf:nodeID="genid582">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DP23"/>
@@ -8648,30 +8810,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023295">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid568"/>
+	<rdfs:subClassOf rdf:nodeID="genid583"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid568">
+<rdf:Description rdf:nodeID="genid583">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15392"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023295">
-	<rdfs:subClassOf rdf:nodeID="genid569"/>
+	<rdfs:subClassOf rdf:nodeID="genid584"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid569">
+<rdf:Description rdf:nodeID="genid584">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P54219"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023295">
-	<rdfs:subClassOf rdf:nodeID="genid570"/>
+	<rdfs:subClassOf rdf:nodeID="genid585"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid570">
+<rdf:Description rdf:nodeID="genid585">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q05940"/>
@@ -8684,10 +8846,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/DRON_00023321 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023321">
-	<rdfs:subClassOf rdf:nodeID="genid571"/>
+	<rdfs:subClassOf rdf:nodeID="genid586"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid571">
+<rdf:Description rdf:nodeID="genid586">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000133"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
@@ -8697,110 +8859,110 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid572"/>
+	<rdfs:subClassOf rdf:nodeID="genid587"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid572">
+<rdf:Description rdf:nodeID="genid587">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid573"/>
+	<rdfs:subClassOf rdf:nodeID="genid588"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid573">
+<rdf:Description rdf:nodeID="genid588">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10275"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid574"/>
+	<rdfs:subClassOf rdf:nodeID="genid589"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid574">
+<rdf:Description rdf:nodeID="genid589">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P45983"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid575"/>
+	<rdfs:subClassOf rdf:nodeID="genid590"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid575">
+<rdf:Description rdf:nodeID="genid590">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62508"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid576"/>
+	<rdfs:subClassOf rdf:nodeID="genid591"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid576">
+<rdf:Description rdf:nodeID="genid591">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid577"/>
+	<rdfs:subClassOf rdf:nodeID="genid592"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid577">
+<rdf:Description rdf:nodeID="genid592">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid578"/>
+	<rdfs:subClassOf rdf:nodeID="genid593"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid578">
+<rdf:Description rdf:nodeID="genid593">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid579"/>
+	<rdfs:subClassOf rdf:nodeID="genid594"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid579">
+<rdf:Description rdf:nodeID="genid594">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid580"/>
+	<rdfs:subClassOf rdf:nodeID="genid595"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid580">
+<rdf:Description rdf:nodeID="genid595">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04278"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid581"/>
+	<rdfs:subClassOf rdf:nodeID="genid596"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid581">
+<rdf:Description rdf:nodeID="genid596">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q12809"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023504">
-	<rdfs:subClassOf rdf:nodeID="genid582"/>
+	<rdfs:subClassOf rdf:nodeID="genid597"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid582">
+<rdf:Description rdf:nodeID="genid597">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q15125"/>
@@ -8814,20 +8976,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023633">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid583"/>
+	<rdfs:subClassOf rdf:nodeID="genid598"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid583">
+<rdf:Description rdf:nodeID="genid598">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023633">
-	<rdfs:subClassOf rdf:nodeID="genid584"/>
+	<rdfs:subClassOf rdf:nodeID="genid599"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid584">
+<rdf:Description rdf:nodeID="genid599">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04278"/>
@@ -8841,50 +9003,50 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid585"/>
+	<rdfs:subClassOf rdf:nodeID="genid600"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid585">
+<rdf:Description rdf:nodeID="genid600">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30405"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
-	<rdfs:subClassOf rdf:nodeID="genid586"/>
+	<rdfs:subClassOf rdf:nodeID="genid601"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid586">
+<rdf:Description rdf:nodeID="genid601">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P49069"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
-	<rdfs:subClassOf rdf:nodeID="genid587"/>
+	<rdfs:subClassOf rdf:nodeID="genid602"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid587">
+<rdf:Description rdf:nodeID="genid602">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000129"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62937"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
-	<rdfs:subClassOf rdf:nodeID="genid588"/>
+	<rdfs:subClassOf rdf:nodeID="genid603"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid588">
+<rdf:Description rdf:nodeID="genid603">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62937"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00023979">
-	<rdfs:subClassOf rdf:nodeID="genid589"/>
+	<rdfs:subClassOf rdf:nodeID="genid604"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid589">
+<rdf:Description rdf:nodeID="genid604">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q96LZ3"/>
@@ -8898,30 +9060,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00024510">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid590"/>
+	<rdfs:subClassOf rdf:nodeID="genid605"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid590">
+<rdf:Description rdf:nodeID="genid605">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P09038"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00024510">
-	<rdfs:subClassOf rdf:nodeID="genid591"/>
+	<rdfs:subClassOf rdf:nodeID="genid606"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid591">
+<rdf:Description rdf:nodeID="genid606">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62942"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00024510">
-	<rdfs:subClassOf rdf:nodeID="genid592"/>
+	<rdfs:subClassOf rdf:nodeID="genid607"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid592">
+<rdf:Description rdf:nodeID="genid607">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42345"/>
@@ -8935,10 +9097,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00024808">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid593"/>
+	<rdfs:subClassOf rdf:nodeID="genid608"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid593">
+<rdf:Description rdf:nodeID="genid608">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UM07"/>
@@ -8952,60 +9114,60 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid594"/>
+	<rdfs:subClassOf rdf:nodeID="genid609"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid594">
+<rdf:Description rdf:nodeID="genid609">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12268"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
-	<rdfs:subClassOf rdf:nodeID="genid595"/>
+	<rdfs:subClassOf rdf:nodeID="genid610"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid595">
+<rdf:Description rdf:nodeID="genid610">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P49902"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
-	<rdfs:subClassOf rdf:nodeID="genid596"/>
+	<rdfs:subClassOf rdf:nodeID="genid611"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid596">
+<rdf:Description rdf:nodeID="genid611">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P26676"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
-	<rdfs:subClassOf rdf:nodeID="genid597"/>
+	<rdfs:subClassOf rdf:nodeID="genid612"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid597">
+<rdf:Description rdf:nodeID="genid612">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P12823"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
-	<rdfs:subClassOf rdf:nodeID="genid598"/>
+	<rdfs:subClassOf rdf:nodeID="genid613"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid598">
+<rdf:Description rdf:nodeID="genid613">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P16502"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025187">
-	<rdfs:subClassOf rdf:nodeID="genid599"/>
+	<rdfs:subClassOf rdf:nodeID="genid614"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid599">
+<rdf:Description rdf:nodeID="genid614">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20839"/>
@@ -9019,20 +9181,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025278">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid600"/>
+	<rdfs:subClassOf rdf:nodeID="genid615"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid600">
+<rdf:Description rdf:nodeID="genid615">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04083"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025278">
-	<rdfs:subClassOf rdf:nodeID="genid601"/>
+	<rdfs:subClassOf rdf:nodeID="genid616"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid601">
+<rdf:Description rdf:nodeID="genid616">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04150"/>
@@ -9046,30 +9208,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025622">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid602"/>
+	<rdfs:subClassOf rdf:nodeID="genid617"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid602">
+<rdf:Description rdf:nodeID="genid617">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P04818"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025622">
-	<rdfs:subClassOf rdf:nodeID="genid603"/>
+	<rdfs:subClassOf rdf:nodeID="genid618"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid603">
+<rdf:Description rdf:nodeID="genid618">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P23921"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00025622">
-	<rdfs:subClassOf rdf:nodeID="genid604"/>
+	<rdfs:subClassOf rdf:nodeID="genid619"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid604">
+<rdf:Description rdf:nodeID="genid619">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30085"/>
@@ -9083,20 +9245,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00027247">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid605"/>
+	<rdfs:subClassOf rdf:nodeID="genid620"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid605">
+<rdf:Description rdf:nodeID="genid620">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P17181"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00027247">
-	<rdfs:subClassOf rdf:nodeID="genid606"/>
+	<rdfs:subClassOf rdf:nodeID="genid621"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid606">
+<rdf:Description rdf:nodeID="genid621">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P48551"/>
@@ -9110,10 +9272,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00064769">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid607"/>
+	<rdfs:subClassOf rdf:nodeID="genid622"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid607">
+<rdf:Description rdf:nodeID="genid622">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06401"/>
@@ -9127,40 +9289,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00723537">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid608"/>
+	<rdfs:subClassOf rdf:nodeID="genid623"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid608">
+<rdf:Description rdf:nodeID="genid623">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P01375"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00723537">
-	<rdfs:subClassOf rdf:nodeID="genid609"/>
+	<rdfs:subClassOf rdf:nodeID="genid624"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid609">
+<rdf:Description rdf:nodeID="genid624">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P28845"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00723537">
-	<rdfs:subClassOf rdf:nodeID="genid610"/>
+	<rdfs:subClassOf rdf:nodeID="genid625"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid610">
+<rdf:Description rdf:nodeID="genid625">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P42574"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00723537">
-	<rdfs:subClassOf rdf:nodeID="genid611"/>
+	<rdfs:subClassOf rdf:nodeID="genid626"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid611">
+<rdf:Description rdf:nodeID="genid626">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000130"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P06858"/>
@@ -9174,40 +9336,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750784">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid612"/>
+	<rdfs:subClassOf rdf:nodeID="genid627"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid612">
+<rdf:Description rdf:nodeID="genid627">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750784">
-	<rdfs:subClassOf rdf:nodeID="genid613"/>
+	<rdfs:subClassOf rdf:nodeID="genid628"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid613">
+<rdf:Description rdf:nodeID="genid628">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750784">
-	<rdfs:subClassOf rdf:nodeID="genid614"/>
+	<rdfs:subClassOf rdf:nodeID="genid629"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid614">
+<rdf:Description rdf:nodeID="genid629">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750784">
-	<rdfs:subClassOf rdf:nodeID="genid615"/>
+	<rdfs:subClassOf rdf:nodeID="genid630"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid615">
+<rdf:Description rdf:nodeID="genid630">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
@@ -9221,30 +9383,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750789">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid616"/>
+	<rdfs:subClassOf rdf:nodeID="genid631"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid616">
+<rdf:Description rdf:nodeID="genid631">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000124"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92731"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750789">
-	<rdfs:subClassOf rdf:nodeID="genid617"/>
+	<rdfs:subClassOf rdf:nodeID="genid632"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid617">
+<rdf:Description rdf:nodeID="genid632">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000127"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00750789">
-	<rdfs:subClassOf rdf:nodeID="genid618"/>
+	<rdfs:subClassOf rdf:nodeID="genid633"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid618">
+<rdf:Description rdf:nodeID="genid633">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000128"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P03372"/>
@@ -9258,30 +9420,30 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00837869">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid619"/>
+	<rdfs:subClassOf rdf:nodeID="genid634"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid619">
+<rdf:Description rdf:nodeID="genid634">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P30530"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00837869">
-	<rdfs:subClassOf rdf:nodeID="genid620"/>
+	<rdfs:subClassOf rdf:nodeID="genid635"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid620">
+<rdf:Description rdf:nodeID="genid635">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36888"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00837869">
-	<rdfs:subClassOf rdf:nodeID="genid621"/>
+	<rdfs:subClassOf rdf:nodeID="genid636"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid621">
+<rdf:Description rdf:nodeID="genid636">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UM73"/>
@@ -9295,20 +9457,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00877833">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid622"/>
+	<rdfs:subClassOf rdf:nodeID="genid637"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid622">
+<rdf:Description rdf:nodeID="genid637">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P36507"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00877833">
-	<rdfs:subClassOf rdf:nodeID="genid623"/>
+	<rdfs:subClassOf rdf:nodeID="genid638"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid623">
+<rdf:Description rdf:nodeID="genid638">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q02750"/>
@@ -9322,40 +9484,40 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid624"/>
+	<rdfs:subClassOf rdf:nodeID="genid639"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid624">
+<rdf:Description rdf:nodeID="genid639">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
-	<rdfs:subClassOf rdf:nodeID="genid625"/>
+	<rdfs:subClassOf rdf:nodeID="genid640"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid625">
+<rdf:Description rdf:nodeID="genid640">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000022"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_145994"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
-	<rdfs:subClassOf rdf:nodeID="genid626"/>
+	<rdfs:subClassOf rdf:nodeID="genid641"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid626">
+<rdf:Description rdf:nodeID="genid641">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0C6X7"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
-	<rdfs:subClassOf rdf:nodeID="genid627"/>
+	<rdfs:subClassOf rdf:nodeID="genid642"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid627">
+<rdf:Description rdf:nodeID="genid642">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q05318"/>
@@ -9366,14 +9528,62 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 	<obo:IAO_0000119>https://www.fda.gov/media/137566/download</obo:IAO_0000119>
 </rdf:Description>
 <!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0001945 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
+	<obo:CIDO_0000009>发热</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002013 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
+	<obo:CIDO_0000009>呕吐</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002014 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
+	<obo:CIDO_0000009>腹泻</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002094 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
+	<obo:CIDO_0000009>呼吸困难</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002315 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
+	<obo:CIDO_0000009>头痛</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0003326 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
+	<obo:CIDO_0000009>肌肉酸痛</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0012378 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
+	<obo:CIDO_0000009>乏力</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0012735 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
+	<obo:CIDO_0000009>HP_0012735</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
 <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid628"/>
+	<rdfs:subClassOf rdf:nodeID="genid643"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid628">
+<rdf:Description rdf:nodeID="genid643">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000040"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
@@ -9393,10 +9603,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/NCBITaxon_39099 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39099">
-	<rdfs:subClassOf rdf:nodeID="genid629"/>
+	<rdfs:subClassOf rdf:nodeID="genid644"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid629">
+<rdf:Description rdf:nodeID="genid644">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000010"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -9474,10 +9684,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_O75469">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid630"/>
+	<rdfs:subClassOf rdf:nodeID="genid645"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid630">
+<rdf:Description rdf:nodeID="genid645">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000126"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
@@ -10399,10 +10609,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
-	<rdfs:subClassOf rdf:nodeID="genid631"/>
+	<rdfs:subClassOf rdf:nodeID="genid646"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid631">
+<rdf:Description rdf:nodeID="genid646">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0004909"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
@@ -10412,10 +10622,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27965 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid632"/>
+	<rdfs:subClassOf rdf:nodeID="genid647"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid632">
+<rdf:Description rdf:nodeID="genid647">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -10429,10 +10639,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_31649 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid633"/>
+	<rdfs:subClassOf rdf:nodeID="genid648"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid633">
+<rdf:Description rdf:nodeID="genid648">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -10446,10 +10656,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66484 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid634"/>
+	<rdfs:subClassOf rdf:nodeID="genid649"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid634">
+<rdf:Description rdf:nodeID="genid649">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -10463,10 +10673,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_71416 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid635"/>
+	<rdfs:subClassOf rdf:nodeID="genid650"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid635">
+<rdf:Description rdf:nodeID="genid650">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -10480,20 +10690,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_90705 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid636"/>
+	<rdfs:subClassOf rdf:nodeID="genid651"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid636">
+<rdf:Description rdf:nodeID="genid651">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_90705 ">
-	<rdfs:subClassOf rdf:nodeID="genid637"/>
+	<rdfs:subClassOf rdf:nodeID="genid652"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid637">
+<rdf:Description rdf:nodeID="genid652">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -10586,28 +10796,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-	<obo:CIDO_0000009>发热</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001962">
 	<obo:CIDO_0000009>心悸</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
-	<obo:CIDO_0000009>呕吐</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
-	<obo:CIDO_0000009>腹泻</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
-	<obo:CIDO_0000009>呼吸困难</obo:CIDO_0000009>
 </rdf:Description>
 <!--  -->
 
@@ -10623,11 +10813,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002239">
 	<obo:CIDO_0000009>消化道出血</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
-	<obo:CIDO_0000009>头痛</obo:CIDO_0000009>
 </rdf:Description>
 <!--  -->
 
@@ -10653,11 +10838,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003077">
 	<obo:CIDO_0000009>高脂血症</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
-	<obo:CIDO_0000009>肌肉酸痛</obo:CIDO_0000009>
 </rdf:Description>
 <!--  -->
 
@@ -10696,18 +10876,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 <!--  -->
 
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
-	<obo:CIDO_0000009>乏力</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
 	<obo:CIDO_0000009>慢性肾疾病</obo:CIDO_0000009>
-</rdf:Description>
-<!--  -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
-	<obo:CIDO_0000009>HP_0012735</obo:CIDO_0000009>
 </rdf:Description>
 <!--  -->
 
