@@ -42,6 +42,7 @@
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl"/>
+	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl"/>
 	<dc:contributor>Barry Smith</dc:contributor>
@@ -67,7 +68,7 @@
 	<dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
 	<dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
 	<terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-	<owl:versionInfo xml:lang="en">1.0.139</owl:versionInfo>
+	<owl:versionInfo xml:lang="en">1.0.140</owl:versionInfo>
 </rdf:Description>
 <!--  -->
 <!--  -->

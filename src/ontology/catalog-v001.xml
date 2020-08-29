@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl" uri="imports/RO_imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001unk.owl" uri="Ontorat%20input/ontorat%20drug%20mechanism/unknown_mechanism_vitro_chebi.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001mod.owl" uri="Ontorat%20input/ontorat%20drug%20mechanism/modulate_immune_vitro_chebi.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001inhibitrep.owl" uri="Ontorat%20input/ontorat%20drug%20mechanism/inhibit_replication_vitro_chebi.owl"/>
