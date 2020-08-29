@@ -823,7 +823,7 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea and vomiting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:16932000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0027498</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>Nausea is a commonly encountered symptom that has been defined as an unpleasant painless subjective feeling that one will imminently vomit. Vomiting has been defined as the forceful expulsion of the contents of the stomach, duodenum, or jejunum through the oral cavity. While nausea and vomiting are often thought to exist on a temporal continuum, this is not always the case. There are situations when severe nausea may be present without emesis and less frequently, when emesis may be present without preceding nausea.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     
@@ -841,7 +841,6 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US:422587007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0027497</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/hp#hposlim_core"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
@@ -1610,6 +1609,22 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0010978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010978">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of immune system physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-02-07T04:28:55Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A functional abnormality of the immune system.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010978</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4023616</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0011004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011004">
@@ -2201,7 +2216,7 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032101">
         <rdfs:label>Unusual infection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-04T22:23:03Z</dc:date>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
         <obo:IAO_0000115>A type of infection that is regarded as a sign of a pathological susceptibility to infection. There are five general subtypes. (i) Opportunistic infection, meaning infection by a pathogen that is not normally able to cause infection in a healthy host (e.g., pneumonia by Pneumocystis jirovecii or CMV); (ii) Unusual location (focus) of an infection (e.g., an aspergillus brain abscess); (iii) a protracted course or lack of adequate response to treatment (e.g., chronic rhinosinusitis); (iv) Unusual severity or intensity of an infection; and (v) unusual recurrence of infections.</obo:IAO_0000115>
@@ -2258,7 +2273,22 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000961"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-14T10:53:39Z</dc:date>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>Bluish lips</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>Persistent blue color of the skin that surrounds the mouth.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033041">
+        <rdfs:label>Cytokine storm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>Hypercytokinemia</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Cytokines are a diverse group of small proteins that are secreted by cells for the purpose of intercellular signaling and communication. Specific cytokines have autocrine, paracrine, and/or endocrine activity and, through receptor binding, can elicit a variety of responses, depending upon the cytokine and the target cell. Among the many functions of cytokines are the control of cell proliferation and differentiation and the regulation of angiogenesis and immune and inflammatory responses. Inflammation associated with a cytokine storm begins at a local site and spreads throughout the body via the systemic circulation. Rubor (redness), tumor (swelling or edema), calor (heat), dolor (pain), and functio laesa (loss of function) are the hallmarks of acute inflammation. While the general concept of an excessive or uncontrolled release of proinflammatory cytokines is well known, a precise definition of what constitutes a cytokine storm is lacking. The first use of cytokine storm appears to be in an article published in 1993 on graft-versus-host disease. Cytokine storm has subsequently been described in patients infected by cytomegalovirus, Epstein-Barr virus-associated hemophagocytic lymphohistiocytosis, group A streptococcus, influenza virus, variola virus, severe acute respiratory syndrome coronavirus (SARS-CoV),avian H5N1 influenza virus, and SARS-CoV-2</rdfs:comment>
+        <obo:IAO_0000115>Excessive or uncontrolled release of proinflammatory cytokines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     

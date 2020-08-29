@@ -11,6 +11,8 @@ includeAllChildren
 http://purl.obolibrary.org/obo/PR_O15393 # transmembrane protease serine 2 (human), TMPRSS2
 
 # The following proteins are drug targets
+http://purl.obolibrary.org/obo/PR_P05231  #human IL-6
+
 http://purl.obolibrary.org/obo/PR_O00555
 http://purl.obolibrary.org/obo/PR_O14521
 http://purl.obolibrary.org/obo/PR_O15392

@@ -5,6 +5,9 @@ http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl
 HP
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/HP_0033041 #cytokine storm
+
 http://purl.obolibrary.org/obo/HP_0001394    # Liver cirrhosis, ???
 http://purl.obolibrary.org/obo/MPATH_429    # myxomatous tumor, ???
 http://purl.obolibrary.org/obo/HP_0000822    # Hypertension, ???
