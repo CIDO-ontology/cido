@@ -22,6 +22,7 @@ http://purl.obolibrary.org/obo/UBERON_0002185 # bronchus
 http://purl.obolibrary.org/obo/UBERON_0000948 # heart
 http://purl.obolibrary.org/obo/UBERON_0002113 # kidney
 http://purl.obolibrary.org/obo/UBERON_0000014 # skin
+http://purl.obolibrary.org/obo/UBERON_0001986 # endothelium
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
