@@ -62,13 +62,13 @@
 	<dc:creator xml:lang="en">Yang Wang</dc:creator>
 	<dc:creator xml:lang="en">Yingtong Liu</dc:creator>
 	<dc:creator xml:lang="en">Yongqun "Oliver" He (YOH)</dc:creator>
-	<dc:date xml:lang="en">08-29-2020</dc:date>
+	<dc:date xml:lang="en">08-30-2020</dc:date>
 	<dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
 	<dc:format xml:lang="en">OWL-DL</dc:format>
 	<dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
 	<dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
 	<terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-	<owl:versionInfo xml:lang="en">1.0.140</owl:versionInfo>
+	<owl:versionInfo xml:lang="en">1.0.141</owl:versionInfo>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -695,6 +695,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<obo:IAO_0000115>A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
 	<rdfs:label xml:lang="en">immunizes against disease process</rdfs:label>
 </rdf:Description>
 <!--  -->
@@ -944,7 +945,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
 <rdf:Description rdf:nodeID="genid20">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000184"/>
-	<owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=11876"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_135632">
@@ -7194,7 +7195,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000171">
-	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000170"/>
+	<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
 	<rdfs:subClassOf rdf:nodeID="genid457"/>
 </rdf:Description>
 
@@ -7205,7 +7206,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000171">
-	<rdfs:label xml:lang="en">COVID-19 experimental drug in clinical trial</rdfs:label>
+	<rdfs:label xml:lang="en">COVID-19 clinical trial drug</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/CIDO_0000172 -->
@@ -11346,28 +11347,22 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 	<obo:IAO_0000119>PMID: 24699705; PMID: 27344959</obo:IAO_0000119>
 </rdf:Description>
 <!--  -->
-<!-- http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=11876 -->
+<!-- http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018 -->
 
-<rdf:Description rdf:about="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=11876">
+<rdf:Description rdf:about="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018">
 	<rdfs:subClassOf rdf:nodeID="genid695"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid695">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000189"/>
-	<owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
-</rdf:Description>
-<!--  -->
-<!-- http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018 -->
-
-<rdf:Description rdf:about="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018">
-	<rdfs:subClassOf rdf:nodeID="genid696"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="genid696">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002598"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0033041"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.ncbi.nlm.nih.gov/gene/43740568 -->
+
+<rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/gene/43740568">
+	<obo:IAO_0000118>S (severe acute respiratory syndrome coronavirus 2)</obo:IAO_0000118>
 </rdf:Description>
 <!--  -->
 <!--  -->
