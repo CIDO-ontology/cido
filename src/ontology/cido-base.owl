@@ -10095,7 +10095,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <rdf:Description rdf:nodeID="genid680">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000175"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
@@ -10104,8 +10104,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:nodeID="genid681">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000185"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000175"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
@@ -10113,6 +10113,16 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid682">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000185"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
+	<rdfs:subClassOf rdf:nodeID="genid683"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid683">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
@@ -10176,10 +10186,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid683"/>
+	<rdfs:subClassOf rdf:nodeID="genid684"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid683">
+<rdf:Description rdf:nodeID="genid684">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000040"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
@@ -10199,10 +10209,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/NCBITaxon_39099 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39099">
-	<rdfs:subClassOf rdf:nodeID="genid684"/>
+	<rdfs:subClassOf rdf:nodeID="genid685"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid684">
+<rdf:Description rdf:nodeID="genid685">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000010"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -10267,10 +10277,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/PR_O15393 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_O15393">
-	<rdfs:subClassOf rdf:nodeID="genid685"/>
+	<rdfs:subClassOf rdf:nodeID="genid686"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid685">
+<rdf:Description rdf:nodeID="genid686">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000189"/>
 	<owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
@@ -10292,10 +10302,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_O75469">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid686"/>
+	<rdfs:subClassOf rdf:nodeID="genid687"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid686">
+<rdf:Description rdf:nodeID="genid687">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000126"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O75469"/>
@@ -10416,10 +10426,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/PR_P05231 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P05231">
-	<rdfs:subClassOf rdf:nodeID="genid687"/>
+	<rdfs:subClassOf rdf:nodeID="genid688"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid687">
+<rdf:Description rdf:nodeID="genid688">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002598"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0033041"/>
@@ -11243,10 +11253,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
-	<rdfs:subClassOf rdf:nodeID="genid688"/>
+	<rdfs:subClassOf rdf:nodeID="genid689"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid688">
+<rdf:Description rdf:nodeID="genid689">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0004909"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
@@ -11256,10 +11266,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27965 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid689"/>
+	<rdfs:subClassOf rdf:nodeID="genid690"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid689">
+<rdf:Description rdf:nodeID="genid690">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -11273,10 +11283,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_31649 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid690"/>
+	<rdfs:subClassOf rdf:nodeID="genid691"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid690">
+<rdf:Description rdf:nodeID="genid691">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -11290,10 +11300,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66484 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid691"/>
+	<rdfs:subClassOf rdf:nodeID="genid692"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid691">
+<rdf:Description rdf:nodeID="genid692">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -11307,10 +11317,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_71416 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid692"/>
+	<rdfs:subClassOf rdf:nodeID="genid693"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid692">
+<rdf:Description rdf:nodeID="genid693">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
@@ -11324,20 +11334,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_90705 ">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="genid693"/>
+	<rdfs:subClassOf rdf:nodeID="genid694"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid693">
+<rdf:Description rdf:nodeID="genid694">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_90705 ">
-	<rdfs:subClassOf rdf:nodeID="genid694"/>
+	<rdfs:subClassOf rdf:nodeID="genid695"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid694">
+<rdf:Description rdf:nodeID="genid695">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000144"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
@@ -11350,10 +11360,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 <!-- http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018 -->
 
 <rdf:Description rdf:about="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018">
-	<rdfs:subClassOf rdf:nodeID="genid695"/>
+	<rdfs:subClassOf rdf:nodeID="genid696"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="genid695">
+<rdf:Description rdf:nodeID="genid696">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002598"/>
 	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0033041"/>
