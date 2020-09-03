@@ -7,6 +7,8 @@ HP
 [Low level source term URIs]
 
 http://purl.obolibrary.org/obo/HP_0033041 #cytokine storm
+http://purl.obolibrary.org/obo/HP_0002829 # arthralgia
+http://purl.obolibrary.org/obo/HP_0001928 # abnormality of coagulation
 
 http://purl.obolibrary.org/obo/HP_0001394    # Liver cirrhosis, ???
 http://purl.obolibrary.org/obo/MPATH_429    # myxomatous tumor, ???
