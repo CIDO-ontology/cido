@@ -38,7 +38,10 @@ http://purl.obolibrary.org/obo/HP_0005743    # Osteonecrosis of the femoral head
 http://purl.obolibrary.org/obo/HP_0003075    # Hypoproteinemia, ?????
 http://purl.obolibrary.org/obo/HP_0002878    # Respiratory failure, ????
 http://purl.obolibrary.org/obo/HP_0001695    # Cardiac arrest, ????
+
 http://purl.obolibrary.org/obo/HP_0012735    # Cough, ??
+includeAllChildren
+
 http://purl.obolibrary.org/obo/HP_0001945    # fever, ??
 http://purl.obolibrary.org/obo/HP_0002094    # dyspnea, ????
 http://purl.obolibrary.org/obo/HP_0012378    # Fatigue, ??

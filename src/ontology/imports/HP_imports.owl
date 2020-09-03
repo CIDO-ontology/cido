@@ -2185,6 +2185,20 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0031245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031245">
+        <rdfs:label>Productive cough</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-12T13:19:10Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <obo:IAO_0000115>A cough that produces phlegm or mucus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Wet cough</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0031246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031246">
@@ -2195,6 +2209,20 @@ to esophageal inlet inferiorly, and is composed of three distinct areas: the nas
         <obo:IAO_0000115>A cough that does not produce phlegm or mucus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Dry cough</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dry coughing</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031247">
+        <rdfs:label>Whooping cough</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-12T13:22:51Z</dc:date>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peter</oboInOwl:created_by>
+        <rdfs:comment>The term whooping cough is usually used to describe the disease caused by infection of the respiratory tract with Bordatella pertussis. This HPO term refers to the major symptom of that disease.</rdfs:comment>
+        <obo:IAO_0000115>A type of cough characterized by a burst of numerous and rapid coughs followed by a long inhaling effort that is accompanied by a high-pitched whooping sound produced by the inhalation of air.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
     

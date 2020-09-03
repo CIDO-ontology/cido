@@ -62,13 +62,13 @@
 	<dc:creator xml:lang="en">Yang Wang</dc:creator>
 	<dc:creator xml:lang="en">Yingtong Liu</dc:creator>
 	<dc:creator xml:lang="en">Yongqun "Oliver" He (YOH)</dc:creator>
-	<dc:date xml:lang="en">08-31-2020</dc:date>
+	<dc:date xml:lang="en">09-03-2020</dc:date>
 	<dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
 	<dc:format xml:lang="en">OWL-DL</dc:format>
 	<dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
 	<dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
 	<terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-	<owl:versionInfo xml:lang="en">1.0.142</owl:versionInfo>
+	<owl:versionInfo xml:lang="en">1.0.145</owl:versionInfo>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -96,6 +96,15 @@
 	<obo:IAO_0000119>https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</obo:IAO_0000119>
 	<rdfs:label>FDA EUA laboratory</rdfs:label>
 	<rdfs:label xml:lang="en">FDA EUA laboratory</rdfs:label>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/CIDO_0000178 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000178">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<obo:IAO_0000115>An annotation property that provides one or more keywords useful for text mining of the indicated ontology term.</obo:IAO_0000115>
+	<obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
+	<rdfs:label xml:lang="en">has text mining keywords</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
@@ -10140,10 +10149,22 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 	<obo:IAO_0000119>https://www.fda.gov/media/137566/download</obo:IAO_0000119>
 </rdf:Description>
 <!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0001742 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001742">
+	<obo:CIDO_0000178>blocked nose, congested nose, nose block, runny nose, running nose</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
 	<obo:CIDO_0000009>发热</obo:CIDO_0000009>
+	<obo:CIDO_0000178>febrile, pyrexial, feverish</obo:CIDO_0000178>
+	<oboInOwl:hasBroadSynonym>elevated temperature</oboInOwl:hasBroadSynonym>
+	<oboInOwl:hasBroadSynonym>high temperature</oboInOwl:hasBroadSynonym>
+	<oboInOwl:hasExactSynonym>elevated body temperature</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>febris</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>high body temperature</oboInOwl:hasExactSynonym>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0002013 -->
@@ -10156,36 +10177,63 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
 	<obo:CIDO_0000009>腹泻</obo:CIDO_0000009>
+	<oboInOwl:hasExactSynonym>diarhea</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>diarhoea</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>loose bowel movement</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>loose stool</oboInOwl:hasExactSynonym>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002018 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002018">
+	<obo:CIDO_0000178>gagging, disgust</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0002027 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
+	<obo:CIDO_0000178>gut pain, pain abdominal, stomachache, belly ache, bellyache</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0002094 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
 	<obo:CIDO_0000009>呼吸困难</obo:CIDO_0000009>
+	<obo:CIDO_0000178>sob, respiratory difficulty, difficult breathing, panting, hyperpnea, gasping, gasp, rapid breathing, breathing fast, fast breathing</obo:CIDO_0000178>
+	<oboInOwl:hasExactSynonym>shortness of breath</oboInOwl:hasExactSynonym>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0002315 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
 	<obo:CIDO_0000009>头痛</obo:CIDO_0000009>
+	<obo:CIDO_0000178>cephalalgia, head pain, pain in head, head ache, aching head, head aching, migrane, migraine</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0003326 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
 	<obo:CIDO_0000009>肌肉酸痛</obo:CIDO_0000009>
+	<obo:CIDO_0000178>muscular pain, myalgic, myodynia, muscle discomfort, muscular discomfort</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0012378 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
 	<obo:CIDO_0000009>乏力</obo:CIDO_0000009>
+	<obo:CIDO_0000178>fatigued, energy loss, lack of energy, no energy, weariness, exhausted</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/HP_0012735 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
 	<obo:CIDO_0000009>HP_0012735</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/HP_0025143 -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0025143">
+	<obo:CIDO_0000178>coldness</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
@@ -11424,6 +11472,11 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 <!--  -->
 
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000961">
+	<obo:CIDO_0000178>blue color of face, Acrocyanosis, Circumoral cyanosis, Circumoral cyanosis, bluish lips, bluish face</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
+
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001254">
 	<obo:CIDO_0000009>嗜睡</obo:CIDO_0000009>
 </rdf:Description>
@@ -11466,6 +11519,14 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001962">
 	<obo:CIDO_0000009>心悸</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
+	<oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+	<obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 
@@ -11549,6 +11610,27 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 <!--  -->
 
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0025439">
+	<obo:CIDO_0000178>sore throat, throat soreness, throat pain, pharyngeal pain, pharyngeal discomfort, pharynx pain, pharynx discomfort, throat discomfort, difficulty swallowing</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0031245">
+	<obo:CIDO_0000178>cough productive</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0031246">
+	<obo:CIDO_0000178>non productive cough, non-productive cough, cough unproductive, cough non-productive, cough non productive, cough unproductive</obo:CIDO_0000178>
+	<oboInOwl:hasExactSynonym>unproductive cough</oboInOwl:hasExactSynonym>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0031258">
+	<obo:CIDO_0000178>new confusion</obo:CIDO_0000178>
+</rdf:Description>
+<!--  -->
+
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0031273">
 	<obo:CIDO_0000009>休克</obo:CIDO_0000009>
 </rdf:Description>
@@ -11569,8 +11651,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 </rdf:Description>
 <!--  -->
 
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0041051">
+	<oboInOwl:hasExactSynonym>loss of taste</oboInOwl:hasExactSynonym>
+</rdf:Description>
+<!--  -->
+
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100753">
 	<obo:CIDO_0000009>精神分裂症</obo:CIDO_0000009>
+</rdf:Description>
+<!--  -->
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0100786">
+	<obo:CIDO_0000178>inability to wake or stay awake</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
 
