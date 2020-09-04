@@ -17,8 +17,14 @@ http://purl.obolibrary.org/obo/GO_0005244
 http://purl.obolibrary.org/obo/GO_0005249
 http://purl.obolibrary.org/obo/GO_0005248
 
+# Add 126 GO BP terms below 
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0003674 # molecular function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 
 [Source term retrieval setting]
 includeComputedIntermediates
