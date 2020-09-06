@@ -25,6 +25,8 @@
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cido.owl">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001G.owl"/>
+	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001P.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
@@ -62,13 +64,13 @@
 	<dc:creator xml:lang="en">Yang Wang</dc:creator>
 	<dc:creator xml:lang="en">Yingtong Liu</dc:creator>
 	<dc:creator xml:lang="en">Yongqun "Oliver" He (YOH)</dc:creator>
-	<dc:date xml:lang="en">09-03-2020</dc:date>
+	<dc:date xml:lang="en">09-06-2020</dc:date>
 	<dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
 	<dc:format xml:lang="en">OWL-DL</dc:format>
 	<dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
 	<dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
 	<terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-	<owl:versionInfo xml:lang="en">1.0.145</owl:versionInfo>
+	<owl:versionInfo xml:lang="en">1.0.150</owl:versionInfo>
 </rdf:Description>
 <!--  -->
 <!--  -->
@@ -11528,8 +11530,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
 	<oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-	<oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
 	<oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+	<oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
 	<obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
 </rdf:Description>
 <!--  -->
