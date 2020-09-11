@@ -68,7 +68,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.154</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.155</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -753,6 +753,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>An object property between material entity a and b where a is capable of priming the activity of b</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">capable of priming activity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000208 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000208">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>a subproperty of &apos;enabled by&apos; that represents a relation between a protein and an enzyme where the protein is catalyzed by the enzyme in a catalytic reaction</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthoney Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">catalyzed by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -4993,6 +5006,12 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A process that involves the interaction between the coronavirus and its host</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
@@ -5005,12 +5024,6 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus-host interaction by which the virus enters the host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">coronavirus entry to cell</rdfs:label>
@@ -5028,6 +5041,30 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000116"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000190"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus-host interaction by which the virus replicates inside the host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">coronavirus replication inside cell</rdfs:label>
@@ -5038,7 +5075,7 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to viral infection</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">host response to coronavirus infection</rdfs:label>
@@ -5074,7 +5111,6 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000087"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000195"/>
         <obo:IAO_0000115>A coronavirus-host interaction by which the host responds to SARS-CoV-2 viral infection</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">host response to SARS-CoV-2 infection</rdfs:label>
@@ -5361,14 +5397,8 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000115"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A coronavirus-host interaction by which the virus enters the host cell</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>A coronavirus process that involves in the virus assembly inside the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu, Anthony Huffman</obo:IAO_0000117>
         <rdfs:label xml:lang="en">coronavirus assembly inside cell</rdfs:label>
     </owl:Class>
     
@@ -5790,25 +5820,15 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000177 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
-        <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronavirus genetic process</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000204"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>coronaviral production of non-structural proteins for replication</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronaviral Pp1ab cleaving</rdfs:label>
+        <rdfs:label xml:lang="en">coronaviral Pp1ab cleavage</rdfs:label>
     </owl:Class>
     
 
@@ -5953,11 +5973,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000204"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Coronaviral replication-transcription complex (RTC) formation</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronaviral RTC formation and proofreading</rdfs:label>
+        <rdfs:label xml:lang="en">coronaviral RTC formation</rdfs:label>
     </owl:Class>
     
 
@@ -5965,8 +5986,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000204"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">methylation capping of coronaviral pre-mRNA</rdfs:label>
@@ -5977,11 +5998,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000192">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000116"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">host assembly of coronavirus virion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
+        <rdfs:label xml:lang="en">coronaviral inhibition of host response</rdfs:label>
     </owl:Class>
     
 
@@ -6041,7 +6071,9 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A host-coronavirus interaction process that is implemented by the virus</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <rdfs:label xml:lang="en">coronaviral process to host</rdfs:label>
     </owl:Class>
     
@@ -6072,6 +6104,98 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7194613/</obo:IAO_0000119>
         <rdfs:comment>Cytokine storm is considered to be one of the major causes of Acute respiratory distress syndrome (ARDS) and multiple-organ failure, which often occur rapidly and resulted in death of COVID-19 patients within a short time. Cytokine storm plays an important role in the process of disease aggravation. Ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7194613/</rdfs:comment>
         <rdfs:label xml:lang="en">cytokine storm to SARS-CoV-2 infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
+        <obo:IAO_0000115>A coronavirus process that involves in the release of the assemblied virion from the host cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">coronavirus release out of cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000204"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Coronaviral replication-transcription complex (RTC) proofreading</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">coronaviral RTC proofreading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
+        <obo:IAO_0000115>A coronavirus process inside host that involves coronavirus protein interaction</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">coronaviral molecular interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000190"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 RTC formation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000179"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1-1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS-CoV-2 replication polyprotein 1ab cleavage</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2</obo:IAO_0000119>
+        <dc:description>A coronaviral Pp1ab cleaving process that involves the cleavage of the Pp1ab polyprotein into different non-structural proteins.</dc:description>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Pp1ab cleavage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000203"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Coronaviral replication-transcription complex (RTC) proofreading</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 RTC proofreading</rdfs:label>
     </owl:Class>
     
 
@@ -8169,6 +8293,14 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000050281 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050281">
+        <obo:IAO_0000118>rep gene proteolytic cleavage product (SARS-CoV-2)</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_A2QLK4 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_A2QLK4">
@@ -9291,8 +9423,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
