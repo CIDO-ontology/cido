@@ -68,7 +68,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.153</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.154</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5403,6 +5403,12 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5787,10 +5793,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
         <obo:IAO_0000117>Anthony Hoffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronavirus process</rdfs:label>
+        <rdfs:label xml:lang="en">coronavirus genetic process</rdfs:label>
     </owl:Class>
     
 
@@ -5980,19 +5986,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000193 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <rdfs:label xml:lang="en">SARS-CoV-2 process</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000194">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000193"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -6064,6 +6061,17 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
         <rdfs:label xml:lang="en">host-MERS-CoV interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000090"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7194613/</obo:IAO_0000119>
+        <rdfs:comment>Cytokine storm is considered to be one of the major causes of Acute respiratory distress syndrome (ARDS) and multiple-organ failure, which often occur rapidly and resulted in death of COVID-19 patients within a short time. Cytokine storm plays an important role in the process of disease aggravation. Ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7194613/</rdfs:comment>
+        <rdfs:label xml:lang="en">cytokine storm to SARS-CoV-2 infection</rdfs:label>
     </owl:Class>
     
 
