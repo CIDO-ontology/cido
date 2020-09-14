@@ -13,6 +13,10 @@ http://purl.obolibrary.org/obo/PR_O15393 # transmembrane protease serine 2 (huma
 # The following proteins are drug targets
 http://purl.obolibrary.org/obo/PR_P05231  #human IL-6
 
+http://purl.obolibrary.org/obo/PR_000036009 # angiotensin II 
+http://purl.obolibrary.org/obo/PR_000001322 # angiotensin-converting enzyme, ACE 
+http://purl.obolibrary.org/obo/PR_000036008 # angiotensin I
+
 http://purl.obolibrary.org/obo/PR_O00555
 http://purl.obolibrary.org/obo/PR_O14521
 http://purl.obolibrary.org/obo/PR_O15392

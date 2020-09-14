@@ -8,6 +8,9 @@ DOID
 http://purl.obolibrary.org/obo/DOID_0080599 # Coronavirus infection 
 includeAllChildren
 
+http://purl.obolibrary.org/obo/DOID_11394 # adult respiratory distress syndrome
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_934 # viral infectious disease
 subClassOf http://purl.obolibrary.org/obo/IDO_0000436 #infectious disease 
