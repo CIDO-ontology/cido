@@ -62,13 +62,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">09-13-2020</dc:date>
+        <dc:date xml:lang="en">09-25-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.157</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.159</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -799,6 +799,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000220"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">phenotype has causal agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000222 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000222">
+        <obo:IAO_0000112>COVID-19 disease (process) --&gt; hypertension</obo:IAO_0000112>
+        <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+        <rdfs:comment>An object property that represents a relation between a disease process and a phenotype comorbidity where the disease (e.g., COVID-19 disease process) with the comorbidity is likely to have more severe outcome.</rdfs:comment>
+        <rdfs:label xml:lang="en">disease susceptibly severe with comorbidity</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -4096,7 +4107,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>A disease process that is induced by coronavirus infection</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronavirus infectious disease process</rdfs:label>
+        <rdfs:label xml:lang="en">coronavirus infectious disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4130,7 +4141,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
         <rdfs:comment>SARS was a relatively rare disease; at the end of the epidemic in June 2003, the incidence was 8422 cases with a case-fatality rate of 11%. The case-fatality ratio ranges from 0% to 50% depending on the age group of the patient. Patients under 24 were least likely to die; those 65 and older were most likely to die.
 Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV disease process</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4337,13 +4348,151 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
                 <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=6018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000819"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000822"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001394"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001635"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002664"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0004395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0004430"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0006510"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0006562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012622"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0032444"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000222"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0100626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a coronavirus disease process that is induced by SARS-CoV-2</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">2019 novel coronavirus disease process</obo:IAO_0000118>
         <obo:IAO_0000118>2019-nCoV disease process</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
-        <rdfs:label>COVID-19 disease process</rdfs:label>
+        <rdfs:label>COVID-19 disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4373,7 +4522,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118>Middle East respiratory syndrome DP</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome-related_coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">MERS-CoV disease process</rdfs:label>
+        <rdfs:label xml:lang="en">MERS-CoV disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4396,7 +4545,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_229E</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus 229E disease process</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus 229E disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4419,7 +4568,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_OC43</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus OC43 disease process</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus OC43 disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4442,7 +4591,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_NL63</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus NL63 disease process</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus NL63 disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -4465,7 +4614,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_HKU1</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus HKU1 disease process</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus HKU1 disease (process)</rdfs:label>
     </owl:Class>
     
 
@@ -8416,6 +8565,22 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000822 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
+        <obo:CIDO_0000009>高血压</obo:CIDO_0000009>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001394 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
+        <obo:CIDO_0000009>肝硬化</obo:CIDO_0000009>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0001742 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001742">
@@ -8502,11 +8667,27 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0006510 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006510">
+        <obo:CIDO_0000009>慢阻肺</obo:CIDO_0000009>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012378 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
         <obo:CIDO_0000009>乏力</obo:CIDO_0000009>
         <obo:CIDO_0000178>fatigued, energy loss, lack of energy, no energy, weariness, exhausted</obo:CIDO_0000178>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012622 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
+        <obo:CIDO_0000009>慢性肾疾病</obo:CIDO_0000009>
     </rdf:Description>
     
 
@@ -9714,9 +9895,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
         <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
-        <obo:CIDO_0000009>高血压</obo:CIDO_0000009>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000961">
         <obo:CIDO_0000178>blue color of face, Acrocyanosis, Circumoral cyanosis, Circumoral cyanosis, bluish lips, bluish face</obo:CIDO_0000178>
     </rdf:Description>
@@ -9732,9 +9910,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001300">
         <obo:CIDO_0000009>帕金森氏病</obo:CIDO_0000009>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001394">
-        <obo:CIDO_0000009>肝硬化</obo:CIDO_0000009>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001677">
         <obo:CIDO_0000009>冠心病</obo:CIDO_0000009>
     </rdf:Description>
@@ -9749,8 +9924,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
@@ -9789,17 +9964,11 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0005978">
         <obo:CIDO_0000009>2型糖尿病</obo:CIDO_0000009>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0006510">
-        <obo:CIDO_0000009>慢阻肺</obo:CIDO_0000009>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0007185">
         <obo:CIDO_0000009>神志不清</obo:CIDO_0000009>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0011974">
         <obo:CIDO_0000009>骨髓纤维化</obo:CIDO_0000009>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0012622">
-        <obo:CIDO_0000009>慢性肾疾病</obo:CIDO_0000009>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0025439">
         <obo:CIDO_0000178>sore throat, throat soreness, throat pain, pharyngeal pain, pharyngeal discomfort, pharynx pain, pharynx discomfort, throat discomfort, difficulty swallowing</obo:CIDO_0000178>

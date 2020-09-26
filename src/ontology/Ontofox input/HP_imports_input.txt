@@ -75,6 +75,30 @@ http://purl.obolibrary.org/obo/HP_0031249
 http://purl.obolibrary.org/obo/HP_0031417 # Rhinorrhea, Runny Nose; Nasal Discharge 
 http://purl.obolibrary.org/obo/HP_0100776
 
+# Yang Wang's collection - comorbidities
+http://purl.obolibrary.org/obo/HP_0006510
+http://purl.obolibrary.org/obo/HP_0002870
+http://purl.obolibrary.org/obo/HP_0002099
+http://purl.obolibrary.org/obo/HP_0003193
+http://purl.obolibrary.org/obo/HP_0000819
+http://purl.obolibrary.org/obo/HP_0001513
+http://purl.obolibrary.org/obo/HP_0006562
+http://purl.obolibrary.org/obo/HP_0100626
+http://purl.obolibrary.org/obo/HP_0001394
+http://purl.obolibrary.org/obo/HP_0004430
+http://purl.obolibrary.org/obo/HP_0032444
+http://purl.obolibrary.org/obo/HP_0002664
+http://purl.obolibrary.org/obo/HP_0012622
+http://purl.obolibrary.org/obo/HP_0000707
+http://purl.obolibrary.org/obo/HP_0001250
+http://purl.obolibrary.org/obo/HP_0000726
+http://purl.obolibrary.org/obo/HP_0001871
+http://purl.obolibrary.org/obo/HP_0004395
+http://purl.obolibrary.org/obo/HP_0001370
+http://purl.obolibrary.org/obo/HP_0001635
+http://purl.obolibrary.org/obo/HP_0003124
+http://purl.obolibrary.org/obo/HP_0000822
+
 #Liwei's requests
 http://purl.obolibrary.org/obo/HP_0031246 # Nonproductive cough, dry cough
 http://purl.obolibrary.org/obo/HP_0002039 # Anorexia, loss of appetite
