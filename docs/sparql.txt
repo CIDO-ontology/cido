@@ -1,4 +1,23 @@
 --
+# Date: 9/26/2020 -- by Oiver He
+# Goal: to query CIDO to find typical digestive phenotypes associated with COVID-19
+
+PREFIX disease_susceptibly_has_phenotype: <http://purl.obolibrary.org/obo/CIDO_0000173>
+PREFIX COVID_19_disease_process: <http://purl.obolibrary.org/obo/CIDO_0000003>
+PREFIX digestive_abnormality: <http://purl.obolibrary.org/obo/HP_0025031>
+SELECT distinct ?disease_label STR(?phenotype_label) as ?pheontype_label ?phenotype
+FROM <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE
+{
+   COVID_19_disease_process: rdfs:label ?disease_label .
+   ?phenotype rdfs:label ?phenotype_label . 
+   COVID_19_disease_process: rdfs:subClassOf ?phenotype_restriction .
+   ?phenotype_restriction owl:onProperty disease_susceptibly_has_phenotype:; owl:someValuesFrom ?phenotype .
+   ?phenotype rdfs:subClassOf digestive_abnormality: option(transitive) .
+}
+
+
+--
 # Goal: To find all drug chemicals in CIDO that have different roles
 # Note: the following code appears to have some bug. 
 
