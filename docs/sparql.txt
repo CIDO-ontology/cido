@@ -1,5 +1,41 @@
 --
 # Date: 9/26/2020 -- by Oiver He
+# Goal: to query CIDO to find chemicals capable of inhibiting the invasion of conoravirues, 
+# and are able to inhibit protein(s) participating in the biological process of calcium ion hoemeostasis. 
+#note: only two results shown. need to double check the outcome. 
+
+PREFIX chemical_entity: <http://purl.obolibrary.org/obo/CHEBI_24431>
+PREFIX protein: <http://purl.obolibrary.org/obo/PR_000000001>
+PREFIX Coronaviridae: <http://purl.obolibrary.org/obo/NCBITaxon_11118>
+PREFIX chemical_inhibits_invasion_of_virus: <http://purl.obolibrary.org/obo/CIDO_0000149>
+PREFIX chemical_has_protein_target: <http://purl.obolibrary.org/obo/CIDO_0000118>
+PREFIX calcium_ion_homeostasis: <http://purl.obolibrary.org/obo/GO_0055074>
+PREFIX participates_in: <http://purl.obolibrary.org/obo/RO_0000056>
+
+SELECT distinct ?chemical_label ?chemical 
+FROM <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE
+{
+   ?chemical rdfs:subClassOf chemical_entity: option(transitive) .
+   ?chemical rdfs:label ?chemical_label .
+
+   ?chemical rdfs:subClassOf ?chemical_restriction .
+   ?chemical_restriction owl:onProperty ?chemical_inhibits_invasion_of_virus; owl:someValuesFrom ?virus .
+   ?chemical_inhibits_invasion_of_virus rdfs:subPropertyOf chemical_inhibits_invasion_of_virus: option(transitive) . 
+   ?virus rdfs:subClassOf Coronaviridae: option(transitive) .
+
+   ?chemical rdfs:subClassOf ?chemical_restriction2 .
+   ?chemical_restriction2 owl:onProperty chemical_has_protein_target:; owl:someValuesFrom ?protein_target .
+   ?protein_target rdfs:subClassOf protein: option(transitive) .
+
+   ?protein_target rdfs:subClassOf ?protein_target_restriction .
+   ?protein_target_restriction owl:onProperty participates_in:; owl:someValuesFrom ?cal_ion_homeostasis .
+   ?cal_ion_homeostasis rdfs:subClassOf calcium_ion_homeostasis: option(transitive) .
+}
+
+
+--
+# Date: 9/26/2020 -- by Oiver He
 # Goal: to query CIDO to find typical digestive phenotypes associated with COVID-19
 
 PREFIX disease_susceptibly_has_phenotype: <http://purl.obolibrary.org/obo/CIDO_0000173>
