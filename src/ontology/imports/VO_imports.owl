@@ -2517,7 +2517,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_694009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
@@ -5728,17 +5727,17 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Alexander D. Diehl</dc:creator>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:contributor>Ryan R. Brinkman</dc:contributor>
-        <dc:creator>Kallan Roan</dc:creator>
         <dc:creator>Samantha G. Sayers (SGS)</dc:creator>
-        <dc:creator>Hong Yu</dc:creator>
+        <dc:creator>Kallan Roan</dc:creator>
         <dc:creator>Alan Ruttenburg</dc:creator>
+        <dc:creator>Hong Yu</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <dc:creator>Rebecca Racz</dc:creator>
         <dc:creator xml:lang="en">Yu Lin (YL)</dc:creator>
         <dc:description xml:lang="en">The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning.  VO supports basic vaccine R&amp;D and clincal vaccine usage. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities.</dc:description>
         <dc:contributor xml:lang="en">Shunzhou Deng</dc:contributor>
-        <owl:versionInfo xml:lang="en">1.1.100</owl:versionInfo>
         <dc:creator xml:lang="en">Ronak Sutariya</dc:creator>
+        <owl:versionInfo xml:lang="en">1.1.100</owl:versionInfo>
         <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
         <dc:creator>Khadeejah Khan</dc:creator>
         <dc:creator>Thomas Todd</dc:creator>
@@ -5746,8 +5745,8 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator xml:lang="en">Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
         <dc:creator>Edison Ong</dc:creator>
         <dc:contributor>Ningxian Fan</dc:contributor>
-        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:date xml:lang="en">June 2, 2020</dc:date>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:contributor xml:lang="en">Randi Vita</dc:contributor>
         <dc:creator>Randi Vita</dc:creator>
         <dc:creator>Barry Smith</dc:creator>
@@ -5756,10 +5755,10 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Jason Hu</dc:creator>
         <dc:creator>Richard H. Scheuermann</dc:creator>
         <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
-        <dc:creator>Bjoern Peters</dc:creator>
+        <dc:creator>Omar Tibi</dc:creator>
         <dc:creator>Melanie Courtot</dc:creator>
         <dc:title xml:lang="en">Vaccine Ontology</dc:title>
-        <dc:creator>Omar Tibi</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
     </rdf:Description>
 </rdf:RDF>
 

@@ -615,20 +615,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:id>NCBITaxon:1</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbitaxon</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
     </owl:Class>
@@ -953,7 +942,6 @@
     <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UPHENO_0001001">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype</rdfs:label>
     </owl:Class>
@@ -981,11 +969,11 @@
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/doid.owl">
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts.</dc:description>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Disease Ontology content is available via the Creative Commons Public Domain Dedication CC0 1.0 Universal license (https://creativecommons.org/publicdomain/zero/1.0/).</rdfs:comment>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21:08:2020 10:40</oboInOwl:date>
-        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts.</dc:description>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human Disease Ontology</dc:title>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
     </rdf:Description>
