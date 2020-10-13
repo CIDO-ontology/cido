@@ -1,4 +1,35 @@
 --
+# Date: 10/12/2020 -- by Oiver He
+# Goal: find GO processes that have participant some proteins which are the targets of some drugs.
+ 
+PREFIX chemical_entity: <http://purl.obolibrary.org/obo/CHEBI_24431>
+PREFIX protein: <http://purl.obolibrary.org/obo/PR_000000001>
+PREFIX chemical_has_protein_target: <http://purl.obolibrary.org/obo/CIDO_0000118>
+PREFIX calcium_ion_homeostasis: <http://purl.obolibrary.org/obo/GO_0055074>
+PREFIX participates_in: <http://purl.obolibrary.org/obo/RO_0000056>
+
+SELECT distinct STR(?bp_label) ?bp STR(?chemical_label) STR(?protein_target_label)
+FROM <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE
+{
+   ?chemical rdfs:subClassOf chemical_entity: option(transitive) .
+   ?chemical rdfs:label ?chemical_label .
+
+   ?chemical rdfs:subClassOf ?chemical_restriction2 .
+   ?chemical_restriction2 owl:onProperty ?chem_has_protein_target; owl:someValuesFrom ?protein_target .
+   ?chem_has_protein_target rdfs:subPropertyOf chemical_has_protein_target: option(transitive) . 
+   ?protein_target rdfs:subClassOf protein: option(transitive) .
+
+   ?protein_target rdfs:subClassOf ?protein_target_restriction .
+   ?protein_target_restriction owl:onProperty participates_in:; owl:someValuesFrom ?bp .
+   ?bp rdfs:subClassOf calcium_ion_homeostasis: option(transitive) .
+
+   ?bp rdfs:label ?bp_label .
+   ?protein_target rdfs:label ?protein_target_label .
+}
+       
+
+--
 # Date: 9/26/2020 -- by Oiver He
 # note: result: 28 
 # Goal: to query CIDO to find the number of chemicals capable of inhibiting the invasion of conoravirues
