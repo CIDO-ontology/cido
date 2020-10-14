@@ -61,6 +61,7 @@ http://obofoundry.org/ontology/cido.html.
 ### Web Deposition: 
 - Ontobee: http://www.ontobee.org/ontology/CIDO  
 - BioPortal: http://bioportal.bioontology.org/ontologies/CIDO 
+- OLS: https://www.ebi.ac.uk/ols/ontologies/cido 
 
 ### Citing CIDO:
 He Y, Yu H, Ong E, Wang Y, Liu Y, Huffman A, Huang H, Beverley J, Hur J, Yang X, Chen L, Omenn GS, Athey B, Smith B. [CIDO, a community-based ontology for coronavirus disease knowledge and data integration, sharing, and analysis](https://www.nature.com/articles/s41597-020-0523-6). Scientific Data. (2020) 7:181 | https://doi.org/10.1038/s41597-020-0523-6. 
