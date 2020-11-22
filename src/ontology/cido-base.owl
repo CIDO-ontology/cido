@@ -60,13 +60,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">11-21-2020</dc:date>
+        <dc:date xml:lang="en">11-22-2020</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.172</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.173</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -897,6 +897,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148672 -->
+
+    <rdf:Description rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148672">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000257"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -1833,6 +1846,12 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000257"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>PMID: 26198719; PMID: 27344959; PMID: 26198719; PMID: 27344959; PMID: 14985565</obo:IAO_0000119>
         <obo:IAO_0000119>PMID: 27344959; PMID: 26868298; PMID: 16837072</obo:IAO_0000119>
     </owl:Class>
@@ -2124,6 +2143,12 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000184"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>PMID: 16837072; PMID: 27344959; PMID: 27916837; PMID: 32150618; PMID: 32020029</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00608</obo:IAO_0000119>
     </owl:Class>
@@ -2257,6 +2282,18 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000145"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000184"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000255"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>PMID: 27344959, PMID: 24841269, PMID: 32387014</obo:IAO_0000119>
@@ -6218,6 +6255,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000138"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000253"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000224"/>
@@ -6653,6 +6691,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>coronaviral RNA</obo:IAO_0000118>
         <rdfs:label xml:lang="en">coronavirus RNA</rdfs:label>
     </owl:Class>
     
@@ -6955,6 +6994,15 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000085"/>
+        <rdfs:label xml:lang="en">coronavirus entry in endosome</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000247">
@@ -6991,6 +7039,72 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Angiotensin-converting_enzyme</obo:IAO_0000119>
         <rdfs:comment>ACE is a central component of the renin–angiotensin system (RAS), which controls blood pressure by regulating the volume of fluids in the body. ACE indirectly increases blood pressure by causing blood vessels to constrict. ACE inhibitors are widely used as pharmaceutical drugs for treatment of cardiovascular diseases.</rdfs:comment>
         <rdfs:label xml:lang="en">cleavage of angiotensin into angiotension II by ACE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
+        <rdfs:label xml:lang="en">coronavirus survival in host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000251"/>
+        <rdfs:label xml:lang="en">coronavirus survival in lysosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S-ACE2 binding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+        <rdfs:label xml:lang="en">endocytosis inhibitor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000254"/>
+        <rdfs:label xml:lang="en">clathrin-mediated endocytosis inhibitor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52206"/>
+        <obo:IAO_0000115>A role taked by an agent that can induce lysosomotropism. Weak bases with lipophilic properties accumulate in acidic intracellular compartments like lysosomes. While the plasma and lysosomal membranes are permeable for neutral and uncharged species of weak bases, the charged protonated species of weak bases do not permeate biomembranes and accumulate within lysosomes. The concentration within lysosomes may reach levels 100 to 1000 fold higher than extracellular concentrations. This phenomenon is called lysosomotropism, &quot;acid trapping&quot; or &quot;proton pump&quot; effect.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Lysosome#Lysosomotropism</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">lysosomotropic agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+        <rdfs:label xml:lang="en">papain-like protease inhibitor role</rdfs:label>
     </owl:Class>
     
 
