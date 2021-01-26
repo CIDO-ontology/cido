@@ -7,6 +7,9 @@ OAE
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OAE_0000660 # arrhythmia AE
 http://purl.obolibrary.org/obo/OAE_0000001 # AE
+http://purl.obolibrary.org/obo/OAE_0000034 # Fatigue AE
+http://purl.obolibrary.org/obo/OAE_0000377 #Headache
+ 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000015 # process

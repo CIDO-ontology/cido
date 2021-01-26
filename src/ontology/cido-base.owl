@@ -23204,6 +23204,9 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_429">
         <obo:CIDO_0000009>粘液瘤</obo:CIDO_0000009>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000377">
+        <obo:CIDO_0000178>cephalalgia, head pain, pain in head, head ache, aching head, head aching, migrane, migraine</obo:CIDO_0000178>
+    </rdf:Description>
 </rdf:RDF>
 
 
