@@ -60,13 +60,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">11-22-2020</dc:date>
+        <dc:date xml:lang="en">01-31-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.173</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.181</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4797,7 +4797,8 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <!-- http://purl.obolibrary.org/obo/CIDO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+        <obo:IAO_0000117>A COVID-19 nucleic acid diagnostic assay that uses RT-PCR</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7170415/</obo:IAO_0000119>
@@ -4992,7 +4993,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000038"/>
-        <obo:IAO_0000115>A COVID-19 diagnostic process that detects SARS-CoV-2 by loop mediated isothermal amplification ((LAMP) assay</obo:IAO_0000115>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that detects SARS-CoV-2 by loop mediated isothermal amplification (LAMP) assay</obo:IAO_0000115>
         <obo:IAO_0000117>Hong Yu, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182526/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 diagnostic process using LAMP assay</rdfs:label>
@@ -7109,6 +7110,107 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>An assay that is used for COVID-19 diagnosis</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7683783/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7780074/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000258"/>
+        <obo:IAO_0000115>A COVID-19 diagnosti ssay that uses a nucleic acid sample</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 nucleic acid diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic assay that uses a real time RT-PCR test</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Hong Yu, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 real time RT-PCR diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+        <obo:IAO_0000115>A COVID-19 nucleic acid diagnostic assay that detects SARS-CoV-2 by loop mediated isothermal amplification (LAMP) assay</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182526/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 LAMP diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000258"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A COVID-19 diagnostic array that tests the serum from the blood specimen</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 serological diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+        <obo:IAO_0000115>A COVID-19 diagnostic process that uses an serological assay that tests the serum from the blood specimen by an Enzyme Linked Immunosorbent Assay (ELISA) screening test</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 ELISA serological diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+        <obo:IAO_0000115>A COVID-19 serological assay that tests the serum from the blood specimen by an Immunofluorescence assay (IFA)</obo:IAO_0000115>
+        <obo:IAO_0000117>Hong Yu, Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/32245835</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 immunofluorescence serological diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000258"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7368118/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7780074/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">CRISPR-based diagnotic assay for SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -7163,6 +7265,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000115>A diagnostic process for detecting coronavirus disease from a patient</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
         <obo:IAO_0000118>coronavirus diagnostic process</obo:IAO_0000118>
+        <obo:IAO_0000118>coronavirus disease diagnostic process</obo:IAO_0000118>
         <rdfs:label xml:lang="en">coronavirus disease diagnostic process</rdfs:label>
     </owl:Class>
     
@@ -7213,7 +7316,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <obo:IAO_0000115>The representation of a conclusion of a diagnostic process for a coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">coronavirus disease diagnosis</rdfs:label>
+        <obo:IAO_0000118>coronavirus disease diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">coronavirus disease diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -7224,7 +7328,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000427"/>
         <obo:IAO_0000115>The representation of a conclusion of a diagnostic process for the SARS coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">SARS diagnosis</rdfs:label>
+        <obo:IAO_0000118>SARS diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">SARS diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -7235,7 +7340,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000427"/>
         <obo:IAO_0000115>The representation of a conclusion of a diagnostic process for the MERS coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">MERS diagnosis</rdfs:label>
+        <obo:IAO_0000118>MERS diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">MERS diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -7246,7 +7352,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000427"/>
         <obo:IAO_0000115>The representation of a conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">COVID-19 diagnosis</rdfs:label>
+        <obo:IAO_0000118>COVID-19 diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">COVID-19 diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -7257,7 +7364,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000430"/>
         <obo:IAO_0000115>The representation of a negative conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">negative COVID-19 diagnosis</rdfs:label>
+        <obo:IAO_0000118>negative COVID-19 diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">negative COVID-19 diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -7268,7 +7376,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000430"/>
         <obo:IAO_0000115>The representation of a presumptive positive conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">presumptive positive COVID-19 diagnosis</rdfs:label>
+        <obo:IAO_0000118>presumptive positive COVID-19 diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">presumptive positive COVID-19 diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
@@ -16008,7 +16117,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000430"/>
         <obo:IAO_0000115>The representation of a positive conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">positive COVID-19 diagnosis</rdfs:label>
+        <obo:IAO_0000118>positive COVID-19 diagnosis</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">positive COVID-19 diagnosis conclusion</rdfs:label>
     </owl:Class>
     
 
