@@ -108,6 +108,27 @@ http://purl.obolibrary.org/obo/HP_0041051 # Ageusia, Impaired taste sensation; L
 http://purl.obolibrary.org/obo/HP_0031249 # Parageusia
 http://purl.obolibrary.org/obo/HP_0100749 # Chest pain
 http://purl.obolibrary.org/obo/HP_0031258 # Delirium
+http://purl.obolibrary.org/obo/HP_0012819 # Myocarditis
+http://purl.obolibrary.org/obo/HP_0001701 # Pericarditis
+http://purl.obolibrary.org/obo/HP_0012332 # Dysautonomia, Abnormal autonomic nervous system physiology
+http://purl.obolibrary.org/obo/HP_0006530 # Abnormal pulmonary Interstitial morphology, Interstitial lung disease 
+http://purl.obolibrary.org/obo/HP_0001907 # Thromboembolism 
+http://purl.obolibrary.org/obo/HP_0005305 # Cerebral venous thrombosis
+http://purl.obolibrary.org/obo/HP_0002204 # Pulmonary embolism
+http://purl.obolibrary.org/obo/HP_0002196 # Myelopathy
+http://purl.obolibrary.org/obo/HP_0009830 # Peripheral neuropathy, neuropathy
+http://purl.obolibrary.org/obo/HP_0001919 # Acute kidney injury
+http://purl.obolibrary.org/obo/HP_0012622 # Chronic kidney disease
+http://purl.obolibrary.org/obo/HP_0100646 # Thyroiditis 
+http://purl.obolibrary.org/obo/HP_0000819 # Diabetes mellitus 
+http://purl.obolibrary.org/obo/HP_0012115 # Hepatitis 
+http://purl.obolibrary.org/obo/HP_0002910 # Elevated hepatic transaminase, abnormal liver enzymes 
+http://purl.obolibrary.org/obo/HP_0001618 # Dysphonia 
+http://purl.obolibrary.org/obo/HP_0012393 # allergy
+http://purl.obolibrary.org/obo/HP_0100845 # anaphylaxis 
+
+http://purl.obolibrary.org/obo/HP_0011675 # Arrhythmia 
+includeAllChildren
 
 http://purl.obolibrary.org/obo/HP_0000961 # Cyanosis
 includeAllChildren
