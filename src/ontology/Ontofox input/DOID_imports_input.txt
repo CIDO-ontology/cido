@@ -9,7 +9,10 @@ http://purl.obolibrary.org/obo/DOID_0080599 # Coronavirus infection
 includeAllChildren
 
 http://purl.obolibrary.org/obo/DOID_11394 # adult respiratory distress syndrome
+http://purl.obolibrary.org/obo/DOID_9500 # leukocyte disease
 
+http://purl.obolibrary.org/obo/DOID_1561 #cognitive disorder
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_934 # viral infectious disease

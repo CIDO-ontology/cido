@@ -60,13 +60,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">02-17-2021</dc:date>
+        <dc:date xml:lang="en">02-19-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.183</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.184</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7207,6 +7207,49 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7368118/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7780074/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">CRISPR-based diagnotic assay for SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001681"/>
+        <obo:IAO_0000115>Angina (chest pain) with signs associated with decreased blood flow to heart tissue but with normal coronary arteries. Cardiac syndrome X is a historic term for microvascular angina. It is a heart disease that affects the heart’s smallest coronary artery blood vessels.</obo:IAO_0000115>
+        <obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Cardiac syndrome X</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.heart.org/en/health-topics/heart-attack/angina-chest-pain/microvascular-angina</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">microvascular angina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000268"/>
+        <obo:IAO_0000115>Mast cell activation syndrome (MCAS) is one type of mast cell activation disorder (MCAD), and is an immunological condition in which mast cells inappropriately and excessively release chemical mediators, resulting in a range of chronic symptoms, sometimes including anaphylaxis or near-anaphylaxis attacks.</obo:IAO_0000115>
+        <obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>MCAS</obo:IAO_0000118>
+        <obo:IAO_0000118>disorder of mast cell activation</obo:IAO_0000118>
+        <obo:IAO_0000118>mast cell activation disease</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Mast_cell_activation_syndrome</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mast cell activation syndrome</rdfs:label>
+        <rdfs:seeAlso>MONDO_0100004</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9500"/>
+        <obo:IAO_0000115>A leakocyte disease with a disorder in the mast cell activation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>MCAD</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Mast_cell#Mast_cell_activation_disorders</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6297339/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">mast cell activation disorder</rdfs:label>
     </owl:Class>
     
 
@@ -15916,6 +15959,16 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0001681 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001681">
+        <obo:CIDO_0000009>心绞痛</obo:CIDO_0000009>
+        <obo:IAO_0000118>angina</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.mayoclinic.org/diseases-conditions/angina/symptoms-causes/syc-20369373</obo:IAO_0000119>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0001742 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001742">
@@ -23220,9 +23273,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001677">
         <obo:CIDO_0000009>冠心病</obo:CIDO_0000009>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001681">
-        <obo:CIDO_0000009>心绞痛</obo:CIDO_0000009>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001695">
         <obo:CIDO_0000009>心脏骤停</obo:CIDO_0000009>
     </rdf:Description>
@@ -23231,8 +23281,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
