@@ -50,6 +50,7 @@
         <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
         <dc:creator>Asiyah Yu Lin</dc:creator>
         <dc:creator>Bill Duncan</dc:creator>
+        <dc:creator>Easheta Shah</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
         <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
@@ -60,13 +61,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">02-25-2021</dc:date>
+        <dc:date xml:lang="en">02-26-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.186</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.187</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7290,6 +7291,19 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Mast_cell#Mast_cell_activation_disorders</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6297339/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mast cell activation disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+        <obo:IAO_0000118>angiotensin II binding to AT1</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Renin%E2%80%93angiotensin_system</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nature.com/articles/7290083</obo:IAO_0000119>
+        <rdfs:comment>Easheta, Oliver</rdfs:comment>
+        <rdfs:label xml:lang="en">angiotensin II binding to angiotensin II type 1 receptor</rdfs:label>
     </owl:Class>
     
 

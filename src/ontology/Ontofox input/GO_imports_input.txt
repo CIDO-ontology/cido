@@ -156,6 +156,9 @@ http://purl.obolibrary.org/obo/GO_0048149
 http://purl.obolibrary.org/obo/GO_0035094
 http://purl.obolibrary.org/obo/GO_0007623
 
+# Added with Easheta for UROP project
+http://purl.obolibrary.org/obo/GO_0003081 # regulation of systemic arterial blood pressure by renin-angiotensin 
+includeAllChildren 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0003674 # molecular function
