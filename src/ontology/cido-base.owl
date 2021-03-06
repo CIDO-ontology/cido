@@ -61,7 +61,7 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">02-26-2021</dc:date>
+        <dc:date xml:lang="en">03-06-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
@@ -887,6 +887,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>A subproperty of &apos;has participant&apos; that represents a relation between a process and a participant where the participant has the receptor role.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu, Peiling Tan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000281 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000281">
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>An AA variant represents not only an amino acid (AA), but also a record of change from a previous AA to a new one. Therefore, instead of using &apos;has part&apos;, we generate this new property to represent the history of AA mutation.</rdfs:comment>
+        <rdfs:label xml:lang="en">has AA variant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6788,7 +6799,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000241"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6822,7 +6833,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6857,7 +6868,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6878,17 +6889,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000240"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 clade G variant virus that carries the combination of Spike D614G and Nucleocapsid RG203KR mutations.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>B.1.1.1</obo:IAO_0000118>
+        <obo:IAO_0000118>SARS-CoV-2 clade GR (B.1.1.1)</obo:IAO_0000118>
         <obo:IAO_0000118>SARS-CoV-2 type B.1.1 virus</obo:IAO_0000118>
+        <obo:IAO_0000118>SARS-CoV-2 varant GR (B.1.1.1)</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
         <rdfs:comment>In Europe and South America, the most frequent clades are clade GR. This clde GR is is currently the most common representative of the SARS-CoV-2 population worldwide. Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV-2 clade GR virus</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 clade GR</rdfs:label>
     </owl:Class>
     
 
@@ -6930,10 +6944,11 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>The Spike D614G amino acid change is caused by an A-to-G nucleotide mutation at position 23,403 (A23403G) in the Wuhan reference strain; it was the only site identified in our first Spike variation analysis in early March 2020 that met our threshold criterion.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>D614G</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.cell.com/cell/pdf/S0092-8674(20)30820-5.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <rdfs:comment>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
-        <rdfs:label xml:lang="en">D614G</rdfs:label>
+        <rdfs:label xml:lang="en">S-D614G</rdfs:label>
     </owl:Class>
     
 
@@ -6950,9 +6965,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>An aa-changing SNP variant of G25563T that occurs in the ORF3a protein of a SARS-CoV-2 virus. It is a signature variant of SARS-CoV-2 clade GH.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Q57H</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Q57H</rdfs:label>
+        <rdfs:label xml:lang="en">NS3-Q57H</rdfs:label>
     </owl:Class>
     
 
@@ -6969,9 +6985,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>An aa-changing SNP triplet GGG28881AAC that occurs in a Nucleocapsid protein of a SARS-CoV-2 virus.It is a signature variant of SARS-CoV-2 clade GR.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>RG203KR</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">RG203KR</rdfs:label>
+        <rdfs:label xml:lang="en">N-RG203KR</rdfs:label>
     </owl:Class>
     
 
@@ -6988,9 +7005,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>ORF8-L84S is SNP variant that occurs at T28144C at ORF8 protein, which is shown in a SARS-CoV-2 clade S variant virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ORF8-L84S</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">ORF8-L84S</rdfs:label>
+        <rdfs:label xml:lang="en">NS8-L84S</rdfs:label>
     </owl:Class>
     
 
@@ -7006,12 +7024,13 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>ORF3a:G251V</obo:IAO_0000115>
-        <obo:IAO_0000115>ORF3a:G251V is an ann-changing SNP variant that occurs at G26144T	at ORF3a protein of SARS-CoV-2 virus. It is a signature variation in SARS-CoV clade V.</obo:IAO_0000115>
+        <obo:IAO_0000115>an ann-changing SNP variant that occurs at G26144T at ORF3a protein of SARS-CoV-2 virus. It is a signature variation in SARS-CoV clade V.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">NS3-G251</obo:IAO_0000118>
+        <obo:IAO_0000118>ORF3a-G251V</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
-        <rdfs:label>ORF3a-G251V</rdfs:label>
+        <rdfs:label>NS3-G251V</rdfs:label>
     </owl:Class>
     
 
@@ -7304,6 +7323,126 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.nature.com/articles/7290083</obo:IAO_0000119>
         <rdfs:comment>Easheta, Oliver</rdfs:comment>
         <rdfs:label xml:lang="en">angiotensin II binding to angiotensin II type 1 receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 clade G variant virus that carries the combination of Spike D614G and Nucleocapsid RG203KR mutations.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>B.1.1.7</obo:IAO_0000118>
+        <obo:IAO_0000118>SARS-CoV-2 GRY (B.1.1.7)</obo:IAO_0000118>
+        <obo:IAO_0000118>SARS-CoV-2 type B.1.1 virus</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
+        <rdfs:comment>In Europe and South America, the most frequent clades are clade GR. This clde GR is is currently the most common representative of the SARS-CoV-2 population worldwide. Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 GRY (B.1.1.7)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>B.1.177</obo:IAO_0000118>
+        <obo:IAO_0000118>SARS-CoV-2 clade GV (B.1.177)</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 clade GV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">S-H69del</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">S-V70del</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">S-Y144del</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">S-N501Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">N-G204R</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <rdfs:label xml:lang="en">S-A222V</rdfs:label>
     </owl:Class>
     
 
@@ -16183,6 +16322,16 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000118>Wuhan coronavirus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Wuhan seafood market pneumonia virus</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049</obo:IAO_0000119>
+        <rdfs:comment>The list of the marker variants is as follows (as of 3/6/2021):
+   S:     C8782T,T28144C includes NS8-L84S 
+   L:     C241,C3037,A23403,C8782,G11083,G26144,T28144 (early clade markers in WIV04-reference sequence)
+   V:     G11083T,G26144T NSP6-L37F + NS3-G251V
+   G:     C241T,C3037T,A23403G includes S-D614G
+   GH:   C241T,C3037T,A23403G,G25563T includes S-D614G + NS3-Q57H
+   GR:   C241T,C3037T,A23403G,G28882A includes S-D614G + N-G204R
+   GV:   C241T,C3037T,A23403G,C22227T includes S-D614G + S-A222V
+   GRY: C241T,C3037T,21765-21770del,21991-21993del,A23063T,A23403G,G28882A includes S-H69del, S-V70del, S-Y144del, S-N501Y + S-D614G + N-G204R
+Reference: https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</rdfs:comment>
         <rdfs:label>SARS-CoV-2</rdfs:label>
     </owl:Class>
     
