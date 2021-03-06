@@ -10,6 +10,55 @@ http://purl.obolibrary.org/obo/OAE_0000001 # AE
 http://purl.obolibrary.org/obo/OAE_0000034 # Fatigue AE
 http://purl.obolibrary.org/obo/OAE_0000377 #Headache
  
+# Liwei Wang and Oliver work on March 6, 2021
+http://purl.obolibrary.org/obo/OAE_0000377
+http://purl.obolibrary.org/obo/OAE_0000034 
+http://purl.obolibrary.org/obo/OAE_0000388
+http://purl.obolibrary.org/obo/OAE_0000394
+http://purl.obolibrary.org/obo/OAE_0000600
+http://purl.obolibrary.org/obo/OAE_0000361 
+http://purl.obolibrary.org/obo/OAE_0000374 
+http://purl.obolibrary.org/obo/OAE_0000369
+http://purl.obolibrary.org/obo/OAE_0000022
+http://purl.obolibrary.org/obo/OAE_0000375
+http://purl.obolibrary.org/obo/OAE_0000392
+http://purl.obolibrary.org/obo/OAE_0000373
+http://purl.obolibrary.org/obo/OAE_0000310
+http://purl.obolibrary.org/obo/OAE_0000021 
+http://purl.obolibrary.org/obo/OAE_0000362
+http://purl.obolibrary.org/obo/OAE_0000385 
+http://purl.obolibrary.org/obo/OAE_0000317
+http://purl.obolibrary.org/obo/OAE_0002527
+http://purl.obolibrary.org/obo/OAE_0000601
+http://purl.obolibrary.org/obo/OAE_0000398
+http://purl.obolibrary.org/obo/OAE_0000376 
+http://purl.obolibrary.org/obo/OAE_0000590
+http://purl.obolibrary.org/obo/OAE_0000946
+http://purl.obolibrary.org/obo/OAE_0001045
+http://purl.obolibrary.org/obo/OAE_0000390
+http://purl.obolibrary.org/obo/OAE_0000360
+http://purl.obolibrary.org/obo/OAE_0000590
+http://purl.obolibrary.org/obo/OAE_0000616 
+http://purl.obolibrary.org/obo/OAE_0000807 
+http://purl.obolibrary.org/obo/OAE_0000945 
+http://purl.obolibrary.org/obo/OAE_0000645 
+http://purl.obolibrary.org/obo/OAE_0001926
+http://purl.obolibrary.org/obo/OAE_0000382
+http://purl.obolibrary.org/obo/OAE_0004524
+http://purl.obolibrary.org/obo/OAE_0000403
+http://purl.obolibrary.org/obo/OAE_0004526
+http://purl.obolibrary.org/obo/OAE_0000357
+http://purl.obolibrary.org/obo/OAE_0000339 
+http://purl.obolibrary.org/obo/OAE_0000166
+http://purl.obolibrary.org/obo/OAE_0000947
+http://purl.obolibrary.org/obo/OAE_0004525
+http://purl.obolibrary.org/obo/OAE_0000308
+http://purl.obolibrary.org/obo/OAE_0000300
+http://purl.obolibrary.org/obo/OAE_0000406
+http://purl.obolibrary.org/obo/OAE_0001147
+http://purl.obolibrary.org/obo/OAE_0000361
+http://purl.obolibrary.org/obo/OAE_0000834
+http://purl.obolibrary.org/obo/OAE_0000412 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000015 # process
