@@ -38,6 +38,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OGG_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl"/>
@@ -61,13 +62,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">04-19-2021</dc:date>
+        <dc:date xml:lang="en">04-20-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.189</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.190</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -898,6 +899,37 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <rdfs:comment>An AA variant represents not only an amino acid (AA), but also a record of change from a previous AA to a new one. Therefore, instead of using &apos;has part&apos;, we generate this new property to represent the history of AA mutation.</rdfs:comment>
         <rdfs:label xml:lang="en">has AA variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000298 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000298">
+        <obo:IAO_0000115>An object property that represents a relation between an organism and a gene where the organism is susceptible to have an up-regulation of the expression of the gene.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">organism susceptibly has up-regulated gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000299">
+        <obo:IAO_0000115>An object property that represents a relation between a gene and an organism where the gene is susceptibly up-regulated in the organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">gene susceptibly up-regulated in organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000312">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <obo:IAO_0000115>An object property that represents a relation between two epitopes X and Y where X is an homologous epitope of Y.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">homologous epitope of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -7554,6 +7586,631 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000202"/>
         <rdfs:label xml:lang="en">MERS-CoV shedding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">human infected with pathogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000290"/>
+        <rdfs:label xml:lang="en">symptomic human infected with pathogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000290"/>
+        <rdfs:label xml:lang="en">human infected by SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000292"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000001435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000001440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003569"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003576"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003627"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">human female infected by SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000292"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000001435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003569"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000003627"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006351"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000298"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">human male infected by SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000291"/>
+        <rdfs:label xml:lang="en">symptomatic human female infected by SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000290"/>
+        <rdfs:label xml:lang="en">asymptomic human infected with pathogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000296"/>
+        <rdfs:label xml:lang="en">asymptomatic human female infected by SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110001"/>
+        <rdfs:label xml:lang="en">coronavirus epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SARS-CoV-2 epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:label xml:lang="en">SARS-CoV epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:label xml:lang="en">HCoV OC43 epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:label xml:lang="en">HCoV NL63 epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:label xml:lang="en">HCoV HKU1 epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000300"/>
+        <rdfs:label xml:lang="en">HCoV 229E epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000306"/>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GLNKVKYATVVVGST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000305"/>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">EDAIIVNDENSSIKV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000304"/>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">GVFGVNLRTNFTIKG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000303"/>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SLGFYNPPTNVVSHV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004989"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000308"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SLLIVNNATNVVIKV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110001"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>An epitope that is homologous to another epitope where these two epitopes stimulates the same immune eptipe response.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://science.sciencemag.org/content/370/6512/89</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">homologous epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000314">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004989"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004989"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S protein epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">NNATNVVIKVCEFQF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">CEFQFCNDPFLGVYY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">CTFEYVSQPFLMDLE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">IGINITRFQTLLALH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">TRFQTLLALHRSYLT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">FTVEKGIYQTSNFRV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">SNFRVQPTESIVRFP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">QPTESIVRFPNITNL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">IVRFPNITNLCPFGE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">CPFGEVFNATRFASV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">VFNATRFASVYAWNR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">SVASQSIIAYTMSLG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">AYSNNSIAIPTNFTI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">NLLLQYGSFCTQLNR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">TQLNRALTGIAVEQD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">VFAQVKQIYKTPPIK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">NFSQILPDPSKPSKR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">KPSKRSFIEDLLFNK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">SFIEDLLFNKVTLAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">CAQKFNGLTVLPPLL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">AQYTSALLAGTITSG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">WTFGAGAALQIPFAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">AQALNTLVKQLSSNF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">GAISSVLNDILSRLD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">VQIDRLITGRLQSLQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">APHGVVFLHVTYVPA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">ELDKYFKNHTSPDVD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">GINASVVNIQKEIDR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">LNEVAKNLNESLIDL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:label xml:lang="en">YEQYIKWPWYIWLGF</rdfs:label>
     </owl:Class>
     
 
