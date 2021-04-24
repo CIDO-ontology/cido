@@ -68,7 +68,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.190</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.191</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7831,7 +7831,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000307 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000307">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000306"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000451"/>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GLNKVKYATVVVGST</rdfs:label>
     </owl:Class>
@@ -7841,7 +7841,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000308">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000305"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000450"/>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">EDAIIVNDENSSIKV</rdfs:label>
     </owl:Class>
@@ -7851,7 +7851,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000304"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000449"/>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GVFGVNLRTNFTIKG</rdfs:label>
     </owl:Class>
@@ -7861,7 +7861,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000452"/>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SLGFYNPPTNVVSHV</rdfs:label>
     </owl:Class>
@@ -24324,6 +24324,24 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0004906 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004906">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
@@ -24334,6 +24352,308 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004988 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004988">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010850 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010850">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010754"/>
+        <obo:IAO_0000115 xml:lang="en">A virus protein where the virus is a member of Coronivirinae.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>coronavirus protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl#CIDO_0000449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000449">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000304"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">HCoV NL63 S protein epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000441">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>human coronavirus OC43 protein</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">HCoV OC43 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000442">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>human coronavirus NL63 protein</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">HCoV NL63 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000443">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>human coronavirus HKU1 protein</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">HCoV HKU1 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000444">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>human coronavirus 229E protein</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">HCoV 229E protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000444"/>
+        <obo:IAO_0000115>A surface glycoprotein of human coronavirus 229E.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/gene/2943499</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">surface glycoprotein (HCoV 229E)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000442"/>
+        <obo:IAO_0000115>A surface glycoprotein of human coronavirus NL63.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/gene/918758</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">spike glycoprotein (HCoV NL63)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000441"/>
+        <obo:IAO_0000115>A surface glycoprotein of human coronavirus OC43.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/gene/39105218</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">spike surface glycoprotein (HCoV OC43)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000443"/>
+        <obo:IAO_0000115>A surface glycoprotein of human coronavirus HKU1.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/gene/3200426</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">spike glycoprotein (HCoV HKU1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000450">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000448"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000305"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000448"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">HCoV HKU1 S protein epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000451">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000306"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000445"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">HCoV 229E S protein epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido.owl/CIDO_0000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000452">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000447"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000303"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">HCoV OC43 S protein epitope</rdfs:label>
+    </owl:Class>
     
 
 
