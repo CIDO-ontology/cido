@@ -8357,7 +8357,37 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:label xml:lang="en">SARS-CoV-2 entry into cytosol</rdfs:label>
     </owl:Class>
     
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000351 -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+        <obo:IAO_0000115 xml:lang="en">A COVID-19 serological diagnostic assay that tests the serum from the blood specimen to detect the antigen-antibody complex using light emission, which is generated from a chemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C111235</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 chemiluminescent diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+        <obo:IAO_0000115 xml:lang="en">a COVID-19 nucleic acid diagnostic assay using Next Genergation Sequence technology to detect virus RNA sequence.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID19 NGS diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
+        <obo:IAO_0000115 xml:lang="en">a COVID-19 ELISA serological diagnostic assay is a kind of rapid test that  run the liquid sample along the surface of a pad with reactive molecules that show a visual positive or negative results. This testing dose not need for specialized and costly equipment.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 lateral flow immunoassay</rdfs:label>
+    </owl:Class>
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
