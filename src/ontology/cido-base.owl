@@ -63,13 +63,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">05-02-2021</dc:date>
+        <dc:date xml:lang="en">05-03-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.199</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.204</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -934,6 +934,16 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>An object property that represents a relation between two epitopes X and Y where X is an homologous epitope of Y.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">homologous epitope of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000360 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000360">
+        <obo:IAO_0000115>An object property that represents a relation between a molecule and a receptor of the molecule where the molecule binds physically to the receptor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">binding to receptor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6787,13 +6797,14 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000036008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_55438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>A protein process where ACE2 lowers blood pressure by catalyzing the hydrolysis of angiotensin II (a vasoconstrictor peptide) into angiotensin (1–7) (a vasodilator). ACE2 counters the activity of the related angiotensin-converting enzyme (ACE) by reducing the amount of angiotensin-II and increasing Ang(1-7), making it a promising drug target for treating cardiovascular diseases.</obo:IAO_0000119>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Angiotensin-converting_enzyme_2</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">hydrolysis of angiotensin II into angiotension by ACE2</rdfs:label>
+        <rdfs:comment>hydrolysis of angiotensin II into angiotensin (1-7) by ACE2</rdfs:comment>
+        <rdfs:label xml:lang="en">hydrolysis of angiotensin II into angiotensin (1-7)</rdfs:label>
     </owl:Class>
     
 
@@ -7377,6 +7388,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000036009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118>angiotensin II binding to AT1</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Renin%E2%80%93angiotensin_system</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.nature.com/articles/7290083</obo:IAO_0000119>
@@ -8443,6 +8466,49 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Vasodilation</obo:IAO_0000119>
         <rdfs:label xml:lang="en">vasodilator role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000208"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000013883"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000003847"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000036008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>A protein process in which renin hydrolyzes angiotensinogen to angiotensin I.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Renin</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">hydrolysis of angiotensinogen to angiotensin I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>The angiotensin II receptor is a member of the class of G protein-coupled receptors with angiotensin II as their ligands. They are important in the renin–angiotensin system: they are responsible for the signal transduction of the vasoconstricting stimulus of the main effector hormone, angiotensin II.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>AGTR1</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Angiotensin_II_receptor</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">angiotensin II receptor</rdfs:label>
     </owl:Class>
     
 
@@ -17811,9 +17877,24 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000013883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013883">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050025"/>
+        <rdfs:label xml:lang="en">renin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000036009 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000036009">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000360"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -17827,6 +17908,15 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label xml:lang="en">angiotensinogenase</rdfs:label>
+    </owl:Class>
     
 
 
@@ -24978,8 +25068,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">

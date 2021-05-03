@@ -9,6 +9,10 @@ CHEBI
 #http://purl.obolibrary.org/obo/CHEBI_50906 #ChEBI role
 #subClassOf http://purl.obolibrary.org/obo/BFO_0000023  # BFO role
 
+#added on May 3, 2021 by Anthony and Oliver
+http://purl.obolibrary.org/obo/CHEBI_55438 #Angiotensin (1-7) 
+http://purl.obolibrary.org/obo/CHEBI_80128 #angiotensin (1-9)
+
 http://purl.obolibrary.org/obo/CHEBI_145999
 http://purl.obolibrary.org/obo/CHEBI_27965
 http://purl.obolibrary.org/obo/CHEBI_29687

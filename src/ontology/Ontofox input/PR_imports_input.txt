@@ -16,6 +16,8 @@ http://purl.obolibrary.org/obo/PR_P05231  #human IL-6
 http://purl.obolibrary.org/obo/PR_000036009 # angiotensin II 
 http://purl.obolibrary.org/obo/PR_000001322 # angiotensin-converting enzyme, ACE 
 http://purl.obolibrary.org/obo/PR_000036008 # angiotensin I
+http://purl.obolibrary.org/obo/PR_000013883 # renin
+http://purl.obolibrary.org/obo/PR_000050025 # angiotensinogenase
 
 http://purl.obolibrary.org/obo/PR_O00555
 http://purl.obolibrary.org/obo/PR_O14521

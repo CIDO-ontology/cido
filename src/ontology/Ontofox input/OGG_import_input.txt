@@ -15,6 +15,7 @@ http://purl.obolibrary.org/obo/OGG_3000003576
 http://purl.obolibrary.org/obo/OGG_3000003627
 http://purl.obolibrary.org/obo/OGG_3000006351
 http://purl.obolibrary.org/obo/OGG_3000006352
+http://purl.obolibrary.org/obo/OGG_3000003606 #IL-18
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 

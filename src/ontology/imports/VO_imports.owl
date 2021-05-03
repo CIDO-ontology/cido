@@ -3427,16 +3427,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PRO_000000001 -->
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRO_000000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000111 xml:lang="en">protein</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">A biological macromolecule that is composed of amino acids linked in a linear sequence (a polypeptide chain) and is genetically encoded. Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PRO"/>
-        <rdfs:label xml:lang="en">protein</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
     
 
 
@@ -7393,7 +7386,7 @@ Artificial active immunization is where the microbe, or parts of it, are injecte
     <!-- http://purl.obolibrary.org/obo/VO_0010754 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010754">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PRO_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115>a protein from a virus</obo:IAO_0000115>
         <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
@@ -8011,8 +8004,8 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Khadeejah Khan</dc:creator>
         <dc:creator>Thomas Todd</dc:creator>
         <dc:creator xml:lang="en">Ningxian Fan</dc:creator>
-        <dc:creator>Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
+        <dc:creator>Edison Ong</dc:creator>
         <dc:contributor>Ningxian Fan</dc:contributor>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:contributor xml:lang="en">Randi Vita</dc:contributor>
@@ -8028,10 +8021,10 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Richard H. Scheuermann</dc:creator>
         <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
         <dc:creator>Jie Zheng</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
+        <dc:title xml:lang="en">Vaccine Ontology</dc:title>
         <dc:creator>Omar Tibi</dc:creator>
         <dc:creator>Melanie Courtot</dc:creator>
-        <dc:title xml:lang="en">Vaccine Ontology</dc:title>
-        <dc:creator>Bjoern Peters</dc:creator>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     </rdf:Description>
 </rdf:RDF>
