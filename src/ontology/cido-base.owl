@@ -8357,6 +8357,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:label xml:lang="en">SARS-CoV-2 entry into cytosol</rdfs:label>
     </owl:Class>
     
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000351">
@@ -8388,6 +8390,62 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 lateral flow immunoassay</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role taken by a chemical entity that binds to and inhibits the angiotensin II receptor type 1 (AT1) and thereby block the arteriolar contraction and sodium retention effects of renin–angiotensin system.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ARB role</obo:IAO_0000118>
+        <obo:IAO_0000118>AT1 receptor antagonist role</obo:IAO_0000118>
+        <obo:IAO_0000118>angiotensin II receptor antagonist role</obo:IAO_0000118>
+        <obo:IAO_0000118>angiotensin II receptor type 1 antagonist role</obo:IAO_0000118>
+        <obo:IAO_0000118>angiotensin receptor blocker role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Angiotensin_II_receptor_blocker</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">angiotensin II receptor blocker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role taken by a chemcial entity that inhibits the activity of angiotensin-converting enzyme, an important component of the renin–angiotensin system which converts angiotensin I to angiotensin II, and hydrolyses bradykinin. ACE inhibitor drugs are used primarily for the treatment of high blood pressure and heart failure by causing relaxation of blood vessels as well as a decrease in blood volume, which leads to lower blood pressure and decreased oxygen demand from the heart.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ACEI role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/ACE_inhibitor</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ACE inhibitor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role taken by a chemical entity (including a drug or natural entity) that causes the contraction of the muscular wall of the vessels, in particular the large arteries and small arterioles, leadin to the narrowing of the blood vessels</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Vasoconstriction</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">vasoconstrictor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role taken by a chemical entity (including a drug or natural entity) that causes the relaxation of smooth muscle cells within the vessel walls, in particular in the large veins, large arteries, and smaller arterioles, resulting in the widening of blood vessels,</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Vasodilation</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">vasodilator role</rdfs:label>
+    </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
@@ -24920,8 +24978,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
