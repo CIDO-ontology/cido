@@ -99,9 +99,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000035 -->
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000263 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000263"/>
     
 
 
@@ -377,7 +377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000620">
         <rdfs:label>UBI SARS-CoV-2 ELISA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:CIDO_0000041>United Biomedical, Inc.</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
     </owl:Class>
@@ -465,7 +465,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000628">
         <rdfs:label>Simoa SARS-CoV-2 N Protein Antigen Test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Quanterix Corporation</obo:CIDO_0000041>
     </owl:Class>
@@ -498,7 +498,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000631">
         <rdfs:label>Simoa Semi-Quantitative SARS-CoV-2 IgG Antibody Test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Quanterix Corporation</obo:CIDO_0000041>
     </owl:Class>
@@ -696,7 +696,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000649">
         <rdfs:label>COVID-SeroKlir, Kantaro Semi-Quantitative SARS-CoV-2 IgG Antibody Kit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Kantaro Biosciences, LLC</obo:CIDO_0000041>
     </owl:Class>
@@ -740,7 +740,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000653">
         <rdfs:label>cPass SARS-CoV-2 Neutralization Antibody Detection Kit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>GenScript USA Inc.</obo:CIDO_0000041>
     </owl:Class>
@@ -751,7 +751,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000654">
         <rdfs:label>Q-Plex SARS-CoV-2 Human IgG (4 Plex)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:CIDO_0000041>Quansys Biosciences, Inc.</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
     </owl:Class>
@@ -905,7 +905,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000668">
         <rdfs:label>ZEUS ELISA SARS-CoV-2 IgG Test System</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>ZEUS Scientific, Inc.</obo:CIDO_0000041>
     </owl:Class>
@@ -949,7 +949,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000672">
         <rdfs:label>OmniPATH COVID-19 Total Antibody ELISA Test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Thermo Fisher Scientific</obo:CIDO_0000041>
     </owl:Class>
@@ -1335,7 +1335,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000707">
         <rdfs:label>COVID-19 ELISA pan-Ig Antibody Test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:CIDO_0000041>University of Arizona Genetics Core for Clinical Services</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
     </owl:Class>
@@ -1687,7 +1687,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000739">
         <rdfs:label>WANTAI SARS-CoV-2 Ab ELISA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.</obo:CIDO_0000041>
     </owl:Class>
@@ -2193,7 +2193,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000785">
         <rdfs:label>SCoV-2 Detect IgM ELISA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>InBios International, Inc.</obo:CIDO_0000041>
     </owl:Class>
@@ -2534,7 +2534,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000816">
         <rdfs:label>SARS-CoV-2 RBD IgG test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:CIDO_0000041>Emory Medical Laboratories</obo:CIDO_0000041>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
     </owl:Class>
@@ -3040,7 +3040,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000862">
         <rdfs:label>Anti-SARS-CoV-2 Elisa (IgG)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>EUROIMMUN US Inc.</obo:CIDO_0000041>
     </owl:Class>
@@ -3051,7 +3051,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000863">
         <rdfs:label>Platelia SARS-CoV-2 Total Ab assay</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Bio-Rad Laboratories, Inc</obo:CIDO_0000041>
     </owl:Class>
@@ -3524,7 +3524,7 @@ Liat System</rdfs:label>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000906">
         <rdfs:label>COVID-19 ELISA IgG Antibody Test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:CIDO_0000041>Mount Sinai Laboratory</obo:CIDO_0000041>
     </owl:Class>
