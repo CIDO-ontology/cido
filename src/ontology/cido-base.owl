@@ -939,12 +939,45 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000358 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000358">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115>An object property that represents a relation  between a pathway (biological process) and a process in which the pathway is susceptibly to differential regulation in the process.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman, Yongqun &apos;Oliver&apos; He</dc:creator>
+        <rdfs:label xml:lang="en">pathway susceptibly regulated in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000359 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000359">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000358"/>
+        <dc:creator>An object property that represents a relation  between a pathway (biological process) and a process in which the pathway is susceptibly to differential up-regulation in the process.</dc:creator>
+        <dc:creator>Anthony Huffman, Yongqun &apos;Oliver&apos; He</dc:creator>
+        <rdfs:label xml:lang="en">pathway susceptibly up-regulated in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000360 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000360">
         <obo:IAO_0000115>An object property that represents a relation between a molecule and a receptor of the molecule where the molecule binds physically to the receptor.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">binding to receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000363 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000363">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000358"/>
+        <dc:creator>An object property that represents a relation  between a pathway (biological process) and a process in which the pathway is susceptibly to differential down-regulation in the process.</dc:creator>
+        <dc:creator>Anthony Huffman, Yongqun &apos;Oliver&apos; He</dc:creator>
+        <rdfs:label xml:lang="en">pathway susceptibly down-regulated in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -7635,6 +7668,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000115>A human that is infected with some pathogen</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human infected with pathogen</rdfs:label>
     </owl:Class>
     
@@ -7653,6 +7688,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000290"/>
+        <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human infected by SARS-CoV-2</rdfs:label>
     </owl:Class>
     
@@ -7716,6 +7752,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human female infected by SARS-CoV-2</rdfs:label>
     </owl:Class>
     
@@ -7767,6 +7804,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118>male infected with SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human male infected by SARS-CoV-2</rdfs:label>
     </owl:Class>
     
@@ -7785,6 +7824,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000290"/>
+        <obo:IAO_0000115>A human infected with pathogen that is asymptomtic for the disease process associated with the pathogen the human is infected with.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">asymptomic human infected with pathogen</rdfs:label>
     </owl:Class>
     
@@ -17816,6 +17857,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGG_3000003606 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_3000003606">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000293"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_3000003627 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_3000003627">
@@ -25087,8 +25141,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
