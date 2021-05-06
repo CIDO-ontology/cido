@@ -19,6 +19,7 @@
      xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
@@ -3674,6 +3675,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7568 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_7568">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_75991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75991">
@@ -3751,6 +3765,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         </rdfs:subClassOf>
         <obo:IAO_0000119>PMID: 32366720; PMID: 30282713</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8024 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_8024">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000354"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
     
 
 
@@ -4306,7 +4333,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>A disease process that is induced by coronavirus infection</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">coronavirus infectious disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">coronavirus infectious disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4340,7 +4367,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
         <rdfs:comment>SARS was a relatively rare disease; at the end of the epidemic in June 2003, the incidence was 8422 cases with a case-fatality rate of 11%. The case-fatality ratio ranges from 0% to 50% depending on the age group of the patient. Patients under 24 were least likely to die; those 65 and older were most likely to die.
 Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4685,7 +4712,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000118>2019-nCoV disease process</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.who.int/ith/diseases/sars/en/</obo:IAO_0000119>
-        <rdfs:label>COVID-19 disease (process)</rdfs:label>
+        <rdfs:label>COVID-19 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4715,7 +4742,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000118>Middle East respiratory syndrome DP</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome-related_coronavirus</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">MERS-CoV disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">MERS-CoV disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4738,7 +4765,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_229E</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus 229E disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus 229E disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4761,7 +4788,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_OC43</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus OC43 disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus OC43 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4784,7 +4811,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_NL63</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus NL63 disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus NL63 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -4807,7 +4834,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yu Hong</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_coronavirus_HKU1</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Human coronavirus HKU1 disease (process)</rdfs:label>
+        <rdfs:label xml:lang="en">Human coronavirus HKU1 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -7804,6 +7831,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000439"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118>male infected with SARS-CoV-2</obo:IAO_0000118>
         <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human male infected by SARS-CoV-2</rdfs:label>
@@ -8545,6 +8578,15 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000118>AGTR1</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Angiotensin_II_receptor</obo:IAO_0000119>
         <rdfs:label xml:lang="en">angiotensin II receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+        <rdfs:label xml:lang="en">severe COVID-19 disease process</rdfs:label>
     </owl:Class>
     
 
@@ -17369,6 +17411,19 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0140105 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140105">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000359"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1901687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901687">
@@ -17728,9 +17783,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5745 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5745">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5745">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -18516,6 +18571,25 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0071222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005242"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005242"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000364"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000071"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -24986,7 +25060,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/VO_0004906 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004906">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004906">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24998,26 +25072,26 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0004909"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0004988 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0004988">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004988">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -25029,13 +25103,25 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004989"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010754"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0010850 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010850">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010850">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -25047,7 +25133,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -25066,6 +25152,25 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002598"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0033041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005242"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005242"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000364"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000071"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
