@@ -4222,6 +4222,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
@@ -5614,27 +5620,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/DRON_00022418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022418">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000028"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000071"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50667"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">372782</obo:DRON_00010000>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mercaptopurine Oral Tablet</rdfs:label>
@@ -6702,7 +6687,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/DRON_00882939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
         <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2284718</obo:DRON_00010000>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remdesivir drug</rdfs:label>
@@ -7262,8 +7247,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/dron.owl">
         <dc:creator>Josh Hanna</dc:creator>
-        <rdfs:comment>An ontology of drugs.</rdfs:comment>
         <rdfs:comment>This version of DrOn is current through the June, 2020 version of RxNorm.</rdfs:comment>
+        <rdfs:comment>An ontology of drugs.</rdfs:comment>
         <dc:creator>William Hogan</dc:creator>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/3.0/</terms:license>
         <rdfs:comment>DrOn contains content developed by the National Library of Medicine in RxNorm.  In creating DrOn, we have used RxNorm content only with SAB = RXNORM.</rdfs:comment>

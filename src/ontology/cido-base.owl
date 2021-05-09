@@ -4863,7 +4863,7 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
         <obo:IAO_0000115>A drug role that is realized in the treatment for COVID-19 disease at the experimental level.</obo:IAO_0000115>
-        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Yingtong Liu, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.preprints.org/manuscript/202003.0413/v1</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 experimental drug role</rdfs:label>
     </owl:Class>
@@ -6400,9 +6400,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000118>a role that is inherent in a drug and authorized to be used in the clinic to treat COVID-19 patient</obo:IAO_0000118>
+        <obo:IAO_0000118>clinical COVID-19 drug role</obo:IAO_0000118>
         <obo:IAO_0000118>clinical anti-COVID-19 drug role</obo:IAO_0000118>
         <obo:IAO_0000118>clinical anti-SARS-CoV-2 drug role</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">clinical COVID-19 drug role</rdfs:label>
+        <rdfs:label xml:lang="en">authorized clinical COVID-19 drug role</rdfs:label>
     </owl:Class>
     
 
@@ -8591,6 +8592,24 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000365">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115>A drug product used for treating COVID-19</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/COVID-19_drug_development</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">COVID-19 drug</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -10154,18 +10173,39 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/DRON_00022418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022418">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00492"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000022"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00492"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q06203"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000028"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000071"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50667"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01033</obo:IAO_0000119>
     </owl:Class>
     
@@ -25246,8 +25286,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
