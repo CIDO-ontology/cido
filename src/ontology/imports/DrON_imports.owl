@@ -4222,9 +4222,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000365 -->
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000172 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000172"/>
     
 
 
@@ -6687,7 +6687,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/DRON_00882939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
         <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2284718</obo:DRON_00010000>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remdesivir drug</rdfs:label>

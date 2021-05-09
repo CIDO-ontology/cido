@@ -65,13 +65,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">05-04-2021</dc:date>
+        <dc:date xml:lang="en">05-09-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.206</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.210</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6182,6 +6182,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000118>drug</obo:IAO_0000118>
         <obo:IAO_0000118>drug material</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Drug</obo:IAO_0000119>
+        <obo:IAO_0000232>See: https://github.com/CIDO-ontology/cido/issues/24 . This term needs more discussion. It was added because the current &apos;drug product&apos; appears not to be aappropriate for our cases of COVID-19 drugs tested valid against viral infection experimentally in vivo or in vitro as seen in our paper: https://www.preprints.org/manuscript/202003.0413/v1. Oliver</obo:IAO_0000232>
         <rdfs:label xml:lang="en">drug substance</rdfs:label>
     </owl:Class>
     
@@ -6216,6 +6217,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>A drug substance that is experinentallly proven to be effective against SARS-CoV-2 infection, where the experiment can be done either in vivo or in vitro. The in vitro study is typically conducted using cell line cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <terms:source>https://en.wikipedia.org/wiki/COVID-19_drug_development</terms:source>
         <rdfs:label xml:lang="en">COVID-19 drug substance</rdfs:label>
     </owl:Class>
     
@@ -8592,24 +8594,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000365 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000365">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000011"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000115>A drug product used for treating COVID-19</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/COVID-19_drug_development</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">COVID-19 drug</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -10787,6 +10771,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/DRON_00882939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00882939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000022"/>
