@@ -65,13 +65,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">05-09-2021</dc:date>
+        <dc:date xml:lang="en">06-08-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.211</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.212</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -261,7 +261,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000012 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000012">
-        <obo:IAO_0000115>An object property that represents a relation between a drug and a disease process where a drug is effective in treating a host against the disease process.</obo:IAO_0000115>
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (e.g., drug or respirator) and a disease process where a drug is effective in treating a host against the disease process.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:comment>This term can be changed to the RO term &apos;is substance that treats&apos; (RO_0002606). So it may be obsolete.</rdfs:comment>
         <rdfs:label xml:lang="en">treatment for</rdfs:label>
@@ -6316,6 +6316,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000180">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6324,7 +6330,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A treatment for the COVID-19 disease</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu, Bill Duncan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 treatment</rdfs:label>
     </owl:Class>
     
@@ -6599,6 +6605,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
         <obo:IAO_0000115>A host-coronavirus interaction process that is implemented by the virus</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
         <rdfs:label xml:lang="en">coronaviral process to host</rdfs:label>
@@ -8590,6 +8597,119 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
         <rdfs:label xml:lang="en">severe COVID-19 disease process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>protective equipment (such as clothing, helmet, goggles) that is designed to protect the wearer&apos;s body from injury or infection.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000118>PPE</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Personal_protective_equipment</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cdc.gov/coronavirus/2019-ncov/hcp/using-ppe.html</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/personal-protective-equipment-infection-control</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.osha.gov/personal-protective-equipment</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">personal protective equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <obo:IAO_0000115>clothing designed to protect the wearer&apos;s body from injury or infection.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Personal_protective_equipment#Protective_clothing_and_ensembles</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">protective clothing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <obo:IAO_0000115>A respirator designed to protect the user from breathing in contaminants in the air, thus preserving the health of their respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Personal_protective_equipment#Respirators</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">respirator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000367"/>
+        <obo:IAO_0000115>A respirator designed to protect the user from breathing in contaminants in the air, thus preserving the health of their respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-and-face-masks</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">N95 Respirator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <obo:IAO_0000115>A respirator designed to protect the user from breathing in contaminants in the air, thus preserving the health of their respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/coronavirus/2019-ncov/hcp/using-ppe.html</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.osha.gov/personal-protective-equipment</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">medical gloves</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <obo:IAO_0000115>A respirator designed to protect the user from breathing in contaminants in the air, thus preserving the health of their respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/medical-gowns</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">medical gown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000365"/>
+        <obo:IAO_0000115>A kit or equipment worn on the head and face to afford protection to the wearer</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Mask#Protective</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">protective mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000372"/>
+        <obo:IAO_0000115>A surgical mask is a loose-fitting, disposable device that creates a physical barrier between the mouth and nose of the wearer and potential contaminants in the immediate environment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-and-face-masks</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">surgery mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000372"/>
+        <obo:IAO_0000115>A kit or equipment designed for a medical purpose.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Oxygen_mask</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">oxygen mask</rdfs:label>
     </owl:Class>
     
 
@@ -25271,8 +25391,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
