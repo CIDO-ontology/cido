@@ -6,8 +6,9 @@ VO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/VO_0004897 # coronavirus vaccine
-http://purl.obolibrary.org/obo/VO_0005242 # up-expressed as immune signature of 
 includeAllChildren
+
+http://purl.obolibrary.org/obo/VO_0005242 # up-expressed as immune signature of 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/VO_0000001 # vaccine 
