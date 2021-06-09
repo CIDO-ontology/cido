@@ -71,7 +71,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.212</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.214</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -25391,8 +25391,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
