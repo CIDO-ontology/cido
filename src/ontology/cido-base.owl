@@ -7037,7 +7037,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
         <rdfs:comment>In Europe and South America, the most frequent clades are clade GR. This clde GR is is currently the most common representative of the SARS-CoV-2 population worldwide. Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV-2 clade GR</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 clade GR virus</rdfs:label>
     </owl:Class>
     
 
@@ -7516,7 +7516,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
         <rdfs:comment>In Europe and South America, the most frequent clades are clade GR. This clde GR is is currently the most common representative of the SARS-CoV-2 population worldwide. Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV-2 GRY (B.1.1.7)</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 clade GRY virus</rdfs:label>
     </owl:Class>
     
 
@@ -8678,6 +8678,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000272"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000118></obo:IAO_0000118>
+        <oboInOwl:creation_date>7/1/2021</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Alpha variant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000372">
@@ -8710,6 +8722,106 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Oxygen_mask</obo:IAO_0000119>
         <rdfs:label xml:lang="en">oxygen mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Beta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Delta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Gamma variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Epsilon variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Zeta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Eta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Theta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Iota variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Kappa variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Lambda variant</rdfs:label>
     </owl:Class>
     
 
@@ -25391,8 +25503,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
