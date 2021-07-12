@@ -193,6 +193,16 @@ http://purl.obolibrary.org/obo/PR_Q9UM73
 http://purl.obolibrary.org/obo/PR_Q9UNX3
 http://purl.obolibrary.org/obo/PR_Q9Y5N1
 
+http://purl.obolibrary.org/obo/PR_O00187 # MASP2
+http://purl.obolibrary.org/obo/PR_Q9NNX6 # CD209 antigen (human) 
+http://purl.obolibrary.org/obo/PR_P35613 # CD147 (human)
+http://purl.obolibrary.org/obo/PR_P62937 # CyPA (human)
+http://purl.obolibrary.org/obo/PR_Q9UJ71 # hCD207; langerin (human) 
+http://purl.obolibrary.org/obo/PR_P07306 # ASGR1; CLEC4H1 (human) 
+http://purl.obolibrary.org/obo/PR_Q96MU8 #  Kremen protein 1 (human)
+http://purl.obolibrary.org/obo/PR_O14786 # NRP1; NRP; VEGF165R (human)
+http://purl.obolibrary.org/obo/PR_P49841 # glycogen synthase kinase-3 beta (human)
+
 # The following proteins are also drug targets but are missing from PRO now as of 8/16/2020
 http://purl.obolibrary.org/obo/PR_A2QLK4
 http://purl.obolibrary.org/obo/PR_O09807
