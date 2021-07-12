@@ -10,7 +10,7 @@ CIDO has now been approved to be an OBO library ontology: http://obofoundry.org/
 ### CIDO Developers:
 CIDO was initiated and co-led by Dr. Hong Yu, director of Department of Respiratory and critical Care Medicine，Guizhou Province People’s Hospital,  Guizhou University Medical College, Guiyang, Guizhou, China, and Dr. Yongqun Oliver He, Associate Professor, University of Michigan Medical School, Ann Arbor, MI, USA. 
 
-[He laboratory](http://www.hegroup.org) at the University of Michigan actively participated in the CIDO development. In addition to Oliver He, four graduate students (Anthony Huffman, Yingtong Liu, Edison Ong, and Yang Wang) have actively involved in the CIDO development.  
+[He laboratory](http://www.hegroup.org) at the University of Michigan actively participated in the CIDO development. In addition to Oliver He, four graduate students (Anthony Huffman, Yingtong Liu, Edison Ong, and Yang Wang), and several undergraduate students (including Easheta Shah, Roshan Desai) have actively involved in the CIDO development.  
  
 Drs. Hong Yu and Yang Wang from Guizhou Province People’s Hospital have also participated in the CIDO development. Dr. Yang Wang (M.D.) is also a PhD student in Biomedical Informatics and she is currently a visiting PhD student in He laboratory. 
 
