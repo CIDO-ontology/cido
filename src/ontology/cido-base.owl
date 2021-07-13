@@ -66,13 +66,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">06-08-2021</dc:date>
+        <dc:date xml:lang="en">07-12-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.217</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.219</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -980,6 +980,24 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <dc:creator>An object property that represents a relation  between a pathway (biological process) and a process in which the pathway is susceptibly to differential down-regulation in the process.</dc:creator>
         <dc:creator>Anthony Huffman, Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">pathway susceptibly down-regulated in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000385 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000385">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002609"/>
+        <rdfs:label xml:lang="en">interactive relatoin between material entities</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000386 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000386">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000385"/>
+        <rdfs:label xml:lang="en">capable of binding to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -20753,6 +20771,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC9-1 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P62937"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_P10275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P10275">
@@ -24479,6 +24510,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P62937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P62937">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000270"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35613"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -25376,7 +25413,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004989">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_1110119"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35613"/>
             </owl:Restriction>
         </rdfs:subClassOf>
