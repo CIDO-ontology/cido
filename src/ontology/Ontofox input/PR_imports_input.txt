@@ -203,6 +203,19 @@ http://purl.obolibrary.org/obo/PR_Q96MU8 #  Kremen protein 1 (human)
 http://purl.obolibrary.org/obo/PR_O14786 # NRP1; NRP; VEGF165R (human)
 http://purl.obolibrary.org/obo/PR_P49841 # glycogen synthase kinase-3 beta (human)
 
+# Added as part of independent results / research for paper significance
+http://purl.obolibrary.org/obo/PR_P09919 # CSF3 (human)
+http://purl.obolibrary.org/obo/PR_P09603 #CSF1 (human)
+http://purl.obolibrary.org/obo/PR_P01563 #INFA2 (human)
+http://purl.obolibrary.org/obo/PR_P01579 #IFNG (human)
+http://purl.obolibrary.org/obo/PR_P18510 #IL-1RA (human)
+http://purl.obolibrary.org/obo/PR_P70380 #IL-18 (human)
+http://purl.obolibrary.org/obo/PR_P10145 # IL-8 (human)
+http://purl.obolibrary.org/obo/PR_Q08334  # IL-10
+http://purl.obolibrary.org/obo/PR_P13236  #CCL4
+http://purl.obolibrary.org/obo/PR_P13501  #CCL5
+
+
 # The following proteins are also drug targets but are missing from PRO now as of 8/16/2020
 http://purl.obolibrary.org/obo/PR_A2QLK4
 http://purl.obolibrary.org/obo/PR_O09807
