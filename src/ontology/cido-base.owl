@@ -6950,7 +6950,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
@@ -6970,7 +6970,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <obo:IAO_0000115>Clade L is the reference genome that was found at the beginning of the COVID-19 pandemic (December 2019).</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 type B virus</obo:IAO_0000118>
@@ -6984,7 +6984,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
@@ -7005,7 +7005,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <obo:IAO_0000115>A SARS-CoV-2 variant virus that has a signature variant of the ORF3a coding protein NS3-G251.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 type B.2 virus</obo:IAO_0000118>
@@ -7064,7 +7064,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <obo:IAO_0000115>a SARS-CoV-2 virus that belongs to clade O, which stands for &quot;Other&quot;, meaning it is not G, GH, GR, L, S, or V.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 type B.2 virus</obo:IAO_0000118>
@@ -8701,6 +8701,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000272"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <obo:IAO_0000118></obo:IAO_0000118>
         <oboInOwl:creation_date>7/1/2021</oboInOwl:creation_date>
@@ -8749,6 +8750,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Beta variant</rdfs:label>
     </owl:Class>
@@ -8759,6 +8761,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Delta variant</rdfs:label>
     </owl:Class>
@@ -8769,6 +8772,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Gamma variant</rdfs:label>
     </owl:Class>
@@ -8779,6 +8783,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Epsilon variant</rdfs:label>
     </owl:Class>
@@ -8789,6 +8794,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Zeta variant</rdfs:label>
     </owl:Class>
@@ -8799,6 +8805,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Eta variant</rdfs:label>
     </owl:Class>
@@ -8809,6 +8816,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Theta variant</rdfs:label>
     </owl:Class>
@@ -8819,6 +8827,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Iota variant</rdfs:label>
     </owl:Class>
@@ -8829,6 +8838,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Kappa variant</rdfs:label>
     </owl:Class>
@@ -8839,6 +8849,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Lambda variant</rdfs:label>
     </owl:Class>
@@ -8849,6 +8860,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <obo:IAO_0000115>A SARS-CoV-2 Alpha variant with a majority of the following mutations:
 orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:3 ,S:N501Y ,S:A570D ,S:P681H ,S:T716I ,S:S982A ,S:D1118H ,Orf8:Q27* ,Orf8:R52I ,Orf8:Y73C ,N:D3L ,N:S235F</obo:IAO_0000115>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
@@ -8861,6 +8873,7 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000375"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <obo:IAO_0000115>A SARS-CoV-2 Beta variant virus that has a majority of the following mutations: E:P71L, N:T205I, orf1a:K1655N, S:D80A, S:D215G, S:K417N, S:A701V, S:N501Y, S:E484K</obo:IAO_0000115>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">SARS-CoV-2 B.1.135 virus</rdfs:label>
@@ -8878,8 +8891,9 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000375"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
-        <rdfs:label xml:lang="en">SARS-CoV-2 B.1.135.1 virus</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 B.1.135.3 virus</rdfs:label>
     </owl:Class>
     
 
@@ -8894,6 +8908,7 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000375"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">SARS-CoV-2 B.1.135.2 virus</rdfs:label>
     </owl:Class>
@@ -8921,6 +8936,7 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">SARS-CoV-2 AY.1 virus</rdfs:label>
     </owl:Class>
@@ -8937,6 +8953,7 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">SARS-CoV-2 AY.2 virus</rdfs:label>
     </owl:Class>
@@ -8947,6 +8964,7 @@ orf1ab:T1001I ,orf1ab:A1708D ,orf1ab:I2230T del:11288:9 ,del:21765:6, del:21991:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000377"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
         <obo:IAO_0000115>A SARS-CoV-2 Gamma variant virus with the majority of the following mutations: 
 orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R190S, S:K417T, S:E484K, S:N501Y, S:H655Y, S:T1027I, orf3a:G174C, orf8:E92K, N:P80R</obo:IAO_0000115>
         <obo:IAO_0000118>SARS-CoV-2 B.1.1.28.1 virus</obo:IAO_0000118>
@@ -8984,6 +9002,33 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000377"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">SARS-CoV-2 P.1.2 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 based on GISAID clades</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 based on PANGO lineages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 based on WHO classification</rdfs:label>
     </owl:Class>
     
 
