@@ -66,13 +66,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">07-12-2021</dc:date>
+        <dc:date xml:lang="en">07-13-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.219</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.222</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8852,6 +8852,25 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 Lambda variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000120"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9NNX6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A multivalent glycomimetic mannoside that can act as a glycomimetic antagonist by interaction with DC-SIGN (i.e., CD209 antigen). The DC/L-SIGN recognition of spike glycoprotein promotes SARS-CoV-2 trans-infection, which can be inhibited by PM26, a glycomimetic antagonist.</obo:IAO_0000115>
+        <obo:IAO_0000117>Easheta Shah, Roshan Desai, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>PM26</obo:IAO_0000118>
+        <obo:IAO_0000119>https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009576</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Polyman26</rdfs:label>
     </owl:Class>
     
 
@@ -20962,6 +20981,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC9-1 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9-1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O00187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
