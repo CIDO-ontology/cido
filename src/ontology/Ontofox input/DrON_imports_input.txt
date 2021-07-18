@@ -81,6 +81,17 @@ http://purl.obolibrary.org/obo/DRON_00750820
 http://purl.obolibrary.org/obo/DRON_00803385
 http://purl.obolibrary.org/obo/DRON_00837869
 
+# new drugs added by Shah and Ashley
+http://purl.obolibrary.org/obo/DRON_00020177
+http://purl.obolibrary.org/obo/DRON_00016421
+http://purl.obolibrary.org/obo/DRON_00019979
+http://purl.obolibrary.org/obo/DRON_00014332
+http://purl.obolibrary.org/obo/DRON_00750866
+http://purl.obolibrary.org/obo/DRON_00019607
+http://purl.obolibrary.org/obo/DRON_00015096
+http://purl.obolibrary.org/obo/DRON_00831727
+http://purl.obolibrary.org/obo/DRON_00819888
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
 

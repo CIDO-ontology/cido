@@ -77,7 +77,7 @@ http://purl.obolibrary.org/obo/CHEBI_3647
 http://purl.obolibrary.org/obo/CHEBI_3649
 http://purl.obolibrary.org/obo/CHEBI_3755
 http://purl.obolibrary.org/obo/CHEBI_4031
-http://purl.obolibrary.org/obo/CHEBI_45409
+http://purl.obolibrary.org/obo/CHEBI_45409 # Ritonavir
 http://purl.obolibrary.org/obo/CHEBI_4551
 http://purl.obolibrary.org/obo/CHEBI_45783
 http://purl.obolibrary.org/obo/CHEBI_472805
@@ -129,6 +129,26 @@ http://purl.obolibrary.org/obo/CHEBI_9555
 http://purl.obolibrary.org/obo/CHEBI_9571
 http://purl.obolibrary.org/obo/CHEBI_9636
 http://purl.obolibrary.org/obo/CHEBI_9712
+
+# added by Shah and Ashley:
+http://purl.obolibrary.org/obo/CHEBI_367163
+http://purl.obolibrary.org/obo/CHEBI_31781
+http://purl.obolibrary.org/obo/CHEBI_134722
+http://purl.obolibrary.org/obo/CHEBI_134730
+http://purl.obolibrary.org/obo/CHEBI_63115
+http://purl.obolibrary.org/obo/CHEBI_6888
+http://purl.obolibrary.org/obo/CHEBI_2955
+http://purl.obolibrary.org/obo/CHEBI_132967
+http://purl.obolibrary.org/obo/CHEBI_147281
+http://purl.obolibrary.org/obo/CHEBI_6618
+http://purl.obolibrary.org/obo/CHEBI_5855
+http://purl.obolibrary.org/obo/CHEBI_41879
+http://purl.obolibrary.org/obo/CHEBI_23359
+http://purl.obolibrary.org/obo/CHEBI_93829
+http://purl.obolibrary.org/obo/CHEBI_95341
+http://purl.obolibrary.org/obo/CHEBI_113532
+http://purl.obolibrary.org/obo/CHEBI_71466
+http://purl.obolibrary.org/obo/CHEBI_46889
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
