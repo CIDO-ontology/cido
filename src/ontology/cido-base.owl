@@ -1002,6 +1002,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000410">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115>A relation between two chemical entities X and Y such that if a portion of X is an epitope that binds to some antigen, there is also a portion of Y that is also an epitope which will bind to the same antigen.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">has epitope cross-reactivity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -7190,7 +7201,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>ORF8-L84S is SNP variant that occurs at T28144C at ORF8 protein, which is shown in a SARS-CoV-2 clade S variant virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>ORF8-L84S</obo:IAO_0000118>
+        <obo:IAO_0000118>ORF8-L84S, NS8-L84S</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">NS8-L84S</rdfs:label>
@@ -7209,7 +7220,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>ORF3a:G251V</obo:IAO_0000115>
-        <obo:IAO_0000115>an ann-changing SNP variant that occurs at G26144T at ORF3a protein of SARS-CoV-2 virus. It is a signature variation in SARS-CoV clade V.</obo:IAO_0000115>
+        <obo:IAO_0000115>an aa-changing SNP variant that occurs at G26144T at ORF3a protein of SARS-CoV-2 virus. It is a signature variation in SARS-CoV clade V.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">NS3-G251</obo:IAO_0000118>
         <obo:IAO_0000118>ORF3a-G251V</obo:IAO_0000118>
@@ -8018,6 +8029,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8035,6 +8047,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8052,6 +8065,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8070,6 +8084,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -8122,17 +8137,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000314">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004989"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000301"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8149,6 +8153,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">NNATNVVIKVCEFQF</rdfs:label>
     </owl:Class>
     
@@ -8158,6 +8163,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">CEFQFCNDPFLGVYY</rdfs:label>
     </owl:Class>
     
@@ -8167,6 +8173,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">CTFEYVSQPFLMDLE</rdfs:label>
     </owl:Class>
     
@@ -8176,6 +8183,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">IGINITRFQTLLALH</rdfs:label>
     </owl:Class>
     
@@ -8185,6 +8193,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">TRFQTLLALHRSYLT</rdfs:label>
     </owl:Class>
     
@@ -8194,6 +8203,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">FTVEKGIYQTSNFRV</rdfs:label>
     </owl:Class>
     
@@ -8203,6 +8213,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">SNFRVQPTESIVRFP</rdfs:label>
     </owl:Class>
     
@@ -8212,6 +8223,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">QPTESIVRFPNITNL</rdfs:label>
     </owl:Class>
     
@@ -8221,6 +8233,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">IVRFPNITNLCPFGE</rdfs:label>
     </owl:Class>
     
@@ -8230,6 +8243,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">CPFGEVFNATRFASV</rdfs:label>
     </owl:Class>
     
@@ -8239,6 +8253,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">VFNATRFASVYAWNR</rdfs:label>
     </owl:Class>
     
@@ -8248,6 +8263,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">SVASQSIIAYTMSLG</rdfs:label>
     </owl:Class>
     
@@ -8257,6 +8273,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">AYSNNSIAIPTNFTI</rdfs:label>
     </owl:Class>
     
@@ -8266,6 +8283,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">NLLLQYGSFCTQLNR</rdfs:label>
     </owl:Class>
     
@@ -8275,6 +8293,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">TQLNRALTGIAVEQD</rdfs:label>
     </owl:Class>
     
@@ -8284,6 +8303,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">VFAQVKQIYKTPPIK</rdfs:label>
     </owl:Class>
     
@@ -8293,6 +8313,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">NFSQILPDPSKPSKR</rdfs:label>
     </owl:Class>
     
@@ -8302,6 +8323,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">KPSKRSFIEDLLFNK</rdfs:label>
     </owl:Class>
     
@@ -8311,6 +8333,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">SFIEDLLFNKVTLAD</rdfs:label>
     </owl:Class>
     
@@ -8320,6 +8343,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">CAQKFNGLTVLPPLL</rdfs:label>
     </owl:Class>
     
@@ -8329,6 +8353,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">AQYTSALLAGTITSG</rdfs:label>
     </owl:Class>
     
@@ -8338,6 +8363,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">WTFGAGAALQIPFAM</rdfs:label>
     </owl:Class>
     
@@ -8347,6 +8373,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">AQALNTLVKQLSSNF</rdfs:label>
     </owl:Class>
     
@@ -8356,6 +8383,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">GAISSVLNDILSRLD</rdfs:label>
     </owl:Class>
     
@@ -8365,6 +8393,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">VQIDRLITGRLQSLQ</rdfs:label>
     </owl:Class>
     
@@ -8374,6 +8403,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">APHGVVFLHVTYVPA</rdfs:label>
     </owl:Class>
     
@@ -8383,6 +8413,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">ELDKYFKNHTSPDVD</rdfs:label>
     </owl:Class>
     
@@ -8392,6 +8423,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">GINASVVNIQKEIDR</rdfs:label>
     </owl:Class>
     
@@ -8401,6 +8433,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000343">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">LNEVAKNLNESLIDL</rdfs:label>
     </owl:Class>
     
@@ -8410,6 +8443,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000344">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">YEQYIKWPWYIWLGF</rdfs:label>
     </owl:Class>
     
@@ -9072,6 +9106,16 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000409">
+        <obo:IAO_0000115>A term that has been deprecated.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">obsolete term</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
@@ -9436,17 +9480,6 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000449 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000449">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000304"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9463,17 +9496,6 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000450">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000305"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9490,17 +9512,6 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000451">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000306"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9517,17 +9528,6 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000452 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000452">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_53000"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000303"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9537,6 +9537,710 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         </rdfs:subClassOf>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV OC43 S protein epitope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000477">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000478">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000485">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000489">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000533">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
     </owl:Class>
     
 
@@ -20994,7 +21698,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC9 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9-1"/>
+    </owl:Class>
     
 
 
@@ -25648,6 +26354,30 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>

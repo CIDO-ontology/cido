@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl#"
      xml:base="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl"/>
     
 
@@ -18,17 +19,72 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     
 
 
@@ -293,6 +349,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000409"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000445"/>
@@ -344,7 +406,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000460">
-        <rdfs:label>APEGLVFLHTVLLPT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -358,9 +419,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000340"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids APEGLVFLHTVLLPT</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>APEGLVFLHTVLLPT</rdfs:label>
     </owl:Class>
     
 
@@ -368,8 +430,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000461">
-        <rdfs:label>APYGLLFMHFSYKPI</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -385,6 +446,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids APYGLLFMHFSYKPI</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>APYGLLFMHFSYKPI</rdfs:label>
     </owl:Class>
     
 
@@ -392,23 +454,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000462">
-        <rdfs:label>APDGLLFLHTVLLPT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000340"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000340"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids APDGLLFLHTVLLPT</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>APDGLLFLHTVLLPT</rdfs:label>
     </owl:Class>
     
 
@@ -416,7 +478,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000463">
-        <rdfs:label>APYGLYFIHFSYVPT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -430,9 +491,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000340"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids APYGLYFIHFSYVPT</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>APYGLYFIHFSYVPT</rdfs:label>
     </owl:Class>
     
 
@@ -440,23 +502,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000464">
-        <rdfs:label>GNSLNHLTSQLRQNF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids GNSLNHLTSQLRQNF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GNSLNHLTSQLRQNF</rdfs:label>
     </owl:Class>
     
 
@@ -464,23 +526,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000465">
-        <rdfs:label>AQALNSLLQQLFNKF</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids AQALNSLLQQLFNKF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids AQALNSLLQQLFNKF</obo:IAO_0000115>
+        <rdfs:label>AQALNSLLQQLFNKF</rdfs:label>
     </owl:Class>
     
 
@@ -488,7 +550,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000466">
-        <rdfs:label>GSALNHLTSQLRHNF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -502,9 +563,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids GSALNHLTSQLRHNF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GSALNHLTSQLRHNF</rdfs:label>
     </owl:Class>
     
 
@@ -512,7 +574,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000467">
-        <rdfs:label>AEALNNLLQQLSNRF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -526,9 +587,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids AEALNNLLQQLSNRF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids AEALNNLLQQLSNRF</obo:IAO_0000115>
+        <rdfs:label>AEALNNLLQQLSNRF</rdfs:label>
     </owl:Class>
     
 
@@ -536,23 +598,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000468">
-        <rdfs:label>AWYFLAMLTGLLPSL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000335"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids AWYFLAMLTGLLPSL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>AWYFLAMLTGLLPSL</rdfs:label>
     </owl:Class>
     
 
@@ -560,7 +622,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000469">
-        <rdfs:label>LLCRVTLGDFTIMSG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -574,9 +635,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000335"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids LLCRVTLGDFTIMSG</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LLCRVTLGDFTIMSG</rdfs:label>
     </owl:Class>
     
 
@@ -584,23 +646,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000470">
-        <rdfs:label>FSPFNSLLCGDIVSG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000335"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids FSPFNSLLCGDIVSG</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>FSPFNSLLCGDIVSG</rdfs:label>
     </owl:Class>
     
 
@@ -608,7 +670,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000471">
-        <rdfs:label>ISSTVRLQAGTATEY</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -623,8 +684,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids ISSTVRLQAGTATEY</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ISSTVRLQAGTATEY</rdfs:label>
     </owl:Class>
     
 
@@ -632,7 +694,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000472">
-        <rdfs:label>ESAYMPIADPTHFDI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -647,8 +708,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids ESAYMPIADPTHFDI</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ESAYMPIADPTHFDI</rdfs:label>
     </owl:Class>
     
 
@@ -656,7 +718,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000473">
-        <rdfs:label>VGGLYEIKIPTNFTI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -670,9 +731,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000327"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids VGGLYEIKIPTNFTI</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VGGLYEIKIPTNFTI</rdfs:label>
     </owl:Class>
     
 
@@ -680,23 +742,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000474">
-        <rdfs:label>ASGVFGVNLRTNFTI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000327"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000327"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids ASGVFGVNLRTNFTI</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids ASGVFGVNLRTNFTI</obo:IAO_0000115>
+        <rdfs:label>ASGVFGVNLRTNFTI</rdfs:label>
     </owl:Class>
     
 
@@ -704,23 +766,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000475 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000475">
-        <rdfs:label>VGGLYEIQIPSEFTI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000327"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000327"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids VGGLYEIQIPSEFTI</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VGGLYEIQIPSEFTI</rdfs:label>
     </owl:Class>
     
 
@@ -728,23 +790,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000476">
-        <rdfs:label>CAQYYNGIMVLPGVA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000334"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids CAQYYNGIMVLPGVA</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids CAQYYNGIMVLPGVA</obo:IAO_0000115>
+        <rdfs:label>CAQYYNGIMVLPGVA</rdfs:label>
     </owl:Class>
     
 
@@ -752,7 +814,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000477 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000477">
-        <rdfs:label>CVQSFNGIKVLPPIL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -766,9 +827,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids CVQSFNGIKVLPPIL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CVQSFNGIKVLPPIL</rdfs:label>
     </owl:Class>
     
 
@@ -776,23 +838,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000478">
-        <rdfs:label>CAQYYNGIMVLPGVA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000334"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids CAQYYNGIMVLPGVA</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CAQYYNGIMVLPGVA</rdfs:label>
     </owl:Class>
     
 
@@ -800,7 +862,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000479 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000479">
-        <rdfs:label>CVQSYKGIKVLPPLL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -817,6 +878,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids CVQSYKGIKVLPPLL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CVQSYKGIKVLPPLL</rdfs:label>
     </owl:Class>
     
 
@@ -824,23 +886,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000480 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000480">
-        <rdfs:label>ELLQFVTDPTLIVAS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000316"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids ELLQFVTDPTLIVAS</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ELLQFVTDPTLIVAS</rdfs:label>
     </owl:Class>
     
 
@@ -848,23 +910,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000481">
-        <rdfs:label>CKFAVCGDGFVPFLL</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000316"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids CKFAVCGDGFVPFLL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CKFAVCGDGFVPFLL</rdfs:label>
     </owl:Class>
     
 
@@ -872,7 +934,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000482">
-        <rdfs:label>QPFSFSFRDELGVRV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -886,9 +947,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids QPFSFSFRDELGVRV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids QPFSFSFRDELGVRV</obo:IAO_0000115>
+        <rdfs:label>QPFSFSFRDELGVRV</rdfs:label>
     </owl:Class>
     
 
@@ -896,7 +958,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000483">
-        <rdfs:label>CQFKDKNLQDLWVLY</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -911,8 +972,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids CQFKDKNLQDLWVLY</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CQFKDKNLQDLWVLY</rdfs:label>
     </owl:Class>
     
 
@@ -920,23 +982,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000484 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000484">
-        <rdfs:label>FSFGKVNNFVKFGSV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids FSFGKVNNFVKFGSV</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>FSFGKVNNFVKFGSV</rdfs:label>
     </owl:Class>
     
 
@@ -944,23 +1006,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000485">
-        <rdfs:label>FKFDEPSDATDFIRV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids FKFDEPSDATDFIRV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids FKFDEPSDATDFIRV</obo:IAO_0000115>
+        <rdfs:label>FKFDEPSDATDFIRV</rdfs:label>
     </owl:Class>
     
 
@@ -968,7 +1030,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000486 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000486">
-        <rdfs:label>STVVEVKSAIVCASV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -982,9 +1043,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids STVVEVKSAIVCASV</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>STVVEVKSAIVCASV</rdfs:label>
     </owl:Class>
     
 
@@ -992,7 +1054,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000487 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000487">
-        <rdfs:label>LVPQENYSSIRFASV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1006,9 +1067,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000324"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids LVPQENYSSIRFASV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids LVPQENYSSIRFASV</obo:IAO_0000115>
+        <rdfs:label>LVPQENYSSIRFASV</rdfs:label>
     </owl:Class>
     
 
@@ -1016,7 +1078,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000488 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000488">
-        <rdfs:label>EEIEYVHGDALHTLR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1030,9 +1091,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids EEIEYVHGDALHTLR</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>EEIEYVHGDALHTLR</rdfs:label>
     </owl:Class>
     
 
@@ -1040,8 +1102,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000489">
-        <rdfs:label>CGIKYVAQPTEDVVD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1054,9 +1115,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids CGIKYVAQPTEDVVD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids CGIKYVAQPTEDVVD</obo:IAO_0000115>
+        <rdfs:label>CGIKYVAQPTEDVVD</rdfs:label>
     </owl:Class>
     
 
@@ -1064,23 +1126,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000490">
-        <rdfs:label>DTCFGVSKPNAIDVE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids DTCFGVSKPNAIDVE</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>DTCFGVSKPNAIDVE</rdfs:label>
     </owl:Class>
     
 
@@ -1088,23 +1150,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000491">
-        <rdfs:label>LIREIVMNASPYDLE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids LIREIVMNASPYDLE</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LIREIVMNASPYDLE</rdfs:label>
     </owl:Class>
     
 
@@ -1112,7 +1174,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000492 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000492">
-        <rdfs:label>ALDKLYKVFGSPVMT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1127,8 +1188,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids ALDKLYKVFGSPVMT</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ALDKLYKVFGSPVMT</rdfs:label>
     </owl:Class>
     
 
@@ -1136,7 +1198,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000493">
-        <rdfs:label>ELSHWFKNQTSIAPN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1151,8 +1212,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids ELSHWFKNQTSIAPN</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ELSHWFKNQTSIAPN</rdfs:label>
     </owl:Class>
     
 
@@ -1160,7 +1222,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000494 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000494">
-        <rdfs:label>EFRDYFNNNTDSIVI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1175,8 +1236,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids EFRDYFNNNTDSIVI</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>EFRDYFNNNTDSIVI</rdfs:label>
     </owl:Class>
     
 
@@ -1184,23 +1246,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000495 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000495">
-        <rdfs:label>ELDQWFKNQTSVAPD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000341"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000341"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids ELDQWFKNQTSVAPD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids ELDQWFKNQTSVAPD</obo:IAO_0000115>
+        <rdfs:label>ELDQWFKNQTSVAPD</rdfs:label>
     </owl:Class>
     
 
@@ -1208,23 +1270,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000496">
-        <rdfs:label>FAVESGGYIPSDFAF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids FAVESGGYIPSDFAF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>FAVESGGYIPSDFAF</rdfs:label>
     </owl:Class>
     
 
@@ -1232,23 +1294,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000497">
-        <rdfs:label>FEVEKGVTVDDFVAV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids FEVEKGVTVDDFVAV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>FEVEKGVTVDDFVAV</rdfs:label>
     </owl:Class>
     
 
@@ -1256,23 +1318,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000498">
-        <rdfs:label>FDVVFGHGAGSVVFV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids FDVVFGHGAGSVVFV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids FDVVFGHGAGSVVFV</obo:IAO_0000115>
+        <rdfs:label>FDVVFGHGAGSVVFV</rdfs:label>
     </owl:Class>
     
 
@@ -1280,7 +1342,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000499">
-        <rdfs:label>KRGEKGAYNKDHGRG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1295,8 +1356,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids KRGEKGAYNKDHGRG</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>KRGEKGAYNKDHGRG</rdfs:label>
     </owl:Class>
     
 
@@ -1304,23 +1366,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000500 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000500">
-        <rdfs:label>QAISSSIQAIYDRLD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids QAISSSIQAIYDRLD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>QAISSSIQAIYDRLD</rdfs:label>
     </owl:Class>
     
 
@@ -1328,8 +1390,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000501">
-        <rdfs:label>GAISSSLQEILSRLD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1343,8 +1404,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids GAISSSLQEILSRLD</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GAISSSLQEILSRLD</rdfs:label>
     </owl:Class>
     
 
@@ -1352,23 +1414,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000502">
-        <rdfs:label>SAMHSLLFGMLRRLD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids SAMHSLLFGMLRRLD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SAMHSLLFGMLRRLD</rdfs:label>
     </owl:Class>
     
 
@@ -1376,23 +1438,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000503">
-        <rdfs:label>GAISASLQEILSRLD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids GAISASLQEILSRLD</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GAISASLQEILSRLD</rdfs:label>
     </owl:Class>
     
 
@@ -1400,23 +1462,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000504">
-        <rdfs:label>GNQTLFCNIMKFSDR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000342"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000342"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids GNQTLFCNIMKFSDR</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GNQTLFCNIMKFSDR</rdfs:label>
     </owl:Class>
     
 
@@ -1424,7 +1486,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000505">
-        <rdfs:label>LIPRSYYLIQSGIFF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1441,6 +1502,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids LIPRSYYLIQSGIFF</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LIPRSYYLIQSGIFF</rdfs:label>
     </owl:Class>
     
 
@@ -1448,7 +1510,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000506">
-        <rdfs:label>GLNASVTLKICKFSR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1462,9 +1523,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000342"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids GLNASVTLKICKFSR</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GLNASVTLKICKFSR</rdfs:label>
     </owl:Class>
     
 
@@ -1472,7 +1534,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000507">
-        <rdfs:label>GIFAKVKNTKVIKDR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1486,9 +1547,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000342"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids GIFAKVKNTKVIKDR</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids GIFAKVKNTKVIKDR</obo:IAO_0000115>
+        <rdfs:label>GIFAKVKNTKVIKDR</rdfs:label>
     </owl:Class>
     
 
@@ -1496,23 +1558,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000508">
-        <rdfs:label>TGVNDAITQTSQALQ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000318"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids TGVNDAITQTSQALQ</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TGVNDAITQTSQALQ</rdfs:label>
     </owl:Class>
     
 
@@ -1520,7 +1582,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000509">
-        <rdfs:label>IFKNNTSFPTNIAVE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1535,8 +1596,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids IFKNNTSFPTNIAVE</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>IFKNNTSFPTNIAVE</rdfs:label>
     </owl:Class>
     
 
@@ -1544,7 +1606,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000510 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000510">
-        <rdfs:label>VMNNIVLFLTWLLSM</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1558,9 +1619,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids VMNNIVLFLTWLLSM</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VMNNIVLFLTWLLSM</rdfs:label>
     </owl:Class>
     
 
@@ -1568,23 +1630,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000511">
-        <rdfs:label>IFINNTTYPTNVAVE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000318"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids IFINNTTYPTNVAVE</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids IFINNTTYPTNVAVE</obo:IAO_0000115>
+        <rdfs:label>IFINNTTYPTNVAVE</rdfs:label>
     </owl:Class>
     
 
@@ -1592,23 +1654,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000512 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000512">
-        <rdfs:label>CVEMHNKINLCDDPE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids CVEMHNKINLCDDPE</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CVEMHNKINLCDDPE</rdfs:label>
     </owl:Class>
     
 
@@ -1616,23 +1678,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000513 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000513">
-        <rdfs:label>AWRFPCAGRKVNFNE</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids AWRFPCAGRKVNFNE</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>AWRFPCAGRKVNFNE</rdfs:label>
     </owl:Class>
     
 
@@ -1640,23 +1702,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000514 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000514">
-        <rdfs:label>CVDLHNKINLCDDPE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids CVDLHNKINLCDDPE</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CVDLHNKINLCDDPE</rdfs:label>
     </owl:Class>
     
 
@@ -1664,7 +1726,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000515 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000515">
-        <rdfs:label>SVVEVVTTSLTPCGY</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1678,9 +1739,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000323"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids SVVEVVTTSLTPCGY</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SVVEVVTTSLTPCGY</rdfs:label>
     </owl:Class>
     
 
@@ -1688,7 +1750,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000516">
-        <rdfs:label>RVAGRSAIEDILFSK</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1702,9 +1763,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids RVAGRSAIEDILFSK</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>RVAGRSAIEDILFSK</rdfs:label>
     </owl:Class>
     
 
@@ -1712,23 +1774,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000517 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000517">
-        <rdfs:label>GSSSRSFFEDLLFDK</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids GSSSRSFFEDLLFDK</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GSSSRSFFEDLLFDK</rdfs:label>
     </owl:Class>
     
 
@@ -1736,23 +1798,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000518">
-        <rdfs:label>RIAGRSALEDLLFSK</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids RIAGRSALEDLLFSK</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids RIAGRSALEDLLFSK</obo:IAO_0000115>
+        <rdfs:label>RIAGRSALEDLLFSK</rdfs:label>
     </owl:Class>
     
 
@@ -1760,23 +1822,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000519">
-        <rdfs:label>KASSRSAIEDLLFDK</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids KASSRSAIEDLLFDK</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>KASSRSAIEDLLFDK</rdfs:label>
     </owl:Class>
     
 
@@ -1784,23 +1846,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000520">
-        <rdfs:label>WNGVIKNVNSVRDWL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000343"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000343"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids WNGVIKNVNSVRDWL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids WNGVIKNVNSVRDWL</obo:IAO_0000115>
+        <rdfs:label>WNGVIKNVNSVRDWL</rdfs:label>
     </owl:Class>
     
 
@@ -1808,7 +1870,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000521">
-        <rdfs:label>IQESIKSLNNSYINL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1822,9 +1883,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids IQESIKSLNNSYINL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>IQESIKSLNNSYINL</rdfs:label>
     </owl:Class>
     
 
@@ -1832,7 +1894,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000522 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000522">
-        <rdfs:label>LFVVALFIGVSFIDY</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1846,9 +1907,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000343"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids LFVVALFIGVSFIDY</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LFVVALFIGVSFIDY</rdfs:label>
     </owl:Class>
     
 
@@ -1856,7 +1918,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000523 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000523">
-        <rdfs:label>LQEAIKVLNQSYINL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1871,8 +1932,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids LQEAIKVLNQSYINL</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LQEAIKVLNQSYINL</rdfs:label>
     </owl:Class>
     
 
@@ -1880,23 +1942,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000524">
-        <rdfs:label>NGSNILEAFTKPVFI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000331"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000331"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids NGSNILEAFTKPVFI</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids NGSNILEAFTKPVFI</obo:IAO_0000115>
+        <rdfs:label>NGSNILEAFTKPVFI</rdfs:label>
     </owl:Class>
     
 
@@ -1904,7 +1966,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000525 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000525">
-        <rdfs:label>NFVALIPDYAKILVN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1919,8 +1980,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids NFVALIPDYAKILVN</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NFVALIPDYAKILVN</rdfs:label>
     </owl:Class>
     
 
@@ -1928,23 +1990,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000526">
-        <rdfs:label>YFSQLLCEPIKLVNS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000331"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000331"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids YFSQLLCEPIKLVNS</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>YFSQLLCEPIKLVNS</rdfs:label>
     </owl:Class>
     
 
@@ -1952,7 +2014,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000527">
-        <rdfs:label>NIEAWLNDKSVPSPL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1966,9 +2027,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000331"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids NIEAWLNDKSVPSPL</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NIEAWLNDKSVPSPL</rdfs:label>
     </owl:Class>
     
 
@@ -1976,23 +2038,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000528 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000528">
-        <rdfs:label>LLLWESGKAKPPLNR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids LLLWESGKAKPPLNR</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LLLWESGKAKPPLNR</rdfs:label>
     </owl:Class>
     
 
@@ -2000,23 +2062,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000529">
-        <rdfs:label>DLLSEYGTFCDNINS</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids DLLSEYGTFCDNINS</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>DLLSEYGTFCDNINS</rdfs:label>
     </owl:Class>
     
 
@@ -2024,7 +2086,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000530">
-        <rdfs:label>NLLKQYTSACKTIED</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2039,8 +2100,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids NLLKQYTSACKTIED</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NLLKQYTSACKTIED</rdfs:label>
     </owl:Class>
     
 
@@ -2048,23 +2110,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000531">
-        <rdfs:label>SQLVEYGSFCDNINA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000328"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids SQLVEYGSFCDNINA</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids SQLVEYGSFCDNINA</obo:IAO_0000115>
+        <rdfs:label>SQLVEYGSFCDNINA</rdfs:label>
     </owl:Class>
     
 
@@ -2072,23 +2134,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000532">
-        <rdfs:label>NPVSFVVKPVCSSIF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids NPVSFVVKPVCSSIF</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NPVSFVVKPVCSSIF</rdfs:label>
     </owl:Class>
     
 
@@ -2096,7 +2158,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000533">
-        <rdfs:label>ESQGNVVTSVMESQI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2110,9 +2171,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids ESQGNVVTSVMESQI</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ESQGNVVTSVMESQI</rdfs:label>
     </owl:Class>
     
 
@@ -2120,23 +2182,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000534">
-        <rdfs:label>NIAFNVVKKGCFTGV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids NIAFNVVKKGCFTGV</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NIAFNVVKKGCFTGV</rdfs:label>
     </owl:Class>
     
 
@@ -2144,23 +2206,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000535">
-        <rdfs:label>NPPTNVVSHVNGDWF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000315"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids NPPTNVVSHVNGDWF</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NPPTNVVSHVNGDWF</rdfs:label>
     </owl:Class>
     
 
@@ -2168,7 +2230,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000536">
-        <rdfs:label>QPVEGVSSFMNVTLD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2185,6 +2246,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids QPVEGVSSFMNVTLD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>QPVEGVSSFMNVTLD</rdfs:label>
     </owl:Class>
     
 
@@ -2192,7 +2254,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000537">
-        <rdfs:label>QPTEDVVDGDVVIRE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2206,9 +2267,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000322"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids QPTEDVVDGDVVIRE</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>QPTEDVVDGDVVIRE</rdfs:label>
     </owl:Class>
     
 
@@ -2216,23 +2278,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000538">
-        <rdfs:label>NNTDSIVIGGVTYQL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000322"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000322"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids NNTDSIVIGGVTYQL</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>NNTDSIVIGGVTYQL</rdfs:label>
     </owl:Class>
     
 
@@ -2240,23 +2302,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000539 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000539">
-        <rdfs:label>ICSASDMTNPDYTNL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000322"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000322"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids ICSASDMTNPDYTNL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ICSASDMTNPDYTNL</rdfs:label>
     </owl:Class>
     
 
@@ -2264,23 +2326,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000540">
-        <rdfs:label>SAIEDILFSKLVTSG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids SAIEDILFSKLVTSG</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids SAIEDILFSKLVTSG</obo:IAO_0000115>
+        <rdfs:label>SAIEDILFSKLVTSG</rdfs:label>
     </owl:Class>
     
 
@@ -2288,8 +2350,7 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000541 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000541">
-        <rdfs:label>SFFEDLLFDKVKLSD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2302,9 +2363,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids SFFEDLLFDKVKLSD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SFFEDLLFDKVKLSD</rdfs:label>
     </owl:Class>
     
 
@@ -2312,23 +2374,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000542">
-        <rdfs:label>SALEDLLFSKVVTSG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids SALEDLLFSKVVTSG</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SALEDLLFSKVVTSG</rdfs:label>
     </owl:Class>
     
 
@@ -2336,23 +2398,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000543 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000543">
-        <rdfs:label>SAIEDLLFDKVKLSD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000333"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids SAIEDLLFDKVKLSD</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SAIEDLLFDKVKLSD</rdfs:label>
     </owl:Class>
     
 
@@ -2360,7 +2422,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000544 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000544">
-        <rdfs:label>SNSNYLLEEFDVVFG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2374,9 +2435,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000321"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids SNSNYLLEEFDVVFG</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SNSNYLLEEFDVVFG</rdfs:label>
     </owl:Class>
     
 
@@ -2384,23 +2446,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000545 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000545">
-        <rdfs:label>YSFGRCPTSSIIKHP</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000321"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids YSFGRCPTSSIIKHP</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>YSFGRCPTSSIIKHP</rdfs:label>
     </owl:Class>
     
 
@@ -2408,23 +2470,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000546">
-        <rdfs:label>SLWRVTAVHSDGMFV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000321"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids SLWRVTAVHSDGMFV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids SLWRVTAVHSDGMFV</obo:IAO_0000115>
+        <rdfs:label>SLWRVTAVHSDGMFV</rdfs:label>
     </owl:Class>
     
 
@@ -2432,7 +2494,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000547 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000547">
-        <rdfs:label>LLFDVIVAWHVVRDP</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2449,6 +2510,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids LLFDVIVAWHVVRDP</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>LLFDVIVAWHVVRDP</rdfs:label>
     </owl:Class>
     
 
@@ -2456,23 +2518,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000548">
-        <rdfs:label>RLHNFSIISGTAFLG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids RLHNFSIISGTAFLG</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>RLHNFSIISGTAFLG</rdfs:label>
     </owl:Class>
     
 
@@ -2480,7 +2542,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000549">
-        <rdfs:label>SVATFYIEHYVNRLV</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2494,9 +2555,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids SVATFYIEHYVNRLV</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SVATFYIEHYVNRLV</rdfs:label>
     </owl:Class>
     
 
@@ -2504,23 +2566,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000550">
-        <rdfs:label>SSATDAIIAVELLLL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids SSATDAIIAVELLLL</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SSATDAIIAVELLLL</rdfs:label>
     </owl:Class>
     
 
@@ -2528,23 +2590,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000551">
-        <rdfs:label>SVKSYDSLVYTGVLG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000326"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids SVKSYDSLVYTGVLG</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>SVKSYDSLVYTGVLG</rdfs:label>
     </owl:Class>
     
 
@@ -2552,7 +2614,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000552">
-        <rdfs:label>VMLQIQLTGILDGDY</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2567,8 +2628,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids VMLQIQLTGILDGDY</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VMLQIQLTGILDGDY</rdfs:label>
     </owl:Class>
     
 
@@ -2576,7 +2638,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000553">
-        <rdfs:label>KLITTACNGISVTQT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2590,9 +2651,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000329"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids KLITTACNGISVTQT</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>KLITTACNGISVTQT</rdfs:label>
     </owl:Class>
     
 
@@ -2600,23 +2662,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000554">
-        <rdfs:label>NQLRLAFLGASVTED</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000329"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000329"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids NQLRLAFLGASVTED</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids NQLRLAFLGASVTED</obo:IAO_0000115>
+        <rdfs:label>NQLRLAFLGASVTED</rdfs:label>
     </owl:Class>
     
 
@@ -2624,7 +2686,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000555">
-        <rdfs:label>TILNTACGVFEVDDT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2638,9 +2699,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000329"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids TILNTACGVFEVDDT</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TILNTACGVFEVDDT</rdfs:label>
     </owl:Class>
     
 
@@ -2648,7 +2710,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000556">
-        <rdfs:label>TPFMILLVALSLCLT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2665,6 +2726,7 @@
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids TPFMILLVALSLCLT</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TPFMILLVALSLCLT</rdfs:label>
     </owl:Class>
     
 
@@ -2672,7 +2734,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000557">
-        <rdfs:label>FPKGYVMGLFRSYKT</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2687,8 +2748,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids FPKGYVMGLFRSYKT</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>FPKGYVMGLFRSYKT</rdfs:label>
     </owl:Class>
     
 
@@ -2696,23 +2758,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000558">
-        <rdfs:label>TLFKFLLLLYAIYAL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000319"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids TLFKFLLLLYAIYAL</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TLFKFLLLLYAIYAL</rdfs:label>
     </owl:Class>
     
 
@@ -2720,23 +2782,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000559">
-        <rdfs:label>TIFNCVYALNNVYLG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000319"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids TIFNCVYALNNVYLG</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TIFNCVYALNNVYLG</rdfs:label>
     </owl:Class>
     
 
@@ -2744,23 +2806,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000560">
-        <rdfs:label>VVGGTIQILASVPEK</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids VVGGTIQILASVPEK</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VVGGTIQILASVPEK</rdfs:label>
     </owl:Class>
     
 
@@ -2768,23 +2830,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000561">
-        <rdfs:label>CNAQEQQIYFFEGVA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids CNAQEQQIYFFEGVA</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>CNAQEQQIYFFEGVA</rdfs:label>
     </owl:Class>
     
 
@@ -2792,23 +2854,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000562">
-        <rdfs:label>VTEDVKFAASTGVID</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids VTEDVKFAASTGVID</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VTEDVKFAASTGVID</rdfs:label>
     </owl:Class>
     
 
@@ -2816,23 +2878,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000563">
-        <rdfs:label>VSATVLQNNELMPAK</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids VSATVLQNNELMPAK</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VSATVLQNNELMPAK</rdfs:label>
     </owl:Class>
     
 
@@ -2840,23 +2902,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000564">
-        <rdfs:label>VWHAKDFNSLSAEGR</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000325"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids VWHAKDFNSLSAEGR</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VWHAKDFNSLSAEGR</rdfs:label>
     </owl:Class>
     
 
@@ -2864,7 +2926,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000565">
-        <rdfs:label>WFNTMLDASAPATGW</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2879,8 +2940,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids WFNTMLDASAPATGW</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>WFNTMLDASAPATGW</rdfs:label>
     </owl:Class>
     
 
@@ -2888,7 +2950,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000566">
-        <rdfs:label>WFCANQSTSVYSANG</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2902,9 +2963,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000325"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids WFCANQSTSVYSANG</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>WFCANQSTSVYSANG</rdfs:label>
     </owl:Class>
     
 
@@ -2912,23 +2974,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000567">
-        <rdfs:label>VKNIPRYASAVAQAF</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000325"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids VKNIPRYASAVAQAF</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VKNIPRYASAVAQAF</rdfs:label>
     </owl:Class>
     
 
@@ -2936,7 +2998,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000568">
-        <rdfs:label>QQVDRLITGRLAALN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2950,9 +3011,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids QQVDRLITGRLAALN</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>QQVDRLITGRLAALN</rdfs:label>
     </owl:Class>
     
 
@@ -2960,7 +3022,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000569">
-        <rdfs:label>VQIDRLINGRLTALN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2974,9 +3035,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids VQIDRLINGRLTALN</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids VQIDRLINGRLTALN</obo:IAO_0000115>
+        <rdfs:label>VQIDRLINGRLTALN</rdfs:label>
     </owl:Class>
     
 
@@ -2984,7 +3046,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000570">
-        <rdfs:label>QQVDRLITGRLAALN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2998,9 +3059,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids QQVDRLITGRLAALN</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>QQVDRLITGRLAALN</rdfs:label>
     </owl:Class>
     
 
@@ -3008,23 +3070,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000571">
-        <rdfs:label>AQIDRLINGRLTALN</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000339"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000339"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids AQIDRLINGRLTALN</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>AQIDRLINGRLTALN</rdfs:label>
     </owl:Class>
     
 
@@ -3032,23 +3094,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000572">
-        <rdfs:label>TTQQAGAGIKYFCGM</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000336"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000336"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids TTQQAGAGIKYFCGM</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>TTQQAGAGIKYFCGM</rdfs:label>
     </owl:Class>
     
 
@@ -3056,7 +3118,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000573">
-        <rdfs:label>MLHGGGVAKAIAVAA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3071,8 +3132,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids MLHGGGVAKAIAVAA</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>MLHGGGVAKAIAVAA</rdfs:label>
     </owl:Class>
     
 
@@ -3080,7 +3142,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000574 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000574">
-        <rdfs:label>GTFESAAAGTFVLDM</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3094,9 +3155,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids GTFESAAAGTFVLDM</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>GTFESAAAGTFVLDM</rdfs:label>
     </owl:Class>
     
 
@@ -3104,7 +3166,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000575">
-        <rdfs:label>ETFTVCADGFMPFLL</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3119,8 +3180,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids ETFTVCADGFMPFLL</obo:IAO_0000115>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>ETFTVCADGFMPFLL</rdfs:label>
     </owl:Class>
     
 
@@ -3128,23 +3190,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000576">
-        <rdfs:label>VETYIKWPWWVWLCI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000451"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV 229E  composed of the following amino acids VETYIKWPWWVWLCI</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>VETYIKWPWWVWLCI</rdfs:label>
     </owl:Class>
     
 
@@ -3152,7 +3214,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000577">
-        <rdfs:label>YEMYVKWPWYVWLLI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000450"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3166,9 +3227,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV HKU1  composed of the following amino acids YEMYVKWPWYVWLLI</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>YEMYVKWPWYVWLLI</rdfs:label>
     </owl:Class>
     
 
@@ -3176,23 +3238,23 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000578">
-        <rdfs:label>FENYIKWPWWVWLII</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000449"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids FENYIKWPWWVWLII</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV NL63  composed of the following amino acids FENYIKWPWWVWLII</obo:IAO_0000115>
+        <rdfs:label>FENYIKWPWWVWLII</rdfs:label>
     </owl:Class>
     
 
@@ -3200,7 +3262,6 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
-        <rdfs:label>YEYYVKWPWYVWLLI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000452"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3214,13 +3275,14 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000344"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000115>A coronavirus epitope that is part of some S protein from HCoV OC43  composed of the following amino acids YEYYVKWPWYVWLLI</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32753554</obo:IAO_0000119>
+        <rdfs:label>YEYYVKWPWYVWLLI</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
