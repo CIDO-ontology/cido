@@ -66,13 +66,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">07-13-2021</dc:date>
+        <dc:date xml:lang="en">07-21-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.222</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.227</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -998,6 +998,31 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000386">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000385"/>
         <rdfs:label xml:lang="en">capable of binding to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000391 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000391">
+        <rdfs:label xml:lang="en">susceptible to infection of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000392 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000392">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000391"/>
+        <rdfs:label xml:lang="en">susceptible to lethal infection of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000393 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000393">
+        <rdfs:label xml:lang="en">has genetic mutation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -8925,6 +8950,54 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000118>PM26</obo:IAO_0000118>
         <obo:IAO_0000119>https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009576</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Polyman26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:label xml:lang="en">transgenic mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000389">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000392"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000393"/>
+                        <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000390"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A transgenic mouse that expresses the SARS-CoV receptor (human angiotensin-converting enzyme 2 [hACE2]) in airway and other epithelia, which can develop a rapidly lethal infection after intranasal inoculation with a human strain of the virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yang Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17079315/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">K18-hACE2 transgenic mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:label xml:lang="en">BALB/c mouse</rdfs:label>
     </owl:Class>
     
 
@@ -26517,8 +26590,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
