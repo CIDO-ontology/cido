@@ -24,6 +24,7 @@
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
@@ -1027,6 +1028,28 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000394 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000394">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a modulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical has protein target as modulator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000408 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000408">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000394"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a negative modulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zalan Shah, Ashely Yan, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical has protein target as negative modulator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000410 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000410">
@@ -1034,6 +1057,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>A relation between two chemical entities X and Y such that if a portion of X is an epitope that binds to some antigen, there is also a portion of Y that is also an epitope which will bind to the same antigen.</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">has epitope cross-reactivity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000411 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000411">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a stimulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical has protein target as stimulator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -26670,8 +26704,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
