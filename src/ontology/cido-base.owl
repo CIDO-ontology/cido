@@ -67,13 +67,13 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
-        <dc:date xml:lang="en">07-21-2021</dc:date>
+        <dc:date xml:lang="en">07-22-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.227</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.230</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1068,6 +1068,18 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a stimulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
         <obo:IAO_0000117>Zalan Shah, Ashley Yan, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">chemical has protein target as stimulator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000417">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (e.g., gene or protein) that is secreted from another material entity (e.g., cell).</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">secreted from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -7905,6 +7917,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000006352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:creator>Anthony Huffman,  Yongqun &apos;Oliver&apos; He</dc:creator>
         <rdfs:label xml:lang="en">human female infected by SARS-CoV-2</rdfs:label>
     </owl:Class>
@@ -7961,6 +7979,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000439"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000384"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>male infected with SARS-CoV-2</obo:IAO_0000118>
@@ -9303,12 +9327,123 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000416"/>
+        <obo:IAO_0000115>A disposition that a material entity such as a gene or protein is susceptible to be up-regulated</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibility to up-regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000412"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000422"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A disposition that a material entity such as a gene or protein is susceptible to be up-regulated in COVID-19 patient</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibility to up-regulation in COVID-19 patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000413"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000422"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000383"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000293"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A disposition that a material entity such as a gene or protein is susceptible to be up-regulated in COVID-19 female patient</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibility to up-regulation in COVID-19 female patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000413"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000422"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000384"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A disposition that a material entity such as a gene or protein is susceptible to be up-regulated in COVID-19 male patient</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibility to up-regulation in COVID-19 male patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A disposition that a material entity such as a gene or protein is susceptible to be regulated</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibility to regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117>A role that is realized in a material entity (typically a gene or protein) that has its characteristic change as an indicative of a specific immune response</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immune signature role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000419">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000417"/>
         <obo:IAO_0000115>Hong Yu, Oliver He</obo:IAO_0000115>
         <obo:IAO_0000115>a human patient who is infected with coronavirus</obo:IAO_0000115>
+        <obo:IAO_0000118>coronavirus patient</obo:IAO_0000118>
         <rdfs:label xml:lang="en">human coronavirus patient</rdfs:label>
     </owl:Class>
     
@@ -9446,6 +9581,17 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <obo:IAO_0000117>Oliver He, Hong Yu</obo:IAO_0000117>
         <obo:IAO_0000118>COVID-19 diagnosis</obo:IAO_0000118>
         <rdfs:label xml:lang="en">COVID-19 diagnosis conclusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000418"/>
+        <obo:IAO_0000117>A role that is realized in a material entity (typically a gene or protein) that has its characteristic change as an indicative of a specific immune response to COVID-19 disease</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 immune signature role</rdfs:label>
     </owl:Class>
     
 
@@ -19391,6 +19537,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000005932 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005932">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3000001440"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000013883 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013883">
@@ -20359,6 +20518,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P05231 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P05231">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000431"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002598"/>
@@ -21842,6 +22007,31 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P09919 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P09919">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000414"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
+                <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=2438"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -26599,6 +26789,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/doid#sequence">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=2438 -->
+
+    <rdf:Description rdf:about="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=2438">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000414"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 

@@ -11,6 +11,10 @@ http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
 http://purl.obolibrary.org/obo/OPMI_0000439 # has increased susceptibility compared to female to
 http://purl.obolibrary.org/obo/OPMI_0000438 # has increased susceptiblity compared to male to
 
+http://purl.obolibrary.org/obo/PATO_0000383 # female
+http://purl.obolibrary.org/obo/PATO_0000384 # male
+
+
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
