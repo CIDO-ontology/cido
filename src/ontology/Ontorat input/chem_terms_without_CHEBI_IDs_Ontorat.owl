@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl#"
+     xml:base="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001000">
+        <rdfs:label>Galidesivir</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB11676</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001001">
+        <rdfs:label>Human interferon beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB14999</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001002">
+        <rdfs:label>Triazavirin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15622</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001003">
+        <rdfs:label>TMC-310911</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15623</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001004">
+        <rdfs:label>Bevacizumab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB00112</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001005">
+        <rdfs:label>Leronlimab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB05941</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001006">
+        <rdfs:label>N4-Hydroxycytidine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15660</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001007">
+        <rdfs:label>EIDD-2801</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15661</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001008">
+        <rdfs:label>Tridecactide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15687</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001009">
+        <rdfs:label>Vazegepant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15688</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001010">
+        <rdfs:label>Anti-SARS-CoV-2 REGN-COV2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15691</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001011">
+        <rdfs:label>BNT162b1 SARS-CoV-2 Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15695</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001012">
+        <rdfs:label>BNT162a1 SARS-CoV-2 Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15697</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001013">
+        <rdfs:label>BNT162c2 SARS-CoV-2 Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15698</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001014">
+        <rdfs:label>Bamlanivimab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15718</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001015">
+        <rdfs:label>AZD7442</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15787</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001016">
+        <rdfs:label>GC-376 free acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15796</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001017">
+        <rdfs:label>GC-373</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15797</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001018">
+        <rdfs:label>Abivertinib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15327</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001019">
+        <rdfs:label>Etesevimab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15897</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001020">
+        <rdfs:label>Subasumstat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16406</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001021">
+        <rdfs:label>Alunacedase alfa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15736</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001022">
+        <rdfs:label>Zansecimab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16389</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001023">
+        <rdfs:label>Goflikicept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16396</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001024">
+        <rdfs:label>Azvudine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16407</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001025">
+        <rdfs:label>Mosedipimod</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB12592</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001026">
+        <rdfs:label>CD24Fc</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16448</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001027">
+        <rdfs:label>Tin protoporphyrin IX</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16449</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001028">
+        <rdfs:label>Rexin G</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16450</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001029">
+        <rdfs:label>AT-527</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16451</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001030">
+        <rdfs:label>Meplazumab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16465</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001031">
+        <rdfs:label>MAS825</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16452</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001032">
+        <rdfs:label>ATYR1923</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16453</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001033">
+        <rdfs:label>Carrimycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16476</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001034">
+        <rdfs:label>Inbakicept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16479</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001035">
+        <rdfs:label>PF-07304814</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16514</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001036">
+        <rdfs:label>PF-07321332</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16691</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001037">
+        <rdfs:label>Fostamatinib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB12010</obo:IAO_0000119>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001038">
+        <rdfs:label>Sotrovimab</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://go.drugbank.com/drugs/DB16355</obo:IAO_0000119>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

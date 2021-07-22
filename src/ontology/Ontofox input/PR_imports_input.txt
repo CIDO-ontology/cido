@@ -233,9 +233,8 @@ http://purl.obolibrary.org/obo/PR_Q8MU52
 http://purl.obolibrary.org/obo/PR_Q9GQW8
 http://purl.obolibrary.org/obo/PR_Q9NGT0
 
-
 #PRO IDs added by Shah and Ashley
-http://purl.obolibrary.org/obo/PR_O75469-4
+http://purl.obolibrary.org/obo/PR_O75469
 http://purl.obolibrary.org/obo/PR_Q9H228
 http://purl.obolibrary.org/obo/PR_Q13547
 http://purl.obolibrary.org/obo/PR_P21453
@@ -525,8 +524,24 @@ http://purl.obolibrary.org/obo/PR_O75716
 http://purl.obolibrary.org/obo/PR_Q9UEE5
 http://purl.obolibrary.org/obo/PR_O94768
 http://purl.obolibrary.org/obo/PR_Q8WU08
-
-
+# newly added on 7/22/2021
+http://purl.obolibrary.org/obo/PR_P54646
+http://purl.obolibrary.org/obo/PR_P08637
+http://purl.obolibrary.org/obo/PR_P12318
+http://purl.obolibrary.org/obo/PR_P37231
+http://purl.obolibrary.org/obo/PR_P00533
+http://purl.obolibrary.org/obo/PR_Q99870
+http://purl.obolibrary.org/obo/PR_P22309
+http://purl.obolibrary.org/obo/PR_O76074
+http://purl.obolibrary.org/obo/PR_P09917
+http://purl.obolibrary.org/obo/PR_P07711
+http://purl.obolibrary.org/obo/PR_Q9P289
+http://purl.obolibrary.org/obo/PR_Q9NYL2
+http://purl.obolibrary.org/obo/PR_P42684
+http://purl.obolibrary.org/obo/PR_P00533
+http://purl.obolibrary.org/obo/PR_Q9UBF8
+http://purl.obolibrary.org/obo/PR_Q13131
+http://purl.obolibrary.org/obo/PR_P05129
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
