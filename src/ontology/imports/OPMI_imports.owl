@@ -478,29 +478,29 @@ A continuant cannot be part of an occurrent: use &#39;participates in&#39;. An o
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
             </rdf:Description>
         </owl:equivalentProperty>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -2999,6 +2999,127 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000426">
         <rdfs:label xml:lang="en">organic chemical entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000441">
+        <rdfs:label xml:lang="en">biomarker role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117>Yingtong Liu, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000445">
+        <rdfs:label xml:lang="en">biomarker</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000441"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker_(cell)</obo:IAO_0000119>
+        <obo:IAO_0000116>The NIH Biomarkers and Surrogate Endpoint Working Group defined a biomarker as “A characteristic that is objectively measured and evaluated as an indicator of normal biological processes, pathogenic processes, or pharmacological responses to a therapeutic intervention” (https://pubmed.ncbi.nlm.nih.gov/11240971/). However, the definition of &#39;characteriistc&#39; is unclear, so we do not use the exact definintion in the ontology.</obo:IAO_0000116>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker</obo:IAO_0000119>
+        <obo:IAO_0000117>Yingtong Liu, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker_(medicine)</obo:IAO_0000119>
+        <obo:IAO_0000115>A material entity that has a measurable quality or process profile(s), which can be used as an indicator of an underlying biological state or identity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000446">
+        <rdfs:label xml:lang="en">immune biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000119>A biomarker that is indicative of an immune response</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22072636/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32286245/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000447">
+        <rdfs:label xml:lang="en">cytokine biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000448">
+        <rdfs:label xml:lang="en">inflammatory cytokine biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000447"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000450">
+        <rdfs:label xml:lang="en">disease biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000115>A biomarker that is indicative of a disease</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker_(medicine)</obo:IAO_0000119>
+        <obo:IAO_0000117>Yingtong Liu, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000455">
+        <rdfs:label xml:lang="en">predictive biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker</obo:IAO_0000119>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000115>A biomarker that can predict clincal outcome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000456">
+        <rdfs:label xml:lang="en">prognostic biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000115>A  biomarker that provides information about the patient&#39;s overall outcome, regardless of therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000457">
+        <rdfs:label xml:lang="en">diagnostic biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomarker</obo:IAO_0000119>
+        <obo:IAO_0000115>A biomarker that can serve a role in narrowing down diagnosis, which can lead to diagnosis that is significantly more specific to individual patients.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
     </owl:Class>
     

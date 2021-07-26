@@ -71,7 +71,7 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">07-23-2021</dc:date>
+        <dc:date xml:lang="en">07-25-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
@@ -5559,9 +5559,11 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046718"/>
         <obo:IAO_0000115>A coronavirus-host interaction by which the virus enters the host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">coronavirus entry to cell</rdfs:label>
+        <obo:IAO_0000118>coronavirus entry to cell</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">coronaviral entry to cell</rdfs:label>
     </owl:Class>
     
 
@@ -6758,6 +6760,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019076"/>
         <obo:IAO_0000115>A coronavirus process that involves in the release of the assemblied virion from the host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000118>coronavirus release out of cell</obo:IAO_0000118>
@@ -7635,6 +7638,36 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 clade G variant virus that carries the combination of Spike D614G and Nucleocapsid RG203KR mutations.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>B.1.1.7</obo:IAO_0000118>
@@ -7729,7 +7762,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -7739,7 +7772,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Viral_life_cycle</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158286</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">viral life cycle</rdfs:label>
+        <rdfs:comment>Note: this term is obsolete because a term with the same name has been imported from GO and used.</rdfs:comment>
+        <rdfs:label xml:lang="en">viral life cycle - obsolete</rdfs:label>
     </owl:Class>
     
 
@@ -7747,7 +7781,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000280"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019058"/>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">coronavirus life cycle</rdfs:label>
     </owl:Class>
@@ -7771,7 +7805,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000280"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vial life cycle is the collection of the multiple steps involved in the virus processes occurring inside cells</obo:IAO_0000115>
@@ -9434,9 +9468,10 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000418">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <obo:IAO_0000117>A role that is realized in a material entity (typically a gene or protein) that has its characteristic change as an indicative of a specific immune response</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Note: This term is now obsolete. Check &apos;COVID-19 immune signature role&apos; or &apos;biomarker role&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">immune signature role</rdfs:label>
     </owl:Class>
     
@@ -9593,10 +9628,24 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/CIDO_0000431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000418"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000441"/>
         <obo:IAO_0000117>A role that is realized in a material entity (typically a gene or protein) that has its characteristic change as an indicative of a specific immune response to COVID-19 disease</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">COVID-19 immune signature role</rdfs:label>
+        <obo:IAO_0000118>COVID-19 immune biomarker role</obo:IAO_0000118>
+        <obo:IAO_0000118>COVID-19 immune signature role</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">COVID-19 immune marker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000432">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>A biomarker that is indicative of an immune response to COVID-19</obo:IAO_0000118>
+        <obo:IAO_0000118>COVID-19 immune biomarker</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">COVID-19 immune marker</rdfs:label>
     </owl:Class>
     
 
@@ -15740,6 +15789,19 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019058 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019058">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000284"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0019083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019083">
@@ -19542,6 +19604,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000446 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000446">
+        <obo:IAO_0000118>immune marker</obo:IAO_0000118>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005932 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005932">
@@ -22075,6 +22145,43 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -26734,12 +26841,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004989">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000386"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35613"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
             </owl:Restriction>
@@ -26754,12 +26855,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>

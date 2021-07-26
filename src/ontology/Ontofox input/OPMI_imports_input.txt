@@ -10,11 +10,15 @@ http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
 http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
 http://purl.obolibrary.org/obo/OPMI_0000439 # has increased susceptibility compared to female to
 http://purl.obolibrary.org/obo/OPMI_0000438 # has increased susceptiblity compared to male to
-
 http://purl.obolibrary.org/obo/PATO_0000383 # female
 http://purl.obolibrary.org/obo/PATO_0000384 # male
 
-
+http://purl.obolibrary.org/obo/OPMI_0000445 #biomarker
+http://purl.obolibrary.org/obo/OPMI_0000450 #disease biomarker
+http://purl.obolibrary.org/obo/OPMI_0000455 #predictive biomarker
+http://purl.obolibrary.org/obo/OPMI_0000457 #diagnostic biomarker
+http://purl.obolibrary.org/obo/OPMI_0000456 #prognostic biomarker 
+http://purl.obolibrary.org/obo/OPMI_0000446 #immune biomarker
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]

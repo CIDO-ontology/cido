@@ -156,6 +156,19 @@ http://purl.obolibrary.org/obo/GO_0048149
 http://purl.obolibrary.org/obo/GO_0035094
 http://purl.obolibrary.org/obo/GO_0007623
 
+http://purl.obolibrary.org/obo/GO_0046718 #viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0019058 #viral life cycle 
+http://purl.obolibrary.org/obo/GO_0019079 #viral genome replication
+http://purl.obolibrary.org/obo/GO_0039694 #viral RNA genome replication
+http://purl.obolibrary.org/obo/GO_1903901  #negative regulation of viral life cycle
+http://purl.obolibrary.org/obo/GO_0045070  #positive regulation of viral genome replication
+http://purl.obolibrary.org/obo/GO_0045071 #negative regulation of viral genome replication
+http://purl.obolibrary.org/obo/GO_1903902 # positive regulation of viral life cycle 
+http://purl.obolibrary.org/obo/GO_0019076  # viral release from host cell, viral shedding
+http://purl.obolibrary.org/obo/GO_1902186 #regulation of viral release from host cell
+http://purl.obolibrary.org/obo/GO_1902187  #negative regulation of viral release from host cell 
+http://purl.obolibrary.org/obo/GO_1902188 #positive regulation of viral release from host cell 
+
 # Added by Anthony for ICBO paper
 http://purl.obolibrary.org/obo/GO_0140105
 
