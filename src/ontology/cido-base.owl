@@ -71,13 +71,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">07-26-2021</dc:date>
+        <dc:date xml:lang="en">08-08-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.235</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.241</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -377,8 +377,9 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an enzyme inhibitor. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as inhibitor</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_inhibitor</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chemical has protein target as inhibitor</rdfs:label>
+        <rdfs:label xml:lang="en">chemical inhibits protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -413,7 +414,8 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an binder that chemically binds to the targeted protein. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">chemical has protein target as binder</rdfs:label>
+        <obo:IAO_0000118>chemical has protein target as binder</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">chemical binds protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -424,8 +426,9 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an enzyme inducer. Note that the chemical entity is usually an active compound of a corresponding drug. An enzyme inducer is a type of chemical that increases the metabolic activity of an enzyme either by binding to the enzyme and activating it, or by increasing the expression of the gene coding for the enzyme.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as inducer</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_inducer</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chemical has protein target as inducer</rdfs:label>
+        <rdfs:label xml:lang="en">chemical induces protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -458,8 +461,9 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an enzyme activator. Note that the chemical entity is usually an active compound of a corresponding drug. An enzyme inducer is a type of drug or chemcial that increases the metabolic activity of an enzyme either by binding to the enzyme and activating it, or by increasing the expression of the gene coding for the enzyme.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as activator</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_activator</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chemical has protein target as activator</rdfs:label>
+        <rdfs:label xml:lang="en">chemical activates protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1038,7 +1042,8 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a modulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
         <obo:IAO_0000117>Zalan Shah, Ashley Yan, Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">chemical has protein target as modulator</rdfs:label>
+        <obo:IAO_0000118>chemical has protein target as modulator</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">chemical modulates protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1071,7 +1076,8 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
         <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as a stimulator. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
         <obo:IAO_0000117>Zalan Shah, Ashley Yan, Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">chemical has protein target as stimulator</rdfs:label>
+        <obo:IAO_0000118>chemical has protein target as stimulator</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">chemical stimulates protein</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1084,6 +1090,16 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>An object property that represents a relation between a material entity (e.g., gene or protein) that is secreted from another material entity (e.g., cell).</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">secreted from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000433 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000433">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>An object property that represents a relation between an entity and a motivation in which the entity has the motivation.</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has motivation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -9646,6 +9662,40 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <obo:IAO_0000118>A biomarker that is indicative of an immune response to COVID-19</obo:IAO_0000118>
         <obo:IAO_0000118>COVID-19 immune biomarker</obo:IAO_0000118>
         <rdfs:label xml:lang="en">COVID-19 immune marker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A disposition that exists in an organism or virus and motivates the organism or virus to act or behave to achieve a specific outcome.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Motivation</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000434"/>
+        <obo:IAO_0000115>A movitation for self replication</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">motivation of replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000434"/>
+        <obo:IAO_0000115>A movitation for survival in a specific environment</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">motivation of survival</rdfs:label>
     </owl:Class>
     
 
@@ -19353,6 +19403,19 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
@@ -19414,6 +19477,25 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
         <obo:IAO_0000118>SARS-CoV-1</obo:IAO_0000118>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000435"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000436"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -27020,8 +27102,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
