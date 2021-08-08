@@ -304,7 +304,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000029">
         <obo:IAO_0000115>A short-cut relation that represents a direct relationship between a PCR test and the target gene (or gene region) that the test is designed to amplify and detect the targeted gene or gene region.</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">PCR detects</rdfs:label>
+        <rdfs:label xml:lang="en">PCR detects gene</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -10629,6 +10629,19 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000836 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000836">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
