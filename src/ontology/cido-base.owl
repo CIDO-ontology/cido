@@ -7842,6 +7842,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7158286</obo:IAO_0000119>
         <rdfs:comment>Note: this term is obsolete because a term with the same name has been imported from GO and used.</rdfs:comment>
         <rdfs:label xml:lang="en">viral life cycle - obsolete</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8211,6 +8212,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GLNKVKYATVVVGST</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8228,6 +8230,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">EDAIIVNDENSSIKV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8245,6 +8248,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GVFGVNLRTNFTIKG</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8262,6 +8266,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SLGFYNPPTNVVSHV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8303,6 +8308,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SLLIVNNATNVVIKV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8324,6 +8330,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:label xml:lang="en">SARS-CoV-2 S protein epitope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8333,6 +8340,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">NNATNVVIKVCEFQF</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8342,6 +8350,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">CEFQFCNDPFLGVYY</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8351,6 +8360,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">CTFEYVSQPFLMDLE</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8360,6 +8370,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">IGINITRFQTLLALH</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8369,6 +8380,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">TRFQTLLALHRSYLT</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8378,6 +8390,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">FTVEKGIYQTSNFRV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8387,6 +8400,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">SNFRVQPTESIVRFP</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8396,6 +8410,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">QPTESIVRFPNITNL</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8405,6 +8420,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">IVRFPNITNLCPFGE</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8414,6 +8430,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">CPFGEVFNATRFASV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8423,6 +8440,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">VFNATRFASVYAWNR</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8432,6 +8450,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">SVASQSIIAYTMSLG</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8441,6 +8460,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">AYSNNSIAIPTNFTI</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8450,6 +8470,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">NLLLQYGSFCTQLNR</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8459,6 +8480,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">TQLNRALTGIAVEQD</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8468,6 +8490,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">VFAQVKQIYKTPPIK</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8477,6 +8500,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">NFSQILPDPSKPSKR</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8486,6 +8510,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">KPSKRSFIEDLLFNK</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8495,6 +8520,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">SFIEDLLFNKVTLAD</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8504,6 +8530,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">CAQKFNGLTVLPPLL</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8513,6 +8540,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">AQYTSALLAGTITSG</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8522,6 +8550,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">WTFGAGAALQIPFAM</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8531,6 +8560,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">AQALNTLVKQLSSNF</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8540,6 +8570,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">GAISSVLNDILSRLD</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8549,6 +8580,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000339">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">VQIDRLITGRLQSLQ</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8558,6 +8590,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">APHGVVFLHVTYVPA</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8567,6 +8600,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">ELDKYFKNHTSPDVD</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8576,6 +8610,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">GINASVVNIQKEIDR</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8585,6 +8620,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000343">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">LNEVAKNLNESLIDL</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -8594,6 +8630,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000344">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
         <rdfs:label xml:lang="en">YEQYIKWPWYIWLGF</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9501,6 +9538,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:comment>Note: This term is now obsolete. Check &apos;COVID-19 immune signature role&apos; or &apos;biomarker role&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">immune signature role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9776,7 +9814,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9798,7 +9836,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9820,7 +9858,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9842,7 +9880,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9864,7 +9902,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11137"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9932,6 +9970,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV NL63 S protein epitope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9942,6 +9981,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV HKU1 S protein epitope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9952,6 +9992,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV 229E S protein epitope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9962,535 +10003,712 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV OC43 S protein epitope</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000462 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000462"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000462">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000463 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000463"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000463">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000465 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000465"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000465">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000466 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000466"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000466">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000467 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000467"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000467">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000469 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000469"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000469">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000470 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000470"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000470">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000471 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000471"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000471">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000473 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000473"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000473">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000474 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000474"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000474">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000475 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000475"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000475">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000477 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000477"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000477">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000478 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000478"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000478">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000479 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000479"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000479">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000481 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000481"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000481">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000482 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000482"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000482">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000483 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000483"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000483">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000485 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000485"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000485">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000486 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000486"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000486">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000487 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000487"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000487">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000489 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000489"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000489">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000490 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000490"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000490">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000491 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000491"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000491">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000493 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000493"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000493">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000494 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000494"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000494">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000495 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000495"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000495">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000497 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000497"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000497">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000498 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000498"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000498">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000499 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000499"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000499">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000501 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000501"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000501">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000502 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000502"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000502">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000503 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000503"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000503">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000505 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000505"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000505">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000506 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000506"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000506">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000507 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000507"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000507">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000509 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000509"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000509">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000510 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000510"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000510">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000511 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000511"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000511">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000513 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000513"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000513">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000514 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000514"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000514">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000515 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000515"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000515">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000517 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000517"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000517">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000518 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000518"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000518">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000519 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000519"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000519">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000521 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000521"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000521">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000522 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000522"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000522">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000523 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000523"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000523">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000525 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000525"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000525">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000526 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000526"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000526">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000527 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000527"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000527">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000529 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000529"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000529">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000530 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000530"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000530">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000531 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000531"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000531">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000533 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000533"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000533">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000534 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000534"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000534">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000535 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000535"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000535">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000537 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000537"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000537">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000538 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000538"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000538">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000539 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000539"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000539">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000541 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000541"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000541">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000542 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000542"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000542">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000543 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000543"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000543">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000546 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000546"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000546">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000547 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000547"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000547">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000549 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000549"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000549">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000550 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000550"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000550">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000551 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000551"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000551">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000553 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000553"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000553">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000554 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000554"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000554">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000555 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000555"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000555">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000557 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000557"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000557">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000558 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000558"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000558">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000559 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000559"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000559">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000561 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000561"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000561">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000562 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000562"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000562">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000563 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000563"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000563">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000565 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000565"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000565">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000566 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000566"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000566">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000567 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000567"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000567">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000569 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000569"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000569">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000570 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000570"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000570">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000571 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000571"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000571">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000573 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000573"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000573">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000574 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000574"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000574">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000575 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000575"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000575">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000577 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000577"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000577">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000578 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000578"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000578">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000579 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -26773,7 +26991,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -26804,7 +27022,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -26853,7 +27071,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -26956,6 +27174,102 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
         <obo:IAO_0000118>role</obo:IAO_0000118>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000460">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000461">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000464">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000468">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000472">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000476">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000480">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000484">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000488">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000492">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000496">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000500">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000504">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000508">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000512">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000516">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000520">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000524">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000528">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000532">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000536">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000540">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000544">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000545">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000548">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000552">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000556">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000560">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000564">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000568">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000572">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000576">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
         <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
     </rdf:Description>
@@ -26985,8 +27299,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
@@ -27079,6 +27393,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cido.owl/CIDO_0000450">
         <rdfs:comment>Obsolete term</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/so#member_of">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/so#part_of">
+        <owl:deprecated>http://purl.obolibrary.org/obo/BFO_0000050</owl:deprecated>
     </rdf:Description>
 </rdf:RDF>
 
