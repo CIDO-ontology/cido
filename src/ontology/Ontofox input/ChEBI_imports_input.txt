@@ -150,6 +150,8 @@ http://purl.obolibrary.org/obo/CHEBI_113532
 http://purl.obolibrary.org/obo/CHEBI_71466
 http://purl.obolibrary.org/obo/CHEBI_46889
 
+http://purl.obolibrary.org/obo/CHEBI_5123  
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity

@@ -972,7 +972,6 @@ where pmid1 and pmid2 are specfic PubMed IDs (PMIDs). </rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000162">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000158"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:BFO_0000179>has-d_at</obo:BFO_0000179>
         <obo:BFO_0000180>hasDispositionAt</obo:BFO_0000180>
         <obo:IAO_0000115 xml:lang="en">a has_disposition b at t =Def. b disposition_of a at t. (axiom label in BFO2 Reference: [069-001])</obo:IAO_0000115>

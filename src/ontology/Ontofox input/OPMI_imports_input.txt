@@ -12,7 +12,10 @@ http://purl.obolibrary.org/obo/OPMI_0000439 # has increased susceptibility compa
 http://purl.obolibrary.org/obo/OPMI_0000438 # has increased susceptiblity compared to male to
 http://purl.obolibrary.org/obo/PATO_0000383 # female
 http://purl.obolibrary.org/obo/PATO_0000384 # male
+http://purl.obolibrary.org/obo/OBI_0000576 
+http://purl.obolibrary.org/obo/OMRSE_00000030 # human patient role
 
+http://purl.obolibrary.org/obo/OPMI_0000441 #biomarker role
 http://purl.obolibrary.org/obo/OPMI_0000445 #biomarker
 http://purl.obolibrary.org/obo/OPMI_0000450 #disease biomarker
 http://purl.obolibrary.org/obo/OPMI_0000455 #predictive biomarker
@@ -28,7 +31,10 @@ http://purl.obolibrary.org/obo/BFO_0000001 # entity
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms
+
+#includeAllAnnotationProperties 
+#includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
 

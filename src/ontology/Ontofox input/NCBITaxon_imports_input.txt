@@ -49,6 +49,6 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]

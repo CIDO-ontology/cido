@@ -15,9 +15,9 @@ http://purl.obolibrary.org/obo/OGMS_0000056 # laboratory test
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties 
 
 [Source annotation URIs to be excluded]

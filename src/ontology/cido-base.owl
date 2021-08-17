@@ -71,13 +71,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">08-16-2021</dc:date>
+        <dc:date xml:lang="en">08-17-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.252</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.254</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -253,6 +253,24 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000071 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000071"/>
     
 
 
@@ -691,7 +709,6 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000173 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000173">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICDO_0000001"/>
         <obo:IAO_0000115>An object property that represents a relation between a disease process and its susceptibility of inducing a phenotype outcome</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
         <rdfs:label xml:lang="en">disease process susceptibly has phenotype</rdfs:label>
@@ -1133,12 +1150,36 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000091 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000092 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002234"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
         <obo:IAO_0000115>A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">immunizes against disease process</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
     
 
 
@@ -10487,6 +10528,24 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000028"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000908 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000908">
@@ -11294,7 +11353,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
 
     <!-- http://purl.obolibrary.org/obo/DRON_00020600 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00020600">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020600">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000022"/>
@@ -11309,7 +11368,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136537/download</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.fda.gov/safety/medical-product-safety-information/hydroxychloroquine-or-chloroquine-covid-19-drug-safety-communication-fda-cautions-against-use</obo:IAO_0000119>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -19177,6 +19236,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
@@ -19248,6 +19308,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
         <obo:IAO_0000118>SARS-CoV-1</obo:IAO_0000118>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
     
 
 
@@ -19445,6 +19511,20 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000294"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </rdf:Description>
     
 
@@ -19718,6 +19798,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB00503</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_O75469-4 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_O75469-4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </rdf:Description>
     
 
 
@@ -26407,6 +26495,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_Q99870 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_Q99870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_Q9BYF1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9BYF1">
@@ -26634,6 +26730,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0018229 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0018229">
@@ -26649,6 +26753,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000003622"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000179 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </rdf:Description>
     
 
@@ -26873,8 +26985,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
@@ -26955,9 +27067,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_429">
         <obo:CIDO_0000009>粘液瘤</obo:CIDO_0000009>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
-        <obo:IAO_0000118>root</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000377">
         <obo:CIDO_0000178>cephalalgia, head pain, pain in head, head ache, aching head, head aching, migrane, migraine</obo:CIDO_0000178>

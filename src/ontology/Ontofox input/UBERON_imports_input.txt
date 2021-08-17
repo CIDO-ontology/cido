@@ -24,19 +24,16 @@ http://purl.obolibrary.org/obo/UBERON_0002113 # kidney
 http://purl.obolibrary.org/obo/UBERON_0000014 # skin
 http://purl.obolibrary.org/obo/UBERON_0001986 # endothelium
 http://purl.obolibrary.org/obo/UBERON_0018229 # renin-angiotensin system
+http://purl.obolibrary.org/obo/UBERON_0000071
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040   # material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 #
 
 [Source term retrieval setting]
-#includeAllIntermediates
-
 includeComputedIntermediates
 
 [Source annotation URIs]
-#includeAllAxiomsRecursively
-
 includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]

@@ -144,13 +144,9 @@ http://purl.obolibrary.org/obo/MPATH_603     # pathological anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040   # material entity
 
 [Source term retrieval setting]
-#includeAllIntermediates
-
 includeComputedIntermediates
 
 [Source annotation URIs]
-#includeAllAxiomsRecursively
-
 includeAllAnnotationProperties
 
 #http://www.w3.org/2000/01/rdf-schema#label

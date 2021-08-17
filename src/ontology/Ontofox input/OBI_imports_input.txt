@@ -23,7 +23,8 @@ http://purl.obolibrary.org/obo/OBI_0000406 #PCR product
 http://purl.obolibrary.org/obo/OBI_0000456 #material transformation objective
 http://purl.obolibrary.org/obo/OBI_0000312 #is_specified_output_of
 http://purl.obolibrary.org/obo/OBI_0000417 #achieves_planned_objective 
-
+http://purl.obolibrary.org/obo/OBI_0000576 
+ 
 http://purl.obolibrary.org/obo/OBI_0000047 #processed material
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/OBI_0000405 #primer role
@@ -48,6 +49,7 @@ http://purl.obolibrary.org/obo/BFO_0000144 # process profile
 http://purl.obolibrary.org/obo/OBI_0000415 # PCR, polymerase chain reaction
 http://purl.obolibrary.org/obo/OBI_0000552 # RT-PCR, reverse transcribed polymerase chain reaction
 http://purl.obolibrary.org/obo/OBI_1110001 # epitope
+http://purl.obolibrary.org/obo/OGMS_0000090
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity

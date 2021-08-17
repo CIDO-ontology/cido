@@ -31,6 +31,8 @@ http://purl.obolibrary.org/obo/BFO_0000001 #entity
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties 
+
+#includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
