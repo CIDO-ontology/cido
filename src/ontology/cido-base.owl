@@ -22,7 +22,8 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
@@ -77,7 +78,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.254</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.255</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -198,6 +199,18 @@
     
 
 
+    <!-- http://www.w3.org/20000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/20000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/20000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/20000/01/rdf-schema#label"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -256,6 +269,207 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">part of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/BFO"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/apollo_sv.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/BFO"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/apollo_sv.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</oboInOwl:id>
+        <oboInOwl:is_cyclic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</oboInOwl:is_cyclic>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has part</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053"/>
@@ -271,6 +485,213 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000071 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000071"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000125 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000125">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000169"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:BFO_0000179>has-s-dep_st</obo:BFO_0000179>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] A pain s-depends_on the organism that is experiencing the pain</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] a gait s-depends_on the walking object. (All at some specific time.)</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] a shape s-depends_on the shaped object</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of a dependent continuant on an independent continuant: an instance of headache s-depends_on some head</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of a dependent continuant on an independent continuant: an instance of temperature s-depends_on some organism</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of a process on something: a process of cell death s-depends_on a cell</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of a process on something: an instance of seeing (a relational process) s-depends_on some organism and on some seen entity, which may be an occurrent or a continuant</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of one occurrent on another: a process of answering a question is dependent on a prior process of asking a question</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of one occurrent on another: a process of obeying a command is dependent on a prior process of issuing a command</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of one occurrent on multiple independent continuants: a relational process of hitting a ball with a cricket bat</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] one-sided s-dependence of one occurrent on multiple independent continuants: a relational process of paying cash to a merchant in exchange for a bag of figs</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] reciprocal s-dependence between occurrents: a process of buying and the associated process of selling</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] reciprocal s-dependence between occurrents: a process of increasing the volume of a portion of gas while temperature remains constant and the associated process of  decreasing the pressure exerted by the gas</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] reciprocal s-dependence between occurrents: in a game of chess the process of playing with the white pieces is mutually dependent on the process of playing with the black pieces</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] the one-sided dependence of an occurrent on an independent continuant: football match on the players, the ground, the ball</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] the one-sided dependence of an occurrent on an independent continuant: handwave on a hand</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] the three-sided reciprocal s-dependence of the hue, saturation and brightness of a color [45</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] the three-sided reciprocal s-dependence of the pitch, timbre and volume of a tone [45</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;specifically depends on at some time&apos;] the two-sided reciprocal s-dependence of the roles of husband and wife [20</obo:IAO_0000112>
+        <obo:IAO_0000116>[copied from inverse property &apos;specifically depends on at some time&apos;] Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;specifically depends on at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;specifically depends on@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;specifically depends on at some time&apos;] BFO 2 Reference: An entity – for example an act of communication or a game of football – can s-depends_on more than one entity. Complex phenomena for example in the psychological and social realms (such as inferring, commanding and requesting) or in the realm of multi-organismal biological processes (such as infection and resistance), will involve multiple families of dependence relations, involving both continuants and occurrents [1, 4, 28</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;specifically depends on at some time&apos;] BFO 2 Reference: S-dependence is just one type of dependence among many; it is what, in the literature, is referred to as ‘existential dependence’ [87, 46, 65, 20</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;specifically depends on at some time&apos;] BFO 2 Reference: the relation of s-depends_on does not in every case require simultaneous existence of its relata. Note the difference between such cases and the cases of continuant universals defined historically: the act of answering depends existentially on the prior act of questioning; the human being who was baptized or who answered a question does not himself depend existentially on the prior act of baptism or answering. He would still exist even if these acts had never taken place.</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;specifically depends on at some time&apos;] BFO2 Reference: specifically dependent continuant\; process; process boundary</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000600>[copied from inverse property &apos;specifically depends on at some time&apos;] To say that b s-depends_on a at t is to say that b and c do not share common parts &amp; b is of its nature such that it cannot exist unless c exists &amp; b is not a boundary of c and b is not a site of which c is the host [64</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">has specific dependent at some time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000168 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000168">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000125"/>
+        <obo:BFO_0000179>has-s-dep_at</obo:BFO_0000179>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">has specific dependent at all times</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000169 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000169">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:BFO_0000179>s-depends-on_st</obo:BFO_0000179>
+        <obo:BFO_0000180>specificallyDependsOn</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">A pain s-depends_on the organism that is experiencing the pain</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a gait s-depends_on the walking object. (All at some specific time.)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a shape s-depends_on the shaped object</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of a dependent continuant on an independent continuant: an instance of headache s-depends_on some head</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of a dependent continuant on an independent continuant: an instance of temperature s-depends_on some organism</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of a process on something: a process of cell death s-depends_on a cell</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of a process on something: an instance of seeing (a relational process) s-depends_on some organism and on some seen entity, which may be an occurrent or a continuant</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of one occurrent on another: a process of answering a question is dependent on a prior process of asking a question</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of one occurrent on another: a process of obeying a command is dependent on a prior process of issuing a command</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of one occurrent on multiple independent continuants: a relational process of hitting a ball with a cricket bat</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">one-sided s-dependence of one occurrent on multiple independent continuants: a relational process of paying cash to a merchant in exchange for a bag of figs</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">reciprocal s-dependence between occurrents: a process of buying and the associated process of selling</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">reciprocal s-dependence between occurrents: a process of increasing the volume of a portion of gas while temperature remains constant and the associated process of  decreasing the pressure exerted by the gas</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">reciprocal s-dependence between occurrents: in a game of chess the process of playing with the white pieces is mutually dependent on the process of playing with the black pieces</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the one-sided dependence of an occurrent on an independent continuant: football match on the players, the ground, the ball</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the one-sided dependence of an occurrent on an independent continuant: handwave on a hand</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the three-sided reciprocal s-dependence of the hue, saturation and brightness of a color [45</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the three-sided reciprocal s-dependence of the pitch, timbre and volume of a tone [45</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the two-sided reciprocal s-dependence of the roles of husband and wife [20</obo:IAO_0000112>
+        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;specifically depends on at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;specifically depends on@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: An entity – for example an act of communication or a game of football – can s-depends_on more than one entity. Complex phenomena for example in the psychological and social realms (such as inferring, commanding and requesting) or in the realm of multi-organismal biological processes (such as infection and resistance), will involve multiple families of dependence relations, involving both continuants and occurrents [1, 4, 28</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: S-dependence is just one type of dependence among many; it is what, in the literature, is referred to as ‘existential dependence’ [87, 46, 65, 20</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: the relation of s-depends_on does not in every case require simultaneous existence of its relata. Note the difference between such cases and the cases of continuant universals defined historically: the act of answering depends existentially on the prior act of questioning; the human being who was baptized or who answered a question does not himself depend existentially on the prior act of baptism or answering. He would still exist even if these acts had never taken place.</obo:IAO_0000116>
+        <obo:IAO_0000116>BFO2 Reference: specifically dependent continuant\; process; process boundary</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000600 xml:lang="en">To say that b s-depends_on a at t is to say that b and c do not share common parts &amp; b is of its nature such that it cannot exist unless c exists &amp; b is not a boundary of c and b is not a site of which c is the host [64</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">If b is s-depends_on something at some time, then b is not a material entity. (axiom label in BFO2 Reference: [052-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">If b s-depends_on something at t, then there is some c, which is an independent continuant and not a spatial region, such that b s-depends_on c at t. (axiom label in BFO2 Reference: [136-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">If occurrent b s-depends_on some independent continuant c at t, then b s-depends_on c at every time at which b exists. (axiom label in BFO2 Reference: [015-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">an entity does not s-depend_on any of its (continuant or occurrent) parts or on anything it is part of. (axiom label in BFO2 Reference: [013-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b s-depends_on c at t &amp; c s-depends_on d at t then b s-depends_on d at t. (axiom label in BFO2 Reference: [054-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x y t) (if (and (Entity x) (or (continuantPartOfAt y x t) (continuantPartOfAt x y t) (occurrentPartOf x y) (occurrentPartOf y x))) (not (specificallyDependsOnAt x y t)))) // axiom label in BFO2 CLIF: [013-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (and (Occurrent x) (IndependentContinuant y) (specificallyDependsOnAt x y t)) (forall (t_1) (if (existsAt x t_1) (specificallyDependsOnAt x y t_1))))) // axiom label in BFO2 CLIF: [015-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (specificallyDependsOnAt x y t) (exists (z) (and (IndependentContinuant z) (not (SpatialRegion z)) (specificallyDependsOnAt x z t))))) // axiom label in BFO2 CLIF: [136-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y z t) (if (and (specificallyDependsOnAt x y t) (specificallyDependsOnAt y z t)) (specificallyDependsOnAt x z t))) // axiom label in BFO2 CLIF: [054-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (exists (y t) (specificallyDependsOnAt x y t)) (not (MaterialEntity x)))) // axiom label in BFO2 CLIF: [052-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">specifically depends on at some time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000176 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>c-part-of_st</obo:BFO_0000179>
+        <obo:BFO_0000180>continuantPartOfAt</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">Mary’s arm continuant_part_of Mary in the time of her life prior to her operation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the Northern hemisphere of the planet Earth is a part of the planet Earth at all times at which the planet Earth exists.</obo:IAO_0000112>
+        <obo:IAO_0000115>[copied from inverse property &apos;has continuant part at some time&apos;] b has_continuant_part c at t = Def. c continuant_part_of b at t. (axiom label in BFO2 Reference: [006-001])</obo:IAO_0000115>
+        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;part of continuant at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;part of continuant@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Immaterial entities are in some cases continuant parts of their material hosts. Thus the hold of a ship, for example, is a part of the ship; it may itself have parts, which may have names (used for example by ship stow planners, customs inspectors, and the like). Immaterial entities under both 1. and 2. can be of zero, one, two or three dimensions. We define:a(immaterial entity)[Definition: a is an immaterial entity = Def. a is an independent continuant that has no material entities as parts. (axiom label in BFO2 Reference: [028-001])</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: a (continuant or occurrent) part of itself. We appreciate that this is counterintuitive for some users, since it implies for example that President Obama is a part of himself. However it brings benefits in simplifying the logical formalism, and it captures an important feature of identity, namely that it is the limit case of mereological inclusion.</obo:IAO_0000116>
+        <obo:IAO_0000116>BFO2 Reference: continuant</obo:IAO_0000116>
+        <obo:IAO_0000116>BFO2 Reference: continuantThe range for ‘t’ (as in all cases throughout this document unless otherwise specified) is: temporal region.</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;has continuant part at some time&apos;] Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;has continuant part at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;has continuant part@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000600 xml:lang="en">b continuant_part_of c at t =Def. b is a part of c at t &amp; t is a time &amp; b and c are continuants. (axiom label in BFO2 Reference: [002-001])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">continuant_part_of is antisymmetric. (axiom label in BFO2 Reference: [120-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">continuant_part_of is reflexive (every continuant entity is a continuant_part_of itself). (axiom label in BFO2 Reference: [111-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">continuant_part_of is transitive. (axiom label in BFO2 Reference: [110-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">continuant_part_of satisfies unique product. (axiom label in BFO2 Reference: [122-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">continuant_part_of satisfies weak supplementation. (axiom label in BFO2 Reference: [121-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b continuant_part_of c at t and b is an independent continuant, then b is located_in c at t. (axiom label in BFO2 Reference: [047-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x t) (if (Continuant x) (continuantPartOfAt x x t))) // axiom label in BFO2 CLIF: [111-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (and (continuantPartOfAt x y t) (IndependentContinuant x)) (locatedInAt x y t))) // axiom label in BFO2 CLIF: [047-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (and (continuantPartOfAt x y t) (continuantPartOfAt y x t)) (= x y))) // axiom label in BFO2 CLIF: [120-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (and (continuantPartOfAt x y t) (not (= x y))) (exists (z) (and (continuantPartOfAt z y t) (not (exists (w) (and (continuantPartOfAt w x t) (continuantPartOfAt w z t)))))))) // axiom label in BFO2 CLIF: [121-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y t) (if (exists (v) (and (continuantPartOfAt v x t) (continuantPartOfAt v y t))) (exists (z) (forall (u w) (iff (iff (continuantPartOfAt w u t) (and (continuantPartOfAt w x t) (continuantPartOfAt w y t))) (= z u)))))) // axiom label in BFO2 CLIF: [122-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y z t) (if (and (continuantPartOfAt x y t) (continuantPartOfAt y z t)) (continuantPartOfAt x z t))) // axiom label in BFO2 CLIF: [110-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(iff (ImmaterialEntity a) (and (IndependentContinuant a) (not (exists (b t) (and (MaterialEntity b) (continuantPartOfAt b a t)))))) // axiom label in BFO2 CLIF: [028-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">part of continuant at some time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000178 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>c-has-part_st</obo:BFO_0000179>
+        <obo:BFO_0000180>hasContinuantPartAt</obo:BFO_0000180>
+        <obo:IAO_0000112>[copied from inverse property &apos;part of continuant at some time&apos;] Mary’s arm continuant_part_of Mary in the time of her life prior to her operation</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;part of continuant at some time&apos;] the Northern hemisphere of the planet Earth is a part of the planet Earth at all times at which the planet Earth exists.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b has_continuant_part c at t = Def. c continuant_part_of b at t. (axiom label in BFO2 Reference: [006-001])</obo:IAO_0000115>
+        <obo:IAO_0000116>Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;has continuant part at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;has continuant part@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of continuant at some time&apos;] Alan Ruttenberg: This is a binary version of a ternary time-indexed, instance level, relation. The BFO reading of the binary relation &apos;part of continuant at some time@en&apos; is: exists t,  exists_at(x,t) &amp; exists_at(y,t) &amp; &apos;part of continuant@en&apos;(x,y,t)</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of continuant at some time&apos;] BFO 2 Reference: Immaterial entities are in some cases continuant parts of their material hosts. Thus the hold of a ship, for example, is a part of the ship; it may itself have parts, which may have names (used for example by ship stow planners, customs inspectors, and the like). Immaterial entities under both 1. and 2. can be of zero, one, two or three dimensions. We define:a(immaterial entity)[Definition: a is an immaterial entity = Def. a is an independent continuant that has no material entities as parts. (axiom label in BFO2 Reference: [028-001])</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of continuant at some time&apos;] BFO 2 Reference: a (continuant or occurrent) part of itself. We appreciate that this is counterintuitive for some users, since it implies for example that President Obama is a part of himself. However it brings benefits in simplifying the logical formalism, and it captures an important feature of identity, namely that it is the limit case of mereological inclusion.</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of continuant at some time&apos;] BFO2 Reference: continuant</obo:IAO_0000116>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of continuant at some time&apos;] BFO2 Reference: continuantThe range for ‘t’ (as in all cases throughout this document unless otherwise specified) is: temporal region.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000600>[copied from inverse property &apos;part of continuant at some time&apos;] b continuant_part_of c at t =Def. b is a part of c at t &amp; t is a time &amp; b and c are continuants. (axiom label in BFO2 Reference: [002-001])</obo:IAO_0000600>
+        <obo:IAO_0000602>(iff (hasContinuantPartAt a b t) (continuantPartOfAt b a t)) // axiom label in BFO2 CLIF: [006-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">has continuant part at some time</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1124,17 +1545,29 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
 
     <!-- http://purl.obolibrary.org/obo/OGG_0000000014 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    </rdf:Description>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <obo:IAO_0000115>a &apos;part of continuant at some time&apos; relation  that incides a genome belongs to a organism. </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He, Bin Zhao</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <rdfs:label xml:lang="en">is genome of organism</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OGG_0000000016 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000016">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000016">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    </rdf:Description>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000176"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>a relation between a gene and the organism where this gene belongs to the organism in nature. It does not include a foreign gene that is transferred to an organism by a genetic engineering method. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <rdfs:label xml:lang="en">is gene of organism</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1180,6 +1613,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
 
     <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <obo:IAO_0000115 xml:lang="en">a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:comment xml:lang="en">A definition of &quot;tranfers&quot; object property can be found in d-acts: http:purl.obolibrary.org/iao/d-acts.owl</rdfs:comment>
+    </owl:ObjectProperty>
     
 
 
@@ -3857,6 +4301,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CHEBI_7568 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_7568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -12684,6 +13129,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/GO_0000187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -15328,6 +15774,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/GO_0010579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -18369,6 +18816,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <!-- http://purl.obolibrary.org/obo/GO_0050715 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -19453,15 +19901,56 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_100010239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000435"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vira</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral-</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viruses</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:10239</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2499399"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76804"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronaviridae</rdfs:label>
+    </owl:Class>
     
 
 
@@ -19478,13 +19967,93 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2499399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2499399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76804"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_suborder"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornidovirineae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2501931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2501931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthocoronavirinae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2509511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2509511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subgenus"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarbecovirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2559587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_clade"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA viruses</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA viruses and viroids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riboviria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2509511"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
         <obo:IAO_0000118>Wuhan coronavirus</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Wuhan seafood market pneumonia virus</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-nCoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19 virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus 2019</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wuhan coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2697049</oboInOwl:id>
         <rdfs:comment>The list of the marker variants is as follows (as of 3/6/2021):
    S:     C8782T,T28144C includes NS8-L84S 
    L:     C241,C3037,A23403,C8782,G11083,G26144,T28144 (early clade markers in WIV04-reference sequence)
@@ -19495,7 +20064,9 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
    GV:   C241T,C3037T,A23403G,C22227T includes S-D614G + S-A222V
    GRY: C241T,C3037T,21765-21770del,21991-21993del,A23063T,A23403G,G28882A includes S-H69del, S-V70del, S-Y144del, S-N501Y + S-D614G + N-G204R
 Reference: https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</rdfs:comment>
-        <rdfs:label>SARS-CoV-2</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe acute respiratory syndrome coronavirus 2</rdfs:label>
     </owl:Class>
     
 
@@ -19521,10 +20092,74 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_694002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2501931"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:156439</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus group 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group 2 species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus group 2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group 2 species</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betacoronavirus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_694009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2509511"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694002"/>
         <obo:IAO_0000118>SARS-CoV-1</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:227859</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:311178</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-SARS</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARSr-CoV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARSrCoV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus (strain SARS)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-like coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-related coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus (strain SARS)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS virus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-like coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-related coronavirus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome coronavirus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome-related coronavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_76804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2732506"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nidovirales</rdfs:label>
     </owl:Class>
     
 
@@ -19551,6 +20186,170 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A genome is a material entity that represents the entirety of an organism&apos;s hereditary information. The genome includes both the genes and the non-coding sequences of the DNA and RNA.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>Book: Eugene Nester, Denise Anderson, C. Evans Roberts, Jr., Microbiology (Companion Site): A Human Perspective, 7th Edition. Mcgraw Hill, October 18, 2011. ISBN-13: 978-0073375311</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Genome</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <rdfs:label xml:lang="en">genome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_100010239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_100010239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_20010239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The genome of an organism of Viruses</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10239</obo:OGG_0000000015>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genome of Viruses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_100011118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_100011118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_100010239"/>
+        <obo:IAO_0000115>A genome that is the genome of a coronavirus.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <rdfs:label>genome of coronavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_1002697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_1002697049">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000014"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_100011118"/>
+        <obo:IAO_0000115>A coronavirus genome that belongs to a virus that has NCBI Taxonomy ID of 2697079.</obo:IAO_0000115>
+        <obo:IAO_0000118>SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <rdfs:label>genome of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_20000011118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000011118">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_100011118"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_20010239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gene that is part of a genome of coronavirus.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <rdfs:label>gene of coronavirus</rdfs:label>
+        <rdf-schema:comment>Renamed term to match with OGG</rdf-schema:comment>
+        <rdf-schema:label>gene of coronavirus</rdf-schema:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_20010239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20010239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Viruses</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10239</obo:OGG_0000000015>
+        <rdfs:comment>OGG_20010239</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Viruses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2002697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2002697049">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_1002697049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000016"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_20000011118"/>
+        <obo:IAO_0000115>A gene that is part of the genome of severe acute respiratory syndrome coronavirus 2</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>gene of SARS-CoV-2</dc:source>
+        <rdfs:label>gene of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>New term ID to match wth OGG procedure</rdf-schema:comment>
+    </owl:Class>
     
 
 
@@ -19730,6 +20529,147 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <obo:IAO_0000111>NCBI Gene ID:43740568</obo:IAO_0000111>
+        <obo:IAO_0000118>S gene of SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740568</dc:source>
+        <rdfs:label>S gene of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740569</dc:source>
+        <rdfs:label>ORF3a of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740569</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <obo:IAO_0000118>E gene of SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740570</dc:source>
+        <rdfs:comment>NCBI Gene ID:43740570</rdfs:comment>
+        <rdfs:label>E gene of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <obo:IAO_0000118>M gene of SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740571</dc:source>
+        <rdfs:label>M gene of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740571</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF6 gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740572</dc:source>
+        <rdfs:label>ORF6 of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740572</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740573</dc:source>
+        <rdfs:label>ORF7a of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740573</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF7b gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740574</dc:source>
+        <rdfs:label>ORF7b of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740574</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <obo:IAO_0000118>N gene of SARS-CoV-2</obo:IAO_0000118>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740575</dc:source>
+        <rdfs:label>N gene of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740575</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF8 gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740577</dc:source>
+        <rdfs:label>ORF8 of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740577</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF10 gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740576</dc:source>
+        <rdfs:label>ORF10 of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740576</rdf-schema:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF1ab gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740579</dc:source>
+        <rdfs:label>ORF1ab of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740578. Has -1 ribosomal frameshift</rdf-schema:comment>
+    </owl:Class>
     
 
 
@@ -27299,8 +28239,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
