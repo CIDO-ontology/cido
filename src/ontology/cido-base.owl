@@ -72,13 +72,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">08-17-2021</dc:date>
+        <dc:date xml:lang="en">09-03-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.255</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.259</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -10449,6 +10449,32 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">HCoV OC43 S protein epitope</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000453">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A device that is intended for COVID-19 diagnostic testing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Lin, Bill Duncan, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 diagnostic testing device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000454">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000453"/>
+        <rdfs:label xml:lang="en">EUA authorized COVID-19 diagnostic testing device</rdfs:label>
     </owl:Class>
     
 
@@ -28209,6 +28235,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000576">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000787">
+        <obo:IAO_0000118>Acupath COVID-19 Real-Time (RT-PCR) Assay</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000821">
         <obo:CIDO_0000009>甲状腺功能减退</obo:CIDO_0000009>
