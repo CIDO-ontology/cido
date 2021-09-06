@@ -10477,6 +10477,8 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <obo:IAO_0000115 xml:lang="en">a COVID-19 diagnostic testing device that is authorized to use under the FDA Emergency Use Authorization. The EUA authorized device is not approved to use under other situations other than specified in the letter of EUA authorization by FDA in US.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Oliver He, Bill Duncan</obo:IAO_0000117>
         <rdfs:label xml:lang="en">FDA EUA authorized COVID-19 diagnostic testing device</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">https://www.fda.gov/medical-devices/coronavirus-disease-2019-covid-19-emergency-use-authorizations-medical-devices/in-vitro-diagnostics-euas</rdfs:seeAlso>
     </owl:Class>
     
 
