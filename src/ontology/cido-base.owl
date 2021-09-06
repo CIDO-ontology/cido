@@ -10463,8 +10463,8 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A device that is intended for COVID-19 diagnostic testing.</obo:IAO_0000115>
-        <obo:IAO_0000117>Asiyah Lin, Bill Duncan, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A device that is intended for use in the diagnosis for COVID-19 infection, or to measure the adaptive immune response to the SARS-CoV-2 virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Bill Duncan, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 diagnostic testing device</rdfs:label>
     </owl:Class>
     
@@ -10474,7 +10474,9 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000454">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000453"/>
-        <rdfs:label xml:lang="en">EUA authorized COVID-19 diagnostic testing device</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a COVID-19 diagnostic testing device that is authorized to use under the FDA Emergency Use Authorization. The EUA authorized device is not approved to use under other situations other than specified in the letter of EUA authorization by FDA in US.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Asiyah Yu Lin, Oliver He, Bill Duncan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">FDA EUA authorized COVID-19 diagnostic testing device</rdfs:label>
     </owl:Class>
     
 
