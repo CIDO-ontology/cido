@@ -3,7 +3,7 @@
 
 [Online URL of the target OWL file (RDF/XML format)]
 # Note: Local file won't be used by Ontorat for security reason.   
-http://purl.obolibrary.org/obo/FDA_EUA_assays.owl
+http://purl.obolibrary.org/obo/cido.owl
 
 [Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
 # Note: Local file won't be used by Ontorat for security reason. 
@@ -19,16 +19,11 @@ generate new classes
   
 [Annotations]
 # Note: Use comma to separate annotations
-'label' "{$columnB}", 
-'definition source' "{$columnS}", 
-'FDA EUA laboratory,company,organization' "{$columnA}", 
+'label' "{$columnB}",
+'definition source' "{$columnS}",
+'FDA EUA laboratory,company,organization' "{$columnA}",
 'definition editor' "{$columnV}",
-'seeAlso' "{$columnD}",
-'capable of' "{$columnJ}",
-'PCR detects gene' "{$columnM}",
-'PCR detects gene' "{$columnN}",
-'PCR detects gene' "{$columnO}",
-'PCR detects gene' "{$columnP}"
+'seeAlso' "{$columnD}"
 
 [Equivalent classes]
 # Note: Use comma to separate classes 
@@ -36,12 +31,17 @@ generate new classes
 
 [Superclasses]
 # Note: Use comma to separate classes 
-<{$columnU}>
+<{$columnU}>,
+'capable of' some <{$columnJ}>,
+'PCR detects gene' some <{$columnM}>,
+'PCR detects gene' some <{$columnN}>,
+'PCR detects gene' some <{$columnO}>,
+'PCR detects gene' some <{$columnP}>
 
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
-AnnotationProperty: 
-'FDA EUA laboratorylaboratory,company,organization': <http://purl.obolibrary.org/obo/CIDO_0000041> 
+AnnotationProperty:
+'FDA EUA laboratory,company,organization': <http://purl.obolibrary.org/obo/CIDO_0000041>
 Class:
 ObjectProperty:
 'capable of': <http://purl.obolibrary.org/obo/RO_0002215>
