@@ -106,11 +106,10 @@
     <!-- http://purl.obolibrary.org/obo/CIDO_0000041 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000041">
-        <obo:IAO_0000115>An annotation property that represents a laboratory authorized by FDA emergency use authorization (EUA) to perform an assay such as a SARS-CoV-2 RT-PCR assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An annotation property that represents a laboratory, company or organization authorized by FDA emergency use authorization (EUA) to perform an assay such as a SARS-CoV-2 RT-PCR assay.</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</obo:IAO_0000119>
-        <rdfs:label>FDA EUA laboratory</rdfs:label>
-        <rdfs:label xml:lang="en">FDA EUA laboratory</rdfs:label>
+        <rdfs:label xml:lang="en">FDA EUA laboratory,company or organization</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -10465,7 +10464,7 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A device that is intended for use in the diagnosis for COVID-19 infection, or to measure the adaptive immune response to the SARS-CoV-2 virus.</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin, Bill Duncan, Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">COVID-19 diagnostic testing device</rdfs:label>
+        <rdfs:label>COVID-19 diagnostic testing device</rdfs:label>
     </owl:Class>
     
 
@@ -10479,6 +10478,17 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
         <rdfs:label xml:lang="en">FDA EUA authorized COVID-19 diagnostic testing device</rdfs:label>
         <rdfs:seeAlso xml:lang="en">https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization</rdfs:seeAlso>
         <rdfs:seeAlso xml:lang="en">https://www.fda.gov/medical-devices/coronavirus-disease-2019-covid-19-emergency-use-authorizations-medical-devices/in-vitro-diagnostics-euas</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-06T21:11:41Z</dc:date>
+        <rdfs:label xml:lang="en">FDA EUA authorized COVID-19 diagnostic home collection kit</rdfs:label>
     </owl:Class>
     
 
@@ -28272,8 +28282,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
