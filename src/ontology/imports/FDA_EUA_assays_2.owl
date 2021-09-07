@@ -3753,17 +3753,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000836 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000836">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-        <obo:CIDO_0000041>P23 Labs, LLC.</obo:CIDO_0000041>
-        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
-        <rdfs:label>P23 Labs TaqPath SARS-CoV-2 Assay</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0000837 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000837">

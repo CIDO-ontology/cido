@@ -26,6 +26,7 @@
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.12.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
@@ -33,8 +34,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays_2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
@@ -11194,19 +11193,6 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000836 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000836">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
     
 
 
@@ -28282,8 +28268,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
