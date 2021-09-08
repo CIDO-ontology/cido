@@ -26,9 +26,8 @@
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.13.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.14.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
@@ -119,6 +118,16 @@
         <obo:IAO_0000115>An annotation property that provides one or more keywords useful for text mining of the indicated ontology term.</obo:IAO_0000115>
         <obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has text mining keywords</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000456 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000456">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-08T02:48:51Z</dc:date>
+        <rdfs:label xml:lang="en">wikidata_ID</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -726,11 +735,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000024 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000024">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000032"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000117>Oliver He, Asiyah Lin</obo:IAO_0000117>
-        <obo:IAO_0000119>An object property that represents a relation between an assay and an organization and the assay is authorized to use at the organization such as a company or hospital</obo:IAO_0000119>
+        <obo:IAO_0000119>This relation is restricted to use for the LDTs authorization, means a diagnostic test deice is only authorized to use at the certain organization such as a company or hospital defined in the EUA authorization letter.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">EUA-authorized use at</rdfs:label>
     </owl:ObjectProperty>
     
@@ -10492,6 +10501,51 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115>A laboratory is certified by the Center for Medicare and Medicaid Services (CMS) accoring to the criteria listed in 42CFR 493.17 based on the Clinical Laboratory Improvement Amendments (CLIA) regulattion.</obo:IAO_0000115>
+        <obo:IAO_0000119>42 CFR 439.17
+https://www.law.cornell.edu/cfr/text/42/493.17
+https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laboratory-improvement-amendments-clia</obo:IAO_0000119>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-08T02:51:15Z</dc:date>
+        <rdfs:label xml:lang="en">CLIA certified laboratory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000457"/>
+        <obo:IAO_0000115>A CLIA certified laboratory that is categorized as a high complexity defined by the criteria listed in 42CFR 493.17 based on the Clinical Laboratory Improvement Amendments (CLIA) regulattion.</obo:IAO_0000115>
+        <obo:IAO_0000119>42 CFR 439.17
+https://www.law.cornell.edu/cfr/text/42/493.17
+https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laboratory-improvement-amendments-clia</obo:IAO_0000119>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-08T02:51:35Z</dc:date>
+        <rdfs:label xml:lang="en">CLIA certified High complexity laboratory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000457"/>
+        <obo:IAO_0000115>A CLIA certified laboratory that is categorized as a moderate complexity defined by the criteria listed in 42CFR 493.17 based on the Clinical Laboratory Improvement Amendments (CLIA) regulattion.</obo:IAO_0000115>
+        <obo:IAO_0000119>42 CFR 439.17
+https://www.law.cornell.edu/cfr/text/42/493.17
+https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laboratory-improvement-amendments-clia</obo:IAO_0000119>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-08T02:52:00Z</dc:date>
+        <rdfs:label xml:lang="en">CLIA certified Moderate complexity laboratory</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000462">
@@ -11193,6 +11247,19 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0020303 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0020303">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -20987,9 +21054,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/PR_O75469-4 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_O75469-4">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_O75469-4">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -28123,6 +28190,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CIDO_0000023">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000031"/>
+        <obo:CIDO_0000456>https://www.wikidata.org/wiki/Q12073283</obo:CIDO_0000456>
         <obo:IAO_0000119>https://www.wikidata.org/wiki/Q12073283</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Yale New Haven Hospital</rdfs:label>
     </owl:NamedIndividual>
@@ -28268,8 +28336,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">

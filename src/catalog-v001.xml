@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/FDA_EUA_v3.14.owl" uri="ontology/Ontorat%20input/FDA_EUA_v3.14.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl" uri="ontology/Ontorat%20input/Drugs_no_ChEBI_IDs_interaction_with_targets.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/FDA_EUA_assays.owl" uri="ontology/imports/FDA_EUA_assays.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/FDA_EUA_v3.13.owl" uri="ontology/Ontorat%20input/FDA_EUA_v3.13.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl" uri="ontology/Ontorat%20input/chem_terms_without_CHEBI_IDs_Ontorat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido.owl" uri="cido-base_1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl" uri="ontology/imports/APOLLO_SV_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl" uri="ontology/imports/CHEBI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl" uri="ontology/imports/DOID_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl" uri="ontology/imports/DrON_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl" uri="ontology/imports/ENVO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays_2.owl" uri="ontology/imports/FDA_EUA_assays_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl" uri="ontology/imports/GO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl" uri="ontology/imports/HP_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl" uri="ontology/imports/ICDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl" uri="ontology/imports/IDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/MONDO_imports.owl" uri="ontology/imports/MONDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl" uri="ontology/imports/NCBITaxon_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl" uri="ontology/imports/NDF-RT_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl" uri="ontology/imports/OAE_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl" uri="ontology/imports/OBCS_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl" uri="ontology/imports/OBI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OGG_imports.owl" uri="ontology/imports/OGG_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OGMS_import.owl" uri="ontology/imports/OGMS_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl" uri="ontology/imports/OPMI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl" uri="ontology/imports/PR_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl" uri="ontology/imports/RO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl" uri="ontology/imports/UBERON_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl" uri="ontology/imports/VO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl" uri="ontology/imports/CIDO_epitopes.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="ontology/Ontorat%20input/chem_protein_targets_from_DrugBANK_ontorat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="ontology/Ontorat%20input/FDA_EUA_v3.14.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/ontorat_0000001G.owl" uri="ontology/Ontorat%20input/GO_PR.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="http://purl.obolibrary.org/obo/ontorat_0000001P.owl" uri="ontology/Ontorat%20input/PR_GO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="shadowed:http://purl.obolibrary.org/obo/cido.owl" uri="ontology/cido-base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="shadowed:http://purl.obolibrary.org/obo/cido.owl" uri="ontology/cido.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1631069094732" name="shadowed:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="ontology/imports/xf033f9m_out.owl.xml"/>
+    </group>
+</catalog>
