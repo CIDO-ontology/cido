@@ -26,8 +26,8 @@
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.14.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
