@@ -26,6 +26,7 @@
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
@@ -5770,6 +5771,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
@@ -5788,6 +5790,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>

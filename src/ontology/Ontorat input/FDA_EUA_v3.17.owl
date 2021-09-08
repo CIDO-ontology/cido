@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl#"
+     xml:base="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
     
 
 
@@ -1227,6 +1227,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -1235,12 +1241,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_30437405791"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -1258,14 +1258,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_30437405791"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Hospital of the University of Pennsylvania</obo:CIDO_0000041>
@@ -1545,14 +1545,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
@@ -1632,14 +1632,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.bd.com/en-us/offerings/capabilities/molecular-diagnostics/molecular-tests/biogx-sars-cov-2-reagents</rdfs:seeAlso>
@@ -1731,14 +1731,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.bio-rad.com/en-us/product/reliance-sars-cov-2-flu-flu-b-rt-pcr-assay-kit?ID=QKWS6LTU86LJ</rdfs:seeAlso>
@@ -1780,14 +1780,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -1824,14 +1824,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -1849,6 +1849,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -1856,19 +1862,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/146467/download</obo:IAO_0000119>
@@ -1925,12 +1925,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1938,6 +1932,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Access Bio, Inc.</obo:CIDO_0000041>
@@ -1986,14 +1986,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.hackensackumc.org/wellness/health-information/diseases-and-conditions/pathology/</rdfs:seeAlso>
@@ -2012,6 +2012,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2019,12 +2025,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145981/download</obo:IAO_0000119>
@@ -2042,14 +2042,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145986/download</obo:IAO_0000119>
@@ -2067,14 +2067,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2099,13 +2099,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2117,7 +2111,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145924/download</obo:IAO_0000119>
@@ -2185,8 +2185,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2197,8 +2197,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://clevelandcliniclabs.com/2020/05/01/coronavirus-2019-covid-19-testing/#covid19-collection</rdfs:seeAlso>
@@ -2217,7 +2217,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2235,7 +2235,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145686/download</obo:IAO_0000119>
@@ -2273,13 +2273,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2303,14 +2303,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2335,8 +2335,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2347,8 +2347,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145280/download</obo:IAO_0000119>
@@ -2398,14 +2398,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000261"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2416,8 +2410,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000261"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -2436,19 +2436,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000261"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2460,7 +2454,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000261"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Color Health, Inc.</obo:CIDO_0000041>
@@ -2478,14 +2478,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/145075/download</obo:IAO_0000119>
@@ -2504,6 +2504,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2511,12 +2517,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2540,14 +2540,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.ipsumdiagnostics.com/covid-19-resources/</rdfs:seeAlso>
@@ -2571,14 +2571,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -2653,14 +2653,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://microgendx.com/covid19/</rdfs:seeAlso>
@@ -2679,13 +2679,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2709,6 +2709,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -2717,12 +2723,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -2740,14 +2740,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -2765,14 +2765,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/143453/download</obo:IAO_0000119>
@@ -2810,7 +2810,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2822,13 +2822,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.uillinois.edu/shield</rdfs:seeAlso>
@@ -2865,14 +2865,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/143059/download</obo:IAO_0000119>
@@ -2915,14 +2915,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Clinical Research Sequencing Platform (CRSP), LLC at the Broad Institute of MIT and Harvard</obo:CIDO_0000041>
@@ -2940,14 +2940,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -2965,14 +2965,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Cue Health Inc.</obo:CIDO_0000041>
@@ -2990,14 +2990,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/142693/download</obo:IAO_0000119>
@@ -3041,18 +3041,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3060,6 +3048,18 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/142597/download</obo:IAO_0000119>
@@ -3108,8 +3108,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3120,8 +3120,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/142589/download</obo:IAO_0000119>
@@ -3291,8 +3291,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3303,8 +3303,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Diagnostic Solutions Laboratory, LLC</obo:CIDO_0000041>
@@ -3322,14 +3322,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.dtpm.com/coronavirus-assay/</rdfs:seeAlso>
@@ -3347,12 +3347,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -3360,13 +3354,19 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -3385,6 +3385,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3392,12 +3398,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3554,12 +3554,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
@@ -3568,6 +3562,12 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.ethos-labs.com/</rdfs:seeAlso>
@@ -3585,8 +3585,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3597,8 +3597,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/141770/download</obo:IAO_0000119>
@@ -3654,8 +3654,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3672,8 +3672,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.exactlabs.com/lab-client-services/covid-19-fact-sheets</rdfs:seeAlso>
@@ -3691,14 +3691,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/141624/download</obo:IAO_0000119>
@@ -3716,18 +3716,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -3735,7 +3723,19 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -3753,14 +3753,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3772,7 +3772,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>http://www.tbgbio.com/en/product/product_detail/51</rdfs:seeAlso>
@@ -3790,8 +3790,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3802,8 +3802,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -3852,8 +3852,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3864,14 +3870,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -3934,7 +3934,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3946,7 +3946,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -3989,14 +3989,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Gene By Gene</obo:CIDO_0000041>
@@ -4014,14 +4014,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4033,7 +4033,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>OSANG Healthcare</obo:CIDO_0000041>
@@ -4051,14 +4051,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4101,14 +4101,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>http://www.genetrackus.com/</rdfs:seeAlso>
@@ -4295,14 +4295,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Gravity Diagnostics, LLC</obo:CIDO_0000041>
@@ -4318,6 +4318,12 @@ Liat System</rdfs:label>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0020160">
         <rdfs:label>Gravity Diagnostics SARS-CoV-2 RT-PCR Assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
@@ -4336,12 +4342,6 @@ Liat System</rdfs:label>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <rdfs:seeAlso>https://gravitydiagnostics.com/covid-19-coronavirus-testing-partners/</rdfs:seeAlso>
         <obo:CIDO_0000041>Gravity Diagnostics, LLC</obo:CIDO_0000041>
@@ -4357,18 +4357,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -4376,7 +4364,19 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140703/download</obo:IAO_0000119>
@@ -4394,14 +4394,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://investors.guardanthealth.com/news-releases/news-release-details/guardant-health-receives-fda-emergency-use-authorization-its</rdfs:seeAlso>
@@ -4419,14 +4419,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://smhs.gwu.edu/covid-19-testing</rdfs:seeAlso>
@@ -4476,7 +4476,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4488,7 +4488,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140544/download</obo:IAO_0000119>
@@ -4506,14 +4506,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140540/download</obo:IAO_0000119>
@@ -4531,18 +4531,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -4551,6 +4539,18 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140426/download</obo:IAO_0000119>
@@ -4568,12 +4568,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
@@ -4582,6 +4576,12 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140440/download</obo:IAO_0000119>
@@ -4599,12 +4599,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
@@ -4613,6 +4607,12 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -4631,25 +4631,25 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.tempus.com/pcr-testing/</rdfs:seeAlso>
@@ -4717,14 +4717,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/140261/download</obo:IAO_0000119>
@@ -4742,14 +4742,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Inform Diagnostics, Inc.</obo:CIDO_0000041>
@@ -4786,14 +4786,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://integritylaboratories.com/index.php/about-us/</rdfs:seeAlso>
@@ -4811,8 +4811,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4823,14 +4823,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>PlexBio Co., Ltd</obo:CIDO_0000041>
@@ -4979,14 +4979,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Laboratorio Clinico Toledo</obo:CIDO_0000041>
@@ -5042,14 +5042,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.lifehopetestkit.com/</rdfs:seeAlso>
@@ -5205,14 +5205,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -5249,14 +5249,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.quidel.com/molecular-diagnostics/lyra-direct-sars-cov-2-assay</rdfs:seeAlso>
@@ -5319,6 +5319,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5326,12 +5332,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://agenabio.com/products/panel/coronavirus-sars-cov-2-detection-panel/</rdfs:seeAlso>
@@ -5349,14 +5349,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Materials and Machines Corporation of America (DBA MatmaCorp, Inc.)</obo:CIDO_0000041>
@@ -5393,14 +5393,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/139569/download</obo:IAO_0000119>
@@ -5487,14 +5487,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/139509/download</obo:IAO_0000119>
@@ -5519,13 +5519,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Detectachem Inc.</obo:CIDO_0000041>
@@ -5587,14 +5587,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -5613,13 +5613,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5643,6 +5643,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -5651,12 +5657,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -5737,8 +5737,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5749,8 +5749,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -5768,8 +5768,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5780,8 +5780,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Jiangsu CoWin Biotech Co., Ltd.</obo:CIDO_0000041>
@@ -5805,14 +5805,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740571"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740571"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Luminex Molecular Diagnostics, Inc.</obo:CIDO_0000041>
@@ -5830,8 +5830,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5843,13 +5849,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -5930,14 +5930,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -6018,14 +6018,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -6043,14 +6043,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>The Ohio State University Wexner Medical Center</obo:CIDO_0000041>
@@ -6068,12 +6068,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
@@ -6081,13 +6075,19 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>P23 Labs, LLC.</obo:CIDO_0000041>
@@ -6192,8 +6192,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6204,8 +6204,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://perkinelmer-appliedgenomics.com/home/products/new-coronavirus-2019-ncov-nucleic-acid-detection-kit/</rdfs:seeAlso>
@@ -6229,14 +6229,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -6254,14 +6254,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6398,12 +6398,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -6412,6 +6406,12 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://products.kanto.co.jp/uploads/pj46_m_pdf/509/pdf1.pdf</rdfs:seeAlso>
@@ -6517,14 +6517,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/138345/download</obo:IAO_0000119>
@@ -6637,13 +6637,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/138406/download</obo:IAO_0000119>
@@ -6864,12 +6864,6 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6877,6 +6871,12 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/138154/download</obo:IAO_0000119>
@@ -6894,14 +6894,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6995,13 +6995,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7075,14 +7075,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Diagnostic Molecular Laboratory – Northwestern Medicine</obo:CIDO_0000041>
@@ -7100,14 +7100,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>Mammoth Biosciences, Inc.</obo:CIDO_0000041>
@@ -7125,8 +7125,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7137,14 +7137,14 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7181,8 +7181,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7193,8 +7193,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/137780/download</obo:IAO_0000119>
@@ -7212,6 +7212,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
@@ -7220,12 +7226,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7243,14 +7243,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_1002697049"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000352"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_1002697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7268,14 +7268,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.ynhhs.org/patient-care/covid-19/covid-19-testing.aspx</rdfs:seeAlso>
@@ -7337,14 +7337,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/137483/download</obo:IAO_0000119>
@@ -7362,14 +7362,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7419,13 +7419,13 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>http://www.zeesandx.com/products/1083.html</rdfs:seeAlso>
@@ -7468,14 +7468,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7595,6 +7595,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7602,12 +7608,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000261"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/137363/download</obo:IAO_0000119>
@@ -7683,7 +7683,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7695,7 +7695,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136525/download</obo:IAO_0000119>
@@ -7713,8 +7713,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7726,13 +7732,7 @@ Liat System</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -7750,14 +7750,14 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136870/download</obo:IAO_0000119>
@@ -7832,8 +7832,8 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7844,8 +7844,8 @@ Liat System</rdfs:label>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136472/download</obo:IAO_0000119>
@@ -7907,6 +7907,12 @@ Liat System</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
@@ -7921,12 +7927,6 @@ Liat System</rdfs:label>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.thermofisher.com/us/en/home/clinical/clinical-genomics/pathogen-detection-solutions/coronavirus-2019-ncov/genetic-analysis/taqpath-rt-pcr-covid-19-kit.html</rdfs:seeAlso>
@@ -8014,12 +8014,6 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -8028,6 +8022,12 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://dshs.texas.gov/lab/default.shtm</rdfs:seeAlso>
@@ -8045,6 +8045,12 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -8052,19 +8058,13 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136286/download</obo:IAO_0000119>
@@ -8083,13 +8083,13 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8101,7 +8101,7 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://research.columbia.edu/covid/diagnostics</rdfs:seeAlso>
@@ -8119,14 +8119,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136282/download</obo:IAO_0000119>
@@ -8151,13 +8151,13 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>http://www.unitedbiomedical.com/COVID-19/</rdfs:seeAlso>
@@ -8219,14 +8219,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8250,14 +8250,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136786/download</obo:IAO_0000119>
@@ -8275,14 +8275,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://www.fda.gov/media/136971/download</obo:IAO_0000119>
@@ -8300,14 +8300,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CIDO_0000041>UTMG Pathology Laboratory</obo:CIDO_0000041>
@@ -8325,14 +8325,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -8350,12 +8350,6 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
@@ -8364,6 +8358,12 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://verily.com/</rdfs:seeAlso>
@@ -8381,8 +8381,8 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8393,14 +8393,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -8475,14 +8475,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -8532,7 +8532,7 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_30437405791"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8581,14 +8581,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
@@ -8707,14 +8707,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://warrior-dx.com/covid-19/</rdfs:seeAlso>
@@ -8757,14 +8757,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000262"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>https://www.luminexcorp.com/xmap-sars-cov-2-antibody-testing/</rdfs:seeAlso>
@@ -8832,14 +8832,14 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8864,13 +8864,13 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8894,6 +8894,12 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000454"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
             </owl:Restriction>
@@ -8902,12 +8908,6 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000263"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -8976,12 +8976,6 @@ POC: https://www.fda.gov/media/136315/download</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OGG_3043740579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740579"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_30437405791 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_30437405791"/>
 </rdf:RDF>
 
 
