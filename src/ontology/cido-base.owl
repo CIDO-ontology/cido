@@ -5566,47 +5566,10 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000259"/>
         <obo:IAO_0000117>A COVID-19 nucleic acid diagnostic assay that uses RT-PCR</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He, Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS COV-2 RT-PCR</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7170415/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">COVID-19 RT-PCR assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000031"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:CIDO_0000041>Yale New Haven Hospital, Clinical Virology Laboratory</obo:CIDO_0000041>
-        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>https://www.fda.gov/media/136602/download</obo:IAO_0000119>
-        <rdfs:comment>Under this Emergency Use Authorization (EUA), this test is authorized for use in the single laboratory that developed the authorized test and that is certified under Clinical Laboratory Improvement Amendments of 1988 (CLIA), 42 U.S.C. §263a to perform high complexity tests. URL: https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations#covid19ivd</rdfs:comment>
-        <rdfs:label xml:lang="en">Yale New Haven Hospital SARS-CoV-2 assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
-        <obo:CIDO_0000041>Altru Diagnostics, Inc.</obo:CIDO_0000041>
-        <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>SARS-CoV-2 test by Altru Diagnostics, Inc</obo:IAO_0000118>
-        <obo:IAO_0000119>https://www.fda.gov/media/137546/download</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Altru Dx SARS-CoV-2 RT-PCR assay</rdfs:label>
     </owl:Class>
     
 
@@ -11247,6 +11210,19 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0020276 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0020276">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -28336,8 +28312,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
