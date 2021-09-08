@@ -70,13 +70,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">09-03-2021</dc:date>
+        <dc:date xml:lang="en">09-08-2021</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.259</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.276</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5574,6 +5574,32 @@ Reference: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</rdfs
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000118>CFDA</obo:IAO_0000118>
+        <obo:IAO_0000118>China Food and Drug Administration</obo:IAO_0000118>
+        <obo:IAO_0000118>NMPA</obo:IAO_0000118>
+        <obo:IAO_0000118>National Medical Products Administration of China</obo:IAO_0000118>
+        <obo:IAO_0000118>国家药品监督管理局</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/National_Medical_Products_Administration</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">National Medical Products Administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000453"/>
+        <obo:IAO_0000115 xml:lang="en">a COVID-19 diagnostic testing device that is authorized by the National Medical Products Administratoin (NMPA) to use in China</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Oliver He, Yi-Wei Tang</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NMPA authorized COVID-19 diagnostic testing device</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000025">
@@ -5737,6 +5763,42 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A test sensitivity for the COVID-19 disease</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 test sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Novel coronavirus 2019-nCoV nucleic acid detection kit (fluorescence PCR method) (Zhejiang Dongfang Gene Biological Products Co., Ltd.)</obo:IAO_0000118>
+        <rdfs:comment>Approved ID: 国械注准20203400520</rdfs:comment>
+        <rdfs:comment>Manufacturor: Zhejiang Dongfang Gene Biological Products Co., Ltd. 浙江东方基因生物制品股份有限公司</rdfs:comment>
+        <rdfs:comment>Usage: 本试剂盒用于体外定性检测新型冠状病毒肺炎疑似病例、聚集性病例、其他需要进行新型冠状病毒感染诊断或鉴别诊断者的咽拭子和痰液样本中，新型冠状病毒（2019-nCoV）ORF1ab和N基因。</rdfs:comment>
+        <rdfs:label xml:lang="en">2019-nCoV fluorescence PCR kit (Zhejiang Dongfang Gene Biological Products Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Novel coronavirus 2019-nCoV nucleic acid detection kit (fluorescence PCR method) (Shanghai Fosun Long March Medical Science Co., Ltd.)</obo:IAO_0000118>
+        <rdfs:comment>Approved ID: 国械注准20203400299</rdfs:comment>
+        <rdfs:comment>Manufacturor: Shanghai Fosun Long March Medical Science Co., Ltd.  上海复星长征医学科学有限公司</rdfs:comment>
+        <rdfs:comment>Usage: 本试剂盒用于体外定性检测新型冠状病毒感染的肺炎疑似病例、疑似聚集性病例患者、其他需要进行新型冠状病毒感染诊断或鉴别诊断者的咽拭子、痰液样本中，新型冠状病毒（2019-nCoV）ORF1ab 和 N 基因、E 基因。</rdfs:comment>
+        <rdfs:label xml:lang="en">2019-nCoV fluorescence PCR kit (Shanghai Fosun Long March Medical Science Co., Ltd.)</rdfs:label>
     </owl:Class>
     
 
@@ -28312,8 +28374,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
