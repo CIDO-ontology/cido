@@ -71,13 +71,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">09-08-2021</dc:date>
+        <dc:date xml:lang="en">01-25-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.276</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.279</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1296,6 +1296,7 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000244 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000244">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <obo:IAO_0000115>An object property that represents a relation between a molecular variant and a gene or protein where the variant derives from the gene or protein</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">variant of</rdfs:label>
@@ -7755,7 +7756,9 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000243"/>
         <obo:IAO_0000115>An AA variant that occurs in a SARS-CoV-2 viral proteome</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2</rdfs:label>
+        <obo:IAO_0000118>AA variant in SARS-CoV-2</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.science.org/doi/10.1126/science.abl6184</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 amino acid variant</rdfs:label>
     </owl:Class>
     
 
@@ -7766,17 +7769,24 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000244"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The Spike D614G amino acid change is caused by an A-to-G nucleotide mutation at position 23,403 (A23403G) in the Wuhan reference strain; it was the only site identified in our first Spike variation analysis in early March 2020 that met our threshold criterion.</obo:IAO_0000115>
+        <obo:IAO_0000115>A SARS-CoV-2 amino acid variant that is located at the position 614 in the Wuhan reference strain S protein, and has been changed from D in the reference protein to the G residue.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>D614G</obo:IAO_0000118>
+        <obo:IAO_0000118>S-D614G</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.cell.com/cell/pdf/S0092-8674(20)30820-5.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <rdfs:comment>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
-        <rdfs:label xml:lang="en">S-D614G</rdfs:label>
+        <rdfs:label xml:lang="en">D614G in SARS-CoV-2 spike-protein</rdfs:label>
     </owl:Class>
     
 
@@ -7867,9 +7877,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome</obo:IAO_0000115>
+        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">coronaviral AA variant</rdfs:label>
+        <obo:IAO_0000118>coronaviral amino acid variant</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">coronaviral amino acid variant</rdfs:label>
     </owl:Class>
     
 
@@ -9556,6 +9567,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Nextstrain clade 21A</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global</obo:IAO_0000119>
