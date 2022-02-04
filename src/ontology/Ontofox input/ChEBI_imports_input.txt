@@ -151,6 +151,30 @@ http://purl.obolibrary.org/obo/CHEBI_71466
 http://purl.obolibrary.org/obo/CHEBI_46889
 
 http://purl.obolibrary.org/obo/CHEBI_5123  
+#Added amino acids by Anthony
+http://purl.obolibrary.org/obo/CHEBI_16449 #A
+http://purl.obolibrary.org/obo/CHEBI_29016 #R
+http://purl.obolibrary.org/obo/CHEBI_17196 #N
+http://purl.obolibrary.org/obo/CHEBI_22660 #D
+http://purl.obolibrary.org/obo/CHEBI_17561 #C
+http://purl.obolibrary.org/obo/CHEBI_28300 #Q
+http://purl.obolibrary.org/obo/CHEBI_18237 #E
+http://purl.obolibrary.org/obo/CHEBI_27570 #H
+http://purl.obolibrary.org/obo/CHEBI_25017 #L
+http://purl.obolibrary.org/obo/CHEBI_24898 #I
+http://purl.obolibrary.org/obo/CHEBI_16811 #M
+http://purl.obolibrary.org/obo/CHEBI_28044 #F
+http://purl.obolibrary.org/obo/CHEBI_26271 #P
+http://purl.obolibrary.org/obo/CHEBI_17822 #S
+http://purl.obolibrary.org/obo/CHEBI_16857 #T
+http://purl.obolibrary.org/obo/CHEBI_27897 #W
+http://purl.obolibrary.org/obo/CHEBI_17895 #T
+http://purl.obolibrary.org/obo/CHEBI_27266 #V
+http://purl.obolibrary.org/obo/CHEBI_25094 #Y
+http://purl.obolibrary.org/obo/CHEBI_15428 #G
+
+
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
