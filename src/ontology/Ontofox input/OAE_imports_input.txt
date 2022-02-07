@@ -9,6 +9,12 @@ http://purl.obolibrary.org/obo/OAE_0000660 # arrhythmia AE
 http://purl.obolibrary.org/obo/OAE_0000001 # AE
 http://purl.obolibrary.org/obo/OAE_0000034 # Fatigue AE
 http://purl.obolibrary.org/obo/OAE_0000377 #Headache
+
+http://purl.obolibrary.org/obo/OAE_0004540 #TTS
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OAE_0001201 # myocarditis AE
+includeAllChildren 
  
 # Liwei Wang and Oliver work on March 6, 2021
 http://purl.obolibrary.org/obo/OAE_0000377

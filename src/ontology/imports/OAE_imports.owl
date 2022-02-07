@@ -360,8 +360,8 @@ Ref: Baylor NW and Midthum K. Regulation and testing of vaccines. In: Vaccines (
         <obo:IAO_0000117>SS, YH, MW</obo:IAO_0000117>
         <rdfs:seeAlso>NCIt: C3036; NCIt: C78416</rdfs:seeAlso>
         <rdfs:seeAlso>CTCAE: E11098 (fatigue); CTCAE: E12709 (lethargy)</rdfs:seeAlso>
-        <obo:IAO_0000118>lethargy AE</obo:IAO_0000118>
         <rdfs:seeAlso>HPO: HP_0003388</rdfs:seeAlso>
+        <obo:IAO_0000118>lethargy AE</obo:IAO_0000118>
         <obo:IAO_0000116>lethargy is sometimes reported as an extreme fatigue:
 http://the-difference-between.com/lethargy/fatigue
 they are sometimes regarded as synonyms:
@@ -419,6 +419,18 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000085">
+        <rdfs:label>vascular disorder AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000493"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10047065</obo:OAE_0004334>
+        <obo:IAO_0000115>a cardiovascular disorder AE that has a vascular disorder outcome</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000162">
@@ -445,6 +457,22 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
         <rdfs:seeAlso>HPO: HP_0001337</rdfs:seeAlso>
         <rdfs:seeAlso>CTCAE: E12837</rdfs:seeAlso>
         <obo:IAO_0000115>Tremor AE is a behavior and neurological AE that has an outcome of an involuntary trembling or quivering, and muscle contraction and relaxation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000185">
+        <rdfs:label>thrombosis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10043607</obo:OAE_0004334>
+        <rdfs:seeAlso>SIDER: C0040053</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH, MW</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0004419</rdfs:seeAlso>
+        <obo:OAE_0001849>血栓症; 血栓生成</obo:OAE_0001849>
+        <obo:IAO_0000115>A vascular disorder AE that results in the presence of blood clot along the wall of a blood vessel, frequently causing vascular obstruction. Some authorities differentiate thrombus formation from simple coagulation or clot formation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
     </owl:Class>
     
@@ -1038,6 +1066,23 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0000557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000557">
+        <rdfs:label>inflammation AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000476"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061218</obo:OAE_0004334>
+        <rdfs:seeAlso>SIDER: C0021368</rdfs:seeAlso>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>HPO: HP_0007891</rdfs:seeAlso>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Inflammation</obo:IAO_0000119>
+        <rdfs:seeAlso>MP: MP_0001846</rdfs:seeAlso>
+        <obo:IAO_0000115 xml:lang="en">an immune system disorder AE that results in complex biological response of vascular tissues to harmful stimuli, such as pathogens, damaged cells, or irritants. Inflammation is a protective attempt by the organism to remove the injurious stimuli as well as initiate the healing process for the tissue greater than expected response to injury, infection, or insult.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000570">
@@ -1094,6 +1139,18 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000580"/>
         <rdfs:seeAlso>MP: MP_0002067</rdfs:seeAlso>
         <rdfs:comment xml:lang="en">a behavior and neurological AE that has an outcome of inability or altered ability to respond to a sensory stimulus</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000588">
+        <rdfs:label>hematopoietic system AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000001"/>
+        <rdfs:seeAlso>MP: MP_0002396</rdfs:seeAlso>
+        <obo:IAO_0000115 xml:lang="en">an adverse event which occurs in a hematopoietic system, which is any structural or developmental anomaly of the blood cells or the organs associated with the development and formation of blood cells</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
     </owl:Class>
     
@@ -1290,6 +1347,39 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0001201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001201">
+        <rdfs:label>myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000557"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10028606</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001204/</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>NCIt: C34831</rdfs:seeAlso>
+        <obo:IAO_0000115>an inflammation AE that has an outcome of inflammation of the heart muscle</obo:IAO_0000115>
+        <rdfs:seeAlso>CTCAE: E10157</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001448">
+        <rdfs:label>thrombocytopenia AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000588"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10043554</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/000586.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>a hematopoietic system AE that has an outcome of decrease in platelets in the blood</obo:IAO_0000115>
+        <rdfs:seeAlso>HPO: HP_0001873</rdfs:seeAlso>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>SIDER: C0040034</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0001797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001797">
@@ -1350,6 +1440,72 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OAE_0003690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003690">
+        <rdfs:label>Grade 1 myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001201"/>
+        <obo:IAO_0000115>a myocarditis AE that has asymptomatic with laboratory (e.g., BNP [B-Natriuretic Peptide ]) or cardiac imaging abnormalities</obo:IAO_0000115>
+        <obo:IAO_0000117>MW, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>CTCAE: E10158</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003691">
+        <rdfs:label>Grade 2 myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001201"/>
+        <obo:IAO_0000117>MW, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>CTCAE: E10159</rdfs:seeAlso>
+        <obo:IAO_0000115>a myocarditis AE that has symptoms with mild to moderate activity or exertion</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003692">
+        <rdfs:label>Grade 3 myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001201"/>
+        <rdfs:seeAlso>CTCAE: E10160</rdfs:seeAlso>
+        <obo:IAO_0000115>a myocarditis AE that has severe with symptoms at rest or with minimal activity or exertion; intervention indicated</obo:IAO_0000115>
+        <obo:IAO_0000117>MW, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0003693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0003693">
+        <rdfs:label>Grade 4 myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001201"/>
+        <obo:IAO_0000117>MW, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a myocarditis AE that has life-threatening consequences; urgent intervention indicated (e.g., continuous IV therapy or mechanical hemodynamic support)</obo:IAO_0000115>
+        <rdfs:seeAlso>CTCAE: E10161</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004326">
+        <rdfs:label xml:lang="en">lymphoplasmacytic myocarditis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001201"/>
+        <obo:OAE_0001849>淋巴浆细胞性心肌炎</obo:OAE_0001849>
+        <obo:IAO_0000115>a myocarditis AE where the heart muscle is filled with lymphocytes and plasma cells that are not normally seen.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001204/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0004524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004524">
@@ -1382,6 +1538,91 @@ https://www.nlm.nih.gov/medlineplus/ency/article/003088.htm</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000366"/>
         <obo:IAO_0000117>Liwei Wang, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000115>an adverse event that displays swelling at the injection site</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004540">
+        <rdfs:label xml:lang="en">thrombosis with thrombocytopenia syndrome AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001448"/>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000115>An adverse event in any patient presenting with both acute venous or arterial thrombosis AND new onset thrombocytopenia after a medical intervention such as vaccination.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000118>TTS</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004576">
+        <rdfs:label xml:lang="en">Level 1 TTS AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004540"/>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000118>Level 1 thrombosis with thrombocytopenia syndrome AE</obo:IAO_0000118>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000115>A definit case of TTS</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004577">
+        <rdfs:label xml:lang="en">Level 2 TTS AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004540"/>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000115>A probable case of TTS</obo:IAO_0000115>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000118>Level 2 thrombosis with thrombocytopenia syndrome AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004578">
+        <rdfs:label xml:lang="en">Level 3 TTS AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004540"/>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000115>A possible case TTS</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000118>Level 3 thrombosis with thrombocytopenia syndrome AE</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004579">
+        <rdfs:label xml:lang="en">Level 4 TTS AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004540"/>
+        <obo:IAO_0000115>A reported case as TTS but there is insufficient evidence to meet any level of the case.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000118>Level 4 thrombosis with thrombocytopenia syndrome AE</obo:IAO_0000118>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004580">
+        <rdfs:label xml:lang="en">Level 5 TTS AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004540"/>
+        <obo:IAO_0000119>https://brightoncollaboration.us/wp-content/uploads/2021/04/TTS-Case-Finding-and-Definition-Process.v9.0-April-16-202115853.pdf</obo:IAO_0000119>
+        <obo:IAO_0000115>most likely not a case of TTS</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jessica DeGuise</obo:IAO_0000117>
+        <obo:IAO_0000118>Level 5 thrombosis with thrombocytopenia syndrome AE</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
     </owl:Class>
     
