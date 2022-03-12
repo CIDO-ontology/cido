@@ -543,6 +543,44 @@ http://purl.obolibrary.org/obo/PR_Q9UBF8
 http://purl.obolibrary.org/obo/PR_Q13131
 http://purl.obolibrary.org/obo/PR_P05129
 
+#newly added on 3/12/2022 by Jinyang Du and Oliver He
+http://purl.obolibrary.org/obo/PR_000001662
+http://purl.obolibrary.org/obo/PR_000003554
+http://purl.obolibrary.org/obo/PR_000004468
+http://purl.obolibrary.org/obo/PR_000004480
+http://purl.obolibrary.org/obo/PR_000004806
+http://purl.obolibrary.org/obo/PR_000004807
+http://purl.obolibrary.org/obo/PR_000005005
+http://purl.obolibrary.org/obo/PR_000005501
+http://purl.obolibrary.org/obo/PR_000005951
+http://purl.obolibrary.org/obo/PR_000006025
+http://purl.obolibrary.org/obo/PR_000006606
+http://purl.obolibrary.org/obo/PR_000007532
+http://purl.obolibrary.org/obo/PR_000007535
+http://purl.obolibrary.org/obo/PR_000007543
+http://purl.obolibrary.org/obo/PR_000008481
+http://purl.obolibrary.org/obo/PR_000008636
+http://purl.obolibrary.org/obo/PR_000008801
+http://purl.obolibrary.org/obo/PR_000009022
+http://purl.obolibrary.org/obo/PR_000009668
+http://purl.obolibrary.org/obo/PR_000010187
+http://purl.obolibrary.org/obo/PR_000010188
+http://purl.obolibrary.org/obo/PR_000010721
+http://purl.obolibrary.org/obo/PR_000011096
+http://purl.obolibrary.org/obo/PR_000011650
+http://purl.obolibrary.org/obo/PR_000012876
+http://purl.obolibrary.org/obo/PR_000012877
+http://purl.obolibrary.org/obo/PR_000013222
+http://purl.obolibrary.org/obo/PR_000013422
+http://purl.obolibrary.org/obo/PR_000014022
+http://purl.obolibrary.org/obo/PR_000014208
+http://purl.obolibrary.org/obo/PR_000014432
+http://purl.obolibrary.org/obo/PR_000015181
+http://purl.obolibrary.org/obo/PR_000017273
+http://purl.obolibrary.org/obo/PR_000032038
+http://purl.obolibrary.org/obo/PR_000050270
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
 

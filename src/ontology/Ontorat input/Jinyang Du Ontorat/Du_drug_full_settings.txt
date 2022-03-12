@@ -43,9 +43,8 @@ ObjectProperty:
 'chemical inhibits protein': <http://purl.obolibrary.org/obo/CIDO_0000119>
 'chemical has protein target as antagonist': <http://purl.obolibrary.org/obo/CIDO_0000120>
 'chemical has protein target as agonist': <http://purl.obolibrary.org/obo/CIDO_0000121>
-'degradation': <http://purl.obolibrary.org/obo/NCIT_C61559>
+'chemical degrades protein': <http://purl.obolibrary.org/obo/CIDO_0000045>
 'chemical binds protein': <http://purl.obolibrary.org/obo/CIDO_0000122>
-'translational initiation': <http://purl.obolibrary.org/obo/GO_0006413>
 'has_role': <http://purl.obolibrary.org/obo/has_role>
 DataProperty:
 

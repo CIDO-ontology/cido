@@ -26,6 +26,7 @@
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_drug_viral_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
@@ -71,13 +72,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">02-07-2022</dc:date>
+        <dc:date xml:lang="en">03-12-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.281</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.285</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -789,6 +790,17 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000115>An object property that represents a relation between a microbe and an organism that serves as the host role and can host the survival of the microbe.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has susceptible host</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000045 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000045">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can degrate the protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jinyang Du</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical degrades protein</rdfs:label>
     </owl:ObjectProperty>
     
 
