@@ -248,6 +248,11 @@ http://purl.obolibrary.org/obo/CHEBI_93829
 http://purl.obolibrary.org/obo/CHEBI_94448
 http://purl.obolibrary.org/obo/CHEBI_94484
 http://purl.obolibrary.org/obo/CHEBI_97212
+http://purl.obolibrary.org/obo/CHEBI_138090
+http://purl.obolibrary.org/obo/CHEBI_189678
+http://purl.obolibrary.org/obo/CHEBI_189680
+http://purl.obolibrary.org/obo/CHEBI_189681
+http://purl.obolibrary.org/obo/CHEBI_189682
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity

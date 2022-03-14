@@ -19,9 +19,7 @@ edit existing classes with term IDs defined in column K
   
 [Annotations]
 # Note: Use comma to separate annotations
-'label' "{$columnJ} ({$columnK})",
-'seeAlso' "{$columnK}",
-'comment' "References:{$columnN}"
+'definition source' "Reference: PMID: {$columnN}"
 
 [Equivalent classes]
 # Note: Use comma to separate classes 
@@ -29,7 +27,6 @@ edit existing classes with term IDs defined in column K
 
 [Superclasses]
 # Note: Use comma to separate classes 
-<http://purl.obolibrary.org/obo/{$columnK}>,
 '{$columnL}' some <http://purl.obolibrary.org/obo/{$columnF}>
 
 [Terms used to define anntoations, equivalent classes and superclasses]

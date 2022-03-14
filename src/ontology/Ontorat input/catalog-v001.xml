@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl" uri="Drugs_no_ChEBI_IDs_interaction_with_targets.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl" uri="FDA_EUA_v3.17.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/Shah_chem_protein_targets_from_DrugBANK_ontorat.owl" uri="Shah_chem_protein_targets_from_DrugBANK_ontorat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/chem_notin_chebi_ontorat.owl.owl" uri="chem_terms_without_CHEBI_IDs_Ontorat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Jinyang%20Du%20Ontorat/viral_out.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/ontorat_0000001G.owl" uri="GO_PR.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647291363773" name="http://purl.obolibrary.org/obo/ontorat_0000001P.owl" uri="PR_GO.owl"/>
+    </group>
+</catalog>
