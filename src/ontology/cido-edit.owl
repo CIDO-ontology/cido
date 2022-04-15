@@ -7896,10 +7896,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <obo:IAO_0000115>An aa-changing SNP variant of G25563T that occurs in the ORF3a protein of a SARS-CoV-2 virus. It is a signature variant of SARS-CoV-2 clade GH.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">NS3-Q57H</obo:IAO_0000118>
         <obo:IAO_0000118>Q57H</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NS3-Q57H</rdfs:label>
         <rdfs:label xml:lang="en">Q57H in SARS-CoV2 NS3 protein</rdfs:label>
     </owl:Class>
     
@@ -8434,7 +8434,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8461,7 +8460,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-Y144del</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">S-Y144del</rdfs:label>
         <rdfs:label>Y144del in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
     
@@ -8514,9 +8512,9 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">N-G204R</obo:IAO_0000118>
         <obo:IAO_0000119>An AA variant that has mutated an amino acid at position 204 into a arginine</obo:IAO_0000119>
         <rdfs:label xml:lang="en">G204R in SARS-CoV-2 N protein</rdfs:label>
-        <rdfs:label xml:lang="en">N-G204R</rdfs:label>
     </owl:Class>
     
 
@@ -8527,8 +8525,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000591"/>
         <obo:IAO_0000118>S-A222V</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
         <rdfs:label>A222V in SARS-CoV-2 S protein</rdfs:label>
-        <rdfs:label xml:lang="en">S-A222V</rdfs:label>
     </owl:Class>
     
 
