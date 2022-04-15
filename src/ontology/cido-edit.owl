@@ -8424,8 +8424,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000272"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118>S-H69del</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">H69del in SARS-CoV-2 S protein</rdfs:label>
+        <obo:IAO_0000118>H69del in SARS-CoV-2 S protein</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">H69- in SARS-CoV-2 S protein</rdfs:label>
         <rdfs:label xml:lang="en">S-H69del</rdfs:label>
     </owl:Class>
     
@@ -8442,7 +8442,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-V70del</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">S-V70del</rdfs:label>
         <rdfs:label>V70del in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
     
@@ -8460,7 +8459,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-Y144del</obo:IAO_0000118>
-        <rdfs:label>Y144del in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:comment>Y144del in SARS-CoV-2 S protein</rdfs:comment>
+        <rdfs:label>Y144- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
     
 
