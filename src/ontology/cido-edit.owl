@@ -1367,11 +1367,12 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000281 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000281">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000603"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
         <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <rdfs:comment>An AA variant represents not only an amino acid (AA), but also a record of change from a previous AA to a new one. Therefore, instead of using &apos;has part&apos;, we generate this new property to represent the history of AA mutation.</rdfs:comment>
-        <rdfs:label xml:lang="en">has AA variant</rdfs:label>
+        <rdfs:label xml:lang="en">has characteristic AA variant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1565,13 +1566,47 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000600 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000600">
+        <rdfs:comment>An object property that defines a relation between an AA variant and a microbe variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one.</rdfs:comment>
+        <rdfs:label xml:lang="en">is AA variant of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000603 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000603">
+        <rdfs:label xml:lang="en">has AA variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000608 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000608">
+        <rdfs:label xml:lang="en">has AA mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000609 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000609">
+        <rdfs:label xml:lang="en">is AA muation of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000704 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000704">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000608"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
-        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000115>
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change that is used to identify a mircrobe variant. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000115>
         <rdfs:comment>An AA mutation represents the process of change from a previous AA to a new one. Therefore, instead of using &apos;has part&apos;, we generate this new property to represent the history of AA mutation. &apos;has AA mutation&apos; is distinct from &apos;has AA variant&apos; to account for mutations.</rdfs:comment>
-        <rdfs:label xml:lang="en">has AA mutation</rdfs:label>
+        <rdfs:label xml:lang="en">has characteristic AA mutation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1579,9 +1614,10 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000705 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000705">
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>An object property that defines a relation between an AA variant and a microbe variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one.</rdfs:comment>
-        <rdfs:label xml:lang="en">AA variant of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>An object property that defines a relation between an AA variant and a microbe variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one and that such a variant is used to identify a microbe variant..</rdfs:comment>
+        <rdfs:label xml:lang="en">is characteristic AA variant of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1589,8 +1625,10 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000706 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000706">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">AA mutation of</rdfs:label>
+        <rdfs:label xml:lang="en">is characteristic AA mutation of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1687,6 +1725,41 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000604 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000604">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has relative risk with no vaccination</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000605 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000605">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has relative risk post-vaccination</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000606 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000606">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has relative risk post-boost-vaccination</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000610 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000610">
+        <rdfs:label xml:lang="en">has average R0</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -9780,6 +9853,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000610"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.02</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Nextstrain clade 21A</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global</obo:IAO_0000119>
@@ -11506,6 +11585,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000610"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.05</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global9</obo:IAO_0000119>
         <oboInOwl:creation_date>1/30/2022</oboInOwl:creation_date>
@@ -30835,8 +30920,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
