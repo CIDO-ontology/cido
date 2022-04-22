@@ -7405,6 +7405,14 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 viral process that causes the fusion of host cells into multinucleated syncytal complexes.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 33051876</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SARS-CoV-2 viral process to host</rdfs:label>
     </owl:Class>
     
@@ -7929,8 +7937,44 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000382"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7955,13 +7999,13 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <obo:IAO_0000115>The Spike D614G amino acid change is caused by an A-to-G nucleotide mutation at position 23,403 (A23403G) in the Wuhan reference strain; it was the only site identified in our first Spike variation analysis in early March 2020 that met our threshold criterion.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>D614G</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">D614G in SARS-CoV-2 spike-protein</obo:IAO_0000118>
         <obo:IAO_0000118>D614G, S-D614G</obo:IAO_0000118>
         <obo:IAO_0000118>S-D614G</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.cell.com/cell/pdf/S0092-8674(20)30820-5.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
         <rdfs:comment>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
         <rdfs:label xml:lang="en">D614G in SARS-CoV-2 S protein</rdfs:label>
-        <rdfs:label xml:lang="en">D614G in SARS-CoV-2 spike-protein</rdfs:label>
     </owl:Class>
     
 
@@ -8031,6 +8075,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000371"/>
             </owl:Restriction>
@@ -8073,6 +8129,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17822"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8555,6 +8623,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000272"/>
             </owl:Restriction>
@@ -8577,6 +8651,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -8627,6 +8707,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8719,8 +8805,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 222 into valine in S protein.</rdfs:comment>
         <rdfs:label>A222V in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
     
@@ -11887,16 +11975,10 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000244"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740578"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050263"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000244"/>
@@ -11937,7 +12019,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 211 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 211 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">N440K in SARS-CoV-2 S protein</rdfs:label>
@@ -11973,7 +12055,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 142 into a aspartic acid</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 142 into a aspartic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">G142D in SARS-CoV-2 S protein</rdfs:label>
@@ -12012,7 +12094,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 143 into a deletion</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 143  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V143- in SARS-CoV-2 S protein</rdfs:label>
@@ -12071,6 +12153,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12086,7 +12174,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 144 into a deletion</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 144  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V144- in SARS-CoV-2 S protein</rdfs:label>
@@ -12216,7 +12304,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a threonine in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A63T in SARS-CoV-2 M protein</rdfs:label>
@@ -12231,7 +12319,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22660"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15428"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12252,7 +12340,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a aspartic acid</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a aspartic acid in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D3G in SARS-CoV-2 M protein</rdfs:label>
@@ -12282,7 +12370,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 182 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 182 into a threonine in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I82T in SARS-CoV-2 M protein</rdfs:label>
@@ -12312,7 +12400,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a glutamine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a glutamine  in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q19E in SARS-CoV-2 M protein</rdfs:label>
@@ -12348,7 +12436,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">377</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 377 into a tyrosine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 377 into a tyrosine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <obo:IAO_0000119>https://covariants.org/variants</obo:IAO_0000119>
@@ -12385,7 +12473,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a leucine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D3L in SARS-CoV-2 N protein</rdfs:label>
@@ -12421,7 +12509,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a glycine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a glycine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D63G in SARS-CoV-2 N protein</rdfs:label>
@@ -12457,7 +12545,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 800 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 800 into a arginine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P80R in SARS-CoV-2 N protein</rdfs:label>
@@ -12493,7 +12581,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 203 into a methionine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 203 into a methionine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>R203M in SARS-CoV-2 N protein</rdfs:label>
@@ -12529,7 +12617,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 235 into a phenylalanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 235 into a phenylalanine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S235F in SARS-CoV-2 N protein</rdfs:label>
@@ -12565,7 +12653,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 205 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 205 into a isoleucine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T205I in SARS-CoV-2 N protein</rdfs:label>
@@ -12576,7 +12664,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000633">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12607,7 +12695,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1708</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1708 into a aspartic acid</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1708 into a aspartic acid  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A1708D in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12690,7 +12778,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12715,7 +12803,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2230</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 2230 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2230 into a threonine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I2230T in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12726,7 +12814,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000637 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000637">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12751,7 +12839,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3758</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3758 into a valine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3758 into a valine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I3758V in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12762,7 +12850,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000638">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12787,7 +12875,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1655</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1655 into a asparagine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1655 into a asparagine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K1655N in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12798,7 +12886,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000639">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12823,7 +12911,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1795</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1795 into a glutamine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1795 into a glutamine   in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K1795Q in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12834,7 +12922,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000640">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12865,7 +12953,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">856</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a arginine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K856R in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12876,7 +12964,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000641">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12901,7 +12989,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3395</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3395 into a histidine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3395 into a histidine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P3395H in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12912,7 +13000,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12931,7 +13019,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1188</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1188 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1188 into a leucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S1188L in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -12978,7 +13066,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000644">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -13003,7 +13091,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1001</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1001 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1001 into a isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T1001I in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -13014,7 +13102,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -13039,7 +13127,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3255</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3255 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3255 into a isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T3255I in SARS-CoV-2 pp1a protein</rdfs:label>
@@ -13050,7 +13138,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000646 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000646">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -13075,7 +13163,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">662</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 662 into a serine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 662 into a serine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G662S in SARS-CoV-2 pp1b protein</rdfs:label>
@@ -13086,7 +13174,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000647">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -13111,7 +13199,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1566</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1566 into a valine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1566 into a valine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I1566V in SARS-CoV-2 pp1b protein</rdfs:label>
@@ -13122,7 +13210,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000648 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -13150,6 +13238,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1000 into a leucine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>in pp1b.</rdfs:comment>
         <rdfs:label>P1000L in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
     
@@ -13158,11 +13247,35 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000382"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000384"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -13195,7 +13308,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a leucine  in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P314L in SARS-CoV-2 pp1b protein</rdfs:label>
@@ -13260,7 +13373,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 145 into a deletion</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 145  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V145- in SARS-CoV-2 S protein</rdfs:label>
@@ -13296,7 +13409,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 505 into a histidine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 505 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">S-Y505H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Y505H in SARS-CoV-2 S protein</rdfs:label>
@@ -13332,7 +13445,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 92 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 92 into a lysine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label>E92K in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
@@ -13397,7 +13510,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 52 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 52 into a isoleucine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label>R52I in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
@@ -13432,7 +13545,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 73 into a cysteine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 73 into a cysteine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label>Y73C in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
@@ -13491,7 +13604,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 570 into a aspartic acid</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 570 into aspartic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A570D in SARS-CoV-2 S protein</rdfs:label>
@@ -13512,6 +13625,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13527,7 +13646,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 67 into a valine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 67 into a valine  in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A67V in SARS-CoV-2 S protein</rdfs:label>
@@ -13563,7 +13682,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 118 into a histidine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 118 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D118H in SARS-CoV-2 S protein</rdfs:label>
@@ -13599,7 +13718,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 138 into a tyrosine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 138 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D138Y in SARS-CoV-2 S protein</rdfs:label>
@@ -13635,7 +13754,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 215 into a glycine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 215 into a glycine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D215G in SARS-CoV-2 S protein</rdfs:label>
@@ -13671,7 +13790,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">796</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 796 into a tyrosine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 796 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D796Y in SARS-CoV-2 S protein</rdfs:label>
@@ -13707,7 +13826,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 80 into a alanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 80 into a alanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D80A in SARS-CoV-2 S protein</rdfs:label>
@@ -13743,7 +13862,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">950</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 950 into a aspargine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 950 into a aspargine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D950N in SARS-CoV-2 S protein</rdfs:label>
@@ -13809,7 +13928,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a alanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a alanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>E484A in SARS-CoV-2 S protein</rdfs:label>
@@ -13825,6 +13944,24 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -13851,7 +13988,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>E484K in SARS-CoV-2 S protein</rdfs:label>
@@ -13917,7 +14054,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 339 into a aspartic acid</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 339 into a aspartic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G339D in SARS-CoV-2 S protein</rdfs:label>
@@ -13953,7 +14090,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 446 into a serine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 446 into a serine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G446S in SARS-CoV-2 S protein</rdfs:label>
@@ -13986,10 +14123,10 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">696</owl:hasValue>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">496</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 696 into a serine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 496 into a serine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G496S in SARS-CoV-2 S protein</rdfs:label>
@@ -14025,7 +14162,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 655 into a tyrosine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 655 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>H655Y in SARS-CoV-2 S protein</rdfs:label>
@@ -14061,7 +14198,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a asparagine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a asparagine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K417N in SARS-CoV-2 S protein</rdfs:label>
@@ -14097,7 +14234,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a threonine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K417T in SARS-CoV-2 S protein</rdfs:label>
@@ -14159,6 +14296,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
             </owl:Restriction>
@@ -14205,7 +14348,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">981</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 981 into a phenylalanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 981 into a phenylalanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>L981F in SARS-CoV-2 S protein</rdfs:label>
@@ -14267,11 +14410,17 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">679</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 679 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 679 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N679K in SARS-CoV-2 S protein</rdfs:label>
@@ -14307,7 +14456,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">764</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 764 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 764 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N764K in SARS-CoV-2 S protein</rdfs:label>
@@ -14343,7 +14492,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">856</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N856K in SARS-CoV-2 S protein</rdfs:label>
@@ -14379,7 +14528,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">969</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 969 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 969 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N969K in SARS-CoV-2 S protein</rdfs:label>
@@ -14435,6 +14584,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000371"/>
             </owl:Restriction>
@@ -14448,7 +14603,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26271"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -14457,7 +14612,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a histidine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P681H in SARS-CoV-2 S protein</rdfs:label>
@@ -14473,6 +14628,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -14493,7 +14654,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P681R in SARS-CoV-2 S protein</rdfs:label>
@@ -14523,7 +14684,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">493</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 493 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 493 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q493R in SARS-CoV-2 S protein</rdfs:label>
@@ -14553,7 +14714,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 498 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 498 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q498R in SARS-CoV-2 S protein</rdfs:label>
@@ -14589,7 +14750,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">954</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 954 into a histidine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 954 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q954H in SARS-CoV-2 S protein</rdfs:label>
@@ -14697,7 +14858,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 371 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 371 into a leucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S371L in SARS-CoV-2 S protein</rdfs:label>
@@ -14733,7 +14894,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 373 into a proline</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 373 into a proline in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S373P in SARS-CoV-2 S protein</rdfs:label>
@@ -14769,7 +14930,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 375 into a phenylalanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 375 into a phenylalanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S375F in SARS-CoV-2 S protein</rdfs:label>
@@ -14805,7 +14966,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">477</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 477 into a asparagine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 477 into a asparagine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S477N in SARS-CoV-2 S protein</rdfs:label>
@@ -14841,7 +15002,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">982</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 982 into a alanine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 982 into a alanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S982A in SARS-CoV-2 S protein</rdfs:label>
@@ -14877,7 +15038,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1027</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1027 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1027 into a isoleucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T1027I in SARS-CoV-2 S protein</rdfs:label>
@@ -14913,7 +15074,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T19R in SARS-CoV-2 S protein</rdfs:label>
@@ -14949,7 +15110,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 20 into a aspargine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 20 into a aspargine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T20N in SARS-CoV-2 S protein</rdfs:label>
@@ -14991,7 +15152,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 478 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 478 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T478K in SARS-CoV-2 S protein</rdfs:label>
@@ -15027,7 +15188,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">547</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 547 into a lysine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 547 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T547K in SARS-CoV-2 S protein</rdfs:label>
@@ -15063,7 +15224,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">716</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 716 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 716 into a isoleucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T716I in SARS-CoV-2 S protein</rdfs:label>
@@ -15078,7 +15239,13 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000382"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15099,10 +15266,1146 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 95 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 95 into a isoleucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T95I in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 induced syncytia formation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">888</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 888 into a leucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">F888L in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 2007 into isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">T2007I in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1203</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">L1203F in SARS-CoV-2 pp1b protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">777</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 777 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Q777H in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <obo:IAO_0000115>An AA variant that is found within pp1a of SARS-CoV-2</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">AA variant pp1a SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <obo:IAO_0000115>An AA variant that is found within pp1b of SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">AA variant pp1b SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine  in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">P314F in SARS-CoV-2 pp1b protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3468</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3468 into a valine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">L3468V in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3468</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3930 into a phenylalanine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">L3930F in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000379"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1176</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1176 into a phenylalanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">V1176F in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1101</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1101 into a tyrosine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">H1101Y in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1092</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1092 into a glutamic acid in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">E1092K in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1554</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 1554 into a glycine   in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">D1554G in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17822"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1554</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1554 into a phenylalanine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">S2625F in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2980</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2980 into an arginine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">D2980N in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3201</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3201 into a leucine in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">L3201P in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1567</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1567 into isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">T15671I in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16449"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3646</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3646 into alanine   in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">T3646A in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into glutamine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">E484Q in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1071</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1071 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Q1071H in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1203</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1011 into a glutamine  in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Q1011H in SARS-CoV-2 pp1b protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000382"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 253 into glycine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">D253G in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 75 into valine in S protein.</rdfs:comment>
+        <rdfs:label xml:lang="en">G75V in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 76 into isoleucine in S protein.</rdfs:comment>
+        <rdfs:label xml:lang="en">T76I in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">452</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into glutamine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">L452Q in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 859 into arginine in S protein.</rdfs:comment>
+        <rdfs:label xml:lang="en">T859N in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22653"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">452</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into aspargine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">R246N in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15356"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27897"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 152 into cystiene in S protein.</rdfs:comment>
+        <rdfs:label xml:lang="en">W152C in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17822"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 13 into isoleucine in S protein</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">S13I in SARS-CoV-2 S protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1001</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 265 into a isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">T265I in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24898"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3159</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3159 into threonine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">S3159T in SARS-CoV-2 pp1a protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1183</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA variant that has mutated a pp1b amino acid at position 1183 into tyrosine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">D1183Y in SARS-CoV-2 pp1b protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000380"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3159</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An AA variant that has mutated an pp1b amino acid at position 976 into leucine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">P976L in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
     
 
