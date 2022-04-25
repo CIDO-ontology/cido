@@ -72,13 +72,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">04-24-2022</dc:date>
+        <dc:date xml:lang="en">04-25-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.301</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.302</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5969,7 +5969,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 E protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 E protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 E protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -5981,7 +5981,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp5 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp5 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp5 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -5993,7 +5993,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp6 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp6 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp6 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6005,7 +6005,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp7 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp7 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp7 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6017,7 +6017,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Orf10 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Orf10 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Orf10 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6029,7 +6029,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Orf10 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Orf8 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Orf8 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6041,7 +6041,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Orf9b protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Orf9b protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Orf9b protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6053,7 +6053,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Orf9c protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Orf9c protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Orf9c protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6065,7 +6065,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 M protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 M protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 M protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6077,7 +6077,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 N protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 N protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 N protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6089,7 +6089,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp12 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp12 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp12 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6101,7 +6101,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp13 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp13 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp13 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6113,7 +6113,7 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp14 protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Jinyang Du, Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp14 protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp14 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6125,7 +6125,42 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 S protein and a host protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">SARS-CoV-2 S protein interaction with host molecule</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 nsp1 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 nsp1 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000003"/>
+        <obo:IAO_0000115>A COVID-19 disease process caused by the Delta SARS-CoV-2 variant.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Delta variant COVID-19 disease process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp10 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp10 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6189,6 +6224,18 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <obo:IAO_0000115>A role of a chemical effective in modulating host response</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">chemical role modulating host immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp11 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp11 protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -6883,7 +6930,7 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SARS-CoV-2 binding to host cell</rdfs:label>
@@ -6947,7 +6994,7 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000117>
+        <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <rdfs:label xml:lang="en">SARS-CoV-2 binding to human cell</rdfs:label>
     </owl:Class>
@@ -7418,7 +7465,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000138"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000253"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000349"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7583,12 +7629,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000198"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 viral process that causes the fusion of host cells into multinucleated syncytal complexes.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID: 33051876</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SARS-CoV-2 viral process to host</rdfs:label>
@@ -7689,7 +7729,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000190"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:label xml:lang="en">SARS-CoV-2 RTC formation</rdfs:label>
     </owl:Class>
     
@@ -7699,7 +7739,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000179"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000208"/>
@@ -7729,8 +7769,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000203"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>Coronaviral replication-transcription complex (RTC) proofreading</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Coronavirus</obo:IAO_0000119>
@@ -7744,7 +7784,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000177"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
@@ -7760,7 +7800,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000191"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
@@ -7796,8 +7836,8 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000197"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000212"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
         <rdfs:label xml:lang="en">SARS-CoV-2 structure protein synthesis</rdfs:label>
     </owl:Class>
     
@@ -8482,15 +8522,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000251"/>
         <rdfs:label xml:lang="en">coronavirus survival in lysosome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000253 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
-        <rdfs:label xml:lang="en">SARS-CoV-2 S-ACE2 binding</rdfs:label>
     </owl:Class>
     
 
@@ -9817,11 +9848,23 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp15 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp15 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000195"/>
-        <rdfs:label xml:lang="en">host-SARS-CoV-2 molecular interaction</rdfs:label>
+        <rdfs:label xml:lang="en">host-SARS-CoV-2 protein-protein interaction</rdfs:label>
     </owl:Class>
     
 
@@ -9831,23 +9874,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000253"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000224"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000036009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11955,6 +11985,119 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000579">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp2 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp2 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp4 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp4 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp8 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp8 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 Nsp9 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Nsp9 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 orf3a protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 orf3a protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 orf3b protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 orf3b protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 orf6 protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 orf6 protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 orf7a protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 orf7a protein interaction with host protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000135"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a mouse cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 binding to mouse cell</rdfs:label>
     </owl:Class>
     
 
@@ -33796,8 +33939,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
