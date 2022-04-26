@@ -8526,6 +8526,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050274"/>
+        <obo:IAO_0000115>A catalytically dead Nsp5 (C145A) with tRNA methyltransferase 1 (TRMT1), which is responsible for the dimethylation of guanosine (m2,2G) on both nuclear and mitochondrial tRNAs (Ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7431030/).</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7431030/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">nsp5_C145A</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000254">
@@ -34024,6 +34036,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000377">
         <obo:CIDO_0000178>cephalalgia, head pain, pain in head, head ache, aching head, head aching, migrane, migraine</obo:CIDO_0000178>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD3-1">
+        <obo:IAO_0000118>uncharacterized protein 14 (SARS-CoV-2)</obo:IAO_0000118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cido.owl#CIDO_0000440">
         <rdfs:comment>Obsolete term</rdfs:comment>
