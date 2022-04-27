@@ -1977,12 +1977,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000119"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UEE5"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000119"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UEW8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
