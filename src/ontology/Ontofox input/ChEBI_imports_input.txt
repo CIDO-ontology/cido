@@ -254,6 +254,10 @@ http://purl.obolibrary.org/obo/CHEBI_189680
 http://purl.obolibrary.org/obo/CHEBI_189681
 http://purl.obolibrary.org/obo/CHEBI_189682
 
+http://purl.obolibrary.org/obo/CHEBI_180653 # Molnupiravir 
+http://purl.obolibrary.org/obo/CHEBI_170007 # nirmatrelvir, part of Paxlovid 
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity

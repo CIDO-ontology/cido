@@ -23312,10 +23312,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0001036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000409"/>
         <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32353859</obo:IAO_0000119>
-        <rdfs:label>PF-07321332</rdfs:label>
+        <rdfs:label>PF-07321332, obsolete</rdfs:label>
+        <rdf-schema:comment>This term with the same name is now imported from ChEBI</rdf-schema:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -59642,6 +59644,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_170007">
+        <obo:IAO_0000118>Nirmatrelvir</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
         <obo:IAO_0000118>role</obo:IAO_0000118>
     </rdf:Description>
