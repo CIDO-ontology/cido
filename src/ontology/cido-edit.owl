@@ -71,13 +71,13 @@
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">05-02-2022</dc:date>
+        <dc:date xml:lang="en">05-03-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.310</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.313</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1709,6 +1709,12 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002609 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002609"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
@@ -2208,6 +2214,20 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         <obo:IAO_0000119>PMID: 27344959</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB01024</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_170007 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_170007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000119"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050274"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Nirmatrelvir</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -3243,6 +3263,19 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
         </rdfs:subClassOf>
         <obo:IAO_0000119>PMID: 24841273</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39867 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_39867">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000119"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -20467,7 +20500,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q92769"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>SARS-CoV2 nsp5 protein binding to human HDAC2, as evidented by an affinity-purification mass spectrometry experiment</obo:IAO_0000115>
+        <obo:IAO_0000115>host-SARS-CoV2 protein-protein interaction where the SARS-CoV-2 nsp5 protein binds to human HDAC2, which is evidented by an affinity-purification mass spectrometry experiment.</obo:IAO_0000115>
         <obo:IAO_0000116>Utilizes UniProt ID HDAC2_HUMAN</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32353859</obo:IAO_0000119>
@@ -27090,9 +27123,9 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <!-- http://purl.obolibrary.org/obo/GENO_0000141 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000141">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -59317,9 +59350,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -59577,9 +59610,9 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
     <!-- http://purl.obolibrary.org/obo/doid#sequence -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/doid#sequence">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/doid#sequence">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -59666,9 +59699,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_170007">
-        <obo:IAO_0000118>Nirmatrelvir</obo:IAO_0000118>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
         <obo:IAO_0000118>role</obo:IAO_0000118>
     </rdf:Description>
