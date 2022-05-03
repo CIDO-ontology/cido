@@ -7,7 +7,11 @@ MONDO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/MONDO_0005108 # viral infectious disease
 http://purl.obolibrary.org/obo/MONDO_0005719 # coronavinae infectious disease 
+
+http://purl.obolibrary.org/obo/MONDO_0005718 # Coronaviridae infectious disease
 includeAllChildren
+
+http://purl.obolibrary.org/obo/MONDO_0100096 # COVID-19
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001
@@ -19,6 +23,9 @@ http://purl.obolibrary.org/obo/BFO_0000001
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
+
+# includeAllAxioms 
+# includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
