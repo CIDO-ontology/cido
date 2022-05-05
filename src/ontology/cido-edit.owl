@@ -1651,6 +1651,14 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001082 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001082">
+        <rdfs:label xml:lang="en">device utilizes material</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_0000000014 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
