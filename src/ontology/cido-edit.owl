@@ -12342,6 +12342,19 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25316,6 +25329,56 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000117>Zalan Shah, Ashley Yan</obo:IAO_0000117>
         <obo:IAO_0000119>https://go.drugbank.com/drugs/DB15718</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SARS-CoV2 orf8 protein binding to human NTPX1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.2 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:comment>A SARS-CoV-2 Omicron variant virus that is identified with the following characteristics.</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.4 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.5 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.1 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.3 virus</rdfs:label>
     </owl:Class>
     
 
