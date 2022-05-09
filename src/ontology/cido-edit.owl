@@ -77,7 +77,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.313</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.314</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8331,6 +8331,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000376"/>
             </owl:Restriction>
@@ -8999,7 +9005,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000274">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001146"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
@@ -9029,7 +9035,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
@@ -9057,7 +9063,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -12349,6 +12355,8 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
                         </owl:unionOf>
                     </owl:Class>
@@ -12680,6 +12688,8 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000614">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0014"/>
+        <obo:IAO_0000115>A variation that results in a deletion of an amino acid of SARS-CoV-2 protein in comparison to the reference sequence.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 protein amino acid deletion</rdfs:label>
     </owl:Class>
     
@@ -12688,7 +12698,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000615">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
@@ -12762,7 +12772,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000618 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
@@ -13319,7 +13329,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000634">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001147"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -13355,7 +13365,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001149"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -13586,6 +13596,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
             </owl:Restriction>
@@ -13643,7 +13659,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000643">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001147"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -13894,6 +13910,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000705"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000371"/>
             </owl:Restriction>
@@ -13968,7 +13990,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000651 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000651">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
@@ -14069,7 +14091,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000654 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000654">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001150"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -14088,7 +14110,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 27 into a stop mutaiton.</obo:IAO_0000115>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 27 into a stop mutation.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q27* in SARS-CoV-2 NS8 protein</rdfs:label>
@@ -14169,7 +14191,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000657 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000657">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14487,7 +14509,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000666">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -14613,7 +14635,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000706"/>
@@ -15014,6 +15036,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -25337,6 +25365,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
         <rdfs:label xml:lang="en">SARS-CoV-2 BA.2 virus</rdfs:label>
     </owl:Class>
@@ -25377,8 +25411,172 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
-        <rdfs:label xml:lang="en">SARS-CoV-2 BA.3 virus</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.2.12.1 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the S1 domain.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S1 protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001145"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the RBD domain.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S1 RBD protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001149"/>
+        <oboInOwl:created_by>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 pp1a protein.</oboInOwl:created_by>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 pp1a protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001144"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the S2 domain.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S2 protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <oboInOwl:created_by>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 pp1ab protein.</oboInOwl:created_by>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 pp1ab protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 NS8 protein.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 NS8 protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 E protein.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 E protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 M protein.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 M protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000597"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">N-G204R</obo:IAO_0000118>
+        <obo:IAO_0000119>An AA variant that has mutated an amino acid at position 203 into a lycine.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">R203K in SARS-CoV-2 N protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001145"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the RBD domain.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 S1 NTD protein amino acid deletion</rdfs:label>
     </owl:Class>
     
 
