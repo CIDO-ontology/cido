@@ -8114,15 +8114,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000230">
         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000241"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000241"/>
+            </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <obo:IAO_0000115>A SARS-CoV-2 variant virus that has a signature variant ORF8-L84S.</obo:IAO_0000115>
@@ -8153,17 +8148,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000232">
         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+            </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 variant virus that has signature mutation in Spike D614G.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 type B.1 virus</obo:IAO_0000118>
@@ -8179,15 +8175,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000233">
         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000242"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000242"/>
+            </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000405"/>
         <obo:IAO_0000115>A SARS-CoV-2 variant virus that has a signature variant of the ORF3a coding protein NS3-G251.</obo:IAO_0000115>
@@ -8206,7 +8197,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000239"/>
@@ -8215,6 +8209,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000239"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 clade G variant virus that has signature mutations in Spike D614G and ORF3a Q57H.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>SARS-CoV-2 type B.1.x virus</obo:IAO_0000118>
@@ -8232,7 +8240,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000278"/>
@@ -8241,6 +8252,20 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000232"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000278"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 clade G variant virus that carries the combination of Spike D614G and Nucleocapsid RG203KR mutations.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>B.1.1.1</obo:IAO_0000118>
@@ -8914,25 +8939,21 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000272">
         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000235"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000274"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000276"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000277"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000278"/>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000281"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000238"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000274"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000275"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000276"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000277"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000278"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000235"/>
         <rdfs:subClassOf>
@@ -12349,19 +12370,27 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <rdfs:subClassOf>
