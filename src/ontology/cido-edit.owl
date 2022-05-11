@@ -70,14 +70,15 @@
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
+        <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">05-03-2022</dc:date>
+        <dc:date xml:lang="en">05-10-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.314</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.320</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5971,44 +5972,6 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A test sensitivity for the COVID-19 disease</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 test sensitivity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118>Novel coronavirus 2019-nCoV nucleic acid detection kit (fluorescence PCR method) (Zhejiang Dongfang Gene Biological Products Co., Ltd.)</obo:IAO_0000118>
-        <rdfs:comment>Approved ID: 国械注准20203400520</rdfs:comment>
-        <rdfs:comment>Manufacturor: Zhejiang Dongfang Gene Biological Products Co., Ltd. 浙江东方基因生物制品股份有限公司</rdfs:comment>
-        <rdfs:comment>Usage: 本试剂盒用于体外定性检测新型冠状病毒肺炎疑似病例、聚集性病例、其他需要进行新型冠状病毒感染诊断或鉴别诊断者的咽拭子和痰液样本中，新型冠状病毒（2019-nCoV）ORF1ab和N基因。</rdfs:comment>
-        <rdfs:label xml:lang="en">2019-nCoV fluorescence PCR kit (Zhejiang Dongfang Gene Biological Products Co., Ltd.)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000029"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118>Novel coronavirus 2019-nCoV nucleic acid detection kit (fluorescence PCR method) (Shanghai Fosun Long March Medical Science Co., Ltd.)</obo:IAO_0000118>
-        <rdfs:comment>Approved ID: 国械注准20203400299</rdfs:comment>
-        <rdfs:comment>Manufacturor: Shanghai Fosun Long March Medical Science Co., Ltd.  上海复星长征医学科学有限公司</rdfs:comment>
-        <rdfs:comment>Usage: 本试剂盒用于体外定性检测新型冠状病毒感染的肺炎疑似病例、疑似聚集性病例患者、其他需要进行新型冠状病毒感染诊断或鉴别诊断者的咽拭子、痰液样本中，新型冠状病毒（2019-nCoV）ORF1ab 和 N 基因、E 基因。</rdfs:comment>
-        <rdfs:label xml:lang="en">2019-nCoV fluorescence PCR kit (Shanghai Fosun Long March Medical Science Co., Ltd.)</rdfs:label>
     </owl:Class>
     
 
@@ -25656,6 +25619,448 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the RBD domain.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 S1 NTD protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/35083244/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MjAwMDUwJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Daan Gene Co.,ltd. 中山大学达安基因股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit is stored at -20±5℃, and the validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400749</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for qualitative detection of the ORF1ab and N genes of SARS-CoV-2 RNA.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Daan Gene Co.,ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTg3OTc3Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Zhejiang Orient Gene Biotech Co., Ltd 浙江东方基因生物制品股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Reagent components are stored at -20°C ± 5°C. Valid for 8 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400520</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for qualitative detection of the ORF1ab and N genes of SARS-CoV-2 RNA.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Zhejiang Orient Gene Biotech Co., Ltd)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgxODkwJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shanghai Fosun LONG March MEDICAL Science Co., Ltd. 上海复星长征医学科学有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit should be protected from light and sealed at -15℃～-25℃, and the validity period is 10 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400299</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for the in vitro qualitative detection of new coronavirus (2019 -nCoV) ORF1ab and N gene, E gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Shanghai Fosun LONG March MEDICAL Science Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgyNTYzJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: WUHAN ZHONGZHI BIOTECHNOLOGIES INC. 武汉中帜生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Box A is stored at -40℃～-15℃, and box B is stored at 2～8℃. The validity period of the kit is 9 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400302</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: Scope of application/intended use
+This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. and E gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (double amplification method) (WUHAN ZHONGZHI BIOTECHNOLOGIES INC.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34902345/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgzMzgyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Beijing Kinghawk Pharmaceutical Co.,Ltd. 北京金豪制药股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit is stored frozen at -20±5℃, and the validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400322</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of new coronavirus infection in the throat swabs and sputum samples of suspected cases of pneumonia, suspected cluster cases, and other patients who need to be diagnosed or differentially diagnosed with new coronavirus infection. -nCoV) ORF1ab gene, N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Beijing Kinghawk Pharmaceutical Co.,Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32977349/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4NTMyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shanghai BioGerm Medical Technology Co., Ltd. 上海伯杰医疗科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store away from light at -20±5℃, valid for 9 months</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400065</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in oropharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection. ORF1ab and N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Shanghai BioGerm Medical Technology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTg0NzMwJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Jiangsu Bioperfectus Technologies Co., Ltd. 江苏硕世生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store away from light at -20±5℃, valid for 8 months</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400384</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus pneumonia in pharyngeal swabs, nasopharyngeal swabs, and sputum samples of suspected cases of novel coronavirus pneumonia, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. 2019-nCoV) ORF1ab and N genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Jiangsu Bioperfectus Technologies Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34902345/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgwMjA0Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Maccura Biotechnology Co., Ltd. 迈克生物股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: This product is stored at -10℃~-30℃ and protected from light, and the validity period is 10 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400184</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. , E gene and N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Maccura Biotechnology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjIyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shanghai Geneodx BIOTECH Company Limited 上海捷诺生物科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: -20℃ storage, valid for 6 months</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400058</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019 -nCoV) ORF1ab and N genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Shanghai Geneodx BIOTECH Company Limited)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34902345/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjI4Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shanghai ZJ Bio-Tech Co., Ltd. 上海之江生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit should be stored in the dark at -20±5℃, and the validity period is 6 months</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400057</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. , N and E genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Shanghai ZJ Bio-Tech Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjI0Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: BGI BIOTECHNOLOGY (WUHAN) Co., Ltd. 华大生物科技（武汉）有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store below -18°C away from light, valid for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400060</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in throat swabs and bronchoalveolar lavage fluid samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. ) ORF1ab gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (BGI BIOTECHNOLOGY (WUHAN) Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://europepmc.org/articles/pmc8743278/bin/mmc1.docx</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MjA2MzczJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Hangzhou Zhongce Biotechnology Co., Ltd. 杭州众测生物科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Box A should be stored at -20℃±5℃ in the dark, and box B should be stored at 10～30℃ in a dry place in the dark. The validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400919</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) N Gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (CRISPR immunochromatography) (Hangzhou Zhongce Biotechnology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTkyODY5Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Coyote Bioscience Yixing Co., Ltd. 卡尤迪生物科技宜兴有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: -20±5℃ dark conditions, the validity period is tentatively set for 6 months</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400644</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in pharyngeal swabs and sputum samples of suspected cases of novel coronavirus infection pneumonia, patients with suspected cluster cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. ) ORF1ab and N genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Coyote Bioscience Yixing Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/35444203/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjM0Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Sansure Biotech Inc. 圣湘生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in an airtight place protected from light at -20±5℃, valid for 11 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400064</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: For in vitro qualitative detection of suspected cases of novel coronavirus pneumonia, clustered cases, and other throat swabs and bronchoalveolar lavage fluid samples of patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection, novel coronavirus (2019-nCoV) ORF1ab and N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Sansure Biotech Inc.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjM2Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Daan Gene Co.,ltd. 中山大学达安基因股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit is stored at -20±5℃ and has a validity period of 9 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400063</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. and the N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Daan Gene Co.,ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgwNjAxJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Beijing Applied Biological Technologies Co., Ltd. 北京卓诚惠生生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in the dark at -20±5℃, valid for 12 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400179</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in sputum and throat swab samples of suspected novel coronavirus pneumonia cases, clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection. gene, N gene and E gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Beijing Applied Biological Technologies Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTkwNzc3Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Beijing NaGene Diagnosis Reagent Co., Ltd. 北京纳捷诊断试剂有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in the dark at -20 ± 5 ℃, the validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400537</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. gene and N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Beijing NaGene Diagnosis Reagent Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTkwNzA5Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shenzhen United Medical Technology Co., Ltd. 深圳联合医学科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in the dark at -20±5℃, the validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400535</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: For in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab gene in throat swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Shenzhen United Medical Technology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgwNzkxJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Wuhan Easy Diagnosis Biomedicine Co., Ltd. 武汉明德生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store at -20±5℃ in the dark, valid for 10 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400212</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus pneumonia in oropharyngeal swabs, nasopharyngeal swabs and sputum samples of suspected cases of novel coronavirus pneumonia, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. (2019-nCoV) ORF1ab and N genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Wuhan Easy Diagnosis Biomedicine Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgyMzM3Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Shanghai Rendu BIOTECHNOLOGY Co., Ltd. 上海仁度生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Reagent A: 2~8℃, Reagent B: ≤ -15℃ (Amplification Detection Solution 6.2 Store in the dark), valid for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400300</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in oropharyngeal swabs and sputum samples of suspected cases of novel coronavirus pneumonia, clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection. ORF1ab gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (RNA capture probe method) (Shanghai Rendu BIOTECHNOLOGY Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgxODkxJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Anbio (Xiamen) Biotechnology Co., Ltd. 安邦（厦门）生物科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store at 2~30°C in a dry place away from light and heat. The validity period of the kit is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400298</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for the in vitro qualitative detection of new coronavirus (2019 -nCoV) ORF1ab and N gene, E gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (hybrid capture immunofluorescence method)) (Anbio (Xiamen) Biotechnology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgyNTY0Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Wuhan Zhongzhi Biotechnologies INC. 武汉中帜生物科技股份有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Box A is stored at -40℃～-15℃, and box B is stored at 2～30℃. The validity period of the kit is 9 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400301</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. and E gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit RNA (RNA isothermal amplification-gold probe chromatography) (Wuhan Zhongzhi Biotechnologies INC.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc4MjI2Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: BGI BIOTECHNOLOGY (WUHAN) Co., Ltd. 华大生物科技（武汉）有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Packing box 1 and packing box 2 should be kept below -18℃, and packing box 3 should be stored at 2℃～8℃, and the validity period is 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400059</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in throat swabs and bronchoalveolar lavage fluid samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection. , used with our company&apos;s gene sequencing system.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit RNA (combined probe-anchored polymerization sequencing method) (BGI BIOTECHNOLOGY (WUHAN) Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MjA4MTEyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Chengdu Capitalbio Jinxin Bio-Technology Co., Ltd. 成都博奥晶芯生物科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The kit includes two parts, A and B. Part A is stored at 2~8℃ in the dark, and part B is stored at -20±5℃. The validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20213400101</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORFlab and N genes in throat swab samples of suspected novel coronavirus pneumonia cases, clustered cases, and other patients who need to be diagnosed or differentially diagnosed with novel coronavirus infection.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (Integrated Isothermal Amplification Chip Method) (Chengdu Capitalbio Jinxin Bio-Technology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTgxMDQ3Jml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Ustar Biotechnologies (Hangzhou) Ltd. 杭州优思达生物技术有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: None</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400241</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of new coronavirus infection in the throat swabs and sputum samples of suspected cases of pneumonia, suspected cluster cases, and other patients who need to be diagnosed or differentially diagnosed with new coronavirus infection. -nCoV) ORF1ab gene, N gene.</rdfs:comment>
+        <rdfs:label>SARS-CoV-2 Nucleic Acid Detection Kit (isothermal amplification-real-time fluorescence method) (Ustar Biotechnologies (Hangzhou) Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTc5ODgxJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Chengdu Capitalbio Jinxin Bio-Technology Co., Ltd. 成都博奥晶芯生物科技有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in the dark at -20±5℃, the validity period is tentatively set for 6 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20203400178</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) S in throat swab samples of suspected cases of pneumonia caused by novel coronavirus, patients with suspected clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection and N target genes and influenza A virus, new influenza A H1N1 virus (2009), influenza A H3N2 virus, influenza B virus, respiratory syncytial virus nucleic acid.</rdfs:comment>
+        <rdfs:label>Respiratory Virus Nucleic Acid Detection Kit (Isothermal Amplification Chip Method) (Chengdu Capitalbio Jinxin Bio-Technology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MjEwMzUyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Hangzhou DIAN Biotechnology Co., Ltd. 杭州迪安生物技术有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: The reagents should be kept in a sealed place away from light and stored at -20±5℃; the validity period of the kit is 7 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20213400176</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) ORF1ab in pharyngeal swabs and sputum samples of suspected novel coronavirus pneumonia cases, clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection. gene, N gene.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Hangzhou DIAN Biotechnology Co., Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MjEwOTkyJml0ZW1JZD0yYzliYTM4NDc1OWM5NTc3MDE3NTljY2M0ZTBhMDMwMw==</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Zybio Inc. 重庆中元汇吉生物技术有限公司</rdfs:comment>
+        <rdfs:comment>Poduct storage conditions and expiration date: Store in the dark at -20±5℃, valid for 12 months.</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20213400228</rdfs:comment>
+        <rdfs:comment>Scope of application/Intended use: This kit is used for in vitro qualitative detection of oropharyngeal swabs, nasopharyngeal swabs and sputum samples from suspected cases of pneumonia, suspected cluster cases, and other people who need to be diagnosed or differentially diagnosed with new coronavirus infection in vitro. , novel coronavirus (2019-nCoV) ORF1ab and N genes.</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Zybio Inc.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000021"/>
+        <obo:IAO_0000117>Yujia Tian, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>Store below -15°C away from light, valid for 11 months.</obo:IAO_0000119>
+        <obo:IAO_0000119>This kit is used for in vitro qualitative detection of novel coronavirus (2019-nCoV) in oropharyngeal swabs and sputum samples of suspected cases of pneumonia caused by novel coronavirus, patients with suspected clustered cases, and other people who need to be diagnosed or differentially diagnosed with novel coronavirus infection. -nCoV) ORF1ab and N genes.</obo:IAO_0000119>
+        <rdfs:comment>Manufacturor: Chaozhou Hybribio Biochemistry Ltd. 潮州凯普生物化学有限公司</rdfs:comment>
+        <rdfs:comment>Registration ID: NMPA 20213400269</rdfs:comment>
+        <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Chaozhou Hybribio Biochemistry Ltd.)</rdfs:label>
     </owl:Class>
     
 
