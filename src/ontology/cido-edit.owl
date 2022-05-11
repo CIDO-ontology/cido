@@ -1659,6 +1659,14 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001089 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001089">
+        <rdfs:label xml:lang="en">PCR kit detects gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_0000000014 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
@@ -8862,7 +8870,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000258"/>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7368118/</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7780074/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">CRISPR-based diagnotic assay for SARS-CoV-2</rdfs:label>
+        <rdfs:label xml:lang="en">CRISPR-based diagnostic assay for SARS-CoV-2</rdfs:label>
     </owl:Class>
     
 
@@ -11185,7 +11193,19 @@ orf1ab:S1188L, orf1ab:K1795Q, del:11288:9, S:L18F, S:T20N, S:P26S, S:D138Y, S:R1
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -24431,6 +24451,36 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp15 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 6430 - 6775.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
         <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp15 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000258"/>
+        <obo:IAO_0000117>Asiya Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/home-otc-covid-19-diagnostic-tests</obo:IAO_0000119>
+        <rdfs:comment>at-home OTC COVID-19 diagnostic assay</rdfs:comment>
+        <rdfs:label xml:lang="en">at-home over-the-counter COVID-19 diagnostic assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000453"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Asiya Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/medical-devices/coronavirus-covid-19-and-medical-devices/home-otc-covid-19-diagnostic-tests</obo:IAO_0000119>
+        <rdfs:comment>at-home OTC COVID-19 diagnostic test device</rdfs:comment>
+        <rdfs:label xml:lang="en">at-home over-the-counter COVID-19 diagnostic test device</rdfs:label>
     </owl:Class>
     
 
@@ -60125,8 +60175,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
