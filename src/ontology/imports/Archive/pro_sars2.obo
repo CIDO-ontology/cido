@@ -1,0 +1,677 @@
+[Term]
+id: PR:000050262
+name: severe acute respiratory syndrome coronavirus 2 protein
+def: "A protein that is encoded in the genome of Severe acute respiratory syndrome coronavirus 2." [PRO:DAN]
+synonym: "SARS2 protein" EXACT PRO-short-label [PRO:DAN]
+synonym: "2019-nCoV protein" EXACT [PRO:DAN]
+synonym: "SARS-CoV-2 protein" EXACT [PRO:DAN]
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050263
+name: rep gene translation product (SARS-CoV-2)
+def: "A protein that is a translation product of the rep gene in SARS-CoV-2." [PRO:DAN]
+comment: Category=organism-gene. Note: The rep gene produces two translation products, one with (ORF1ab) and one without (ORF1a) -1 ribosomal frameshifting. Both products are further processed by proteolytic cleavage to yield 10 identical chains, while 1 additional chain is unique to ORF1a and 5 additional chains are unique to ORF1ab.
+synonym: "rep (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "GU280_gp01" RELATED Gene-based [GenPept:YP_009724389, GenPept:YP_009725295]
+synonym: "ORF1a-1b" RELATED Gene-based [PRO:DAN]
+synonym: "ORF1ab" RELATED Gene-based [GenPept:YP_009724389, GenPept:YP_009725295]
+synonym: "rep" RELATED Gene-based [UniProtKB:P0DTC1]
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740578 ! ORF1ab (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:000050264
+name: ORF8 protein, signal peptide removed form (SARS-CoV-2)
+def: "An ORF8 protein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC8, 16-121." [PRO:DAN, UniProtKB:P0DTC8]
+comment: Category=organism-modification. Note: 106 aa protein.
+synonym: "ORF8/SigPep- (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449655" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC8, 16-121" EXACT PRO-proteoform-std [PRO:DAN]
+intersection_of: PR:P0DTC8 ! ORF8 protein (SARS-CoV-2)
+intersection_of: lacks_part SO:0000418 ! signal_peptide
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050265
+name: ORF7a protein, signal peptide removed form (SARS-CoV-2)
+def: "An ORF7a protein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC7, 16-121." [PRO:DAN, UniProtKB:P0DTC7]
+comment: Category=organism-modification. Note: 106 aa protein.
+synonym: "7a/SigPep- (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449654" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC7, 16-121" EXACT PRO-proteoform-std [PRO:DAN]
+intersection_of: PR:P0DTC7 ! ORF7a protein (SARS-CoV-2)
+intersection_of: lacks_part SO:0000418 ! signal_peptide
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050266
+name: spike glycoprotein, signal peptide removed form (SARS-CoV-2)
+def: "A spike glycoprotein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC2, 13-1273." [PRO:DAN, UniProtKB:P0DTC2]
+comment: Category=organism-modification. Note: 1260 aa protein.
+synonym: "S/SigPep- (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449646" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC2, 13-1273" EXACT PRO-proteoform-std [PRO:DAN]
+intersection_of: PR:P0DTC2 ! spike glycoprotein (SARS-CoV-2)
+intersection_of: lacks_part SO:0000418 ! signal_peptide
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050267
+name: spike protein S1 (SARS-CoV-2)
+def: "A spike glycoprotein, signal peptide removed form (SARS-CoV-2) that has been processed by proteolytic cleavage to yield the N-terminal portion. UniProtKB:P0DTC2, 13-685." [PRO:DAN, UniProtKB:P0DTC2]
+comment: Category=organism-modification. Note: 672 aa protein.
+synonym: "S1 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449647" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC2, 13-685" EXACT PRO-proteoform-std [PRO:DAN]
+is_a: PR:000050266 ! spike glycoprotein, signal peptide removed form (SARS-CoV-2)
+relationship: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050268
+name: spike protein S2 (SARS-CoV-2)
+def: "A spike glycoprotein, signal peptide removed form (SARS-CoV-2) that has been processed by proteolytic cleavage to yield the C-terminal portion. UniProtKB:P0DTC2, 686-1273." [PRO:DAN, UniProtKB:P0DTC2]
+comment: Category=organism-modification. Note: 588 aa protein.
+synonym: "S2 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449648" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC2, 686-1273" EXACT PRO-proteoform-std [PRO:DAN]
+is_a: PR:000050266 ! spike glycoprotein, signal peptide removed form (SARS-CoV-2)
+relationship: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050269
+name: spike protein S2' (SARS-CoV-2)
+def: "A spike protein S2 (SARS-CoV-2) that has been further processed by proteolytic cleavage to yield the C-terminal portion. UniProtKB:P0DTC2, 816-1273." [PRO:DAN, UniProtKB:P0DTC2]
+comment: Category=organism-modification. Note: 458 aa protein.
+synonym: "S2' (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000449649" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC2, 816-1273" EXACT PRO-proteoform-std [PRO:DAN]
+is_a: PR:000050268 ! spike protein S2 (SARS-CoV-2)
+relationship: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050270
+name: host translation inhibitor nsp1 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the N-terminal portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181." [PRO:DAN, GenPept:YP_009725297, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 180 aa protein. Proteinase inferred from PMID:15564471.
+synonym: "rep/Clv:nsp1 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "leader protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "non-structural protein 1 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "nsp1 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449619" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449635" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 1-180" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 1-180" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725297
+xref: GenPept:YP_009742608
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050271
+name: non-structural protein 2 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181 and 818-819." [PRO:DAN, GenPept:YP_009725298, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 638 aa protein.
+synonym: "rep/Clv:nsp2 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp2 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "p65 homolog (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449620" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449636" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 181-818" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 181-818" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725298
+xref: GenPept:YP_009742609
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050272
+name: papain-like proteinase nsp3 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 818-819 and 2763-2764." [PRO:DAN, GenPept:YP_009725299, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 1945 aa protein. Unlike some other coronaviruses, SARS coronaviruses only encode a single papain-like proteinase, PLpro. [PMID:15564471]
+synonym: "rep/Clv:nsp3 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "main proteinase (SARS-CoV-2)" EXACT [PRO:DAN, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "nsp3 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "non-structural protein 3 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PLpro (SARS-CoV-2)" EXACT [PRO:DAN, PMID:15564471]
+synonym: "PRO_0000449621" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449637" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 819-2763" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 819-2763" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "PL2-PRO (SARS-CoV-2)" RELATED [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+xref: GenPept:YP_009725299
+xref: GenPept:YP_009742610
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050273
+name: non-structural protein 4 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the combined actions of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 2763-2764, and 3CL-PRO (nsp5) when it cleaves the precursor between residues 3263-3264." [PRO:DAN, GenPept:YP_009725300, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 500 aa protein.
+synonym: "rep/Clv:nsp4 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp4 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449622" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449638" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 2764-3263" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 2764-3263" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725300
+xref: GenPept:YP_009742611
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050274
+name: 3C-like proteinase nsp5 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3263-3264 and 3569-3570." [PRO:DAN, GenPept:YP_009725301, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 306 aa protein.
+synonym: "rep/Clv:nsp5 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "3CL-PRO (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "3CLp (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "3CLpro (SARS-CoV-2)" EXACT [PRO:DAN, PMID:15564471]
+synonym: "nsp5 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "picornavirus 3C-like protease (SARS-CoV-2)" EXACT [PRO:DAN, PMID:15564471]
+synonym: "PRO_0000449623" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449639" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 3264-3569" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 3264-3569" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725301
+xref: GenPept:YP_009742612
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050275
+name: non-structural protein 6 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3569-3570 and 3859-3860." [PRO:DAN, GenPept:YP_009725302, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 290 aa protein.
+synonym: "rep/Clv:nsp6 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp6 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449624" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449640" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 3570-3859" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 3570-3859" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725302
+xref: GenPept:YP_009742613
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050276
+name: non-structural protein 7 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3859-3860 and 3942-3943." [PRO:DAN, GenPept:YP_009725303, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 83 aa protein.
+synonym: "rep/Clv:nsp7 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp7 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449625" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449641" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 3860-3942" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 3860-3942" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725303
+xref: GenPept:YP_009742614
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050277
+name: non-structural protein 8 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3942-3943 and 4140-4141." [PRO:DAN, GenPept:YP_009725304, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 198 aa protein.
+synonym: "rep/Clv:nsp8 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp8 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449626" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449642" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 3943-4140" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 3943-4140" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725304
+xref: GenPept:YP_009742615
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050278
+name: non-structural protein 9 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 4140-4141 and 4253-4254." [PRO:DAN, GenPept:YP_009725305, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 113 aa protein.
+synonym: "rep/Clv:nsp9 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp9 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449627" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449643" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 4141-4253" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 4141-4253" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725305
+xref: GenPept:YP_009742616
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050279
+name: non-structural protein 10 (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 4253-4254 and 4392-4393." [PRO:DAN, GenPept:YP_009725306, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 139 aa protein.
+synonym: "rep/Clv:nsp10 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "GFL (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "growth factor-like peptide (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "nsp10 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449628" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449644" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 4254-4392" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 4254-4392" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725306
+xref: GenPept:YP_009742617
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050280
+name: non-structural protein 11 (SARS-CoV-2)
+def: "An ORF1a proteolytic cleavage product (SARS-CoV-2) that is the C-terminal portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1a (SARS-CoV-2) between residues 4392-4393. UniProtKB:P0DTC1, 4393-4405." [PRO:DAN, GenPept:YP_009725312, UniProtKB:P0DTC1]
+comment: Category=organism-modification. Note: 13 aa protein.
+synonym: "rep/Clv:nsp11 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp11 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PRO_0000449645" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 4393-4405" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725312
+is_a: PR:000050282 ! ORF1a proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050281
+name: rep gene proteolytic cleavage product (SARS-CoV-2)
+def: "A rep gene translation product (SARS-CoV-2) that has been processed by proteolytic cleavage." [PRO:DAN]
+comment: Category=organism-modification.
+synonym: "rep/ClvPrd (SARS2)" EXACT PRO-short-label [PRO:DAN]
+intersection_of: PR:000050263 ! rep gene translation product (SARS-CoV-2)
+intersection_of: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050282
+name: ORF1a proteolytic cleavage product (SARS-CoV-2)
+def: "A replicase polyprotein 1a (SARS-CoV-2) that has been processed by proteolytic cleavage." [PRO:DAN]
+comment: Category=organism-modification.
+synonym: "ORF1a/ClvPrd (SARS2)" EXACT PRO-short-label [PRO:DAN]
+intersection_of: PR:P0DTC1-1 ! replicase polyprotein 1a (SARS-CoV-2)
+intersection_of: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050283
+name: ORF1ab proteolytic cleavage product (SARS-CoV-2)
+def: "A replicase polyprotein 1ab (SARS-CoV-2) that has been processed by proteolytic cleavage." [PRO:DAN]
+comment: Category=organism-modification.
+synonym: "ORF1ab/ClvPrd (SARS2)" EXACT PRO-short-label [PRO:DAN]
+intersection_of: PR:P0DTD1-1 ! replicase polyprotein 1ab (SARS-CoV-2)
+intersection_of: output_of GO:0016485 ! protein processing
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050284
+name: RNA-directed RNA polymerase nsp12 (SARS-CoV-2)
+def: "An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 4392-4393 and 5324-5325. UniProtKB:P0DTD1, 4393-5324." [PRO:DAN, GenPept:YP_009725307, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 932 aa protein.
+synonym: "ORF1ab/Clv:nsp12 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp12 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "Pol (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449629" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "RdRp (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "UniProtKB:P0DTD1, 4393-5324" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725307
+is_a: PR:000050283 ! ORF1ab proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050285
+name: helicase nsp13 (SARS-CoV-2)
+def: "An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 5324-5325 and 5925-5926. UniProtKB:P0DTD1, 4393-5324." [PRO:DAN, GenPept:YP_009725308, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 601 aa protein.
+synonym: "ORF1ab/Clv:nsp13 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "Hel (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "nsp13 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449630" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 5325-5925" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725308
+is_a: PR:000050283 ! ORF1ab proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050286
+name: proofreading exoribonuclease nsp14 (SARS-CoV-2)
+def: "An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 5925-5926 and 6452-6453. UniProtKB:P0DTD1, 4393-5324." [PRO:DAN, GenPept:YP_009725309, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 527 aa protein.
+synonym: "ORF1ab/Clv:nsp14 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "ExoN (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "nsp14 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449631" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 5926-6452" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "3'-to-5' exonuclease (SARS2)" NARROW [GenPept:YP_009725309]
+synonym: "guanine-N7 methyltransferase (SARS2)" NARROW [UniProtKB:P0DTD1]
+xref: GenPept:YP_009725309
+is_a: PR:000050283 ! ORF1ab proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050287
+name: uridylate-specific endoribonuclease nsp15 (SARS-CoV-2)
+def: "An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 6452-6453 and 6798-6799. UniProtKB:P0DTD1, 6453-6798." [PRO:DAN, GenPept:YP_009725310, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 346 aa protein.
+synonym: "ORF1ab/Clv:nsp15 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "endoRNAse (SARS-CoV-2)" EXACT [GenPept:YP_009725310]
+synonym: "NendoU (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "nsp15 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449632" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 6453-6798" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725310
+is_a: PR:000050283 ! ORF1ab proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050288
+name: 2'-O-methyltransferase nsp16 (SARS-CoV-2)
+def: "An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the C-terminal portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 6798-6799. UniProtKB:P0DTD1, 6453-6798." [PRO:DAN, GenPept:YP_009725311, UniProtKB:P0DTD1]
+comment: Category=organism-modification. Note: 298 aa protein.
+synonym: "ORF1ab/Clv:nsp16 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "2'-O-ribose methyltransferase (SARS-CoV-2)" EXACT [GenPept:YP_009725311]
+synonym: "nsp16 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449633" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 6799-7096" EXACT PRO-proteoform-std [PRO:DAN]
+xref: GenPept:YP_009725311
+is_a: PR:000050283 ! ORF1ab proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:000050289
+name: NSP2-3 intermediate (SARS-CoV-2)
+def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181 and 2763-2764." [PRO:DAN]
+comment: Category=organism-modification. Note: Inferred from PMID:15564471.
+synonym: "rep/Clv:nsp2-3 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "nsp2-nsp3 (SARS-CoV-2)" EXACT [PRO:DAN]
+synonym: "UniProtKB:P0DTC1, 181-2763" EXACT PRO-proteoform-std [PRO:DAN]
+synonym: "UniProtKB:P0DTD1, 181-2763" EXACT PRO-proteoform-std [PRO:DAN]
+is_a: PR:000050281 ! rep gene proteolytic cleavage product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:A0A663DJA2
+name: ORF10 protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF10 gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009725255, UniProtKB:A0A663DJA2]
+comment: Category=organism-gene. Note: 38 aa protein.
+synonym: "ORF10 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "GU280_gp11" RELATED Gene-based [GenPept:YP_009725255]
+synonym: "ORF10" RELATED Gene-based [GenPept:YP_009725255]
+xref: UniProtKB:A0A663DJA2
+xref: GenPept:YP_009725255
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740576 ! ORF10 (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC1-1
+name: replicase polyprotein 1a (SARS-CoV-2)
+alt_id: PR:P0DTC1
+def: "A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1." [PRO:DAN, GenPept:YP_009725295, UniProtKB:P0DTC1]
+comment: Category=organism-sequence. Note: 4405 aa protein. Undergoes additional processing by proteolytic cleavage.
+synonym: "rep/iso:ORF1a (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "ORF1a polyprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1]
+synonym: "pp1a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1]
+synonym: "PRO_0000449634" EXACT PRO-proteoform-ftid []
+xref: UniProtKB:P0DTC1-1
+xref: GenPept:YP_009725295
+is_a: PR:000050263 ! rep gene translation product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:P0DTC2
+name: spike glycoprotein (SARS-CoV-2)
+def: "A protein that is a translation product of the S gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724390, UniProtKB:P0DTC2]
+comment: Category=organism-gene. Note: 1273 aa protein. Undergoes additional processing by proteolytic cleavage.
+synonym: "S (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "E2 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
+synonym: "peplomer protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
+synonym: "S glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
+synonym: "surface glycoprotein (SARS-CoV-2)" EXACT [GenPept:YP_009724390]
+synonym: "2" RELATED Gene-based [UniProtKB:P0DTC2]
+synonym: "GU280_gp02" RELATED Gene-based [GenPept:YP_009724390]
+synonym: "S" RELATED Gene-based [GenPept:YP_009724390, UniProtKB:P0DTC2]
+synonym: "PRO_0000449658" EXACT PRO-proteoform-ftid []
+xref: UniProtKB:P0DTC2
+xref: GenPept:YP_009724390
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740568 ! S (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC3
+name: ORF3a protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF3a gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724391, UniProtKB:P0DTC3]
+comment: Category=organism-gene. Note: 275 aa protein.
+synonym: "ORF3a (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "accessory protein 3a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
+synonym: "PRO_0000449650" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "protein 3a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
+synonym: "protein U274 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
+synonym: "protein X1 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
+synonym: "3a" RELATED Gene-based [UniProtKB:P0DTC3]
+synonym: "GU280_gp03" RELATED Gene-based [GenPept:YP_009724391]
+synonym: "ORF3a" RELATED Gene-based [GenPept:YP_009724391]
+xref: UniProtKB:P0DTC3
+xref: GenPept:YP_009724391
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740569 ! 3a (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC4
+name: envelope small membrane protein (SARS-CoV-2)
+def: "A protein that is a translation product of the E gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724392, UniProtKB:P0DTC4]
+comment: Category=organism-gene. Note: 75 aa protein.
+synonym: "E (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "envelope protein (SARS-CoV-2)" EXACT [GenPept:YP_009724392]
+synonym: "PRO_0000449651" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "sM protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC4]
+synonym: "4" RELATED Gene-based [UniProtKB:P0DTC4]
+synonym: "E" RELATED Gene-based [GenPept:YP_009724392, UniProtKB:P0DTC4]
+synonym: "GU280_gp04" RELATED Gene-based [GenPept:YP_009724392]
+synonym: "ORF4" RELATED Gene-based [GenPept:YP_009724392]
+xref: UniProtKB:P0DTC4
+xref: GenPept:YP_009724392
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740570 ! E (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC5
+name: membrane protein (SARS-CoV-2)
+def: "A protein that is a translation product of the M gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724393, UniProtKB:P0DTC5]
+comment: Category=organism-gene. Note: 222 aa protein.
+synonym: "M (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "E1 glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC5]
+synonym: "matrix glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC5]
+synonym: "membrane glycoprotein (SARS-CoV-2)" EXACT [GenPept:YP_009724393, UniProtKB:P0DTC5]
+synonym: "PRO_0000449652" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "GU280_gp05" RELATED Gene-based [GenPept:YP_009724393]
+synonym: "M" RELATED Gene-based [GenPept:YP_009724393, UniProtKB:P0DTC5]
+synonym: "ORF5" RELATED Gene-based [GenPept:YP_009724393]
+xref: UniProtKB:P0DTC5
+xref: GenPept:YP_009724393
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740571 ! M (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC6
+name: ORF6 protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF6 gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724394, UniProtKB:P0DTC6]
+comment: Category=organism-gene. Note: 61 aa protein.
+synonym: "ORF6 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "accessory protein 6 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC6]
+synonym: "non-structural protein 6 (SARS-CoV-2)" RELATED [UniProtKB:P0DTC6]
+synonym: "ns6 (SARS-CoV-2)" RELATED [UniProtKB:P0DTC6]
+synonym: "PRO_0000449653" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "protein X3 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC6]
+synonym: "6" RELATED Gene-based [UniProtKB:P0DTC6]
+synonym: "GU280_gp06" RELATED Gene-based [GenPept:YP_009724394]
+synonym: "ORF6" RELATED Gene-based [GenPept:YP_009724394]
+xref: UniProtKB:P0DTC6
+xref: GenPept:YP_009724394
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740572 ! 6 (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC7
+name: ORF7a protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF7a gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724395, UniProtKB:P0DTC7]
+comment: Category=organism-gene. Note: 121 aa protein.
+synonym: "ORF7a (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "accessory protein 7a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
+synonym: "protein U122 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
+synonym: "protein X4 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
+synonym: "7a" RELATED Gene-based [UniProtKB:P0DTC7]
+synonym: "GU280_gp07" RELATED Gene-based [GenPept:YP_009724395]
+synonym: "ORF7a" RELATED Gene-based [GenPept:YP_009724395]
+xref: UniProtKB:P0DTC7
+xref: GenPept:YP_009724395
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740573 ! 7a (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC8
+name: ORF8 protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF8 gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009724396, UniProtKB:P0DTC8]
+comment: Category=organism-gene. Note: 121 aa protein.
+synonym: "ORF8 (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "non-structural protein 8 (SARS-CoV-2)" RELATED [UniProtKB:P0DTC8]
+synonym: "ns8 (SARS-CoV-2)" RELATED [UniProtKB:P0DTC8]
+synonym: "8" RELATED Gene-based [UniProtKB:P0DTC8]
+synonym: "GU280_gp09" RELATED Gene-based [GenPept:YP_009724396]
+synonym: "ORF8" RELATED Gene-based [GenPept:YP_009724396]
+xref: UniProtKB:P0DTC8
+xref: GenPept:YP_009724396
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740577 ! ORF8 (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTC9
+name: nucleoprotein (SARS-CoV-2)
+def: "A protein that is a translation product of the N gene in SARS-CoV-2." [GenPept:YP_009724397, PRO:DAN, UniProtKB:P0DTC9]
+comment: Category=organism-gene. Note: 419 aa protein.
+synonym: "N/iso:nucleoprotein (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "NC (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
+synonym: "nucleocapsid protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
+synonym: "PRO_0000449656" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "protein N (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
+synonym: "9a" RELATED Gene-based [PRO:YC]
+synonym: "GU280_gp10" RELATED Gene-based [PRO:YC]
+synonym: "N" RELATED Gene-based [PRO:YC]
+synonym: "N (SARS2)" EXACT PRO-short-label [PRO:YC]
+synonym: "ORF9" RELATED Gene-based [PRO:YC]
+xref: GenPept:YP_009724397
+xref: UniProtKB:P0DTC9
+intersection_of: PR:000000001
+intersection_of: has_gene_template NCBIGene:43740575
+intersection_of: only_in_taxon NCBITaxon:2697049
+
+[Term]
+id: PR:P0DTD1-1
+name: replicase polyprotein 1ab (SARS-CoV-2)
+alt_id: PR:P0DTD1
+def: "A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting." [PRO:DAN, GenPept:YP_009724389, UniProtKB:P0DTD1]
+comment: Category=organism-sequence. Note: 7096 aa protein. Undergoes additional processing by proteolytic cleavage.
+synonym: "rep/iso:ORF1ab (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "ORF1ab polyprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "pp1ab (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449618" EXACT PRO-proteoform-ftid [PRO:DAN]
+xref: UniProtKB:P0DTD1-1
+xref: GenPept:YP_009724389
+is_a: PR:000050263 ! rep gene translation product (SARS-CoV-2)
+relationship: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+
+[Term]
+id: PR:P0DTD2
+name: ORF9b protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF9b gene in SARS-CoV-2." [PRO:DAN, UniProtKB:P0DTD2]
+comment: Category=organism-gene. Note: 97 aa protein.
+synonym: "ORF9b (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "accessory protein 9b (SARS-CoV-2)" EXACT [UniProtKB:P0DTD2]
+synonym: "ORF-9b (SARS-CoV-2)" EXACT [UniProtKB:P0DTD2]
+synonym: "ORF9b" RELATED Gene-based [UniProtKB:P0DTD2]
+synonym: "protein 9b (SARS-CoV-2)" EXACT [UniProtKB:P0DTD2]
+synonym: "PRO_0000449657" EXACT PRO-proteoform-ftid [PRO:DAN]
+xref: UniProtKB:P0DTD2
+is_a: PR:000000001 ! protein
+relationship: only_in_taxon NCBITaxon:2697049
+
+[Term]
+id: PR:P0DTD3
+name: putative ORF9c protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF9c gene in SARS-CoV-2." [PRO:DAN, UniProtKB:P0DTD3]
+comment: Category=organism-gene. Note: 73 aa protein. Considered a dubious prediction [PMID:33976134].
+synonym: "ORF9c (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "ORF14 (SARS2)" EXACT [PRO:DAN]
+synonym: "PRO_0000449658" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "uncharacterized protein 14 (SARS-CoV-2)" EXACT [UniProtKB:P0DTD3]
+xref: UniProtKB:P0DTD3
+is_a: PR:000000001 ! protein
+relationship: only_in_taxon NCBITaxon:2697049
+
+[Term]
+id: PR:P0DTD8
+name: ORF7b protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF7b gene in SARS-CoV-2." [PRO:DAN, GenPept:YP_009725318, UniProtKB:P0DTD8]
+comment: Category=organism-gene. Note: 43 aa protein.
+synonym: "ORF7b (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "accessory protein 7b (SARS-CoV-2)" EXACT [UniProtKB:P0DTD8]
+synonym: "PRO_0000449799" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "7b" RELATED Gene-based [UniProtKB:P0DTD8]
+synonym: "GU280_gp08" RELATED Gene-based [GenPept:YP_009725318]
+synonym: "ORF7b" RELATED Gene-based [GenPept:YP_009725318]
+xref: UniProtKB:P0DTD8
+xref: GenPept:YP_009725318
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
+intersection_of: has_gene_template NCBIGene:43740574 ! 7b (severe acute respiratory syndrome coronavirus 2)
+
+[Term]
+id: PR:P0DTF1
+name: putative ORF3b protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF3b gene in SARS-CoV-2." [PRO:DAN, UniProtKB:P0DTF1]
+comment: Category=organism-gene. Note: 22 aa protein. Considered a dubious prediction [PMID:33976134].
+synonym: "ORF3b (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000452089" EXACT PRO-proteoform-ftid [PRO:DAN]
+xref: UniProtKB:P0DTF1
+is_a: PR:000000001 ! protein
+relationship: only_in_taxon NCBITaxon:2697049
+
+[Term]
+id: PR:P0DTG0
+name: putative ORF3d protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF3d gene in SARS-CoV-2." [PRO:DAN, UniProtKB:P0DTG0]
+comment: Category=organism-gene. Note: 57 aa protein. Considered a dubious prediction [PMID:33976134].
+synonym: "ORF3d (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "PRO_0000452091" EXACT PRO-proteoform-ftid [PRO:DAN]
+xref: UniProtKB:P0DTG0
+is_a: PR:000000001 ! protein
+relationship: only_in_taxon NCBITaxon:2697049
+
+[Term]
+id: PR:P0DTG1
+name: ORF3c protein (SARS-CoV-2)
+def: "A protein that is a translation product of the ORF3c gene in SARS-CoV-2." [PRO:DAN, UniProtKB:P0DTG1]
+comment: Category=organism-gene. Note: 41 aa protein.
+synonym: "ORF3c (SARS2)" EXACT PRO-short-label [PRO:DAN]
+synonym: "ORF3h protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTG1]
+synonym: "ORF3c" RELATED Gene-based [UniProtKB:P0DTG1]
+synonym: "ORF3h" RELATED Gene-based [UniProtKB:P0DTG1]
+synonym: "PRO_0000452090" EXACT PRO-proteoform-ftid [PRO:DAN]
+xref: UniProtKB:P0DTG1
+is_a: PR:000000001 ! protein
+relationship: only_in_taxon NCBITaxon:2697049
+
