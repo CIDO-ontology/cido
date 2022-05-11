@@ -257,6 +257,8 @@ http://purl.obolibrary.org/obo/CHEBI_189682
 http://purl.obolibrary.org/obo/CHEBI_180653 # Molnupiravir 
 http://purl.obolibrary.org/obo/CHEBI_170007 # nirmatrelvir, part of Paxlovid 
 
+http://purl.obolibrary.org/obo/CHEBI_189679 # BRD proteins degrader
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity

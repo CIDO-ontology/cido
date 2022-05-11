@@ -24,11 +24,233 @@ http://purl.obolibrary.org/obo/OPMI_0000456 #prognostic biomarker
 http://purl.obolibrary.org/obo/OPMI_0000446 #immune biomarker
 includeAllChildren
 
+# terms for Person table
+# http://purl.obolibrary.org/obo/NCBITaxon_9606 # person; homo sapiens
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OMRSE_00000007 # gender role
+http://purl.obolibrary.org/obo/PATO_0001894 # phenotypic sex
+http://purl.obolibrary.org/obo/OPMI_0000473 # year of birth
+http://purl.obolibrary.org/obo/OPMI_0000474 # month of birth
+http://purl.obolibrary.org/obo/OPMI_0000091 # day of birth
+http://purl.obolibrary.org/obo/OPMI_0000475 # birth datetime
+http://purl.obolibrary.org/obo/NCIT_C17049 # race
+http://purl.obolibrary.org/obo/NCIT_C16564 # ethnic group 
+http://purl.obolibrary.org/obo/GAZ_00000448 # geographic location 
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider
+http://purl.obolibrary.org/obo/OPMI_0000480 # care site identifier
+ 
+# terms for Visit Occurrence table
+http://purl.obolibrary.org/obo/OPMI_0000482 # visit occurrence 
+http://purl.obolibrary.org/obo/OPMI_0000483 # visit occurrence identifier
+# http://purl.obolibrary.org/obo/NCBITaxon_9606 # homo sapiens 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OPMI_0000482 # visit occurrence 
+http://purl.obolibrary.org/obo/OPMI_0000285 # visit temporal region
+http://purl.obolibrary.org/obo/OPMI_0000487 # visit start date 
+http://purl.obolibrary.org/obo/OPMI_0000490 # visit start datetime
+http://purl.obolibrary.org/obo/OPMI_0000488 # visit end date 
+http://purl.obolibrary.org/obo/OPMI_0000491 # visit end datetime
+http://purl.obolibrary.org/obo/OPMI_0000524 # provenance of visit record 
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider
+http://purl.obolibrary.org/obo/OPMI_0000480 # care site identifier
+http://purl.obolibrary.org/obo/OPMI_0000501 # admitted from (property) 
+http://purl.obolibrary.org/obo/OPMI_0000502 # discharged to (property) 
+http://purl.obolibrary.org/obo/OPMI_0000499 # case management visit
+http://purl.obolibrary.org/obo/OPMI_0000493 # emergency room and inpatient visit
+http://purl.obolibrary.org/obo/OPMI_0000486 # emergency room visit
+http://purl.obolibrary.org/obo/OPMI_0000495 # home visit 
+http://purl.obolibrary.org/obo/OPMI_0000484 # inpatient visit
+http://purl.obolibrary.org/obo/OPMI_0000498 # laboratory visit
+http://purl.obolibrary.org/obo/OPMI_0000494 # non-hospital institution visit
+http://purl.obolibrary.org/obo/OPMI_0000497 # pharmacy visit
+http://purl.obolibrary.org/obo/OPMI_0000485 # outpatient visit
+http://purl.obolibrary.org/obo/OPMI_0000492 # preceding visit occurrence
+http://purl.obolibrary.org/obo/OPMI_0000496 # telehealth visit
+
+# terms for Provider table
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider
+http://purl.obolibrary.org/obo/OPMI_0000503 # National Provider Identifier
+http://purl.obolibrary.org/obo/OPMI_0000504 # DEA identifier 
+http://purl.obolibrary.org/obo/OPMI_0000228 # physician specialty information
+http://purl.obolibrary.org/obo/OPMI_0000480 # care site identifier 
+http://purl.obolibrary.org/obo/OPMI_0000473 # year of birth 
+http://purl.obolibrary.org/obo/OMRSE_00000007 # gender role 
+http://purl.obolibrary.org/obo/PATO_0001894 # phenotypic sex 
+
+# terms for Care Site table
+http://purl.obolibrary.org/obo/OPMI_0000480 # care site identifier 
+http://purl.obolibrary.org/obo/OPMI_0000479 # care site name 
+http://purl.obolibrary.org/obo/GAZ_00000448 # geographical location
+
+# terms for Procedure_occurrence table
+http://purl.obolibrary.org/obo/OPMI_0000506 # procedure occurrence identifier
+http://purl.obolibrary.org/obo/OPMI_0000505 # procedure occurrence
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OAE_0002807 # medical procedure 
+http://purl.obolibrary.org/obo/OPMI_0000507 # procedure temporal region
+http://purl.obolibrary.org/obo/OPMI_0000508 # procedure start date
+http://purl.obolibrary.org/obo/OPMI_0000509 # procedure start datetime
+http://purl.obolibrary.org/obo/OPMI_0000510 # procedure end date
+http://purl.obolibrary.org/obo/OPMI_0000511 # procedure end datetime
+http://purl.obolibrary.org/obo/OPMI_0000513 # provenance of procedure record
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider 
+http://purl.obolibrary.org/obo/OPMI_0000482 # visit occurrence identifier
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity 
+
+# terms for Payer Plan Period 
+http://purl.obolibrary.org/obo/OPMI_0000585 # payer plan period
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OPMI_0000584 # payer plan temporal region
+http://purl.obolibrary.org/obo/OPMI_0000586 # payer plan period start date 
+http://purl.obolibrary.org/obo/OPMI_0000587 # payer plan period end date 
+http://purl.obolibrary.org/obo/OMRSE_00000095 # payer role
+http://purl.obolibrary.org/obo/OPMI_0000155 # health insurance plan
+http://purl.obolibrary.org/obo/OPMI_0000823 # payer plan 
+http://purl.obolibrary.org/obo/OMRSE_00000096 # party to an insurance policy
+http://purl.obolibrary.org/obo/OPMI_0004480 # study participant's family member role 
+
+# terms for Specimen table 
+http://purl.obolibrary.org/obo/OBI_0001616 # specimen ID 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID 
+http://purl.obolibrary.org/obo/OBI_0100051 # specimen
+http://purl.obolibrary.org/obo/OPMI_0000523 # provenance of specimen record
+http://purl.obolibrary.org/obo/OBIB_0000714 # date of specimen collection
+http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
+
+# terms for Death table 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID 
+http://purl.obolibrary.org/obo/OPMI_0000516 # provenance of death record 
+
+# terms for Episode table 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID 
+http://purl.obolibrary.org/obo/OPMI_0000519 # provenance of episode record
+
+# terms for Location table 
+http://purl.obolibrary.org/obo/GAZ_00000448 # geographic location
+
+# terms for Observation Period table 
+http://purl.obolibrary.org/obo/OPMI_0000575 # observation period 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OPMI_0000576 # observation temporal region
+http://purl.obolibrary.org/obo/OPMI_0000577 # observation period start date
+http://purl.obolibrary.org/obo/OPMI_0000578 # observation period end date
+http://purl.obolibrary.org/obo/OPMI_0000522 # provenance of observation record
+
+# terms for Measurement table 
+http://purl.obolibrary.org/obo/OPMI_0000582 # clinical measurement identifier 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/CMO_0000000 # clinical measurement
+http://purl.obolibrary.org/obo/OPMI_0000580 # measurement date
+http://purl.obolibrary.org/obo/OPMI_0000581 # measuement datetime
+http://purl.obolibrary.org/obo/OPMI_0000579 # measurement time 
+http://purl.obolibrary.org/obo/OPMI_0000520 # provenance of measurement record 
+http://purl.obolibrary.org/obo/IAO_0000003  # measurement unit label
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider
+http://purl.obolibrary.org/obo/OPMI_0000483 # visit occurrence identifier
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+# terms for Drug Exposure table
+http://purl.obolibrary.org/obo/OPMI_0000572 # drug exposure 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/DRON_00000005 # drug product 
+http://purl.obolibrary.org/obo/OPMI_0000564 # drug exposure temporal region
+http://purl.obolibrary.org/obo/OPMI_0000565 # drug exposure start date
+http://purl.obolibrary.org/obo/OPMI_0000566 # drug exposure start datetime
+http://purl.obolibrary.org/obo/OPMI_0000567 # drug exposure end date 
+http://purl.obolibrary.org/obo/OPMI_0000568 # drug exposure end datetime
+http://purl.obolibrary.org/obo/OPMI_0000571 # drug exposure verbatime end date
+http://purl.obolibrary.org/obo/OPMI_0000518 # provenance of drug record 
+http://purl.obolibrary.org/obo/OPMI_0000569 # drug exposure stop reason specification 
+http://purl.obolibrary.org/obo/OPMI_0000570 # drug refills specification 
+http://purl.obolibrary.org/obo/OPMI_0000573 # quantity of drug exposure
+http://purl.obolibrary.org/obo/OPMI_0000574 # days of drug supply 
+http://purl.obolibrary.org/obo/IAO_0000132 # lot number
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider 
+http://purl.obolibrary.org/obo/OPMI_0000483 # visit occurrence identifier 
+http://purl.obolibrary.org/obo/EUPATH_0000310 # information on observation details
+
+# terms for Device_exposure table
+http://purl.obolibrary.org/obo/OPMI_0000554 # device exposure 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OBI_0000968 # device 
+http://purl.obolibrary.org/obo/OPMI_0000556 # device exposure temporal region
+http://purl.obolibrary.org/obo/OPMI_0000562 # device exposure start date 
+http://purl.obolibrary.org/obo/OPMI_0000563 # device exposure start datetime
+http://purl.obolibrary.org/obo/OPMI_0000557 # device exposure end date 
+http://purl.obolibrary.org/obo/OPMI_0000558 # device exposure end datetime 
+http://purl.obolibrary.org/obo/OPMI_0000517 # provenance of device record 
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider 
+http://purl.obolibrary.org/obo/OPMI_0000483 # visit occurrence identifier 
+http://purl.obolibrary.org/obo/EUPATH_0000310 # information on observation details 
+
+# terms for Condition_occurrence table
+http://purl.obolibrary.org/obo/OPMI_0000527 # condition occurrence 
+http://purl.obolibrary.org/obo/OPMI_0000470 # person ID
+http://purl.obolibrary.org/obo/OPMI_0000282 # medical condition 
+http://purl.obolibrary.org/obo/OPMI_0000528 # condition temporal region
+http://purl.obolibrary.org/obo/OPMI_0000531 # condition start date
+http://purl.obolibrary.org/obo/OPMI_0000532 # condition start datetime
+http://purl.obolibrary.org/obo/OPMI_0000529 # condition end date 
+http://purl.obolibrary.org/obo/OPMI_0000530 # condition end datetime
+http://purl.obolibrary.org/obo/OPMI_0000525 # provenance of condition occurrence record 
+http://purl.obolibrary.org/obo/OPMI_0000533 # medical condition status 
+http://purl.obolibrary.org/obo/OPMI_0000534 # medical condition stop reason specification 
+http://purl.obolibrary.org/obo/OPMI_0000163 # care provider 
+http://purl.obolibrary.org/obo/OPMI_0000483 # visit occurrence identifier 
+
+http://purl.obolibrary.org/obo/OPMI_0000542 # Admission diagnosis status
+
+http://purl.obolibrary.org/obo/OPMI_0000543 # Cause of death status
+http://purl.obolibrary.org/obo/OPMI_0000553 # Immediate cause of death status
+http://purl.obolibrary.org/obo/OPMI_0000561 # Underlying cause of death status
+
+http://purl.obolibrary.org/obo/OPMI_0000551 # Condition to be diagnosed by procedure status
+http://purl.obolibrary.org/obo/OPMI_0000536 # Confirmed diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000552 # Contributory cause of death status 
+http://purl.obolibrary.org/obo/OPMI_0000514 # Death diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000538 # Discharge diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000539 # Postoperative diagnosis status
+
+http://purl.obolibrary.org/obo/OPMI_0000540 # Preliminary diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000549 # Preliminary admission diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000550 # Preliminary discharge diagnosis status
+
+http://purl.obolibrary.org/obo/OPMI_0000541 # Preoperative diagnosis status
+
+http://purl.obolibrary.org/obo/OPMI_0000535 # Primary admission diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000526 # Primary diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000555 # Primary discharge diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000544 # Primary referral diagnosis status
+
+http://purl.obolibrary.org/obo/OPMI_0000545 # Referral diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000560 # Resolved condition status 
+
+http://purl.obolibrary.org/obo/OPMI_0000559 # Secondary admission diagnosis status 
+http://purl.obolibrary.org/obo/OPMI_0000546 # Secondary diagnosis status 
+http://purl.obolibrary.org/obo/OPMI_0000547 # Secondary discharge diagnosis status
+http://purl.obolibrary.org/obo/OPMI_0000548 # Secondary referral diagnosis status
+
+http://purl.obolibrary.org/obo/IAO_0000579 # centrally registered identifier registry
+http://purl.obolibrary.org/obo/IAO_0000577 # centrally registered identifier symbol
+http://purl.obolibrary.org/obo/BFO_0000034 # function 
+http://purl.obolibrary.org/obo/OBI_0001933 # value specification
+http://purl.obolibrary.org/obo/IAO_0000078 
+
+http://purl.obolibrary.org/obo/OGMS_0000073 
+http://purl.obolibrary.org/obo/OGMS_0000104
+http://purl.obolibrary.org/obo/OPMI_0000441
+http://purl.obolibrary.org/obo/OPMI_0000446
+http://purl.obolibrary.org/obo/PATO_0000383
+http://purl.obolibrary.org/obo/PATO_0000384
+http://purl.obolibrary.org/obo/CHEBI_189679 
+http://purl.obolibrary.org/obo/SO_0000110
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity 
 
 [Source term retrieval setting]
-includeAllIntermediates
+# includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAxioms

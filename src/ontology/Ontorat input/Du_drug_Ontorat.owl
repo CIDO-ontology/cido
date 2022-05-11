@@ -887,7 +887,11 @@
 <rdf:Description rdf:nodeID="genid52">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_role"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ CHEBI_189679"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_189679"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_189679">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_189651">
@@ -924,7 +928,7 @@
 <rdf:Description rdf:nodeID="genid55">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/has_role"/>
-	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ CHEBI_189679"/>
+	<owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_189679"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_189652">
@@ -1161,6 +1165,8 @@
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_189678">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 </rdf:Description>
+<!--  -->
+<!-- http://purl.obolibrary.org/obo/CHEBI_189679 -->
 <!--  -->
 <!-- http://purl.obolibrary.org/obo/CHEBI_189680 -->
 
@@ -2664,12 +2670,6 @@
 <!-- http://purl.obolibrary.org/obo/PR_000050270 -->
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050270">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-</rdf:Description>
-<!--  -->
-<!-- http://purl.obolibrary.org/obo/ CHEBI_189679 -->
-
-<rdf:Description rdf:about="http://purl.obolibrary.org/obo/ CHEBI_189679">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 </rdf:Description>
 <!--  -->

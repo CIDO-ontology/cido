@@ -15,6 +15,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:rdfs1="rdfs:"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
@@ -60093,6 +60094,14 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
@@ -60580,8 +60589,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
