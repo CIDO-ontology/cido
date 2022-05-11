@@ -12,6 +12,10 @@ http://purl.obolibrary.org/obo/APOLLO_SV_00000486 # travel-related infectious di
 http://purl.obolibrary.org/obo/APOLLO_SV_00000541 #  disease surveillance objective specification
 http://purl.obolibrary.org/obo/APOLLO_SV_00000075 # infectious disease control objective specification
 http://purl.obolibrary.org/obo/APOLLO_SV_00000581 # infectious disease forecast objective specification 
+# http://purl.obolibrary.org/obo/APOLLO_SV_00000445 # mortality rate  
+
+http://purl.obolibrary.org/obo/OBI_0001554 # rate measurement datum
+includeAllChildren
 
 http://purl.obolibrary.org/obo/APOLLO_SV_00000229 # place closure control strategy 
 includeAllChildren
