@@ -6,7 +6,7 @@ PR
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/PR_000050262 #severe acute respiratory syndrome coronavirus 2 protein
-includeAllChildren
+# includeAllChildren
 
 http://purl.obolibrary.org/obo/PR_O15393 # transmembrane protease serine 2 (human), TMPRSS2
 

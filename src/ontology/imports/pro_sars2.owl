@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
-     xml:base="http://purl.obolibrary.org/obo/TEMP"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pro_sars2.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pro_sars2.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pro_sars2.owl"/>
     
 
 
@@ -161,81 +161,75 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740568 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740568"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740569 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740569"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740570 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740570"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740571 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740571"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740572 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740572"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740573 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740573"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740574 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740574"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740575 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740575"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740576 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740576"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740577 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740577"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBIGene_43740578 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBIGene_43740578"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740568 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740569"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740571"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740572"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740573"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740574"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740576"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740577"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740578"/>
     
 
 
@@ -245,7 +239,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
@@ -294,10 +288,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740578"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740578"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2178,10 +2172,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740576"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740576"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2306,10 +2300,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740568"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2410,10 +2404,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740569"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740569"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2514,10 +2508,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740570"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2613,10 +2607,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740571"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740571"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2712,10 +2706,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740572"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740572"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2816,10 +2810,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740573"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740573"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2905,10 +2899,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740577"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740577"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -2987,10 +2981,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740575"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740575"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3166,7 +3160,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTD2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD2">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3237,7 +3231,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTD3 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD3">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3296,10 +3290,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000050262"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBIGene_43740574"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740574"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3376,7 +3370,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTF1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTF1">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3418,7 +3412,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTG0 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTG0">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>
@@ -3460,7 +3454,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTG1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTG1">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TEMP#only_in_taxon"/>

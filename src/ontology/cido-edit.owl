@@ -30,6 +30,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_drug_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_viral_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pro_sars2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
@@ -73,13 +74,13 @@
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">05-10-2022</dc:date>
+        <dc:date xml:lang="en">05-12-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.320</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.325</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7047,7 +7048,7 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000115>
@@ -7099,6 +7100,12 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7106,12 +7113,6 @@ Ref: https://www.ncbi.nlm.nih.gov/books/NBK554533/</obo:IAO_0000112>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a host cell</obo:IAO_0000115>
@@ -7595,6 +7596,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7602,12 +7609,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=13557"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
@@ -7651,6 +7652,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740571"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050273"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7658,18 +7671,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740570"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740571"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10060,7 +10061,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
@@ -12323,7 +12324,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A host-coronovirus interaction that involves in the SARS-CoV-2 virus binding to a mouse cell</obo:IAO_0000115>
@@ -35575,6 +35576,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGG_3043740576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
+        <dc:source>ORF10 gene of SARS-CoV-2</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740576</dc:source>
+        <rdfs:label>ORF10 of severe acute respiratory syndrome coronavirus 2</rdfs:label>
+        <rdf-schema:comment>NCBI Gene ID:43740576</rdf-schema:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_3043740577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740577">
@@ -35593,21 +35607,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740578">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
-        <dc:source>ORF10 gene of SARS-CoV-2</dc:source>
-        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740576</dc:source>
-        <rdfs:label>ORF10 of severe acute respiratory syndrome coronavirus 2</rdfs:label>
-        <rdf-schema:comment>NCBI Gene ID:43740576</rdf-schema:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_3043740579 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3043740579">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2002697049"/>
-        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <dc:source>ORF1ab gene of SARS-CoV-2</dc:source>
-        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740579</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/gene/43740578</dc:source>
         <rdfs:label>ORF1ab of severe acute respiratory syndrome coronavirus 2</rdfs:label>
         <rdf-schema:comment>NCBI Gene ID:43740578. Has -1 ribosomal frameshift</rdf-schema:comment>
     </owl:Class>
@@ -36444,21 +36445,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_A0A663DJA2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_A0A663DJA2">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740576"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -36481,7 +36467,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740576"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740576"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF10 gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -37157,7 +37143,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000189"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -41163,21 +41149,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41230,7 +41201,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the S gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41256,21 +41227,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC3 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC3">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740569"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41335,7 +41291,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740569"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740569"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF3a gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41362,21 +41318,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC4 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC4">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740570"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41435,7 +41376,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the E gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41466,21 +41407,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC5 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC5">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740571"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41677,7 +41603,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740571"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740571"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the M gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41704,21 +41630,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC6 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC6">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740572"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41747,7 +41658,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740572"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF6 gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41774,21 +41685,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC7 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC7">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740573"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -41811,7 +41707,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740573"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740573"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF7a gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -41836,21 +41732,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC8 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC8">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                        <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740577"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -42161,7 +42042,7 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_gene_template"/>
-                <owl:someValuesFrom rdf:resource="http://www.ncbi.nlm.nih.gov/gene/43740577"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_3043740577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF8 gene in SARS-CoV-2.</obo:IAO_0000115>
@@ -60438,14 +60319,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.ncbi.nlm.nih.gov/gene/43740568 -->
-
-    <rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/gene/43740568">
-        <obo:IAO_0000118>S (severe acute respiratory syndrome coronavirus 2)</obo:IAO_0000118>
     </rdf:Description>
     
 
