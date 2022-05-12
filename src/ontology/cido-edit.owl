@@ -751,9 +751,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/CIDO_0000029 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000029">
-        <obo:IAO_0000115>A short-cut relation that represents a direct relationship between a PCR test and the target gene (or gene region) that the test is designed to amplify and detect the targeted gene or gene region.</obo:IAO_0000115>
+        <obo:IAO_0000115>A short-cut relation that represents a direct relationship between a PCR test kit and the target gene (or gene region) that the test kit is designed to run a PCR assay for amplifying and detecting the targeted gene or gene region.</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">PCR detects gene</rdfs:label>
+        <rdfs:label xml:lang="en">PCR kit detects gene</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1664,7 +1664,9 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0001089 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001089">
-        <rdfs:label xml:lang="en">PCR kit detects gene</rdfs:label>
+        <obo:IAO_0000115>A short-cut relation that represents a direct relationship between a PCR test and the target gene (or gene region) that the test is designed to amplify and detect the targeted gene or gene region.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">PCR detects gene</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -26082,6 +26084,23 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
     <!-- http://purl.obolibrary.org/obo/CIDO_0020303 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0020303">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001082"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000914"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002608"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002779"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002784"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100067"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000024"/>
@@ -60589,8 +60608,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
