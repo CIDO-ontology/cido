@@ -57980,14 +57980,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">

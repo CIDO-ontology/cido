@@ -168,6 +168,7 @@ http://purl.obolibrary.org/obo/GO_0019076  # viral release from host cell, viral
 http://purl.obolibrary.org/obo/GO_1902186 #regulation of viral release from host cell
 http://purl.obolibrary.org/obo/GO_1902187  #negative regulation of viral release from host cell 
 http://purl.obolibrary.org/obo/GO_1902188 #positive regulation of viral release from host cell 
+http://purl.obolibrary.org/obo/GO_0016485 
 
 # Added by Anthony for ICBO paper
 http://purl.obolibrary.org/obo/GO_0140105

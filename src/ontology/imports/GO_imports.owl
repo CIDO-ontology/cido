@@ -636,7 +636,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
@@ -836,12 +835,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005254">
         <rdfs:label>chloride channel activity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005253"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015103"/>
+        <oboInOwl:id>GO:0005254</oboInOwl:id>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-975340</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>Enables the facilitated diffusion of a chloride (by an energy-independent process) involving passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>Reactome:R-HSA-975449</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-427570</oboInOwl:hasDbXref>
-        <oboInOwl:id>GO:0005254</oboInOwl:id>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-975340</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-2744349</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1004,7 +1004,6 @@
         <oboInOwl:hasExactSynonym>RNA catabolism</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>The chemical reactions and pathways resulting in the breakdown of RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3&#39;,5&#39;-phosphodiester linkage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RNA degradation</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1053,7 +1052,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
@@ -1097,7 +1096,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1165,8 +1163,6 @@
         <oboInOwl:id>GO:0006605</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym>nascent polypeptide association</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1388,18 +1384,15 @@
         <obo:IAO_0000115>The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter, pore or motor protein.</obo:IAO_0000115>
         <oboInOwl:id>GO:0006810</oboInOwl:id>
         <oboInOwl:creation_date>2012-12-13T16:25:32Z</oboInOwl:creation_date>
-        <oboInOwl:hasNarrowSynonym>small molecule transport</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasAlternativeId>GO:0015457</oboInOwl:hasAlternativeId>
-        <oboInOwl:created_by>jl</oboInOwl:created_by>
-        <oboInOwl:hasNarrowSynonym>solute:solute exchange</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasAlternativeId>GO:0044765</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym>single-organism transport</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId>GO:0015457</oboInOwl:hasAlternativeId>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
         <rdfs:comment>Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport.</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
@@ -1437,22 +1430,6 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>The directed movement of cations, atoms or small molecules with a net positive charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>di-, tri-valent inorganic cation transport</oboInOwl:hasNarrowSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0006816 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006816">
-        <rdfs:label>calcium ion transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030001"/>
-        <obo:IAO_0000115>The directed movement of calcium (Ca) ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
-        <oboInOwl:id>GO:0006816</oboInOwl:id>
-        <oboInOwl:hasNarrowSynonym>mitochondrial sodium/calcium ion exchange</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>calcium transport</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasNarrowSynonym>sodium:calcium exchange</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1530,6 +1507,7 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0006886</oboInOwl:id>
         <oboInOwl:hasAlternativeId>GO:0032779</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1580,7 +1558,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1617,6 +1594,7 @@
         <oboInOwl:hasBroadSynonym>inflammation</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1664,7 +1642,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1679,9 +1656,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007165"/>
         <oboInOwl:id>GO:0007166</oboInOwl:id>
         <oboInOwl:hasExactSynonym>cell surface receptor linked signaling pathway</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The series of molecular signals initiated by activation of a receptor on the surface of a cell. The pathway begins with binding of an extracellular ligand to a cell surface receptor, or for receptors that signal in the absence of a ligand, by ligand-withdrawal or the activity of a constitutively active receptor. The pathway ends with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cell surface receptor linked signal transduction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>A series of molecular signals initiated by activation of a receptor on the surface of a cell. The pathway begins with binding of an extracellular ligand to a cell surface receptor, or for receptors that signal in the absence of a ligand, by ligand-withdrawal or the activity of a constitutively active receptor. The pathway ends with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cell surface receptor linked signalling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1694,10 +1671,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007169">
         <rdfs:label>transmembrane receptor protein tyrosine kinase signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007166"/>
+        <obo:IAO_0000115>The series of molecular signals initiated by an extracellular ligand binding to a receptor on the surface of the target cell where the receptor possesses tyrosine kinase activity, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:id>GO:0007169</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>transmembrane receptor protein tyrosine kinase signalling pathway</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A series of molecular signals initiated by the binding of an extracellular ligand to a receptor on the surface of the target cell where the receptor possesses tyrosine kinase activity, and ending with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -1710,9 +1687,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007165"/>
         <oboInOwl:hasExactSynonym>G-protein-coupled receptor protein signalling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein coupled receptor protein signal transduction</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The series of molecular signals initiated by a ligand binding to its receptor, in which the  activated receptor promotes the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, and ends with regulation of a downstream cellular process.  The pathway can start from the plasma membrane, Golgi or nuclear membrane.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>G-protein coupled receptor signaling pathway via GPCR dimer</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasAlternativeId>GO:0038042</oboInOwl:hasAlternativeId>
-        <obo:IAO_0000115>A series of molecular signals that proceeds with an activated receptor promoting the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction, or for basal GPCR signaling the pathway begins with the receptor activating its G protein in the absence of an agonist, and ends with regulation of a downstream cellular process, e.g. transcription.  The pathway can start from the plasma membrane, Golgi or nuclear membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>GPCR signaling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym>dimeric G-protein coupled receptor signalling pathway</oboInOwl:hasNarrowSynonym>
@@ -1734,7 +1711,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007187">
         <rdfs:label>G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007186"/>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled receptor binding to its physiological ligand, where the pathway proceeds with activation or inhibition of a nucleotide cyclase activity and a subsequent change in the concentration of a cyclic nucleotide.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G protein signalling, coupled to cyclic nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPCR signaling pathway via cyclic nucleotide second messenger</oboInOwl:hasExactSynonym>
@@ -1742,6 +1718,7 @@
         <oboInOwl:hasExactSynonym>G protein signaling, coupled to cyclic nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signaling, coupled to cyclic nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0007187</oboInOwl:id>
+        <obo:IAO_0000115>A G protein-coupled receptor signaling pathway in which the signal is transmitted via the activation or inhibition of a nucleotide cyclase activity and a subsequent change in the concentration of a cyclic nucleotide.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1757,10 +1734,10 @@
         <oboInOwl:id>GO:0007188</oboInOwl:id>
         <oboInOwl:hasExactSynonym>G protein signaling, coupled to cyclic AMP nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GPCR signaling pathway via modulation of adenylate cyclase activity</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled receptor binding to its physiological ligand, where the pathway proceeds through activation or inhibition of adenylyl cyclase activity and a subsequent change in the concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>G protein signalling, coupled to cAMP nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signalling, coupled to cAMP nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G protein signaling, coupled to cAMP nucleotide second messenger</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A G protein-coupled receptor signaling pathway in which the signal is transmitted via the activation or inhibition of adenylyl cyclase activity and a subsequent change in the intracellular concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>G-protein signaling, coupled to cyclic AMP nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signaling, coupled to cAMP nucleotide second messenger</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signalling, coupled to cyclic AMP nucleotide second messenger</oboInOwl:hasExactSynonym>
@@ -1781,7 +1758,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007212"/>
         <oboInOwl:hasRelatedSynonym>activation of adenylate cyclase activity by dopamine receptor signalling pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a dopamine receptor binding to its physiological ligand, where the pathway proceeds with activation of adenylyl cyclase and a subsequent increase in the concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
+        <obo:IAO_0000115>An adenylate cyclase-activating G protein-coupled receptor signaling pathway initiated by dopamine binding to its receptor, and ending with the regulation of a downstream cellular process.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dopamine receptor, adenylate cyclase activating pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0007191</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym>activation of adenylate cyclase activity by dopamine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
@@ -1801,7 +1778,7 @@
         <oboInOwl:hasExactSynonym>G protein signaling, adenylate cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0007193</oboInOwl:id>
         <oboInOwl:hasExactSynonym>G protein signaling, adenylyl cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled receptor binding to its physiological ligand, where the pathway proceeds through inhibition of adenylyl cyclase activity and a subsequent decrease in the concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
+        <obo:IAO_0000115>A G protein-coupled receptor signaling pathway in which the signal is transmitted via the inhibition of adenylyl cyclase activity and a subsequent decrease in the intracellular concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>G protein signalling, adenylate cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signaling, adenylate cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein signalling, adenylyl cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
@@ -1844,10 +1821,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007193"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007212"/>
         <oboInOwl:hasExactSynonym>dopamine receptor, adenylyl cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway initiated by dopamine binding to its receptor, and ending with the regulation of a downstream cellular process.</obo:IAO_0000115>
         <oboInOwl:id>GO:0007195</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>inhibition of adenylate cyclase activity by dopamine receptor signalling pathway</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a dopamine receptor binding to its physiological ligand, where the pathway proceeds with inhibition of adenylyl cyclase and a subsequent decrease in the concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dopamine receptor, adenylate cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>inhibition of adenylate cyclase activity by dopamine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1861,13 +1838,13 @@
         <rdfs:label>adenylate cyclase-inhibiting G protein-coupled acetylcholine receptor signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007193"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007213"/>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled acetylcholine receptor binding to its physiological ligand, where the pathway proceeds with inhibition of adenylyl cyclase and a subsequent decrease in the concentration of cyclic AMP (cAMP).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>inhibition of adenylate cyclase activity by muscarinic acetylcholine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym>muscarinic acetylcholine receptor, adenylate cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>inhibition of adenylate cyclase activity by G-protein coupled acetylcholine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym>muscarinic acetylcholine receptor, adenylyl cyclase inhibiting pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>inhibition of adenylate cyclase activity by muscarinic acetylcholine receptor signalling pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway initiated by acetylcholine binding to its receptor, and ending with the regulation of a downstream cellular process.</obo:IAO_0000115>
         <oboInOwl:id>GO:0007197</oboInOwl:id>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1881,7 +1858,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007186"/>
         <oboInOwl:hasExactSynonym>G-protein signalling, coupled to IP3 second messenger (phospholipase C activating)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G-protein coupled receptor signaling pathway coupled to IP3 second messenger</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled receptor binding to its physiological ligand, where the pathway proceeds with activation of phospholipase C (PLC) and a subsequent increase in the concentration of inositol trisphosphate (IP3) and diacylglycerol (DAG).</obo:IAO_0000115>
         <rdfs:comment>This term is intended to cover steps in a GPCR signaling pathway both upstream and downstream of phospholipase C (PLC) activity.</rdfs:comment>
         <oboInOwl:hasNarrowSynonym>phospholipase C-activating dopamine receptor signaling pathway</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>G-protein signaling, coupled to IP3 second messenger (phospholipase C activating)</oboInOwl:hasExactSynonym>
@@ -1890,6 +1866,7 @@
         <oboInOwl:hasExactSynonym>phospholipase C-activating G-protein coupled receptor signaling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>G protein signalling, coupled to IP3 second messenger (phospholipase C activating)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PLC-activating GPCR signaling pathway</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A G protein-coupled receptor signaling pathway in which the signal is transmitted via the  activation of phospholipase C (PLC) and a subsequent increase in the intracellular concentration of inositol trisphosphate (IP3) and diacylglycerol (DAG).</obo:IAO_0000115>
         <oboInOwl:id>GO:0007200</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym>activation of phospholipase C activity by G-protein coupled receptor protein signaling pathway coupled to IP3 second messenger</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -1901,7 +1878,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007204">
         <rdfs:label>positive regulation of cytosolic calcium ion concentration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051480"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065008"/>
         <oboInOwl:hasBroadSynonym>elevation of cytoplasmic calcium ion concentration</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>cytoplasmic calcium ion concentration elevation</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>elevation of calcium ion concentration in cytosol</oboInOwl:hasExactSynonym>
@@ -1922,9 +1899,9 @@
         <rdfs:label>phospholipase C-activating G protein-coupled acetylcholine receptor signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007200"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007213"/>
+        <obo:IAO_0000115>A phospholipase C-activating G protein-coupled receptor signaling pathway initiated by acetylcholine binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:id>GO:0007207</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a G protein-coupled acetylcholine receptor binding to its physiological ligand, where the pathway proceeds with activation of phospholipase C (PLC) and a subsequent release of inositol trisphosphate (IP3) and diacylglycerol (DAG).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>muscarinic acetylcholine receptor, phospholipase C activating pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>activation of phospholipase C activity by G-protein coupled acetylcholine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym>muscarinic receptor signaling pathway via activation of PLC</oboInOwl:hasExactSynonym>
@@ -1972,9 +1949,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007186"/>
         <oboInOwl:id>GO:0007213</oboInOwl:id>
         <oboInOwl:hasExactSynonym>acetylcholine receptor signalling, muscarinic pathway</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>Any series of molecular signals initiated by an acetylcholine receptor on the surface of the target cell binding to one of its physiological ligands, and proceeding with the activated receptor promoting the exchange of GDP for GTP on the alpha-subunit of an associated heterotrimeric G-protein complex. The GTP-bound activated alpha-G-protein then dissociates from the beta- and gamma-subunits to further transmit the signal within the cell. The pathway begins with receptor-ligand interaction and ends with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>G-protein coupled acetylcholine receptor signaling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>muscarinic acetylcholine receptor signaling pathway</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A G protein-coupled receptor signaling pathway initiated by a ligand binding to an acetylcholine receptor on the surface of a target cell, and ends with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -1992,7 +1969,6 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>cell-cell signalling</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2050,7 +2026,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007610">
         <rdfs:label>behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
         <oboInOwl:creation_date>2012-09-20T14:06:08Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>behaviour</oboInOwl:hasExactSynonym>
@@ -2162,12 +2138,11 @@
         <rdfs:label>visual behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
         <oboInOwl:hasExactSynonym>behavioural response to visual stimulus</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:0007632</oboInOwl:id>
         <obo:IAO_0000115>The behavior of an organism in response to a visual stimulus.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>behavioral response to visual stimulus</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>GO:0007632</oboInOwl:id>
         <oboInOwl:hasExactSynonym>visual behaviour</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2188,6 +2163,7 @@
         <oboInOwl:hasRelatedSynonym>establishment and maintenance of asymmetric protein localization</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>asymmetric protein localization</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000115>Any process in which a protein is transported to, or maintained in, a specific location.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -2215,7 +2191,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
@@ -2286,7 +2261,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
@@ -2445,7 +2419,6 @@
         <oboInOwl:hasExactSynonym>degradation</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2494,7 +2467,6 @@
         <oboInOwl:hasAlternativeId>GO:0044711</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>formation</oboInOwl:hasBroadSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -2865,6 +2837,7 @@
         <oboInOwl:hasExactSynonym>cell physiology</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>GO:0050875</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -2906,12 +2879,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010468">
         <rdfs:label>regulation of gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060255"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22557</obo:IAO_0000233>
         <oboInOwl:hasDbXref>Wikipedia:Regulation_of_gene_expression</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>regulation of protein expression</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>regulation of gene product expression</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product (protein or RNA).</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>gene regulation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0010468</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasNarrowSynonym>regulation of protein expression</oboInOwl:hasNarrowSynonym>
-        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>regulation of gene product expression</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>This class covers any process that regulates the rate of production of a mature gene product, and so includes processes that regulate that rate by regulating the level, stability or availability of intermediates in the process of gene expression.  For example, it covers any process that regulates the level, stability or availability of mRNA or circRNA for translation and thereby regulates the rate of production of the encoded protein via translation.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -3018,7 +2993,8 @@
         <rdfs:label>positive regulation of gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010468"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010604"/>
-        <obo:IAO_0000115>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22557</obo:IAO_0000233>
+        <obo:IAO_0000115>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product (protein or RNA).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0010628</oboInOwl:id>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -3032,9 +3008,11 @@
         <rdfs:label>negative regulation of gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010468"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010605"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22557</obo:IAO_0000233>
         <rdfs:comment>This term covers any process that negatively regulates the rate of production of a mature gene product, and so includes processes that negatively regulate that rate by reducing the level, stability or availability of intermediates in the process of gene expression. For example, it covers any process that reduces the level, stability or availability of mRNA or circRNA for translation and thereby reduces the rate of production of the encoded protein via translation.</rdfs:comment>
-        <obo:IAO_0000115>Any process that decreases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
         <oboInOwl:id>GO:0010629</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>gene silencing</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Any process that decreases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene&#39;s coding sequence is converted into a mature gene product (protein or RNA).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -3176,7 +3154,6 @@
         <obo:IAO_0000115>The directed movement of proteins into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
         <oboInOwl:id>GO:0015031</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -3433,6 +3410,25 @@
         <oboInOwl:hasDbXref>Wikipedia:Cell_migration</oboInOwl:hasDbXref>
         <obo:IAO_0000115>The controlled self-propelled movement of a cell from one site to a destination guided by molecular cues. Cell migration is a central process in the development and maintenance of multicellular organisms.</obo:IAO_0000115>
         <oboInOwl:id>GO:0016477</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016485">
+        <rdfs:label>protein processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
+        <oboInOwl:hasRelatedSynonym>peptidolysis during protein maturation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId>GO:0051605</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>GO:0016485</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>protein maturation by peptide bond cleavage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein maturation by peptide bond hydrolysis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein. Protein maturation is the process leading to the attainment of the full functional capacity of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>protein maturation by proteolysis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -3793,7 +3789,6 @@
         <oboInOwl:hasExactSynonym>protein-RNA complex assembly</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -3853,7 +3848,6 @@
         <oboInOwl:hasDbXref>Reactome:R-HSA-5671707</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -3918,6 +3912,7 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
@@ -3948,12 +3943,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030001">
         <rdfs:label>metal ion transport</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006812"/>
-        <oboInOwl:hasNarrowSynonym>divalent metal ion transport</oboInOwl:hasNarrowSynonym>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/23033</obo:IAO_0000233>
         <oboInOwl:hasNarrowSynonym>heavy metal ion transport</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115>The directed movement of metal ions, any metal ion with an electric charge, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0030001</oboInOwl:id>
+        <oboInOwl:creation_date>2009-07-31T01:07:46Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0070839</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0070838</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>divalent metal ion transport</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasNarrowSynonym>metal ion export</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>divalent metal ion export</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:created_by>mah</oboInOwl:created_by>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4057,14 +4058,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030534">
         <rdfs:label>adult behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
-        <oboInOwl:hasExactSynonym>adult behavioral response to stimulus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>adult behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>adult behavioural response to stimulus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult behavioral response to stimulus</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0030534</oboInOwl:id>
         <obo:IAO_0000115>Behavior in a fully developed and mature organism.</obo:IAO_0000115>
         <rdfs:comment>See also the biological process term &#39;behavior ; GO:0007610&#39;.</rdfs:comment>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4159,6 +4159,7 @@
         <oboInOwl:id>GO:0031323</oboInOwl:id>
         <oboInOwl:hasExactSynonym>regulation of cellular metabolism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4180,6 +4181,7 @@
         <oboInOwl:id>GO:0031325</oboInOwl:id>
         <oboInOwl:hasNarrowSynonym>stimulation of cellular metabolic process</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>up-regulation of cellular metabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4393,7 +4395,10 @@
         <oboInOwl:id>GO:0032501</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasAlternativeId>GO:0044707</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4932"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -4488,6 +4493,27 @@
         <oboInOwl:hasExactSynonym>regulation of localisation</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of any process in which a cell, a substance, or a cellular entity is transported to, or maintained in, a specific location.</obo:IAO_0000115>
         <oboInOwl:id>GO:0032879</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032880">
+        <rdfs:label>regulation of protein localization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032879"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22021</obo:IAO_0000233>
+        <oboInOwl:creation_date>2015-01-20T14:32:14Z</oboInOwl:creation_date>
+        <oboInOwl:id>GO:0032880</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>regulation of cellular protein localization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of any process in which a protein is transported to, or maintained in, a specific location.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>GO:1903827</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>regulation of protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regulation of cellular protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4611,7 +4637,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034660"/>
         <oboInOwl:id>GO:0034470</oboInOwl:id>
+        <oboInOwl:hasAlternativeId>GO:0031050</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym>double-stranded RNA fragmentation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dsRNA processing</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000115>Any process that results in the conversion of one or more primary non-coding RNA (ncRNA) transcripts into one or more mature ncRNA molecules.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>dsRNA fragmentation</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -4625,12 +4655,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008104"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070727"/>
         <oboInOwl:id>GO:0034613</oboInOwl:id>
-        <oboInOwl:hasAlternativeId>GO:0016249</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>Any process in which a protein is transported to, and/or maintained in, a specific location at the level of a cell. Localization at the cellular level encompasses movement within the cell, from within the cell to the cell surface, or from one location to another at the surface of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>GO:0016249</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>cellular protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym>channel localizer activity</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4647,7 +4676,6 @@
         <oboInOwl:id>GO:0034641</oboInOwl:id>
         <obo:IAO_0000115>The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4712,7 +4740,6 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>nucleobase, nucleoside, nucleotide and nucleic acid catabolic process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4809,7 +4836,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035725">
         <rdfs:label>sodium ion transmembrane transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006812"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098662"/>
         <oboInOwl:id>GO:0035725</oboInOwl:id>
         <obo:IAO_0000115>A process in which a sodium ion is transported from one side of a membrane to the other by means of some agent such as a transporter or pore.</obo:IAO_0000115>
@@ -4844,7 +4871,6 @@
         <rdfs:label>regulation of renal sodium excretion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044062"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065008"/>
         <oboInOwl:creation_date>2011-04-20T01:26:30Z</oboInOwl:creation_date>
         <oboInOwl:created_by>bf</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
@@ -4931,12 +4957,13 @@
         <rdfs:label>protein modification process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043170"/>
+        <oboInOwl:creation_date>2012-04-26T01:47:12Z</oboInOwl:creation_date>
+        <oboInOwl:id>GO:0036211</oboInOwl:id>
         <oboInOwl:hasExactSynonym>protein modification</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by>bf</oboInOwl:created_by>
         <obo:IAO_0000115>The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).</obo:IAO_0000115>
-        <oboInOwl:creation_date>2012-04-26T01:47:12Z</oboInOwl:creation_date>
-        <oboInOwl:id>GO:0036211</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -4946,7 +4973,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036376">
         <rdfs:label>sodium ion export across plasma membrane</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035725"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0140115"/>
         <oboInOwl:hasAlternativeId>GO:0071436</oboInOwl:hasAlternativeId>
@@ -5053,6 +5079,7 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasDbXref>Wikipedia:Wound_healing</oboInOwl:hasDbXref>
         <oboInOwl:id>GO:0042060</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5191,15 +5218,9 @@
     <!-- http://purl.obolibrary.org/obo/GO_0042493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042493">
-        <rdfs:label>response to drug</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
-        <oboInOwl:hasRelatedSynonym>drug resistance</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId>GO:0017035</oboInOwl:hasAlternativeId>
-        <oboInOwl:id>GO:0042493</oboInOwl:id>
-        <oboInOwl:hasRelatedSynonym>drug susceptibility/resistance</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0009410"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5224,7 +5245,6 @@
         <oboInOwl:id>GO:0042592</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -5489,7 +5509,7 @@
         <rdfs:label>steroid hormone mediated signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007165"/>
         <oboInOwl:id>GO:0043401</oboInOwl:id>
-        <obo:IAO_0000115>A series of molecular signals mediated by a steroid hormone binding to a receptor.</obo:IAO_0000115>
+        <obo:IAO_0000115>The series of molecular signals mediated by a steroid hormone binding to a receptor.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>steroid hormone mediated signalling</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -5689,8 +5709,9 @@
     <!-- http://purl.obolibrary.org/obo/GO_0043933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043933">
-        <rdfs:label>protein-containing complex subunit organization</rdfs:label>
+        <rdfs:label>protein-containing complex organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22580</obo:IAO_0000233>
         <oboInOwl:hasRelatedSynonym>macromolecular complex subunit organization</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym>protein complex subunit organization</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>macromolecular complex subunit organisation</oboInOwl:hasRelatedSynonym>
@@ -5698,6 +5719,7 @@
         <oboInOwl:hasAlternativeId>GO:0034621</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0034600</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115>Any process in which macromolecules aggregate, disaggregate, or are modified, resulting in the formation, disassembly, or alteration of a protein complex.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>protein-containing complex subunit organization</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0043933</oboInOwl:id>
         <oboInOwl:created_by>mah</oboInOwl:created_by>
         <oboInOwl:hasRelatedSynonym>macromolecular complex organization</oboInOwl:hasRelatedSynonym>
@@ -5766,6 +5788,7 @@
         <obo:IAO_0000115>The chemical reactions and pathways by which individual cells transform chemical substances.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cellular metabolism</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0044237</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -6056,14 +6079,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045087">
         <rdfs:label>innate immune response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098542"/>
         <oboInOwl:id>GO:0045087</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>nonspecific immune response</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>innate immunity</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>GO:0002226</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>Wikipedia:Innate_immune_system</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</obo:IAO_0000115>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -6439,7 +6463,6 @@
         <oboInOwl:id>GO:0046854</oboInOwl:id>
         <oboInOwl:hasExactSynonym>phosphatidylinositol phosphate biosynthesis</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>The chemical reactions and pathways resulting in the formation of phosphatidylinositol phosphate.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym>phosphatidylinositol phosphate biosynthetic process</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>phosphoinositide phosphorylation</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>phosphatidylinositol phosphate phosphorylation</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -6531,8 +6554,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046907">
         <rdfs:label>intracellular transport</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051234"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051641"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051649"/>
         <oboInOwl:id>GO:0046907</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym>single organism intracellular transport</oboInOwl:hasRelatedSynonym>
         <oboInOwl:creation_date>2013-12-18T14:04:50Z</oboInOwl:creation_date>
@@ -6564,12 +6587,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048008">
         <rdfs:label>platelet-derived growth factor receptor signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007169"/>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a platelet-derived growth factor receptor binding to one of its physiological ligands.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PDGF receptor signalling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0048008</oboInOwl:id>
         <oboInOwl:hasExactSynonym>PDGFR signaling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PDGF receptor signaling pathway</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The series of molecular signals initiated by a ligand binding to a platelet-derived growth factor receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -6581,9 +6604,9 @@
         <rdfs:label>ephrin receptor signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007169"/>
         <oboInOwl:hasExactSynonym>Eph receptor signaling pathway</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of an ephrin receptor binding to an ephrin.</obo:IAO_0000115>
         <oboInOwl:id>GO:0048013</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>The series of molecular signals initiated by ephrin binding to its receptor, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Eph receptor signalling pathway</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -6596,9 +6619,9 @@
         <rdfs:label>phosphatidylinositol-mediated signaling</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035556"/>
         <oboInOwl:hasExactSynonym>phosphatidylinositol-mediated signalling</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The series of molecular signals in which a cell uses a phosphatidylinositol-mediated signaling to convert a signal into a response. Phosphatidylinositols include phosphatidylinositol (PtdIns) and its phosphorylated derivatives.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>phosphatidylinositol-mediated signal transduction</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A series of molecular signals in which a cell uses a phosphatidylinositol-mediated signaling to convert a signal into a response. Phosphatidylinositols include phosphatidylinositol (PtdIns) and its phosphorylated derivatives.</obo:IAO_0000115>
         <oboInOwl:id>GO:0048015</oboInOwl:id>
         <oboInOwl:hasBroadSynonym>inositol phospholipid-mediated signaling</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>phosphoinositide-mediated signaling</oboInOwl:hasExactSynonym>
@@ -6728,6 +6751,7 @@
         <oboInOwl:hasAlternativeId>GO:0051242</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>stimulation of cellular process</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>up-regulation of cellular process</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -6748,6 +6772,7 @@
         <obo:IAO_0000115>Any process that stops, prevents, or reduces the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0048523</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -7084,7 +7109,6 @@
         <rdfs:label>regulation of viral process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050789"/>
         <oboInOwl:hasNarrowSynonym>regulation of viral reproduction</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasBroadSynonym>regulation of viral process</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <obo:IAO_0000115>Any process that modulates the rate or extent of the viral life cycle, the set of processes by which a virus reproduces and spreads among hosts.</obo:IAO_0000115>
         <oboInOwl:id>GO:0050792</oboInOwl:id>
@@ -7103,6 +7127,7 @@
         <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>GO:0051244</oboInOwl:hasAlternativeId>
         <oboInOwl:id>GO:0050794</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -7112,7 +7137,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050795">
         <rdfs:label>regulation of behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050789"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051239"/>
         <oboInOwl:id>GO:0050795</oboInOwl:id>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>regulation of behaviour</oboInOwl:hasExactSynonym>
@@ -7472,7 +7497,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051209">
         <rdfs:label>release of sequestered calcium ion into cytosol</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051283"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0097553"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070588"/>
         <obo:IAO_0000115>The process in which calcium ions sequestered in the endoplasmic reticulum, Golgi apparatus or mitochondria are released into the cytosolic compartment.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>calcium mobilization</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>release of stored calcium ion (Ca2+) into cytoplasm</oboInOwl:hasBroadSynonym>
@@ -7860,33 +7885,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0051480 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051480">
-        <rdfs:label>regulation of cytosolic calcium ion concentration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006874"/>
-        <oboInOwl:hasBroadSynonym>regulation of calcium ion concentration in cytoplasm</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>cytoplasmic calcium ion concentration regulation</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>regulation of cytoplasmic calcium ion concentration</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasExactSynonym>regulation of cytosolic calcium ion concentration</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasBroadSynonym>calcium ion homeostasis in cytoplasm</oboInOwl:hasBroadSynonym>
-        <obo:IAO_0000115>Any process involved in the maintenance of an internal steady state of calcium ions within the cytosol of a cell or between the cytosol and its surroundings.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>cytosolic calcium ion concentration regulation</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>GO:0051480</oboInOwl:id>
-        <oboInOwl:hasExactSynonym>calcium ion homeostasis in cytosol</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasBroadSynonym>cytoplasmic calcium ion homeostasis</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym>regulation of calcium ion concentration in cytosol</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0051481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051481">
         <rdfs:label>negative regulation of cytosolic calcium ion concentration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051480"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065008"/>
         <oboInOwl:hasBroadSynonym>reduction of calcium ion concentration in cytoplasm</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>cytoplasmic calcium ion concentration reduction</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
@@ -7970,24 +7973,6 @@
         <oboInOwl:hasNarrowSynonym>intracellular localization</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0051649 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051649">
-        <rdfs:label>establishment of localization in cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051234"/>
-        <oboInOwl:id>GO:0051649</oboInOwl:id>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115>Any process, occuring in a cell, that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym>establishment of localization within cell</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>establishment of localisation in cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>establishment of intracellular localization</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>positioning within cell</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasRelatedSynonym>establishment of cellular localization</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -8104,6 +8089,7 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0055065</oboInOwl:id>
         <obo:IAO_0000115>Any process involved in the maintenance of an internal steady state of metal ions within an organism or cell.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -8168,6 +8154,7 @@
         <oboInOwl:hasAlternativeId>GO:0090662</oboInOwl:hasAlternativeId>
         <oboInOwl:created_by>tb</oboInOwl:created_by>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast"/>
@@ -8229,9 +8216,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007212"/>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>dopamine receptor, phospholipase C activating pathway</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>A phospholipase C-activating receptor G protein-coupled receptor signaling pathway initiated by dopamine binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:id>GO:0060158</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym>activation of phospholipase C activity by dopamine receptor signalling pathway</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115>The series of molecular signals generated as a consequence of a dopamine receptor binding to its physiological ligand, where the pathway proceeds with activation of phospholipase C (PLC) and a subsequent release of inositol trisphosphate (IP3) and diacylglycerol (DAG).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>activation of phospholipase C activity by dopamine receptor signaling pathway</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -8293,21 +8280,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0060402 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060402">
-        <rdfs:label>calcium ion transport into cytosol</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006816"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007204"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051649"/>
-        <oboInOwl:id>GO:0060402</oboInOwl:id>
-        <obo:IAO_0000115>The directed movement of calcium ions (Ca2+) into the cytosol.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0060548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060548">
@@ -8346,16 +8318,23 @@
         <rdfs:label>protein-containing complex assembly</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043933"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22580</obo:IAO_0000233>
         <obo:IAO_0000115>The aggregation, arrangement and bonding together of a set of macromolecules to form a protein-containing complex.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>protein complex formation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cellular macromolecule complex assembly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>chaperone activity</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GO:0065003</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>cellular protein-containing complex assembly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>macromolecule complex assembly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>protein complex assembly</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>cellular protein complex assembly</oboInOwl:hasExactSynonym>
         <oboInOwl:hasAlternativeId>GO:0006461</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0034622</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym>protein complex formation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GO:0065003</oboInOwl:id>
+        <oboInOwl:hasAlternativeId>GO:0043623</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym>macromolecular complex assembly</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
@@ -8418,7 +8397,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070201">
         <rdfs:label>regulation of establishment of protein localization</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032879"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032880"/>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0070201</oboInOwl:id>
         <oboInOwl:hasExactSynonym>regulation of establishment of protein localisation</oboInOwl:hasExactSynonym>
@@ -8476,7 +8455,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070588">
         <rdfs:label>calcium ion transmembrane transport</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006816"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098662"/>
         <oboInOwl:hasExactSynonym>transmembrane calcium transport</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:0070588</oboInOwl:id>
@@ -9151,23 +9130,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0097553 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097553">
-        <rdfs:label>calcium ion transmembrane import into cytosol</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060402"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070588"/>
-        <oboInOwl:creation_date>2014-01-23T11:05:13Z</oboInOwl:creation_date>
-        <oboInOwl:created_by>pr</oboInOwl:created_by>
-        <obo:IAO_0000115>A process in which a calcium ion is transported from one side of a membrane to the other into the cytosol by means of some agent such as a transporter or pore.</obo:IAO_0000115>
-        <oboInOwl:id>GO:0097553</oboInOwl:id>
-        <oboInOwl:hasBroadSynonym>calcium transmembrane import into cytosol</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0097746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097746">
@@ -9197,9 +9159,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098542">
         <rdfs:label>defense response to other organism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006952"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051707"/>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/18737</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22173</obo:IAO_0000233>
         <oboInOwl:hasAlternativeId>GO:0009814</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>defence response to pathogen, incompatible interaction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:created_by>dos</oboInOwl:created_by>
@@ -9210,6 +9171,7 @@
         <oboInOwl:hasNarrowSynonym>defence response incompatible interaction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:id>GO:0098542</oboInOwl:id>
         <oboInOwl:hasNarrowSynonym>defense response, incompatible interaction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -9270,7 +9232,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140105">
         <rdfs:label>interleukin-10-mediated signaling pathway</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007166"/>
-        <obo:IAO_0000115>A series of molecular signals initiated by the binding of interleukin-10 to a receptor on the surface of a cell, and ending with regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
+        <obo:IAO_0000115>The series of molecular signals initiated by interleukin-10 binding to its receptor on the surface of a target cell, and ending with the regulation of a downstream cellular process, e.g. transcription.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IL-10-mediated signaling pathway</oboInOwl:hasExactSynonym>
         <oboInOwl:created_by>pg</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
@@ -9610,17 +9572,19 @@
     <!-- http://purl.obolibrary.org/obo/GO_1902186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902186">
-        <rdfs:label>regulation of viral release from host cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050789"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903900"/>
+        <rdfs:label>obsolete regulation of viral release from host cell</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22168</obo:IAO_0000233>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <oboInOwl:hasExactSynonym>regulation of release of virus from host</oboInOwl:hasExactSynonym>
         <oboInOwl:created_by>ss</oboInOwl:created_by>
-        <obo:IAO_0000115>Any process that modulates the frequency, rate or extent of viral release from host cell.</obo:IAO_0000115>
+        <rdfs:comment>This term was obsoleted because there is no evidence that it is a regulated process.</rdfs:comment>
+        <obo:IAO_0100001>GO:0019076</obo:IAO_0100001>
         <oboInOwl:hasExactSynonym>regulation of viral shedding</oboInOwl:hasExactSynonym>
         <oboInOwl:id>GO:1902186</oboInOwl:id>
         <oboInOwl:hasExactSynonym>regulation of viral exit</oboInOwl:hasExactSynonym>
         <oboInOwl:creation_date>2013-06-04T03:54:03Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>OBSOLETE. Any process that modulates the frequency, rate or extent of viral release from host cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>regulation of viral release</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -9630,38 +9594,9 @@
     <!-- http://purl.obolibrary.org/obo/GO_1902187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902187">
-        <rdfs:label>negative regulation of viral release from host cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048525"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902186"/>
-        <oboInOwl:hasExactSynonym>inhibition of viral release</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>negative regulation of viral shedding</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down regulation of viral shedding</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>inhibition of viral exit</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>inhibition of release of virus from host</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down-regulation of viral release</oboInOwl:hasExactSynonym>
-        <oboInOwl:creation_date>2013-06-04T03:54:08Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym>down regulation of viral exit</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down regulation of viral release</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>GO:1902187</oboInOwl:id>
-        <oboInOwl:hasExactSynonym>negative regulation of viral release</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>downregulation of viral exit</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym>down-regulation of release of virus from host</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down-regulation of viral shedding</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>Any process that stops, prevents or reduces the frequency, rate or extent of viral release from host cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>inhibition of viral shedding</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>inhibition of viral release from host cell</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>negative regulation of release of virus from host</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>downregulation of viral shedding</oboInOwl:hasExactSynonym>
-        <oboInOwl:created_by>ss</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>down-regulation of viral release from host cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down regulation of release of virus from host</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>downregulation of viral release</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down regulation of viral release from host cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>downregulation of viral release from host cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>downregulation of release of virus from host</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>negative regulation of viral exit</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>down-regulation of viral exit</oboInOwl:hasExactSynonym>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0044790"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -9670,9 +9605,9 @@
     <!-- http://purl.obolibrary.org/obo/GO_1902188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902188">
-        <rdfs:label>positive regulation of viral release from host cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902186"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903902"/>
+        <rdfs:label>obsolete positive regulation of viral release from host cell</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22168</obo:IAO_0000233>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <oboInOwl:hasExactSynonym>positive regulation of viral shedding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>up regulation of viral release from host cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>upregulation of release of virus from host</oboInOwl:hasExactSynonym>
@@ -9686,10 +9621,13 @@
         <oboInOwl:hasExactSynonym>positive regulation of release of virus from host</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>upregulation of viral release from host cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>up-regulation of viral release</oboInOwl:hasExactSynonym>
+        <obo:IAO_0100001>GO:0019076</obo:IAO_0100001>
+        <obo:IAO_0000115>OBSOLETE. Any process that activates or increases the frequency, rate or extent of viral release from host cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>up-regulation of release of virus from host</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>activation of viral shedding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>upregulation of viral exit</oboInOwl:hasExactSynonym>
         <oboInOwl:created_by>ss</oboInOwl:created_by>
+        <rdfs:comment>This term was obsoleted because there is no evidence that it is a regulated process.</rdfs:comment>
         <oboInOwl:hasExactSynonym>up-regulation of viral release from host cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>activation of viral release from host cell</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>activation of viral exit</oboInOwl:hasExactSynonym>
@@ -9697,7 +9635,6 @@
         <oboInOwl:hasExactSynonym>up regulation of viral release</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym>up-regulation of viral exit</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>Any process that activates or increases the frequency, rate or extent of viral release from host cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>up regulation of release of virus from host</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>up regulation of viral shedding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>up-regulation of viral shedding</oboInOwl:hasExactSynonym>
@@ -9916,6 +9853,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_1903828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1903828">
+        <rdfs:label>negative regulation of protein localization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032880"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048519"/>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22021</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>downregulation of cellular protein localization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>inhibition of cellular protein localization</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>down regulation of cellular protein localization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>inhibition of cellular protein localisation</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>down regulation of cellular protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GO:1903828</oboInOwl:id>
+        <oboInOwl:creation_date>2015-01-20T14:32:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by>jl</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>down-regulation of cellular protein localization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation of cellular protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>negative regulation of cellular protein localization</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Any process that stops, prevents or reduces the frequency, rate or extent of a protein localization.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>downregulation of cellular protein localisation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>down-regulation of cellular protein localisation</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1903900 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1903900">
@@ -10062,8 +10026,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1904950">
         <rdfs:label>negative regulation of establishment of protein localization</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048519"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070201"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903828"/>
         <oboInOwl:hasExactSynonym>downregulation of protein recruitment</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>down-regulation of protein recruitment</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>down-regulation of protein positioning</oboInOwl:hasExactSynonym>
