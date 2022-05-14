@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/RO_0002160
 http://purl.obolibrary.org/obo/RO_0002234
 http://purl.obolibrary.org/obo/RO_0002609
 http://purl.obolibrary.org/obo/BFO_0000066
+http://purl.obolibrary.org/obo/RO_0002233
 
 [Top level source term URIs and target direct superclass URIs]
 
