@@ -8,6 +8,13 @@ RO
 http://purl.obolibrary.org/obo/RO_0002410 # causally related to
 includeAllChildren
 
+http://purl.obolibrary.org/obo/RO_0000091
+http://purl.obolibrary.org/obo/RO_0000092
+http://purl.obolibrary.org/obo/RO_0002160
+http://purl.obolibrary.org/obo/RO_0002234
+http://purl.obolibrary.org/obo/RO_0002609
+http://purl.obolibrary.org/obo/BFO_0000066
+
 [Top level source term URIs and target direct superclass URIs]
 
 [Source term retrieval setting]

@@ -905,6 +905,8 @@ http://purl.obolibrary.org/obo/PR_Q9Y6M9
 http://purl.obolibrary.org/obo/PR_P0DTD3-1
 http://purl.obolibrary.org/obo/PR_P0DTF1 
 
+http://purl.obolibrary.org/obo/SO_0000418 
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PR_000000001 #protein
 
@@ -912,6 +914,8 @@ http://purl.obolibrary.org/obo/PR_000000001 #protein
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties 
+
+# includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
