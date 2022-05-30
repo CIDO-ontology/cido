@@ -32,6 +32,8 @@ Dr. Xiaolin Yang, an experienced ontologist and bioinformatician from the Instit
 
 [Dr. Liwei Wang](https://scholar.google.com/citations?hl=en&user=QVp3dZIAAAAJ&view_op=list_works&sortby=pubdate) and [Dr. Hongfang Liu](https://www.mayo.edu/research/faculty/liu-hongfang-ph-d/bio-00055092), medical informatics experts from Mayo Clinic who are using CIDO to support OHNLP clinical COVID-19 NLP research. 
 
+[Dr. Suyuan Peng](https://www.linkedin.com/in/suyuan-peng-65b854189/) and [Dr. Luxia Zhang](https://www.ghd.pku.edu.cn/English/People/Faculty_fe5100f8d50a4875a92ad8991380a172/Z_fe5100f8d50a4875a92ad8991380a172/ZHANGLuxia/index.blk.htm) from the Peking University have actively participated in this project, with the specific useage of ontology modeling, annotation, and analysis of the association between acute kidney injury (AKI) and COVID-19. This collaboration has been supported by a grant to Drs. Luxia Zhang and Oliver He from the Michigan Medicine–Peking University Health Sciences Center Joint Institute for Clinical and Translational Research (71017Y2027 and U072807),
+
 More collaborators are provided below. 
 
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Thanks. 
