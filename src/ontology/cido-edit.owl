@@ -8268,7 +8268,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001156"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -9065,7 +9065,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
     <!-- http://purl.obolibrary.org/obo/CIDO_0000277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000277">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -12320,29 +12320,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -12595,7 +12572,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000611">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14000,7 +13977,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000652 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000652">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14207,7 +14184,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001155"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
@@ -14381,7 +14358,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000663 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001158"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14939,7 +14916,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15125,7 +15102,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15287,7 +15264,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15347,7 +15324,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000689 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000689">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001162"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15563,7 +15540,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15599,7 +15576,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000696 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000696">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15635,7 +15612,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000697 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000697">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001162"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15743,7 +15720,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -15821,7 +15798,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001158"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -16214,7 +16191,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000719 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000719">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001164"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -16256,7 +16233,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000720 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000720">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001163"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -16292,7 +16269,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001163"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -25375,6 +25352,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -25391,6 +25369,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
         <rdfs:comment>A SARS-CoV-2 Omicron variant virus that is identified with the following characteristics.</rdfs:comment>
         <rdfs:label xml:lang="en">SARS-CoV-2 BA.4 virus</rdfs:label>
     </owl:Class>
@@ -25401,6 +25380,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
         <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
         <rdfs:label xml:lang="en">SARS-CoV-2 BA.5 virus</rdfs:label>
     </owl:Class>
@@ -25411,6 +25391,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
         <rdfs:comment>A SARS-CoV-2 Omicron variant virus that has a majority of the following mutations:</rdfs:comment>
         <rdfs:label xml:lang="en">SARS-CoV-2 BA.1 virus</rdfs:label>
     </owl:Class>
@@ -25421,6 +25402,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -25587,6 +25569,114 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 S protein in the RBD domain.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 S1 NTD protein amino acid deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 protein SD1 S1 region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 protein SD2 S1 region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2  S protein RBM region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 UH region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 FP region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 FPR region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 HR1 region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CH region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CD region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 HR2 region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 TM region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CT region</rdfs:label>
     </owl:Class>
     
 
@@ -58413,8 +58503,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
