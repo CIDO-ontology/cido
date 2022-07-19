@@ -1809,8 +1809,8 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     <!-- http://purl.obolibrary.org/obo/CIDO_0000610 -->
 
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000610">
+        <obo:IAO_0000115>A data property that represents a relation between an infectious agent (such as a viral strain) and a value that is the averge number of transmissions, i.e., the basic reproduction number (or called R0 value).</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman, Bill Duncan, Oliver He</obo:IAO_0000117>
-        <rdfs:comment>A data property that represents a relation between an infectious agent (such as a viral strain) and a value that is the averge number of transmissions, i.e., the basic reproduction number (or called R0 value).</rdfs:comment>
         <rdfs:label xml:lang="en">has average R0</rdfs:label>
         <rdfs:seeAlso>http://purl.obolibrary.org/obo/CIDO_0000589</rdfs:seeAlso>
     </owl:DatatypeProperty>
@@ -12321,12 +12321,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000610"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.05</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
         <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global9</obo:IAO_0000119>
         <oboInOwl:creation_date>1/30/2022</oboInOwl:creation_date>
@@ -58503,8 +58497,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
