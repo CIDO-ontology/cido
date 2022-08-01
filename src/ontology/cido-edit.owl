@@ -80,7 +80,7 @@
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.336</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.337</owl:versionInfo>
     </owl:Ontology>
     
 
