@@ -499,7 +499,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
@@ -1586,16 +1585,16 @@ This interpretation is *not* the same as an at-all-times relation
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/obcs.owl">
-        <dc:creator xml:lang="en">Jean-François Ethier</dc:creator>
         <dc:creator xml:lang="en">Barry Smith</dc:creator>
+        <dc:creator xml:lang="en">Jean-François Ethier</dc:creator>
         <dc:creator xml:lang="en">Yu Lin</dc:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:creator>Adrien Barton</dc:creator>
         <dc:creator xml:lang="en">Qingzhi Liu</dc:creator>
+        <dc:creator>Adrien Barton</dc:creator>
         <dc:description xml:lang="en">OBCS stands for the Ontology of Biological and Clinical Statistics. OBCS is an ontology in the domain of biological and clinical statistics. It is aligned with the Basic Formal Ontology (BFO) and the Ontology for Biomedical Investigations (OBI). OBCS imports all possible biostatistics terms in OBI and includes many additional biostatistics terms, some of which were proposed and discussed in the OBI face-to-face workshop in Ann Arbor in 2012.  </dc:description>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">101</owl:versionInfo>
         <dc:creator xml:lang="en">Marcy Harris</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">101</owl:versionInfo>
         <dc:creator xml:lang="en">Jie Zheng</dc:creator>
         <dc:creator xml:lang="en">Huan Li</dc:creator>
     </rdf:Description>
