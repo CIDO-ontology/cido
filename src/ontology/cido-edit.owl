@@ -62,6 +62,7 @@
         <dc:creator>Bill Duncan</dc:creator>
         <dc:creator>Easheta Shah</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
+        <dc:creator xml:lang="en">Ghida Arnous</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
         <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
         <dc:creator>John Beverley</dc:creator>
@@ -74,13 +75,13 @@
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">08-01-2022</dc:date>
+        <dc:date xml:lang="en">08-015-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.337</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.340</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5973,6 +5974,24 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
         <obo:IAO_0000115>A test sensitivity for the COVID-19 disease</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">COVID-19 test sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A molecular interaction that has participant of the SARS-CoV-2 orf7b protein and a host protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nature.com/articles/s41586-020-2286-9</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 orf7b protein interaction with host protein</rdfs:label>
     </owl:Class>
     
 
@@ -58494,8 +58513,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
