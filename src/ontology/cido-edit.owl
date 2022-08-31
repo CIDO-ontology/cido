@@ -1672,6 +1672,43 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001177 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001177">
+        <rdfs:label xml:lang="en">susceptibly reduces vaccine efficacy</rdfs:label>
+        <rdf-schema:comment>Placeholder for VO</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001178 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001178">
+        <rdfs:label xml:lang="en">susceptibly alters process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001179 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001179">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+        <rdfs:label xml:lang="en">susceptibly reduces process frequency</rdfs:label>
+        <rdf-schema:comment>Placeholder</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001180">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+        <rdfs:label xml:lang="en">susceptibly increases process frequency</rdfs:label>
+        <rdf-schema:comment>Placeholder</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_0000000014 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
@@ -7609,6 +7646,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000117>the binding between the SARS-CoV-2 S protein and the ACE2 in a human cell</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32142651/</obo:IAO_0000119>
@@ -8359,6 +8402,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001177"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">614</owl:hasValue>
             </owl:Restriction>
@@ -8592,7 +8647,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
+        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such an amino acid variant is defined as a substittion of amino acid residues. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000118>coronaviral amino acid variant</obo:IAO_0000118>
         <rdfs:label xml:lang="en">coronaviral amino acid variant</rdfs:label>
@@ -12396,6 +12451,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000349"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that is located in the RBD of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from position 306-527.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S1 RBD region</rdfs:label>
@@ -25780,6 +25841,16 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <owl:annotatedTarget>Removal of one or more continuous amino acids from protein.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000088"/>
+        <obo:IAO_0000115>SARS-CoV-2 entry to host cell where the host cell is a human cell and SARS-CoV-2 entry is mediated by S-hACE2 interaction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">SARS-CoV-2-hACE2 entry to cell</rdfs:label>
+    </owl:Class>
     
 
 
