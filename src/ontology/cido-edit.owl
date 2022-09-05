@@ -1672,6 +1672,43 @@ MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001177 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001177">
+        <rdfs:label xml:lang="en">susceptibly reduces vaccine efficacy</rdfs:label>
+        <rdf-schema:comment>Placeholder for VO</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001178 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001178">
+        <rdfs:label xml:lang="en">susceptibly alters process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001179 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001179">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+        <rdfs:label xml:lang="en">susceptibly reduces process frequency</rdfs:label>
+        <rdf-schema:comment>Placeholder</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001180">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+        <rdfs:label xml:lang="en">susceptibly increases process frequency</rdfs:label>
+        <rdf-schema:comment>Placeholder</rdf-schema:comment>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_0000000014 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000014">
@@ -7609,6 +7646,12 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_O15393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
         <obo:IAO_0000117>the binding between the SARS-CoV-2 S protein and the ACE2 in a human cell</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32142651/</obo:IAO_0000119>
@@ -8359,6 +8402,18 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001177"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001179"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000613"/>
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">614</owl:hasValue>
             </owl:Restriction>
@@ -8592,7 +8647,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
+        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such an amino acid variant is defined as a substittion of amino acid residues. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000118>coronaviral amino acid variant</obo:IAO_0000118>
         <rdfs:label xml:lang="en">coronaviral amino acid variant</rdfs:label>
@@ -12396,6 +12451,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001178"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000349"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that is located in the RBD of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from position 306-527.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S1 RBD region</rdfs:label>
@@ -12654,7 +12715,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001173"/>
         <obo:IAO_0000115>A variation that results in a deletion of an amino acid of SARS-CoV-2 protein in comparison to the reference sequence.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 protein amino acid deletion</rdfs:label>
@@ -25687,6 +25748,108 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
         <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CT region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Alteration in DNA, RNA or protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>VariO:0001</obo:IAO_0000119>
+        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>variation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001169"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Alteration in DNA, RNA or protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001169"/>
+        <obo:IAO_0000115>Effects of a variation on protein level.</obo:IAO_0000115>
+        <obo:IAO_0000119>VariO:0002</obo:IAO_0000119>
+        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>variation affecting protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001170"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Effects of a variation on protein level.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001170"/>
+        <obo:IAO_0000115>Type of protein variation. Describes origin and classification of a variant.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>VariO:0012</oboInOwl:id>
+        <rdfs:label>protein variation type</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001171"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type of protein variation. Describes origin and classification of a variant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001171"/>
+        <obo:IAO_0000115>Classification of protein variation.</obo:IAO_0000115>
+        <obo:IAO_0000119>VariO:0325</obo:IAO_0000119>
+        <oboInOwl:created_by>Mauno Vihinen</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-10-11T08:59:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>protein variation classification</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001172"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Classification of protein variation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001172"/>
+        <obo:IAO_0000115>Removal of one or more continuous amino acids from protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>VariO:0014</obo:IAO_0000119>
+        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:label>amino acid deletion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001173"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Removal of one or more continuous amino acids from protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000088"/>
+        <obo:IAO_0000115>SARS-CoV-2 entry to host cell where the host cell is a human cell and SARS-CoV-2 entry is mediated by S-hACE2 interaction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">SARS-CoV-2-hACE2 entry to cell</rdfs:label>
     </owl:Class>
     
 
@@ -58255,98 +58418,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VariO_0001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VariO_0001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>Alteration in DNA, RNA or protein.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>VariO:0001</oboInOwl:id>
-        <rdfs:label>variation</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VariO_0001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Alteration in DNA, RNA or protein.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VariO_0002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VariO_0002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0001"/>
-        <obo:IAO_0000115>Effects of a variation on protein level.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>VariO:0002</oboInOwl:id>
-        <rdfs:label>variation affecting protein</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VariO_0002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Effects of a variation on protein level.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VariO_0012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VariO_0012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0002"/>
-        <obo:IAO_0000115>Type of protein variation. Describes origin and classification of a variant.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>VariO:0012</oboInOwl:id>
-        <rdfs:label>protein variation type</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VariO_0012"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Type of protein variation. Describes origin and classification of a variant.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VariO_0014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VariO_0014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0325"/>
-        <obo:IAO_0000115>Removal of one or more continuous amino acids from protein.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>VariO:0014</oboInOwl:id>
-        <rdfs:label>amino acid deletion</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VariO_0014"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Removal of one or more continuous amino acids from protein.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VariO_0325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VariO_0325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VariO_0012"/>
-        <obo:IAO_0000115>Classification of protein variation.</obo:IAO_0000115>
-        <oboInOwl:created_by>Mauno Vihinen</oboInOwl:created_by>
-        <oboInOwl:creation_date>2013-10-11T08:59:04Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace>variation_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>VariO:0325</oboInOwl:id>
-        <rdfs:label>protein variation classification</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/VariO_0325"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Classification of protein variation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>VariO:mv</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/doid#sequence -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/doid#sequence">
@@ -58513,8 +58584,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
