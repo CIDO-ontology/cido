@@ -51,4 +51,4 @@ http://purl.obolibrary.org/obo/
 # Note: Prefix like "VO_", number of digits like "7", and start from like "1".
 Prefix: CIDO_
 Number of digits: 7
-Start from:  1
+Start from:  1300

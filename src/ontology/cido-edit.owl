@@ -30,6 +30,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_drug_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_viral_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pro_sars2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
@@ -52,6 +53,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl"/>
+        <obo:IAO_0000117>Ghida Arnous</obo:IAO_0000117>
         <dc:contributor>Barry Smith</dc:contributor>
         <dc:contributor>Brian Athey</dc:contributor>
         <dc:contributor>Gil Omenn</dc:contributor>
@@ -75,13 +77,13 @@
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">08-015-2022</dc:date>
+        <dc:date xml:lang="en">09-12-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.340</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.348</owl:versionInfo>
     </owl:Ontology>
     
 
