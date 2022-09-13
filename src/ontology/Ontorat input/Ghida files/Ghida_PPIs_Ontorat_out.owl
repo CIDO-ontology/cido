@@ -1,0 +1,1242 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl#"
+     xml:base="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000580"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000581"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000583"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000585"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000586"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000587"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001300">
+        <rdfs:label>SARS-CoV-2 ORF8 binding to human protein SERPINE2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.09.03.282103</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.09.03.282103) using the ORF8 as the viral bait showed that ORF8 can bind to SERPINE2 via proximity labeling MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001301">
+        <rdfs:label>SARS-CoV-2 ORF8 binding to human protein PLAT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P00750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Two studies (PMIDs 32353859 and 33060197) using ORF8 as viral bait show that ORF8 binds to PLAT via affinity capture-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>32353859</obo:IAO_0000119>
+        <obo:IAO_0000119>33060197</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001302">
+        <rdfs:label>SARS-CoV-2 M binding to human protein SERPINE2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P07093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>33845483</obo:IAO_0000119>
+        <rdfs:comment>A study (PMID 33845483) using M protein as viral bait showed that M protein binds to SERPINE2 via affinity vapture-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001303">
+        <rdfs:label>SARS-CoV-2 M binding to human protein CLDN1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005537"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) shows that M protein binds to CLDN1 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001304">
+        <rdfs:label>SARS-CoV-2 M binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) shows that M protein binds to ROBO1 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001305">
+        <rdfs:label>SARS-CoV-2 M binding to human protein ROBO2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9HCK4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) shows that M protein binds to ROBO2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001306">
+        <rdfs:label>SARS-CoV-2 M binding to human protein SH3GL3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000055"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q99963"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.12.31.424961</obo:IAO_0000119>
+        <rdfs:comment>Two studies (doi: 10.1101/2020.12.31.424961 and doi: 10.1101/2020.08.28.272955) using M protein as viral bait show that M protein binds to SH3GL3 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001307">
+        <rdfs:label>SARS-CoV-2 ORF7A binding to human protein ITGAL</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000587"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P20701"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (PMID: 18020948) using ORF7A as viral bait shows that ORF7A binds to ITGAL via Reconsituted complex</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>18020948</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001308">
+        <rdfs:label>SARS-CoV-2 ORF7A binding to human protein SLC5A2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000587"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P31639"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.12.31.424961) using ORF7A as viral bait shows that ORF7A binds to SLC5A2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.12.31.424961</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001309">
+        <rdfs:label>SARS-CoV-2 ORF3A binding to human protein KIT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P10721"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study(PMID: 2838362) using ORF3A as viral vait shows that ORF3A binds to KIT via affinity capture-MS.</rdfs:comment>
+        <obo:IAO_0000119>2838362</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001310">
+        <rdfs:label>SARS-CoV-2 ORF3A binding to human protein LRP2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P98164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Two studies (doi: 10.1101/2020.12.31.424961 and doi: 10.1101/2020.08.28.272955) using ORF3A protein as viral bait show that ORF3A protein binds to LRP2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.12.31.424961</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001311">
+        <rdfs:label>SARS-CoV-2 ORF3A binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF3A as viral bait shows that ORF3A binds to ROBO1 via proximity label-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001312">
+        <rdfs:label>SARS-CoV-2 ORF3A binding to human protein ROBO2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9HCK4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF3A as viral bait shows that ORF3A binds to ROBO2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001313">
+        <rdfs:label>SARS-CoV-2 ORF3A binding to human protein ALDOB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000584"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P05062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (PMID 32838362) using ORF3A as viral bait shows that ORF3A binds to ALDOB via affinity capture.</rdfs:comment>
+        <obo:IAO_0000119>32838362</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001314">
+        <rdfs:label>SARS-CoV-2 ORF7B binding to human protein CLDN1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005537"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>33845483</obo:IAO_0000119>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF7B as viral bait shows that ORF7B binds to CLDN1 via affinity capture-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001315">
+        <rdfs:label>SARS-CoV-2 ORF7B binding to human protein LRP2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P98164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF7B as viral bait shows that ORF7B binds to LRP2 via proximity label-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001316">
+        <rdfs:label>SARS-CoV-2 ORF7B binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF7B as viral bait shows that ORF7B binds to ROBO1 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001317">
+        <rdfs:label>SARS-CoV-2 ORF7B binding to human protein ROBO2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9HCK4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Two studies (doi: 10.1101/2020.08.28.272955 and doi: 10.1101/2020.08.28.269175) using ORF7B as viral bait show that ORF7B binds to ROBO2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.269175</obo:IAO_0000119>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001318">
+        <rdfs:label>SARS-CoV-2 ORF7B binding to human protein MCAM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P43121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.12.31.424961</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>Two studies (doi: 10.1101/2020.12.31.424961 and doi: 10.1101/2020.08.28.269175) using ORF7B as viral bait show that ORF7B binds to MCAM via affinity capture-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.269175</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001319">
+        <rdfs:label>SARS-CoV-2 S binding to human protein CLDN1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005537"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using S protein as viral bait shows that S protein binds to CLDN1 via proximity label.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001320">
+        <rdfs:label>SARS-CoV-2 S binding to human protein LILRB2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q8N423"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.09.09.287508) using S protein as a hit shows that S protien binds to LILRB2 via reconstitution complex.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.09.09.287508</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001321">
+        <rdfs:label>SARS-CoV-2 S binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using S protein as viral bait shows that S protein binds to ROBO1 via proximity label.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001322">
+        <rdfs:label>SARS-CoV-2 S binding to human protein ROBO2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9HCK4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using S protein as viral bait shows that S protein binds to ROBO2 via proximity label.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001323">
+        <rdfs:label>SARS-CoV-2 S binding to human protein MCAM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P43121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.09.03.282103) using the S protein as the viral bait showed that S protein can bind to MCAM via proximity labeling MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.09.03.282103</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001324">
+        <rdfs:label>SARS-CoV-2 NSP9 binding to human protein SATB2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000583"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UPW6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using NSP9 as viral bait shows that NSP9 binds to SATB2 via proximity label-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001325">
+        <rdfs:label>SARS-CoV-2 NSP9 binding to human protein MYH11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000583"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35749"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.09.03.282103) using NSP9 as viral bait shows that NSP9 binds to MYH11 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.09.03.282103</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001326">
+        <rdfs:label>SARS-CoV-2 NSP9 binding to human protein FBLN5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000583"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UBX5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>33060197</obo:IAO_0000119>
+        <rdfs:comment>Two studies (PMIDs 32353859 and 33060197) using NSP9 as viral bait shows that NSP9 binds to FBLN7 via affinity capture-MS.</rdfs:comment>
+        <obo:IAO_0000119>32353859</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001327">
+        <rdfs:label>SARS-CoV-2 NSP2 binding to human protein MYH11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000580"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35749"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (PMID 34709727) using NSP2 as viral bait shows that NSP2 binds to MYH11 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>34709727</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001328">
+        <rdfs:label>SARS-CoV-2 NSP7 binding to human protein MYH11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P35749"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (PMID 34709727) using NSP2 as viral bait shows that NSP2 binds to MYH11 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>34709727</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001329">
+        <rdfs:label>SARS-CoV-2 NSP13 binding to human protein SYNPO2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000058"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9UMS6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050285"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.09.03.282103</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.09.03.282103) using NSP13 as vira bait shows that NSP13 binds to SYNPO2 via proximity label-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001330">
+        <rdfs:label>SARS-CoV-2 ORF3B binding to human protein MCAM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P43121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P69633"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.269175</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.269175) using ORF3B as viral bait shows that ORF3B binds to MCAM via proximity label-MS.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001331">
+        <rdfs:label>SARS-CoV-2 ORF3B binding to human protein LRP2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P69633"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P98164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF3B as viral bait shows that ORF3B binds to LRP2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001332">
+        <rdfs:label>SARS-CoV-2 ORF3B binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000585"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P69633"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using ORF3B as viral bait shows that ORF3B binds to ROBO1 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001333">
+        <rdfs:label>SARS-CoV-2 ORF6 binding to human protein SH3GL3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q99963"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (PMID 32838362) using ORF3A as viral bait shows that ORF6 binds to SH3GL3 via affinity capture.</rdfs:comment>
+        <obo:IAO_0000119>32838362</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001334">
+        <rdfs:label>SARS-CoV-2 NSP4 binding to human protein ROBO1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000581"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.272955) using NSP4 as viral bait shows that NSP4 binds to ROBO1 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001335">
+        <rdfs:label>SARS-CoV-2 NSP4 binding to human protein LRP2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000581"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000050273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P98164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.272955</obo:IAO_0000119>
+        <obo:IAO_0000119>doi: 10.1101/2020.08.28.269175</obo:IAO_0000119>
+        <rdfs:comment>A study (doi: 10.1101/2020.08.28.269175) using NSP4 as viral bait shows that NSP4 binds to LRP2 via proximity label-MS.</rdfs:comment>
+        <obo:IAO_0000117>Ghida Arnous, Oliver He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005537"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050266"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050271"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050273"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050276"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050278"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050285"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P00750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00750"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P05062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P05062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P07093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P07093"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC6"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P10721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P10721"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P20701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P20701"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P31639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P31639"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P35749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P35749"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P43121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P43121"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P69633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P69633"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P98164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P98164"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q8N423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q8N423"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q99963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q99963"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9HCK4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9HCK4"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9UBX5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9UBX5"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9UMS6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9UMS6"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9UPW6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9UPW6"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y6N7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9Y6N7"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
