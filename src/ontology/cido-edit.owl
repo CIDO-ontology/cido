@@ -9084,7 +9084,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>H69del in SARS-CoV-2 S protein</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">S-H69del</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">S-H69del, S-H69-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">H69- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -9124,6 +9124,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-V70del</obo:IAO_0000118>
+        <obo:IAO_0000118>S-V70del, S-V70-</obo:IAO_0000118>
         <rdfs:label>V70- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
     
@@ -9162,6 +9163,7 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-Y144del</obo:IAO_0000118>
+        <obo:IAO_0000118>S-Y144del, S-Y144-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:comment>Y144del in SARS-CoV-2 S protein</rdfs:comment>
         <rdfs:label>Y144- in SARS-CoV-2 S protein</rdfs:label>
@@ -12787,6 +12789,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 143  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-V143del, S-V143-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V143- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -12871,6 +12874,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 144  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-V144del, S-V144-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V144- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -12929,6 +12933,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 71 into a leucine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>E-71L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P71L in SARS-CoV-2 E protein</rdfs:label>
     </owl:Class>
@@ -12965,6 +12970,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 9 into a isoleucine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>E-T9I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T9I in SARS-CoV-2 E protein</rdfs:label>
     </owl:Class>
@@ -13001,6 +13007,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a threonine in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-A63T</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A63T in SARS-CoV-2 M protein</rdfs:label>
     </owl:Class>
@@ -13037,6 +13044,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a aspartic acid in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-D3G</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D3G in SARS-CoV-2 M protein</rdfs:label>
     </owl:Class>
@@ -13067,6 +13075,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 182 into a threonine in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-I82T</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I82T in SARS-CoV-2 M protein</rdfs:label>
     </owl:Class>
@@ -13097,6 +13106,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a glutamine  in M protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-Q19E</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q19E in SARS-CoV-2 M protein</rdfs:label>
     </owl:Class>
@@ -13133,6 +13143,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 377 into a tyrosine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-D377Y</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <obo:IAO_0000119>https://covariants.org/variants</obo:IAO_0000119>
         <rdfs:label>D377Y in SARS-CoV-2 N protein</rdfs:label>
@@ -13170,6 +13181,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a leucine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-D3L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D3L in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13206,6 +13218,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a glycine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-D63G</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D63G in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13242,6 +13255,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 800 into a arginine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-P80R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P80R in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13278,6 +13292,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 203 into a methionine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-203M</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>R203M in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13314,6 +13329,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 235 into a phenylalanine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-S235F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S235F in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13350,6 +13366,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 205 into a isoleucine in N protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-T205I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T205I in SARS-CoV-2 N protein</rdfs:label>
     </owl:Class>
@@ -13392,6 +13409,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1708 into a aspartic acid  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-A1708D</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A1708D in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13472,6 +13490,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3676 into a deletion</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1ab-G3676del, pp1ab-G3676-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G3676- in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13508,6 +13527,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2230 into a threonine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-I2230T</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I2230T in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13544,6 +13564,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3758 into a valine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-I3758V</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I3758V in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13580,6 +13601,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1655 into a asparagine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-K1655N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K1655N in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13616,6 +13638,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1795 into a glutamine   in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-K1795Q</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K1795Q in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13658,6 +13681,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a arginine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-K856R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K856R in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13700,6 +13724,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3395 into a histidine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-P3395H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P3395H in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13730,6 +13755,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1188 into a leucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-S188L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S1188L in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13806,6 +13832,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1001 into a isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T1001I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T1001I in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13842,6 +13869,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3255 into a isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T3255I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T3255I in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -13879,6 +13907,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 662 into a serine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-G662S</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G662S in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -13915,6 +13944,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1566 into a valine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-I1566V</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>I1566V in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -13951,6 +13981,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1000 into a leucine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-P1000L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:comment>in pp1b.</rdfs:comment>
         <rdfs:label>P1000L in SARS-CoV-2 pp1b protein</rdfs:label>
@@ -13961,7 +13992,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14030,6 +14061,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a leucine  in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-P314L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P314L in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -14099,6 +14131,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 145  in S protein into a deletion.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-V145del, S-V145-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V145- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14171,6 +14204,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 92 into a lysine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>NS8-E92K</obo:IAO_0000118>
         <rdfs:label>E92K in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
     
@@ -14204,6 +14238,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 27 into a stop mutation.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>ns8-Q143*</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q27* in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
@@ -14240,6 +14275,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 52 into a isoleucine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>NS8-R85I</obo:IAO_0000118>
         <rdfs:label>R52I in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
     
@@ -14275,6 +14311,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 73 into a cysteine in ns8.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>NS8-773C</obo:IAO_0000118>
         <rdfs:label>Y73C in SARS-CoV-2 NS8 protein</rdfs:label>
     </owl:Class>
     
@@ -14308,6 +14345,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 49 into a deletion</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-S49del, S-S49-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S49- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14332,6 +14370,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 570 into aspartic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-A570D</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>A570D in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14518,6 +14557,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 796 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-D796Y</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D796Y in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14590,6 +14630,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 950 into a aspargine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-D950N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>D950N in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14624,6 +14665,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 156 into a deletion</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E156del, S-E156-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>E156- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14660,6 +14702,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a alanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E484A</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>E484A in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14720,6 +14763,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E484K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>E484K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14754,6 +14798,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 157 into a deletion</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-F157del, S-F157-</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>F157- in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14790,6 +14835,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 339 into a aspartic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-G339D</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G339D in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14826,6 +14872,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 446 into a serine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-G446S</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G446S in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14862,6 +14909,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 496 into a serine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-G496S</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>G496S in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14898,6 +14946,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 655 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-655Y</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>H655Y in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14934,6 +14983,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a asparagine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-K417N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K417N in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -14970,6 +15020,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a threonine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-K417T</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>K417T in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15048,6 +15099,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into a arginine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-L452R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>L452R in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15084,6 +15136,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 981 into a phenylalanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-L981F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>L981F in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15162,6 +15215,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 679 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-N679K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N679K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15198,6 +15252,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 764 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-N764K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N764K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15234,6 +15289,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-N856K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N856K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15270,6 +15326,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 969 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-N969K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>N969K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15354,6 +15411,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-P681R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P681H in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15396,6 +15454,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-P681R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>P681R in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15456,6 +15515,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 498 into a arginine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q498R</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q498R in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15492,6 +15552,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 954 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q954H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>Q954H in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15600,6 +15661,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 371 into a leucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-371L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S371L in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15636,6 +15698,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 373 into a proline in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-373P</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S373P in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15672,6 +15735,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 375 into a phenylalanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-375F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S375F in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15744,6 +15808,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 982 into a alanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-S982A</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>S982A in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15780,6 +15845,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1027 into a isoleucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-T1027I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T1027I in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15930,6 +15996,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 547 into a lysine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-T547K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T547K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -15966,6 +16033,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 716 into a isoleucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-T716I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label>T716I in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16053,6 +16121,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 888 into a leucine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-F888L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">F888L in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16089,6 +16158,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 2007 into isoleucine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T2007I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">T2007I in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16125,6 +16195,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-L1203F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">L1203F in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -16161,6 +16232,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 777 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q777H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Q777H in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16217,7 +16289,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0000716 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000716">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001083"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16245,6 +16316,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine  in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-P314F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">P314F in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -16281,6 +16353,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3468 into a valine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-L3468V</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">L3468V in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16323,6 +16396,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3930 into a phenylalanine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-L3930F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">L3930F in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16365,6 +16439,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1176 into a phenylalanine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-V1176F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">V1176F in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16401,6 +16476,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1101 into a tyrosine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-H1101Y</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">H1101Y in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16437,6 +16513,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1092 into a glutamic acid in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E1092K</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">E1092K in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16473,6 +16550,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 1554 into a glycine   in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-D1554G</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">D1554G in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16509,6 +16587,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1554 into a phenylalanine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-S2625F</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">S2625F in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16545,6 +16624,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2980 into an arginine</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-D2980N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">D2980N in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16581,6 +16661,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3201 into a leucine in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-L3201P</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">L3201P in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -16617,8 +16698,9 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1567 into isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T1567I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">T15671I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:label xml:lang="en">T1567I in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
     
 
@@ -16653,6 +16735,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3646 into alanine   in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T346A</obo:IAO_0000118>
         <rdfs:label xml:lang="en">T3646A in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
     
@@ -16688,6 +16771,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into glutamine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E484Q</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">E484Q in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16724,6 +16808,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1071 into a histidine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q107H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Q1071H in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -16760,6 +16845,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1011 into a glutamine  in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-Q1011H</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Q1011H in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -16796,6 +16882,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 253 into glycine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-D53G</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">D253G in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -17016,6 +17103,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into glutamine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-L452Q</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">L452Q in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -17045,6 +17133,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
+        <obo:IAO_0000118>S-T859N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:comment>An AA variant that has mutated an amino acid at position 859 into arginine in S protein.</rdfs:comment>
         <rdfs:label xml:lang="en">T859N in SARS-CoV-2 S protein</rdfs:label>
@@ -17082,6 +17171,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into aspargine in S protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-R246N</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">R246N in SARS-CoV-2 S protein</rdfs:label>
     </owl:Class>
@@ -17188,6 +17278,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 265 into a isoleucine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T265I</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">T265I in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -17224,6 +17315,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3159 into threonine  in pp1a.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-S3159T</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">S3159T in SARS-CoV-2 pp1a protein</rdfs:label>
     </owl:Class>
@@ -17260,6 +17352,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated a pp1b amino acid at position 1183 into tyrosine.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-D1183Y</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">D1183Y in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -17296,6 +17389,7 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         </rdfs:subClassOf>
         <obo:IAO_0000115>An AA variant that has mutated an pp1b amino acid at position 976 into leucine in pp1b.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-P976L</obo:IAO_0000118>
         <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">P976L in SARS-CoV-2 pp1b protein</rdfs:label>
     </owl:Class>
@@ -25631,10 +25725,10 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0001150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
-        <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 NS8 protein.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001181"/>
+        <obo:IAO_0000115>A SARS-CoV-2 protein AA nonsense mutation that affected a SARS-CoV-2 NS8 protein.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">SARS-CoV-2 NS8 protein amino acid deletion</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 NS8 protein amino acid nonsense mutation</rdfs:label>
     </owl:Class>
     
 
@@ -25643,6 +25737,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 E protein.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 E protein amino acid deletion</rdfs:label>
@@ -25654,6 +25754,12 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 protein AA deletion that affected a SARS-CoV-2 M protein.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 M protein amino acid deletion</rdfs:label>
@@ -25920,6 +26026,17 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000088"/>
         <obo:IAO_0000115>SARS-CoV-2 entry to host cell where the host cell is a human cell and SARS-CoV-2 entry is mediated by S-hACE2 interaction.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">SARS-CoV-2-hACE2 entry to cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001172"/>
+        <obo:IAO_0000115>A variation that results in a nonsense mutation of an amino acid of SARS-CoV-2 protein in comparison to the reference sequence.</obo:IAO_0000115>
+        <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
+        <rdfs:label xml:lang="en">SARS-CoV-2 protein amino acid nonsense mutation</rdfs:label>
     </owl:Class>
     
 
@@ -58654,8 +58771,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
