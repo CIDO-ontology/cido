@@ -66,7 +66,8 @@ SELECT distinct ?bp ?bp_label ?chemical STR(?chemical_label) as ?chemical_label
 FROM <http://purl.obolibrary.org/obo/merged/CIDO>
 WHERE
 {
-   ?chemical rdfs:subClassOf ?restriction .
+   ?chemical rdfs:subClassOf ?restriction .   
+    FILTER regex(str(?chemical),'CHEBI','i') .
    ?restriction owl:onProperty ?chemical_has_protein_target_as_inhibitor; owl:someValuesFrom ?protein_target .
    ?protein_target rdfs:subClassOf protein: option(transitive) .
    ?protein_target rdfs:subClassOf ?protein_target_restriction .
