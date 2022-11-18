@@ -39,6 +39,42 @@ http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
 http://purl.obolibrary.org/obo/NCBITaxon_11118 # Coronaviridae
 includeAllChildren
 
+# added nacitaxon IDs for covidor
+http://purl.obolibrary.org/obo/NCBITaxon_2697049
+http://purl.obolibrary.org/obo/NCBITaxon_9534
+http://purl.obolibrary.org/obo/NCBITaxon_1335626
+http://purl.obolibrary.org/obo/NCBITaxon_9606
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+http://purl.obolibrary.org/obo/NCBITaxon_9823
+http://purl.obolibrary.org/obo/NCBITaxon_12131
+http://purl.obolibrary.org/obo/NCBITaxon_694009
+http://purl.obolibrary.org/obo/NCBITaxon_9365
+http://purl.obolibrary.org/obo/NCBITaxon_10036
+http://purl.obolibrary.org/obo/NCBITaxon_9825
+http://purl.obolibrary.org/obo/NCBITaxon_9541
+http://purl.obolibrary.org/obo/NCBITaxon_9913
+http://purl.obolibrary.org/obo/NCBITaxon_9627
+http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_9838
+http://purl.obolibrary.org/obo/NCBITaxon_59477
+http://purl.obolibrary.org/obo/NCBITaxon_419612
+http://purl.obolibrary.org/obo/NCBITaxon_9615
+http://purl.obolibrary.org/obo/NCBITaxon_34880
+http://purl.obolibrary.org/obo/NCBITaxon_9408
+http://purl.obolibrary.org/obo/NCBITaxon_196889
+http://purl.obolibrary.org/obo/NCBITaxon_9796
+http://purl.obolibrary.org/obo/NCBITaxon_59463
+http://purl.obolibrary.org/obo/NCBITaxon_9986
+http://purl.obolibrary.org/obo/NCBITaxon_225400
+http://purl.obolibrary.org/obo/NCBITaxon_559292
+http://purl.obolibrary.org/obo/NCBITaxon_9685
+http://purl.obolibrary.org/obo/NCBITaxon_10116
+http://purl.obolibrary.org/obo/NCBITaxon_284812
+http://purl.obolibrary.org/obo/NCBITaxon_9940
+http://purl.obolibrary.org/obo/NCBITaxon_11033
+http://purl.obolibrary.org/obo/NCBITaxon_37347
+
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
