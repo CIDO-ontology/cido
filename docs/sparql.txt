@@ -49,7 +49,36 @@ WHERE
    ?protein_target_restriction owl:onProperty participates_in:; owl:someValuesFrom ?bp .
    ?bp rdfs:subClassOf biological_process_root: option(transitive) .
 }
-       
+
+---
+# Date: 11/8/2022 -- by Oiver He
+# Goal: find the details of the biological processes (bp) having participant of proteins that are the targets of 
+#     chemicals/drugs that inhibit coronaviral infection in vivo or in vitro. Note that different from the above script, 
+#     this SPARQL script provides detials of the biological processes, chemicals, and proteins. 
+
+PREFIX protein: <http://purl.obolibrary.org/obo/PR_000000001>
+PREFIX chemical_has_protein_target_as_inhibitor: <http://purl.obolibrary.org/obo/CIDO_0000119>
+PREFIX biological_process_root: <http://purl.obolibrary.org/obo/GO_0008150>
+PREFIX participates_in: <http://purl.obolibrary.org/obo/RO_0000056>
+
+SELECT distinct ?bp ?bp_label ?chemical STR(?chemical_label) as ?chemical_label 
+          ?protein_target STR(?protein_target_label) as ?protein_target_label
+FROM <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE
+{
+   ?chemical rdfs:subClassOf ?restriction .   
+    FILTER regex(str(?chemical),'CHEBI','i') .
+   ?restriction owl:onProperty ?chemical_has_protein_target_as_inhibitor; owl:someValuesFrom ?protein_target .
+   ?protein_target rdfs:subClassOf protein: option(transitive) .
+   ?protein_target rdfs:subClassOf ?protein_target_restriction .
+   ?protein_target_restriction owl:onProperty participates_in:; owl:someValuesFrom ?bp .
+   ?bp rdfs:subClassOf biological_process_root: option(transitive) .
+    
+   ?bp rdfs:label ?bp_label .
+   ?chemical rdfs:label ?chemical_label .
+   ?protein_target rdfs:label ?protein_target_label .
+}
+             
 --
 # Date: 10/12/2020 -- by Oiver He
 # Goal: find GO processes that have participant some proteins which are the targets of some drugs.
