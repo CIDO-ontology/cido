@@ -65,25 +65,28 @@
         <dc:creator>Easheta Shah</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Ghida Arnous</dc:creator>
+        <dc:creator>Guirui Huang (Ray)</dc:creator>
         <dc:creator xml:lang="en">Hong Yu</dc:creator>
         <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
         <dc:creator>John Beverley</dc:creator>
         <dc:creator>Liwei Wang</dc:creator>
         <dc:creator>Roshan Desai</dc:creator>
         <dc:creator>Sivaram Arabandi</dc:creator>
+        <dc:creator>Suyuan Peng</dc:creator>
         <dc:creator>Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yang Wang</dc:creator>
         <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
-        <dc:date xml:lang="en">09-12-2022</dc:date>
+        <dc:creator>Zhigang Wang</dc:creator>
+        <dc:date xml:lang="en">11-21-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.348</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.356</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6035,23 +6038,6 @@ Reference: https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001091"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He, Zhigang Wang, Suyuan Peng</obo:IAO_0000117>
-        <obo:IAO_0000118>SARS-CoV-2 and human protein-protein interaction</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">SARS-CoV-2 and human PPI</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000046">
@@ -10152,7 +10138,10 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000195"/>
-        <rdfs:label xml:lang="en">host-SARS-CoV-2 protein-protein interaction</rdfs:label>
+        <obo:IAO_0000118>Oliver He, Zhigang Wang, Suyuan Peng, Anthony Huffman</obo:IAO_0000118>
+        <obo:IAO_0000118>host and SARS-CoV-2 PPI</obo:IAO_0000118>
+        <obo:IAO_0000118>host-SARS-CoV-2 protein-protein interaction</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">host and SARS-CoV-2 protein-protein interaction</rdfs:label>
     </owl:Class>
     
 
@@ -24647,58 +24636,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CIDO_0001090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001091"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9534"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He, Zhigang Wang, Suyuan Peng</obo:IAO_0000117>
-        <obo:IAO_0000118>SARS-CoV-2 and African green monkey protein-protein interaction</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">SARS-CoV-2 and African green monkey PPI</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0001091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000345"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He, Zhigang Wang, Suyuan Peng</obo:IAO_0000117>
-        <obo:IAO_0000118>host and SARS-CoV-2 protein-protein interaction</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">host and SARS-CoV-2 PPI</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0001092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000044"/>
-        <rdfs:label xml:lang="en">SARS-CoV-2 S protein and human protein interaction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0001093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000044"/>
-        <rdfs:label xml:lang="en">SARS-CoV-2 N protein and human protein interaction</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CIDO_0001094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001094">
@@ -24727,7 +24664,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0001095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
         <obo:IAO_0000117>ZW, SP, OH</obo:IAO_0000117>
         <obo:IAO_0000119>pubmed:34578187|imex:IM-29266</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SARS2-Human N-MRPL45 association</rdfs:label>
@@ -25141,7 +25077,6 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     <!-- http://purl.obolibrary.org/obo/CIDO_0001113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
         <rdfs:label xml:lang="en">SARS-CoV-2 N protein and human protein association</rdfs:label>
     </owl:Class>
     
@@ -26570,6 +26505,567 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <rdfs:comment>Manufacturor: Chaozhou Hybribio Biochemistry Ltd. 潮州凯普生物化学有限公司</rdfs:comment>
         <rdfs:comment>Registration ID: NMPA 20213400269</rdfs:comment>
         <rdfs:label>Multiple Real-Time PCR Kit for Detection of 2019-nCoV. (Chaozhou Hybribio Biochemistry Ltd.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  western European hedgehog</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and western European hedgehog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9408"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Leschenault&apos;s rousette</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Leschenault&apos;s rousette PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9534"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  grivet</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and grivet PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  crab-eating macaque</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and crab-eating macaque PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  human</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  dog</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and dog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9627"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  red fox</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and red fox PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  domestic cat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and domestic cat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  horse</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and horse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  pig</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and pig PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  domestic pig</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and domestic pig PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9838"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Arabian camel</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Arabian camel PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  cattle</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and cattle PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  goat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and goat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  sheep</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and sheep PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  rabbit</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and rabbit PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  golden hamster</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and golden hamster PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  house mouse</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and house mouse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Norway rat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Norway rat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Semliki Forest virus</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Semliki Forest virus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  HRV-14</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and HRV-14 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34880"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  raccoon dog</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and raccoon dog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37347"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  northern tree shrew</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and northern tree shrew PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59463"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  little brown bat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and little brown bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59477"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  intermediate horseshoe bat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and intermediate horseshoe bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196889"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Big-eared Horseshoe Bat</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Big-eared Horseshoe Bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_225400"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Myotis davidii</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Myotis davidii PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_284812"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Schizosaccharomyces pombe 972h-</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Schizosaccharomyces pombe 972h- PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_419612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Wild Bactrian camel</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Wild Bactrian camel PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  Saccharomyces cerevisiae S288C</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and Saccharomyces cerevisiae S288C PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  SARS-related coronavirus</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and SARS-related coronavirus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  MERS-CoV</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and MERS-CoV PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000348"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An interaction between a SARS-CoV-2 protein and a protein from  SARS-CoV-2</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 and SARS-CoV-2 PPI</rdfs:label>
     </owl:Class>
     
 
@@ -35346,6 +35842,24 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
@@ -35385,6 +35899,12 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11033"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
@@ -35401,6 +35921,12 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12131"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
@@ -35411,6 +35937,18 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_196889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_196889"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_225400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_225400"/>
     
 
 
@@ -35518,6 +36056,24 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_284812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_284812"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34880"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37347"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39099 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39099">
@@ -35531,11 +36087,35 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_419612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_419612"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_559292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_559292"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5745">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59463"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_59477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59477"/>
     
 
 
@@ -35608,6 +36188,102 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nidovirales</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9365"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9408"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9534"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9627"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9838"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
     
 
 
@@ -58862,8 +59538,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">
