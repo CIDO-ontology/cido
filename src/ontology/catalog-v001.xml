@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat%20input/Covidor/68-intermediate-sars2-protein-host-interactions_ontorat.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat%20input/Covidor/33_host-sars-PPI_new_terms_ontorat.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pro_sars2.owl" uri="imports/pro_sars2.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat%20input/China%20diagnosis%20kits%20EUA/Ontorat_China_diagnosis_kits.owl"/>

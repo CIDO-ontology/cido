@@ -80,13 +80,13 @@
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
         <dc:creator>Zhigang Wang</dc:creator>
-        <dc:date xml:lang="en">11-21-2022</dc:date>
+        <dc:date xml:lang="en">12-2-2022</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.356</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.358</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -27070,6 +27070,1162 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001611"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Arabian camel PPI that has participant rep from SARS-CoV-2 and another participant of a protein from Arabian camel.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and Arabian camel PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001625"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Big-eared Horseshoe Bat PPI that has participant S from SARS-CoV-2 and another participant of a protein from Big-eared Horseshoe Bat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Big-eared Horseshoe Bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001620"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and HRV-14 PPI that has participant S from SARS-CoV-2 and another participant of a protein from HRV-14.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and HRV-14 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001601"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Leschenault&apos;s rousette PPI that has participant S from SARS-CoV-2 and another participant of a protein from Leschenault&apos;s rousette.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Leschenault&apos;s rousette PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001631"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and MERS-CoV PPI that has participant N from SARS-CoV-2 and another participant of a protein from MERS-CoV.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and MERS-CoV PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001626"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Myotis davidii PPI that has participant rep from SARS-CoV-2 and another participant of a protein from Myotis davidii.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and Myotis davidii PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001618"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Norway rat PPI that has participant S from SARS-CoV-2 and another participant of a protein from Norway rat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Norway rat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_A0A663DJA2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF10 from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF10 and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF3a from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF3a and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant M from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 M and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant N from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant rep from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF1ab from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF1ab and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant S from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant E from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 E and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF9b from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF9b and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF6 from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF6 and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF7b from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF7b and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF7a from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF7a and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001659">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001632"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-CoV-2 PPI that has participant ORF8 from SARS-CoV-2 and another participant of a protein from SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF8 and SARS-CoV-2 PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001630"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-related coronavirus PPI that has participant rep from SARS-CoV-2 and another participant of a protein from SARS-related coronavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and SARS-related coronavirus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001630"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-related coronavirus PPI that has participant ORF7a from SARS-CoV-2 and another participant of a protein from SARS-related coronavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF7a and SARS-related coronavirus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001662">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001630"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and SARS-related coronavirus PPI that has participant N from SARS-CoV-2 and another participant of a protein from SARS-related coronavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and SARS-related coronavirus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001629"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Saccharomyces cerevisiae S288C PPI that has participant S from SARS-CoV-2 and another participant of a protein from Saccharomyces cerevisiae S288C.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Saccharomyces cerevisiae S288C PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001664">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001627"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Schizosaccharomyces pombe 972h- PPI that has participant S from SARS-CoV-2 and another participant of a protein from Schizosaccharomyces pombe 972h-.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Schizosaccharomyces pombe 972h- PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001619"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Semliki Forest virus PPI that has participant N from SARS-CoV-2 and another participant of a protein from Semliki Forest virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and Semliki Forest virus PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001628"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and Wild Bactrian camel PPI that has participant S from SARS-CoV-2 and another participant of a protein from Wild Bactrian camel.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and Wild Bactrian camel PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001612"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and cattle PPI that has participant S from SARS-CoV-2 and another participant of a protein from cattle.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and cattle PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001612"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and cattle PPI that has participant rep from SARS-CoV-2 and another participant of a protein from cattle.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and cattle PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001603"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and crab-eating macaque PPI that has participant S from SARS-CoV-2 and another participant of a protein from crab-eating macaque.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and crab-eating macaque PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001605"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and dog PPI that has participant S from SARS-CoV-2 and another participant of a protein from dog.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and dog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001607"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and domestic cat PPI that has participant S from SARS-CoV-2 and another participant of a protein from domestic cat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and domestic cat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001672">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001610"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and domestic pig PPI that has participant S from SARS-CoV-2 and another participant of a protein from domestic pig.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and domestic pig PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001613"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and goat PPI that has participant S from SARS-CoV-2 and another participant of a protein from goat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and goat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001616"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and golden hamster PPI that has participant N from SARS-CoV-2 and another participant of a protein from golden hamster.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and golden hamster PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001602"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and grivet PPI that has participant S from SARS-CoV-2 and another participant of a protein from grivet.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and grivet PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001608"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and horse PPI that has participant S from SARS-CoV-2 and another participant of a protein from horse.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and horse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and house mouse PPI that has participant rep from SARS-CoV-2 and another participant of a protein from house mouse.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and house mouse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and house mouse PPI that has participant S from SARS-CoV-2 and another participant of a protein from house mouse.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and house mouse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and house mouse PPI that has participant E from SARS-CoV-2 and another participant of a protein from house mouse.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 E and house mouse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001617"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and house mouse PPI that has participant N from SARS-CoV-2 and another participant of a protein from house mouse.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and house mouse PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant N from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 N and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_A0A663DJA2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF10 from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF10 and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant rep from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF9c from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF9c and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF9b from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF9b and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant E from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 E and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant M from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 M and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF6 from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF6 and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF7a from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF7a and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF7b from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF7b and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF3a from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF3a and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF8 from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF8 and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant S from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF1ab from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF1ab and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and human PPI that has participant ORF3b from SARS-CoV-2 and another participant of a protein from human.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 ORF3b and human PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001624"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and intermediate horseshoe bat PPI that has participant S from SARS-CoV-2 and another participant of a protein from intermediate horseshoe bat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and intermediate horseshoe bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001623"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and little brown bat PPI that has participant S from SARS-CoV-2 and another participant of a protein from little brown bat.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and little brown bat PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001622"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and northern tree shrew PPI that has participant rep from SARS-CoV-2 and another participant of a protein from northern tree shrew.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and northern tree shrew PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and pig PPI that has participant rep from SARS-CoV-2 and another participant of a protein from pig.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and pig PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and pig PPI that has participant S from SARS-CoV-2 and another participant of a protein from pig.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and pig PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001615"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and rabbit PPI that has participant S from SARS-CoV-2 and another participant of a protein from rabbit.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and rabbit PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001621"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and raccoon dog PPI that has participant S from SARS-CoV-2 and another participant of a protein from raccoon dog.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and raccoon dog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and red fox PPI that has participant S from SARS-CoV-2 and another participant of a protein from red fox.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and red fox PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and sheep PPI that has participant S from SARS-CoV-2 and another participant of a protein from sheep.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and sheep PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and sheep PPI that has participant rep from SARS-CoV-2 and another participant of a protein from sheep.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and sheep PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001600"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and western European hedgehog PPI that has participant rep from SARS-CoV-2 and another participant of a protein from western European hedgehog.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 rep and western European hedgehog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001600"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 and western European hedgehog PPI that has participant S from SARS-CoV-2 and another participant of a protein from western European hedgehog.</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, SP, GH, YH</obo:IAO_0000117>
+        <rdfs:label>SARS-CoV-2 S and western European hedgehog PPI</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0020276 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0020276">
@@ -42058,6 +43214,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC1"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
@@ -43131,6 +44293,24 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD1"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD2"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD3"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_P0DTD3-1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD3-1">
@@ -43356,6 +44536,18 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-sequence. Note: 73 aa protein.</rdfs:comment>
         <rdfs:label>uncharacterized protein 14 (SARS-CoV-2)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD8"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTF1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTF1"/>
     
 
 
