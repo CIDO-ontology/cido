@@ -122,6 +122,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000044 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000044">
+        <obo:IAO_0000117>ZW, GH, SP, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>An annotation property that represents an annotation about an interaction detection method, which may include its name and code such as MI code</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Interaction detection method</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0000178 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000178">
@@ -138,6 +148,16 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiyah Yu Lin</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-08T02:48:51Z</dc:date>
         <rdfs:label xml:lang="en">wikidata_ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001090 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0001090">
+        <obo:IAO_0000115>An annotation property that represents an annotation about an interaction type, which may include its name and code such as MI code</obo:IAO_0000115>
+        <obo:IAO_0000117>ZW, GH, SP, YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Interaction type</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -60730,8 +60750,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">

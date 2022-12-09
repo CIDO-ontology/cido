@@ -1,0 +1,59 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.   
+http://purl.obolibrary.org/obo/cido.owl
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+generate new classes  
+  
+[Annotations]
+# Note: Use comma to separate annotations
+'label' "{$columnE}", 
+'definition editor' "{$columnW}", 
+'seeAlso' "BioGRID Interaction IDs: {$columnS}", 
+'seeAlso' "IntAct Interaction IDs: {$columnT}",
+'Interaction detection method' "{$columnO} ({$columnN})",
+'Interaction type' "{$columnQ} ({$columnP})", 
+'definition' "{$columnX}", 
+'definition source' "{$columnR}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+<http://purl.obolibrary.org/obo/{$columnC}>,
+'has participant' some <http://purl.obolibrary.org/obo/PR_{$columnF}>,
+'has participant' some <http://purl.obolibrary.org/obo/PR_{$columnG}>
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty: 
+'Interaction detection method': <http://purl.obolibrary.org/obo/CIDO_0000044>
+'Interaction type': <http://purl.obolibrary.org/obo/CIDO_0001090>
+Class:
+ObjectProperty:
+'has participant': <http://purl.obolibrary.org/obo/RO_0000057>
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+http://purl.obolibrary.org/obo/
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+Prefix: CIDO_
+Number of digits: 7
+Start from:  2000
