@@ -32,6 +32,57 @@ http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese fer
 http://purl.obolibrary.org/obo/NCBITaxon_33208 # Metazoa, metazoans, animals
 http://purl.obolibrary.org/obo/NCBITaxon_40674 # mammals
 
+http://purl.obolibrary.org/obo/NCBITaxon_9655
+http://purl.obolibrary.org/obo/NCBITaxon_452597
+http://purl.obolibrary.org/obo/NCBITaxon_9837
+http://purl.obolibrary.org/obo/NCBITaxon_9838
+http://purl.obolibrary.org/obo/NCBITaxon_9397
+http://purl.obolibrary.org/obo/NCBITaxon_89399
+http://purl.obolibrary.org/obo/NCBITaxon_94180
+http://purl.obolibrary.org/obo/NCBITaxon_1090896
+http://purl.obolibrary.org/obo/NCBITaxon_61383
+http://purl.obolibrary.org/obo/NCBITaxon_9913
+http://purl.obolibrary.org/obo/NCBITaxon_204267
+http://purl.obolibrary.org/obo/NCBITaxon_9673
+http://purl.obolibrary.org/obo/NCBITaxon_743424
+http://purl.obolibrary.org/obo/NCBITaxon_9696
+http://purl.obolibrary.org/obo/NCBITaxon_9615
+http://purl.obolibrary.org/obo/NCBITaxon_9685
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+http://purl.obolibrary.org/obo/NCBITaxon_61388
+http://purl.obolibrary.org/obo/NCBITaxon_9593
+http://purl.obolibrary.org/obo/NCBITaxon_9833
+http://purl.obolibrary.org/obo/NCBITaxon_421001
+http://purl.obolibrary.org/obo/NCBITaxon_29080
+http://purl.obolibrary.org/obo/NCBITaxon_69075
+http://purl.obolibrary.org/obo/NCBITaxon_9689
+http://purl.obolibrary.org/obo/NCBITaxon_9974
+http://purl.obolibrary.org/obo/NCBITaxon_9675
+http://purl.obolibrary.org/obo/NCBITaxon_34880
+http://purl.obolibrary.org/obo/NCBITaxon_9627
+http://purl.obolibrary.org/obo/NCBITaxon_29064
+http://purl.obolibrary.org/obo/NCBITaxon_9678
+http://purl.obolibrary.org/obo/NCBITaxon_9694
+http://purl.obolibrary.org/obo/NCBITaxon_9267
+http://purl.obolibrary.org/obo/NCBITaxon_10041
+http://purl.obolibrary.org/obo/NCBITaxon_9874
+http://purl.obolibrary.org/obo/NCBITaxon_9534
+http://purl.obolibrary.org/obo/NCBITaxon_30538
+http://purl.obolibrary.org/obo/NCBITaxon_9557
+http://purl.obolibrary.org/obo/NCBITaxon_447135
+http://purl.obolibrary.org/obo/NCBITaxon_9395
+http://purl.obolibrary.org/obo/NCBITaxon_9483
+http://purl.obolibrary.org/obo/NCBITaxon_9541
+http://purl.obolibrary.org/obo/NCBITaxon_9669
+http://purl.obolibrary.org/obo/NCBITaxon_9654
+http://purl.obolibrary.org/obo/NCBITaxon_10042
+http://purl.obolibrary.org/obo/NCBITaxon_9544
+http://purl.obolibrary.org/obo/NCBITaxon_9986
+http://purl.obolibrary.org/obo/NCBITaxon_9940
+http://purl.obolibrary.org/obo/NCBITaxon_10036
+http://purl.obolibrary.org/obo/NCBITaxon_30548
+
+
 http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
 
 # http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
