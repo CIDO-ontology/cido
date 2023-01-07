@@ -80,13 +80,14 @@
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
         <dc:creator>Zhigang Wang</dc:creator>
-        <dc:date xml:lang="en">12-2-2022</dc:date>
+        <dc:date xml:lang="en">1-6-2023</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
+        <terms:creator xml:lang="en">Muhui Ye</terms:creator>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.358</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.360</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -10704,10 +10705,17 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
-        <obo:IAO_0000115>A transgenic mouse that expresses the SARS-CoV receptor (human angiotensin-converting enzyme 2 [hACE2]) in airway and other epithelia, which can develop a rapidly lethal infection after intranasal inoculation with a human strain of the virus.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yang Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses the SARS-CoV receptor (human angiotensin-converting enzyme 2 [hACE2]) at eplthelial cells under human keratin 18 promoter. It has been used to study SARS-CoV and SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yang Wang, Oliver He, Muhui Ye</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17079315/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">K18-hACE2 transgenic mouse</rdfs:label>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32723427</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">K18-hACE2 transgenic mouse expressing hACE2 in epithelial cells</rdfs:label>
     </owl:Class>
     
 
@@ -24656,6 +24664,42 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+        <obo:IAO_0000115>A host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a coronavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">coronavirus host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001091"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a coronavirus that can infect human. Note that in addition to human, many other organisms (e.g., deer and dog) can also serve as the human coronavirus host role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">human coronavirus host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001092"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a human coronavirus at a natural environmental condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">natural human coronavirus host role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0001094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001094">
@@ -25098,6 +25142,56 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001113">
         <rdfs:label xml:lang="en">SARS-CoV-2 N protein and human protein association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001092"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a human coronavirus at a laboratory condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">laboratory human coronavirus host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001114"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a SARS-CoV-2 coronavirus at a laboratory condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 laboratory host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001114"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a SARS-CoV coronavirus at a laboratory condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS-CoV-1 laboratory host role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV laboratory host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001114"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a MERS-CoV coronavirus at a laboratory condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS-CoV-1 laboratory host role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">MERS-CoV laboratory host role</rdfs:label>
     </owl:Class>
     
 
@@ -25974,6 +26068,31 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a SARS-CoV-2 coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a SARS-CoV coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>SARS-CoV-1 natural host role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0001169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001169">
@@ -26076,6 +26195,30 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a MERS-CoV coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">MERS-CoV natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a HCoV-229E coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">HCoV-229E natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CIDO_0001181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001181">
@@ -26083,6 +26226,212 @@ https://www.fda.gov/medical-devices/ivd-regulatory-assistance/clinical-laborator
         <obo:IAO_0000115>A variation that results in a nonsense mutation of an amino acid of SARS-CoV-2 protein in comparison to the reference sequence.</obo:IAO_0000115>
         <oboInOwl:created_by>Anthony Huffman</oboInOwl:created_by>
         <rdfs:label xml:lang="en">SARS-CoV-2 protein amino acid nonsense mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a HCoV-OC43 coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">HCoV-OC43 natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a HCoV-NL63 coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">HCoV-NL63 natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001093"/>
+        <obo:IAO_0000115>A virus host role that is played by an organism and realized by providing nourishment, shelter or a means of reproduction to a HCoV-HKU1 coronavirus at a natural condition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.uniprot.org/help/virus_host</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">HCoV-HKU1 natural host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses hACE2 under chicken β-actin promoter (CAG).It has been used to study SARS-CoV.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17108019</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">AC70 line mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <obo:IAO_0000115>A transgenic mouse that has hDDP4 knock-in. It has been used to study MERS-CoV.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/31883095</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Human DPP4 knock-in (hDPP4 KI) mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <obo:IAO_0000115>A transgenic mouse that expresses hDPP4 with  cytokeratin 18 promoterIt has been used to study MERS-CoV.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/26486634</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">K18-hDPP4 mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic C57BL/6J mouse that expresses hACE2 under chicken β-actin promoter (CAG) promoter. It has been used to study SARS-CoV and SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/17108019</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/34463644</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">CAG-hACE2 mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic C3B6 mouse that expresses hACE2 under HFH4 (FoxJ1) promoter. It has been used to study SARS-CoV and SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/26976607</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32516571</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">HFH4-hACE2 C3B6 mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses hACE2 under human cytokeratin 18 (K18) promoter. It has been used to study SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/33073694</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">B6 K18-hACE2 mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses hACE2 by adeno-associated virus (AAV). It has been used to study SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32750141</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Adeno-associated virus-hACE2 mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses hACE2 by adenoviral vector. It has been used to study SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32553273</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">AdV-hACE2-transduced mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that drives hACE2 code sequence into the pronuclei of fertilized ova. It has been used to study SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32380511</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">hACE2 transgenic mice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transgenic mouse that expresses hACE2 by CRISPR/Cas9 knock-in technology. It has been used to study SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000117>Muhui Ye, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32485164</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">CRISPR-hACE2 humanized mouse</rdfs:label>
     </owl:Class>
     
 
