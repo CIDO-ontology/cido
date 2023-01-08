@@ -31,6 +31,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_viral_Ontorat.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Specific_host_SARS2_PPIs.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pro_sars2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
@@ -62469,8 +62470,8 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002039">
         <oboInOwl:hasExactSynonym>loss of appetite</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>appetite loss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>no appetite</oboInOwl:hasExactSynonym>
         <obo:CIDO_0000178>food aversion</obo:CIDO_0000178>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0002140">

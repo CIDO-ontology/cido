@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cido/imports/1st_1000_proteins_in_PPIs.owl" uri="1st_1000_proteins_intermediate.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/Specific_host_SARS2_PPIs.owl" uri="Specific_host_SARS2_PPIs-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/1st_1000_proteins_in_PPIs.owl" uri="1st_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/2nd_1000_proteins_in_PPIs.owl" uri="2nd_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/3rd_1000_proteins_in_PPIs.owl" uri="3rd_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/4th_1000_proteins_in_PPIs.owl" uri="4th_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/5th_1000_proteins_in_PPIs.owl" uri="5th_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="http://purl.obolibrary.org/obo/cido/imports/over5th_1000_proteins_in_PPIs.owl" uri="over5th_1000_proteins_intermediate.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="33_host-sars-PPI_new_terms_ontorat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139508105" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="68-intermediate-sars2-protein-host-interactions_ontorat.owl"/>
+    </group>
+</catalog>

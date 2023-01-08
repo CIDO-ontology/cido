@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/Epitopes-CIDO.owl" uri="Archive/Epitopes-CIDO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/FDA_EUA_assays.owl" uri="FDA_EUA_assays.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/Specific_host_SARS2_PPIs.owl" uri="Specific_host_SARS2_PPIs.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl" uri="APOLLO_SV_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl" uri="CHEBI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl" uri="DOID_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl" uri="DrON_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl" uri="ENVO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/FDA_EUA_assays_2.owl" uri="FDA_EUA_assays_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl" uri="GO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl" uri="HP_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl" uri="ICDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl" uri="IDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/MONDO_imports.owl" uri="MONDO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl" uri="NCBITaxon_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl" uri="NDF-RT_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl" uri="OAE_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl" uri="OBCS_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl" uri="OBI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OGG_imports.owl" uri="OGG_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OGMS_import.owl" uri="OGMS_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl" uri="OPMI_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl" uri="PR_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl" uri="RO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl" uri="UBERON_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl" uri="VO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl" uri="CIDO_epitopes.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1673139242066" name="http://purl.obolibrary.org/obo/pro_sars2.owl" uri="pro_sars2.owl"/>
+    </group>
+</catalog>
