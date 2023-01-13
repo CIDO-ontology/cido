@@ -81,14 +81,14 @@
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
         <dc:creator>Zhigang Wang</dc:creator>
-        <dc:date xml:lang="en">1-7-2023</dc:date>
+        <dc:date xml:lang="en">1-12-2023</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:creator xml:lang="en">Muhui Ye</terms:creator>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.361</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.363</owl:versionInfo>
     </owl:Ontology>
     
 
