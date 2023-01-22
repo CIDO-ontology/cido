@@ -1,4 +1,31 @@
 --
+# Goal: identify the total number of SARS-CoV-2 hosts 
+PREFIX capable_of_infecting_host: <http://purl.obolibrary.org/obo/CIDO_0001195>
+PREFIX SARS_CoV_2: <http://purl.obolibrary.org/obo/NCBITaxon_2697049>
+SELECT count(?x) 
+from <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE {
+	?x rdf:type owl:Class .
+	?x rdfs:label ?label .
+	SARS_CoV_2: rdfs:subClassOf ?restriction .
+        	?restriction owl:onProperty capable_of_infecting_host:; owl:someValuesFrom ?x . 
+}
+
+--
+# Goal: identify the SARS-CoV-2 hosts 
+PREFIX capable_of_infecting_host: <http://purl.obolibrary.org/obo/CIDO_0001195>
+PREFIX SARS_CoV_2: <http://purl.obolibrary.org/obo/NCBITaxon_2697049>
+SELECT distinct ?x STR(?label) as ?host_name 
+from <http://purl.obolibrary.org/obo/merged/CIDO>
+WHERE {
+	?x rdf:type owl:Class .
+	?x rdfs:label ?label .
+	SARS_CoV_2: rdfs:subClassOf ?restriction .
+        	?restriction owl:onProperty capable_of_infecting_host:; owl:someValuesFrom ?x . 
+}
+
+
+--
 # Goal: find enriched calcium_ion_homeostasis biological processes (bp) having participant of proteins 
 #       that are the targets of chemicals/drugs that inhibit coronaviral infection in vivo or in vitro.
 #       Then list related information.  
