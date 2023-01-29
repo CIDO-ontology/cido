@@ -2,7 +2,7 @@
 # Goal: identify the total number of SARS-CoV-2 hosts 
 PREFIX capable_of_infecting_host: <http://purl.obolibrary.org/obo/CIDO_0001195>
 PREFIX SARS_CoV_2: <http://purl.obolibrary.org/obo/NCBITaxon_2697049>
-SELECT count(?x) 
+SELECT count(distinct ?x) 
 from <http://purl.obolibrary.org/obo/merged/CIDO>
 WHERE {
 	?x rdf:type owl:Class .
