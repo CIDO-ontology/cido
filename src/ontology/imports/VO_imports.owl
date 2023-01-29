@@ -3482,16 +3482,6 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000111 xml:lang="en">organism</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">animal</obo:IAO_0000112>
@@ -12798,14 +12788,14 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator>Lindsay Cowell</dc:creator>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <owl:versionInfo xml:lang="en">1.1.201</owl:versionInfo>
         <dc:creator>Alexander D. Diehl</dc:creator>
-        <dc:contributor>Ryan R. Brinkman</dc:contributor>
+        <owl:versionInfo xml:lang="en">1.1.201</owl:versionInfo>
         <dc:creator xml:lang="en">Philip Huang</dc:creator>
-        <dc:creator>Kallan Roan</dc:creator>
+        <dc:contributor>Ryan R. Brinkman</dc:contributor>
         <dc:creator>Samantha G. Sayers (SGS)</dc:creator>
-        <dc:creator>Alan Ruttenburg</dc:creator>
+        <dc:creator>Kallan Roan</dc:creator>
         <dc:creator>Hong Yu</dc:creator>
+        <dc:creator>Alan Ruttenburg</dc:creator>
         <dc:creator>Rebecca Racz</dc:creator>
         <dc:creator xml:lang="en">Yu Lin (YL)</dc:creator>
         <dc:creator>Amogh Madireddi</dc:creator>
@@ -12822,19 +12812,19 @@ This interpretation is *not* the same as an at-all-times relation
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:contributor xml:lang="en">Randi Vita</dc:contributor>
         <dc:description xml:lang="en">The Vaccine Ontology (VO) is a biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine annotation, integrate various vaccine data, and support computer-assisted reasoning. VO supports basic vaccine R&amp;D and clincal vaccine usage. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities.</dc:description>
-        <dc:creator xml:lang="en">Rohit Goru</dc:creator>
         <dc:creator>Randi Vita</dc:creator>
+        <dc:creator xml:lang="en">Rohit Goru</dc:creator>
         <dc:creator>Barry Smith</dc:creator>
         <dc:creator xml:lang="en">Anna Maria Masci</dc:creator>
         <dc:contributor>Erica Marcos</dc:contributor>
         <dc:contributor>Paul Fabry</dc:contributor>
         <dc:creator>Jason Hu</dc:creator>
-        <dc:creator>Richard H. Scheuermann</dc:creator>
         <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
+        <dc:creator>Richard H. Scheuermann</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
-        <dc:creator>Bjoern Peters</dc:creator>
-        <dc:creator>Omar Tibi</dc:creator>
         <dc:creator>Melanie Courtot</dc:creator>
+        <dc:creator>Omar Tibi</dc:creator>
+        <dc:creator>Bjoern Peters</dc:creator>
         <dc:title xml:lang="en">Vaccine Ontology</dc:title>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     </rdf:Description>

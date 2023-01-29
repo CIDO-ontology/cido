@@ -1629,12 +1629,6 @@ where pmid1 and pmid2 are specfic PubMed IDs (PMIDs). </rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111 xml:lang="en">organism</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">animal</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">fungus</obo:IAO_0000112>

@@ -81,14 +81,14 @@
         <dc:creator>Yujia Tian</dc:creator>
         <dc:creator>Zalan Shah</dc:creator>
         <dc:creator>Zhigang Wang</dc:creator>
-        <dc:date xml:lang="en">1-12-2023</dc:date>
+        <dc:date xml:lang="en">1-28-2023</dc:date>
         <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
         <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
         <terms:creator xml:lang="en">Muhui Ye</terms:creator>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.363</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.0.366</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -37569,12 +37569,6 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001195"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9837"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001195"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9838"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37850,6 +37844,12 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001195"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_71006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001195"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_743424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -37868,7 +37868,7 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001195"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9397"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9407"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -38519,6 +38519,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_71006 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_743424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_743424">
@@ -38635,6 +38648,19 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/30844511/</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/35935171/</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9407 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9407">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -39186,25 +39212,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     <!-- http://purl.obolibrary.org/obo/OBI_0000576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000435"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000433"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000436"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
     
 
 

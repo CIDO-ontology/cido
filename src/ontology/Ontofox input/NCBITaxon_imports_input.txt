@@ -28,6 +28,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_59479 # Rhinolophus ferrumequinum; grea
 http://purl.obolibrary.org/obo/NCBITaxon_69075 # Rattus losea; lesser rice-field rat
 http://purl.obolibrary.org/obo/NCBITaxon_89399 # Rhinolophus sinicus; Chinese rufous horseshoe bat
 http://purl.obolibrary.org/obo/NCBITaxon_204267 # Melogale moschata (Chinese ferret-badger)
+http://purl.obolibrary.org/obo/NCBITaxon_71006 # giant anteater
+http://purl.obolibrary.org/obo/NCBITaxon_9407 # Rousettus aegyptiacus, Egyptian rousette, a fruit bat.
 
 http://purl.obolibrary.org/obo/NCBITaxon_33208 # Metazoa, metazoans, animals
 http://purl.obolibrary.org/obo/NCBITaxon_40674 # mammals
