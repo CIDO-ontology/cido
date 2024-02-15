@@ -452,8 +452,8 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">is part of</rdfs:label>
         <rdfs:label xml:lang="en">part of</rdfs:label>
-        <rdfs:label xml:lang="en">part_of</rdfs:label>
         <rdfs:label>part_of</rdfs:label>
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
         <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
         <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
@@ -496,8 +496,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:id>has_part</oboInOwl:id>
         <oboInOwl:is_cyclic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</oboInOwl:is_cyclic>
         <oboInOwl:shorthand>has_part</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">has part</rdfs:label>
         <rdfs:label>has part</rdfs:label>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
         <rdfs:label>has_part</rdfs:label>
     </owl:ObjectProperty>
     
@@ -9768,36 +9768,6 @@ results from evaporation of droplets coughed or sneezed into the atmosphere or b
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000314"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000307"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000308"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000309"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000310"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32753554/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">SLLIVNNATNVVIKV</rdfs:label>
@@ -38019,7 +37989,6 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <oboInOwl:hasBroadSynonym>SARS-CoV-2</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Wuhan coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>2019-nCoV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>COVID-19</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>COVID-19 virus</oboInOwl:hasExactSynonym>
@@ -38030,6 +37999,7 @@ This kit is used for in vitro qualitative detection of novel coronavirus (2019-n
         <oboInOwl:hasExactSynonym>SARS-CoV-2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SARS-CoV2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SARS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wuhan coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>NCBITaxon:2697049</oboInOwl:id>
         <rdfs:comment>The list of the marker variants is as follows (as of 3/6/2021):
@@ -39201,6 +39171,12 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/33356979</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
     
 
 
@@ -62243,31 +62219,6 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0004989 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004989">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000445"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000446"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000410"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000447"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0005159 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005159">
@@ -62577,5 +62528,5 @@ Reference: https://www.gisaid.org/references/statements-clarifications/clade-and
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
